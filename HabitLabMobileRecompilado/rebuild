@@ -1,0 +1,7 @@
+#!/bin/bash
+
+rm -rf node_modules
+rm -rf platforms
+tns build android
+cp build.gradle platforms/android
+tns build android

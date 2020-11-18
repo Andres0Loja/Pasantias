@@ -1,0 +1,14 @@
+node_modules
+.DS_Store
+*.keystore
+build
+.gradle
+libs
+gen
+credentials.js
+hooks
+*-lock.json
+platforms
+# However, the build.gradle in there can be nice to have...
+!platforms/android/build.gradle
+!platforms/android/app/buidle.gradle
