@@ -1,0 +1,22 @@
+{
+    "moment": true,
+    "nativescript-coachmarks": true,
+    "nativescript-dom": true,
+    "nativescript-effects": true,
+    "nativescript-fancyalert": true,
+    "nativescript-loading-indicator": true,
+    "nativescript-loading-indicator-new": true,
+    "nativescript-localstorage": true,
+    "nativescript-permissions": true,
+    "nativescript-ripple": true,
+    "nativescript-slides": true,
+    "nativescript-telerik-ui": true,
+    "nativescript-theme-core": true,
+    "nativescript-toast": true,
+    "nativescript-tooltip": true,
+    "nativescript-version-number": true,
+    "nativescript-videoplayer": true,
+    "tns-core-modules": true,
+    "uuid": true,
+    "tns-core-modules-widgets": true
+}

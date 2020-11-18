@@ -1,0 +1,31 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/tempPlugin/nativescript_version_number/src/main/AndroidManifest.xml:2:1-126
+INJECTED from /home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/tempPlugin/nativescript_version_number/src/main/AndroidManifest.xml:2:1-126
+INJECTED from /home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/tempPlugin/nativescript_version_number/src/main/AndroidManifest.xml:2:1-126
+INJECTED from /home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/tempPlugin/nativescript_version_number/src/main/AndroidManifest.xml:2:1-126
+INJECTED from /home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/tempPlugin/nativescript_version_number/src/main/AndroidManifest.xml:2:1-126
+INJECTED from /home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/tempPlugin/nativescript_version_number/src/main/AndroidManifest.xml:2:1-126
+INJECTED from /home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/tempPlugin/nativescript_version_number/src/main/AndroidManifest.xml:2:1-126
+	package
+		ADDED from /home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/tempPlugin/nativescript_version_number/src/main/AndroidManifest.xml:2:70-124
+		INJECTED from /home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/tempPlugin/nativescript_version_number/src/main/AndroidManifest.xml
+		INJECTED from /home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/tempPlugin/nativescript_version_number/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/tempPlugin/nativescript_version_number/src/main/AndroidManifest.xml
+		ADDED from /home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/tempPlugin/nativescript_version_number/src/main/AndroidManifest.xml:2:1-126
+		INJECTED from /home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/tempPlugin/nativescript_version_number/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/tempPlugin/nativescript_version_number/src/main/AndroidManifest.xml
+		ADDED from /home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/tempPlugin/nativescript_version_number/src/main/AndroidManifest.xml:2:1-126
+		INJECTED from /home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/tempPlugin/nativescript_version_number/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/tempPlugin/nativescript_version_number/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+INJECTED from /home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/tempPlugin/nativescript_version_number/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/tempPlugin/nativescript_version_number/src/main/AndroidManifest.xml
+INJECTED from /home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/tempPlugin/nativescript_version_number/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/tempPlugin/nativescript_version_number/src/main/AndroidManifest.xml
+		ADDED from /home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/tempPlugin/nativescript_version_number/src/main/AndroidManifest.xml
+		INJECTED from /home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/tempPlugin/nativescript_version_number/src/main/AndroidManifest.xml
