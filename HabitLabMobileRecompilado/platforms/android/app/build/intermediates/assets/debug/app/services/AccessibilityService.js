@@ -3,7 +3,7 @@ var context = application.android.context;
 var toast = require("nativescript-toast");
 var timer = require("timer");
 var {VersionNumber} = require("nativescript-version-number");
-
+const localize = require("nativescript-localize");
 
 // utils
 const usage = require("~/util/UsageInformationUtil");
@@ -184,9 +184,9 @@ android.accessibilityservice.AccessibilityService.extend("com.habitlab.Accessibi
                 var goal = storage.getLockdownDuration();
                 var progress = Math.round((Date.now() - (storage.getLockdownEnd() - goal*60000))/60000);
                 var remaining = goal - progress;
-                var msg = "You have " + remaining + " minutes remaining in Lockdown Mode. All apps on your watchlist are off-limits.";
-                var closeMsg = "Got it";
-                lockdownOverlay.showOverlay("You're in Lockdown Mode!", msg, closeMsg, progress, goal, null, lockdownCb);
+                var msg = localize("accessibility.overlays.lockdown.message", remaining);
+                var closeMsg = localize("accessibility.overlays.lockdown.button");
+                lockdownOverlay.showOverlay(localize("accessibility.overlays.lockdown.title"), msg, closeMsg, progress, goal, null, lockdownCb);
             }
             lockdownSeen++
             return;
@@ -326,14 +326,19 @@ function makeError(e){
 
 
 function lockdownCb() {
-    CancelOverlay.showCancelLockDialog("Unlock apps", "Are you sure you want to stop lockdown mode?",
-        "Yes", "Cancel", removeLockdown ,null);
+    CancelOverlay.showCancelLockDialog(
+    		localize("accessibility.overlays.cancel.title"), 
+    		localize("accessibility.overlays.cancel.message"),
+        	localize("accessibility.overlays.cancel.okButton"), 
+        	localize("accessibility.overlays.cancel.cancelButton"), 
+        	removeLockdown ,null
+    );
 }
 
 function removeLockdown() {
     lockdownOverlay.removeOverlay();
     storage.removeLockdown();
-    toast.makeText("Lockdown Mode disabled").show();
+    toast.makeText(localize("accessibility.toast")).show();
 }
 
 /**

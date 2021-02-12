@@ -16,6 +16,8 @@ const TargetOverlay = require("~/overlays/TargetOverlay");
 const ID = require("~/interventions/InterventionData");
 const Timer = require("timer");
 
+const localize = require("nativescript-localize");
+
 var application = require('application');
 var context = application.android.context.getApplicationContext();
 var quoteFile = "quotes.json";
@@ -97,7 +99,7 @@ var code = {};
  */
 code.VISIT_TOAST = function(real, pkg, service) {
     if (!real) {
-      Toast.show(context, "You've visited Facebook 8 times today", 1, "#E71D36");
+      Toast.show(context, localize("interventions.manager.toasts.visit"), 1, "#E71D36");
       return;
     }
   
@@ -105,7 +107,12 @@ code.VISIT_TOAST = function(real, pkg, service) {
     if (visits >= THRESHOLD_VISIT_TST) {
       StorageUtil.addLogEvents([{category: "nudges", index: ID.interventionIDs.VISIT_TOAST}]);
       var app = UsageInformationUtil.getBasicInfo(pkg).name;
-      var msg = "You've opened " + app + " " + visits + (visits === 1 ? " time" : " times") + " today";
+      var msg = localize(
+      	"interventions.manager.generalMessages.message1b", 
+      	app, 
+      	visits,
+      	visits === 1 ? localize("interventions.manager.timeExtra.time") : localize("interventions.manager.timeExtra.times")
+      );
       Toast.show(service, msg, 1, "#E71D36");
     }
 };
@@ -120,8 +127,13 @@ code.VISIT_TOAST = function(real, pkg, service) {
  */
 code.VISIT_NOTIFICATION = function(real, pkg, service) {
   if (!real) {
-    NotificationUtil.sendNotification(context, "Facebook Visit Count",
-      "You've opened Facebook 7 times today", notificationID.VISIT, 10);
+    NotificationUtil.sendNotification(
+    		context, 
+    		localize("interventions.manager.notifications.visit.title", "Facebook"),
+      	localize("interventions.manager.notifications.visit.message"), 
+      	notificationID.VISIT, 
+      	10
+    );
     return;
   }
 
@@ -129,10 +141,31 @@ code.VISIT_NOTIFICATION = function(real, pkg, service) {
   if (visits >= THRESHOLD_VISIT_NTF) {
     StorageUtil.addLogEvents([{category: "nudges", index: ID.interventionIDs.VISIT_NOTIFICATION}]);
     var app = UsageInformationUtil.getBasicInfo(pkg).name;
-    var title = app + " Visit Count";
-    var msg = shouldPersonalize() ? "Hey " + StorageUtil.getName() + ", you've" : "You've";
-    msg += " opened " + app + " " + visits + (visits === 1 ? " time" : " times") + " today";
-    NotificationUtil.sendNotification(context, title, msg, notificationID.VISIT, 10);
+    var title = localize("interventions.manager.notifications.visit.title", app);
+    var msg;
+    if (shouldPersonalize()) {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message1a",
+    			StorageUtil.getName(),
+    			app,
+    			visits,
+    			visits === 1 ? localize("interventions.manager.timeExtra.time") : localize("interventions.manager.timeExtra.times")
+    		);
+    } else {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message1b",
+    			app,
+    			visits,
+    			visits === 1 ? localize("interventions.manager.timeExtra.time") : localize("interventions.manager.timeExtra.times")
+    		);
+    } 
+    NotificationUtil.sendNotification(
+    		context, 
+    		title, 
+    		msg, 
+    		notificationID.VISIT, 
+    		10
+    );
   }
 };
 
@@ -146,7 +179,7 @@ code.VISIT_NOTIFICATION = function(real, pkg, service) {
  */
 code.VISIT_DIALOG = function (real, pkg, service) {
   if (!real) {
-    DialogOverlay.showOneOptionDialogOverlay("You've opened Facebook 12 times today", "Okay", context);
+    DialogOverlay.showOneOptionDialogOverlay(localize("interventions.manager.dialogs.visit"), "Okay", context);
     return;
   }
 
@@ -154,8 +187,23 @@ code.VISIT_DIALOG = function (real, pkg, service) {
   if (visits >= THRESHOLD_VISIT_DLG) {
     StorageUtil.addLogEvents([{category: "nudges", index: ID.interventionIDs.VISIT_DIALOG}]);
     var app = UsageInformationUtil.getBasicInfo(pkg).name;
-    var msg = shouldPersonalize() ? "Hey " + StorageUtil.getName() + ", you've" : "You've";
-    msg += " opened " + app + " " + visits + (visits === 1 ? " time" : " times") + " today";
+    var msg;
+    if (shouldPersonalize()) {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message1a",
+    			StorageUtil.getName(),
+    			app,
+    			visits,
+    			visits === 1 ? localize("interventions.manager.timeExtra.time") : localize("interventions.manager.timeExtra.times")
+    		);
+    } else {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message1b",
+    			app,
+    			visits,
+    			visits === 1 ? localize("interventions.manager.timeExtra.time") : localize("interventions.manager.timeExtra.times")
+    		);
+    } 
     DialogOverlay.showOneOptionDialogOverlay(msg, "Okay", service);
   }
 }
@@ -175,17 +223,35 @@ code.VISIT_DIALOG = function (real, pkg, service) {
  */
 code.GLANCE_NOTIFICATION = function(real, service) {
   if (!real) {
-    NotificationUtil.sendNotification(context, "Glance Alert",
-      "You've glanced at your phone 7 times today", notificationID.VISIT, 10);
+    NotificationUtil.sendNotification(
+    		context, 
+    		localize("interventions.manager.notifications.glances.title"),
+      	localize("interventions.manager.notifications.glances.message"), 
+      	notificationID.VISIT, 
+      	10
+    );
     return;
   }
 
   var glances = StorageUtil.getGlances();
   if (glances >= THRESHOLD_GLANCES_NTF) {
     StorageUtil.addLogEvents([{category: "nudges", index: ID.interventionIDs.GLANCE_NOTIFICATION}]);
-    var title = 'Glance Alert';
-    var msg = shouldPersonalize() ? "Hey " + StorageUtil.getName() + ", you've" : "You've";
-    msg += " glanced at your phone " + glances + (glances === 1 ? ' time' : ' times') + ' today';
+    var title = localize("interventions.manager.notifications.glances.title");
+    var msg;
+    if (shouldPersonalize()) {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message2a",
+    			StorageUtil.getName(),
+    			glances,
+    			glances === 1 ? localize("interventions.manager.timeExtra.time") : localize("interventions.manager.timeExtra.times")
+    		);
+    } else {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message2b",
+    			glances,
+    			glances === 1 ? localize("interventions.manager.timeExtra.time") : localize("interventions.manager.timeExtra.times")
+    		);
+    } 
     NotificationUtil.sendNotification(service, title, msg, notificationID.GLANCE, 10);
   }
 };
@@ -199,14 +265,28 @@ code.GLANCE_NOTIFICATION = function(real, service) {
  */
 code.UNLOCK_TOAST = function(real, service) {
   if (!real) {
-    Toast.show(context, "You've unlocked your phone 7 times today", 1, "#72E500");
+    Toast.show(context, localize("interventions.manager.toasts.unlock"), 1, "#72E500");
     return;
   }
 
   var unlocks = StorageUtil.getUnlocks();
   if (unlocks >= THRESHOLD_UNLOCKS_TST && service) {
     StorageUtil.addLogEvents([{category: "nudges", index: ID.interventionIDs.UNLOCK_TOAST}]);
-    var msg = "You've unlocked your phone " + unlocks + (unlocks === 1 ? " time" : " times") + " today";
+    var msg;
+    if (shouldPersonalize()) {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message3a",
+    			StorageUtil.getName(),
+    			unlocks,
+    			unlocks === 1 ? localize("interventions.manager.timeExtra.time") : localize("interventions.manager.timeExtra.times")
+    		);
+    } else {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message3b",
+    			unlocks,
+    			unlocks === 1 ? localize("interventions.manager.timeExtra.time") : localize("interventions.manager.timeExtra.times")
+    		);
+    } 
     Toast.show(service, msg, 1, "#72E500");
   }
 };
@@ -221,17 +301,35 @@ code.UNLOCK_TOAST = function(real, service) {
  */
 code.UNLOCK_NOTIFICATION = function(real) {
   if (!real) {
-    NotificationUtil.sendNotification(context, "Unlock Alert",
-      "You've unlocked your phone 7 times today", notificationID.VISIT, 10);
+    NotificationUtil.sendNotification(
+    		context, 
+    		localize("interventions.manager.notifications.unlock.title"),
+      	localize("interventions.manager.notifications.unlock.message"), 
+      	notificationID.VISIT, 
+      	10
+    );
     return;
   }
 
   var unlocks = StorageUtil.getUnlocks();
   if (unlocks >= THRESHOLD_UNLOCKS_NTF) {
     StorageUtil.addLogEvents([{category: "nudges", index: ID.interventionIDs.UNLOCK_NOTIFICATION}]);
-    var title = 'Unlock Alert';
-    var msg = shouldPersonalize() ? "Hey " + StorageUtil.getName() + ", you've" : "You've";
-    msg += " unlocked your phone " + unlocks + (unlocks === 1 ? ' time' : ' times') + ' today';
+    var title = localize("interventions.manager.notifications.unlock.title");
+    var msg;
+    if (shouldPersonalize()) {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message3a",
+    			StorageUtil.getName(),
+    			unlocks,
+    			unlocks === 1 ? localize("interventions.manager.timeExtra.time") : localize("interventions.manager.timeExtra.times")
+    		);
+    } else {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message3b",
+    			unlocks,
+    			unlocks === 1 ? localize("interventions.manager.timeExtra.time") : localize("interventions.manager.timeExtra.times")
+    		);
+    } 
     NotificationUtil.sendNotification(context, title, msg, notificationID.UNLOCK, 10);
   }
 };
@@ -246,16 +344,28 @@ code.UNLOCK_NOTIFICATION = function(real) {
  */
 code.UNLOCK_DIALOG = function (real, service) {
   if (!real) {
-    DialogOverlay.showOneOptionDialogOverlay("You've unlocked your phone 18 times today", "Okay", context);
+    DialogOverlay.showOneOptionDialogOverlay(localize("interventions.manager.dialogs.unlock"), "Okay", context);
     return;
   }
 
   var unlocks = StorageUtil.getUnlocks();
   if (unlocks >= THRESHOLD_UNLOCKS_DLG && service) {
     StorageUtil.addLogEvents([{category: "nudges", index: ID.interventionIDs.UNLOCK_DIALOG}]);
-    var title = 'Unlock Alert';
-    var msg = shouldPersonalize() ? "Hey " + StorageUtil.getName() + ", you've" : "You've";
-    msg += " unlocked your phone " + unlocks + (unlocks === 1 ? ' time' : ' times') + ' today';
+    var msg;
+    if (shouldPersonalize()) {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message3a",
+    			StorageUtil.getName(),
+    			unlocks,
+    			unlocks === 1 ? localize("interventions.manager.timeExtra.time") : localize("interventions.manager.timeExtra.times")
+    		);
+    } else {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message3b",
+    			unlocks,
+    			unlocks === 1 ? localize("interventions.manager.timeExtra.time") : localize("interventions.manager.timeExtra.times")
+    		);
+    } 
     DialogOverlay.showOneOptionDialogOverlay(msg, "Okay", service);
   }
 }
@@ -278,7 +388,7 @@ const THRESHOLD_PHONE_USAGE_DLG = 180; // 3 hours
  */
 code.PHONE_USAGE_TOAST = function(real, service) {
   if (!real) {
-    Toast.show(context, "You've spent 3.6 hours on your phone today", 1, "#011627");
+    Toast.show(context, localize("interventions.manager.toasts.phoneUsage"), 1, "#011627");
     return;
   }
 
@@ -286,7 +396,7 @@ code.PHONE_USAGE_TOAST = function(real, service) {
   if (time >= THRESHOLD_PHONE_USAGE_TST && service) {
     StorageUtil.addLogEvents([{category: "nudges", index: ID.interventionIDs.PHONE_USAGE_TOAST}]);
     var hours = Math.round(10 * (time / 60)) / 10;
-    var msg = "You've spent " + hours + " hours on your phone today";
+    var msg = localize("interventions.manager.generalMessages.message4", hours);
     Toast.show(service, msg, 1, "#011627");
   }
 };
@@ -301,8 +411,13 @@ code.PHONE_USAGE_TOAST = function(real, service) {
  */
 code.PHONE_USAGE_NOTIFICATION = function(real, service) {
   if (!real) {
-    NotificationUtil.sendNotification(context, "Phone Usage Alert",
-      "You've spend 4.2 hours on your phone today", notificationID.PHONE, 10);
+    NotificationUtil.sendNotification(
+    		context, 
+    		localize("interventions.manager.notifications.phoneUsage.title"),
+      	localize("interventions.manager.notifications.phoneUsage.message"), 
+      	notificationID.PHONE, 
+      	10
+    );
     return;
   }
 
@@ -310,9 +425,20 @@ code.PHONE_USAGE_NOTIFICATION = function(real, service) {
   if (time >= THRESHOLD_PHONE_USAGE_NTF) {
     StorageUtil.addLogEvents([{category: "nudges", index: ID.interventionIDs.PHONE_USAGE_NOTIFICATION}]);
     var hours = Math.round(10 * (time / 60)) / 10;
-    var title = 'Phone Usage Alert';
-    var msg = shouldPersonalize() ? "Hey " + StorageUtil.getName() + ", you've" : "You've";
-    msg += " already spent " + hours + ' hours on your phone today';
+    var title = localize("interventions.manager.notifications.phoneUsage.title");
+    var msg;
+    if (shouldPersonalize()) {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message5a",
+    			StorageUtil.getName(),
+    			hours
+    		);
+    } else {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message5b",
+    			hours,
+    		);
+    } 
     NotificationUtil.sendNotification(context, title, msg, notificationID.PHONE, 10);
   }
 };
@@ -327,7 +453,7 @@ code.PHONE_USAGE_NOTIFICATION = function(real, service) {
  */
 code.PHONE_USAGE_DIALOG = function (real, service) {
   if (!real) {
-    DialogOverlay.showOneOptionDialogOverlay("You've spent 5.1 hours on your phone today", "Okay", context);
+    DialogOverlay.showOneOptionDialogOverlay(localize("interventions.manager.dialogs.phoneUsage"), "Okay", context);
     return;
   }
 
@@ -335,8 +461,19 @@ code.PHONE_USAGE_DIALOG = function (real, service) {
   if (time >= THRESHOLD_PHONE_USAGE_DLG && service) {
     StorageUtil.addLogEvents([{category: "nudges", index: ID.interventionIDs.PHONE_USAGE_DIALOG}]);
     var hours = Math.round(10 * (time / 60)) / 10;
-    var msg = shouldPersonalize() ? "Hey " + StorageUtil.getName() + ", you've" : "You've";
-    msg += " already spent " + hours + ' hours on your phone today';
+    var msg;
+    if (shouldPersonalize()) {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message5a",
+    			StorageUtil.getName(),
+    			hours
+    		);
+    } else {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message5b",
+    			hours,
+    		);
+    } 
     DialogOverlay.showOneOptionDialogOverlay(msg, "Okay", service);
   }
 }
@@ -357,7 +494,7 @@ code.PHONE_USAGE_DIALOG = function (real, service) {
  */
 code.USAGE_TOAST = function (real, pkg, service) {
   if (!real) {
-    Toast.show(context, "You've already used Facebook for 23 minutes today!", 1, "#FFA730");
+    Toast.show(context, localize("interventions.manager.toasts.appUsage"), 1, "#FFA730");
     return;
   }
 
@@ -365,7 +502,11 @@ code.USAGE_TOAST = function (real, pkg, service) {
   if (minutes >= THRESHOLD_USAGE_TST) {
     StorageUtil.addLogEvents([{category: "nudges", index: ID.interventionIDs.USAGE_TOAST}]);
     var app = UsageInformationUtil.getBasicInfo(pkg).name;
-    var msg = "You've already spent " + minutes + " minutes on " + app + " today!";
+    var msg = localize(
+    		"interventions.manager.generalMessages.message6",
+    		minutes,
+    		app,
+    )
     Toast.show(service, msg, 1, "#FFA730");
   }
 };
@@ -379,17 +520,35 @@ code.USAGE_TOAST = function (real, pkg, service) {
  */
 code.USAGE_NOTIFICATION = function (real, pkg, service) {
   if (!real) {
-    NotificationUtil.sendNotification(context, "Facebook Usage Alert",
-      "You've already used Facebook for 27 minutes today!", notificationID.USAGE, 10);
+    NotificationUtil.sendNotification(
+    		context, 
+    		localize("interventions.manager.notifications.appUsage.title", "Facebook"),
+      	localize("interventions.manager.notifications.appUsage.message"), 
+      	notificationID.USAGE, 
+      	10
+    );
     return;
   }
   var minutes = StorageUtil.getAppTime(pkg);
   if (minutes >= THRESHOLD_USAGE_NTF) {
     StorageUtil.addLogEvents([{category: "nudges", index: ID.interventionIDs.USAGE_NOTIFICATION}]);
     var app = UsageInformationUtil.getBasicInfo(pkg).name;
-    var title = app + " Usage Alert"
-    var msg = shouldPersonalize() ? "Hey " + StorageUtil.getName() + ", you've" : "You've";
-    msg += " already used " + app + " for " + minutes + " minutes today.";
+    var title = localize("interventions.manager.notifications.appUsage.title", app);
+    var msg;
+    if (shouldPersonalize()) {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message7a",
+    			StorageUtil.getName(),
+    			app,
+    			minutes
+    		);
+    } else {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message7b",
+    			app,
+    			minutes,
+    		);
+    } 
     NotificationUtil.sendNotification(service, title, msg, notificationID.USAGE, 10);
   }
 };
@@ -403,7 +562,7 @@ code.USAGE_NOTIFICATION = function (real, pkg, service) {
  */
 code.USAGE_DIALOG = function (real, pkg, service) {
   if (!real) {
-    DialogOverlay.showOneOptionDialogOverlay("You've already used Facebook for 47 minutes today!", "Okay", context);
+    DialogOverlay.showOneOptionDialogOverlay(localize("interventions.manager.dialogs.appUsage"), "Okay", context);
     return;
   }
 
@@ -411,8 +570,21 @@ code.USAGE_DIALOG = function (real, pkg, service) {
   if (minutes >= THRESHOLD_USAGE_DLG) {
     StorageUtil.addLogEvents([{category: "nudges", index: ID.interventionIDs.USAGE_DIALOG}]);
     var app = UsageInformationUtil.getBasicInfo(pkg).name;
-    var msg = shouldPersonalize() ? "Hey " + StorageUtil.getName() + ", that's" : "That's"
-    msg += " already " + minutes + " minutes on " + app + " today!";
+    var msg;
+    if (shouldPersonalize()) {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message8a",
+    			StorageUtil.getName(),
+    			minutes, 
+    			app
+    		);
+    } else {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message8b",
+    			minutes,
+    			app
+    		);
+    } 
     DialogOverlay.showOneOptionDialogOverlay(msg, "Okay", service);
   }
 };
@@ -429,8 +601,13 @@ code.USAGE_DIALOG = function (real, pkg, service) {
  **/
 code.QUOTE_NOTIFICATION = function (real, pkg, service) {
   if (!real) {
-    NotificationUtil.sendNotification(context, "Facebook Usage Alert",
-    "Each day provides its own gifts. (Marcus Aurelius)", notificationID.USAGE, 10);
+    NotificationUtil.sendNotification(
+    		context, 
+    		localize("interventions.manager.notifications.quote.title1", "Facebook"),
+   	 	localize("interventions.manager.notifications.quote.message"), 
+   	 	notificationID.USAGE, 
+   	 	10
+   );
     return;
   }
   let quoteArray = []
@@ -439,7 +616,7 @@ code.QUOTE_NOTIFICATION = function (real, pkg, service) {
     quoteArray.push(quoteText + ' (' + quoteAuthor + ')')
   }
   StorageUtil.addLogEvents([{category: "nudges", index: ID.interventionIDs.USAGE_NOTIFICATION}]);
-  var title = "Some Inspiration"
+  var title = localize("interventions.manager.notifications.quote.title2");
   var msg = quoteArray[Math.floor(Math.random() * quoteArray.length)];
   NotificationUtil.sendNotification(context, title, msg, notificationID.USAGE, 10);
 };
@@ -456,8 +633,13 @@ code.QUOTE_NOTIFICATION = function (real, pkg, service) {
  **/
 code.TIME_NOTIFICATION = function (real, pkg, service) {
   if (!real) {
-    NotificationUtil.sendNotification(context, "App Usage Alert",
-    "You've used your watchlisted apps for 55 minutes today", notificationID.USAGE, 10);
+    NotificationUtil.sendNotification(
+    		context, 
+    		localize("interventions.manager.notifications.time.title1"),
+    		localize("interventions.manager.notifications.time.message"), 
+    		notificationID.USAGE, 
+    		10
+    );
     return;
   }
   StorageUtil.addLogEvents([{category: "nudges", index: ID.interventionIDs.USAGE_NOTIFICATION}]);
@@ -469,8 +651,8 @@ code.TIME_NOTIFICATION = function (real, pkg, service) {
     }
   }
   var app = UsageInformationUtil.getBasicInfo(pkg).name;
-  var title = "Usage Alert"
-  var msg = "You've used your watchlisted apps for " + totalUsage + " minutes today.";
+  var title = localize("interventions.manager.notifications.time.title2");
+  var msg = localize("interventions.manager.generalMessages.message9", appUsage);
   NotificationUtil.sendNotification(context, title, msg, notificationID.USAGE, 10);
 };
 
@@ -517,7 +699,12 @@ var resetDurationInterventions = function() {
  */
 code.DURATION_TOAST = function (real, pkg, service) {
   if (!real) {
-    Toast.show(context, "You've been on Facebook for 5 minutes this visit", 1, "#2EC4B6");
+    Toast.show(
+    		context, 
+    		localize("interventions.manager.toasts.duration", "Facebook", 5), 
+    		1, 
+    		"#2EC4B6"
+    );
     return;
   }
   if (!durationToastID) {
@@ -525,7 +712,7 @@ code.DURATION_TOAST = function (real, pkg, service) {
       StorageUtil.addLogEvents([{category: "nudges", index: ID.interventionIDs.DURATION_TOAST}]);
       var applicationName = UsageInformationUtil.getBasicInfo(pkg).name;
       var now = System.currentTimeMillis();
-      var msg = "You've been on " + applicationName + " for " + Math.round((now - sessionStart )/ MIN_IN_MS) + " minutes this visit";
+      var msg = localize("interventions.manager.toasts.duration", applicationName, Math.round((now - sessionStart )/ MIN_IN_MS));
       if (service  != null) { //It's possible that the  service somehow stopped in the past  duration time
         Toast.show(service, msg, 1, "#2EC4B6");
       }
@@ -542,18 +729,36 @@ code.DURATION_TOAST = function (real, pkg, service) {
  */
 code.DURATION_NOTIFICATION = function (real, pkg, service) {
   if (!real) {
-    NotificationUtil.sendNotification(context, "Facebook Visit Length",
-      "You've been using Facebook for 10 minutes", notificationID.DURATION, 10);
+    NotificationUtil.sendNotification(
+    		context, 
+    		localize("interventions.manager.notifications.duration.title", "Facebook"),
+      	localize("interventions.manager.notifications.duration.message"), 
+      	notificationID.DURATION, 
+      	10
+    );
     return;
   }
   if (!durationNotifID) {
     durationNotifID = Timer.setTimeout(() => {
       StorageUtil.addLogEvents([{category: "nudges", index: ID.interventionIDs.DURATION_NOTIFICATION}]);
       var applicationName = UsageInformationUtil.getBasicInfo(pkg).name;
-      var title = applicationName + " Visit Length";
-      var msg = shouldPersonalize() ? "Hey " + StorageUtil.getName() + ", you've" : "You've";
+      var title = localize("interventions.manager.notifications.duration.title", applicationName);
       var now = System.currentTimeMillis();
-      msg += " been using " + applicationName + " for " + Math.round((now - sessionStart) / MIN_IN_MS) + " minutes";
+      var msg;
+      if (shouldPersonalize()) {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message10a",
+    			StorageUtil.getName(),
+    			applicationName, 
+    			Math.round((now - sessionStart) / MIN_IN_MS)
+    		);
+      } else {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message10b",
+    			applicationName, 
+    			Math.round((now - sessionStart) / MIN_IN_MS)
+    		);
+    	 } 
       NotificationUtil.sendNotification(context, title, msg, notificationID.DURATION, 10);
       durationNotifID = 0;
     }, INTERVAL_DURATION_NTF)
@@ -569,16 +774,29 @@ code.DURATION_NOTIFICATION = function (real, pkg, service) {
  */
 code.DURATION_DIALOG = function (real, pkg, service) {
   if (!real) {
-    DialogOverlay.showOneOptionDialogOverlay("You've been using Facebook for 15 minutes", "Okay", context);
+    DialogOverlay.showOneOptionDialogOverlay(localize("interventions.manager.dialogs.duration"), "Okay", context);
     return;
   }
   if (!durationDialogID) {
     durationDialogID = Timer.setTimeout(() => {
       StorageUtil.addLogEvents([{category: "nudges", index: ID.interventionIDs.DURATION_DIALOG}]);
       var applicationName = UsageInformationUtil.getBasicInfo(pkg).name;
-      var msg = shouldPersonalize() ? "Hey " + StorageUtil.getName() + ", you've" : "You've";
       var now = System.currentTimeMillis();
-      msg += " been using " + applicationName + " for " + Math.round((now - sessionStart) / MIN_IN_MS) + " minutes";
+      var msg;
+      if (shouldPersonalize()) {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message10a",
+    			StorageUtil.getName(),
+    			applicationName, 
+    			Math.round((now - sessionStart) / MIN_IN_MS)
+    		);
+      } else {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message10b",
+    			applicationName, 
+    			Math.round((now - sessionStart) / MIN_IN_MS)
+    		);
+    	 } 
       if (service != null) {
         DialogOverlay.showOneOptionDialogOverlay(msg, "Okay", service);
       }
@@ -618,7 +836,7 @@ var pausedThisVisit = false;
 var playNode;
 code.VIDEO_BLOCKER = function (real, node, pkg) {
   if (!real) {
-    Toast.show(context, "No demo available for this nudge!", 0);
+    Toast.show(context, localize("interventions.manager.toasts.videoBlock"), 0);
     return;
   }
 
@@ -669,9 +887,14 @@ var audioFocusListener = new android.media.AudioManager.OnAudioFocusChangeListen
  */
 code.FULL_SCREEN_OVERLAY = function (real, pkg, service) {
   if (!real) {
-    FullScreenOverlay.showOverlay("Continue to Facebook?",
-      "You've been here 25 times today. Want to take a break?",
-      "Continue to Facebook", "Get me out of here!", null, null);
+    FullScreenOverlay.showOverlay(
+       localize("interventions.manager.overlays.fullScreen.title", "Facebook"),
+    	  localize("interventions.manager.overlays.fullScreen.message"),
+    	  localize("interventions.manager.overlays.fullScreen.okButton", "Facebook"), 
+    	  localize("interventions.manager.overlays.fullScreen.cancelButton"), 
+    	  null, 
+    	  null
+    );
     return;
   }
 
@@ -679,11 +902,32 @@ code.FULL_SCREEN_OVERLAY = function (real, pkg, service) {
   if (visits >= THRESHOLD_FULLSCREEN_OVR) {
     StorageUtil.addLogEvents([{category: "nudges", index: ID.interventionIDs.FULL_SCREEN_OVERLAY}]);
     var app = UsageInformationUtil.getBasicInfo(pkg).name;
-    var title = "Continue to " + app + "?";
-    var linkMsg = "Continue to " + app;
-    var msg = shouldPersonalize() ? "Hey " + StorageUtil.getName() + ", you've" : "You've";
-    msg += " been here " + visits + (visits === 1 ? " time" : " times") + " today. Want to take a break?";
-    FullScreenOverlay.showOverlay(title, msg, linkMsg, "Get me out of here!", null, exitToHome, service)
+    var title = localize("interventions.manager.overlays.fullScreen.title", app);
+    var linkMsg = localize("interventions.manager.overlays.fullScreen.okButton", app);
+    var msg;
+    if (shouldPersonalize()) {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message11a",
+    			StorageUtil.getName(),
+    			visits, 
+    			visits === 1 ? localize("interventions.manager.timeExtra.time") : localize("interventions.manager.timeExtra.times")
+    		);
+    } else {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message11b",
+    			visits, 
+    			visits === 1 ? localize("interventions.manager.timeExtra.time") : localize("interventions.manager.timeExtra.times")
+    		);
+    } 
+    FullScreenOverlay.showOverlay(
+    		title, 
+    		msg, 
+    		linkMsg, 
+    		localize("interventions.manager.overlays.fullScreen.cancelButton"), 
+    		null, 
+    		exitToHome, 
+    		service
+    )
   }
 }
 
@@ -774,7 +1018,7 @@ code.DIMMER_OVERLAY = function (real, pkg, service) {
  */
 code.APPLICATION_SLIDER = function(real, pkg, service) {
   if (!real) {
-    var msg = "How much time would you like to spend on Facebook this visit?";
+    var msg = localize("interventions.manager.dialogs.slider", "Facebook");
     SliderOverlay.showSliderOverlay(msg, null, context);
     return;
   }
@@ -788,7 +1032,7 @@ code.APPLICATION_SLIDER = function(real, pkg, service) {
   var visits = StorageUtil.getVisits(pkg);
   if (visits > THRESHOLD_APPLICATION_SLIDER_OVR) {
     var app = UsageInformationUtil.getBasicInfo(pkg).name;
-    var msg = "How much time would you like to spend on " + app + " this visit?";
+    var msg = localize("interventions.manager.dialogs.slider", app);
     StorageUtil.addLogEvents([{category: "nudges", index: ID.interventionIDs.APPLICATION_SLIDER}]);
     SliderOverlay.showSliderOverlay(msg, cb, service);
   }
@@ -804,19 +1048,19 @@ code.APPLICATION_SLIDER = function(real, pkg, service) {
  */
 code.INTERSTITIAL = function(real, pkg, service) {
   if (!real) {
-    var title = "Just a Moment";
-    var msg = "We'll take you to Facebook shortly. Take a deep breath in the meantime!";
-    FullScreenOverlay.showInterstitial(title, msg, "EXIT", null);
+    var title = localize("interventions.manager.overlays.interstitial.title");
+    var msg = localize("interventions.manager.overlays.interstitial.message", "Facebook");
+    FullScreenOverlay.showInterstitial(title, msg, localize('interventions.manager.overlays.interstitial.extra'), null);
     return;
   }
 
   var visits = StorageUtil.getVisits(pkg);
   if (visits > THRESHOLD_INTERSTITIAL_OVR) {
     var app = UsageInformationUtil.getBasicInfo(pkg).name;
-    var title = "Just a Moment";
-    var msg = "We'll take you to " + app + " shortly. Take a deep breath in the meantime!";
+    var title = localize("interventions.manager.overlays.interstitial.title");
+    var msg = localize("interventions.manager.overlays.interstitial.message", app);
     StorageUtil.addLogEvents([{category: "nudges", index: ID.interventionIDs.INTERSTITIAL}]);
-    FullScreenOverlay.showInterstitial(title, msg, "EXIT", exitToHome, service);
+    FullScreenOverlay.showInterstitial(title, msg, localize('interventions.manager.overlays.interstitial.extra'), exitToHome, service);
   }
 }
 
@@ -844,10 +1088,10 @@ var flipScreen = function(real, pkg) {
 }
 
 function show_target_enabler(service) {
-  var title = "Target Acquired!";
-  var msg = "You've unlocked Targets! Would you like to check it out?";
-  var pos = "Let's do it!";
-  var neg = "Later";
+  var title = localize("interventions.manager.overlays.targetEnabler.title");
+  var msg = localize("interventions.manager.overlays.targetEnabler.message");
+  var pos = localize("interventions.manager.overlays.targetEnabler.okButton");
+  var neg = localize("interventions.manager.overlays.targetEnabler.cancelButton");
   var cb = function() {
     var intent = context.getPackageManager().getLaunchIntentForPackage("com.stanfordhci.habitlab");
     intent.putExtra("goToTarget", "true");
@@ -882,7 +1126,7 @@ code.POSITIVE_TOAST = function(real, pkg, service) {
     var bitmap = UsageInformationUtil.getApplicationBitmap(targetPkg);
     //var icon_id = context.getResources().getIdentifier("ic_habitlab_white", "drawable", context.getPackageName());
     //var bitmap = context.getResources().getDrawable(icon_id).getBitmap();
-    ToastOverlay.showToastOverlay("Open " + appName, bitmap, cb, true);
+    ToastOverlay.showToastOverlay(localize("interventions.manager.toasts.overlay", appName), bitmap, cb, true);
     return;
   }
   if (StorageUtil.isTargetOn()) {
@@ -900,7 +1144,7 @@ code.POSITIVE_TOAST = function(real, pkg, service) {
         service.startActivity(launchIntent)
       }
       var appName = UsageInformationUtil.getBasicInfo(targetPkg).name;
-      ToastOverlay.showToastOverlay("Open " + appName, bitmap, cb, true);
+      ToastOverlay.showToastOverlay(localize("interventions.manager.toasts.overlay", appName), bitmap, cb, true);
     }
   } else {
     show_target_enabler(service)
@@ -927,9 +1171,14 @@ code.POSITIVE_FULL_SCREEN_OVERLAY = function(real, pkg, service) {
       }
     }
 
-    FullScreenOverlay.showOverlay("Go to " + targetAppName + " instead?",
-      "You've already been here 25 times today. Want to do something else?",
-      "Continue to Facebook", "Go to " + targetAppName, null, cb);
+    FullScreenOverlay.showOverlay(
+    		localize("interventions.manager.overlays.positive.title", "Facebook"),
+      	localize("interventions.manager.overlays.positive.message"),
+      	localize("interventions.manager.overlays.positive.okButton", "Facebook"), 
+      	localize("interventions.manager.overlays.positive.cancelButton", targetAppName), 
+      	null, 
+      	cb
+    );
     return;
   }
 
@@ -952,11 +1201,31 @@ code.POSITIVE_FULL_SCREEN_OVERLAY = function(real, pkg, service) {
     if (visits >= THRESHOLD_FULLSCREEN_OVR) {
       StorageUtil.addLogEvents([{category: "nudges", index: ID.interventionIDs.POSITIVE_FULL_SCREEN_OVERLAY}]);
       var app = UsageInformationUtil.getBasicInfo(pkg).name;
-      var title = "Go to " + targetAppName + " instead?";
-      var linkMsg = "Continue to " + app;
-      var msg = shouldPersonalize() ? "Hey " + StorageUtil.getName() + ", you've" : "You've";
-      msg += " already been here " + visits + (visits === 1 ? " time" : " times") + " today. Want to do something else?";
-      FullScreenOverlay.showOverlay(title, msg, linkMsg, "Go to " + targetAppName, null, cb);
+      var title = localize("interventions.manager.overlays.positive.title", targetAppName);
+      var linkMsg = localize("interventions.manager.overlays.positive.okButton", app);
+      var msg;
+    	 if (shouldPersonalize()) {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message11a",
+    			StorageUtil.getName(),
+    			visits,
+    			visits === 1 ? localize("interventions.manager.timeExtra.time") : localize("interventions.manager.timeExtra.times")
+    		);
+    	 } else {
+    		msg = localize(
+    			"interventions.manager.generalMessages.message11b",
+    			visits,
+    			visits === 1 ? localize("interventions.manager.timeExtra.time") : localize("interventions.manager.timeExtra.times")
+    		);
+    	 } 
+      FullScreenOverlay.showOverlay(
+      	title, 
+      	msg, 
+      	linkMsg, 
+      	localize("interventions.manager.overlays.positive.cancelButton", targetAppName), 
+      	null, 
+      	cb
+      );
     }
   } else {
     show_target_enabler(service)

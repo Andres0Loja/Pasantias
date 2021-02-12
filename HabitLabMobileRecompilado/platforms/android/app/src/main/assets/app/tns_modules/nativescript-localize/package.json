@@ -1,0 +1,122 @@
+{
+  "_from": "nativescript-localize",
+  "_id": "nativescript-localize@4.2.2",
+  "_inBundle": false,
+  "_integrity": "sha512-ph7vcQp7h3f+RxE4rvl1bmn2HWC6hK2k3bSegVcnHMqoB3y1Efb7nVYkZWgvU3w9NSv4pitNa0Nk+mfjocj4Kg==",
+  "_location": "/nativescript-localize",
+  "_phantomChildren": {
+    "glob": "6.0.4",
+    "mkdirp": "0.5.1"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nativescript-localize",
+    "name": "nativescript-localize",
+    "escapedName": "nativescript-localize",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-localize/-/nativescript-localize-4.2.2.tgz",
+  "_shasum": "03d3de80140445fe51f0097e6be30471a321fabb",
+  "_spec": "nativescript-localize",
+  "_where": "/home/wilson/Documentos/Pasantias/Git/Pasantias/HabitLabMobileRecompilado",
+  "author": {
+    "name": "Ludovic Fabrèges",
+    "email": "ludovic.fabreges@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/lfabreges/nativescript-localize/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Eddy Verbruggen",
+      "email": "eddyverbruggen@gmail.com"
+    },
+    {
+      "name": "Brendan Ingham",
+      "email": "brendan.ingham13@gmail.com"
+    },
+    {
+      "name": "MultiShiv19",
+      "email": "sp@shiv19.com"
+    },
+    {
+      "name": "Nathan Walker"
+    }
+  ],
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "nativescript-hook": "~0.2.5",
+    "shorthash": "0.0.2",
+    "simple-plist": "^0.3.0",
+    "sprintf-js": "^1.1.1"
+  },
+  "deprecated": false,
+  "description": "Native internationalization plugin for NativeScript using native capabilities of each platform",
+  "devDependencies": {
+    "@angular/compiler": "~7.0.0",
+    "@angular/compiler-cli": "~7.0.0",
+    "@angular/core": "~7.0.0",
+    "@types/mkdirp": "^0.5.1",
+    "@types/node": "^8.0.0",
+    "@types/sprintf-js": "^1.1.0",
+    "rxjs": "^6.3.3",
+    "tns-core-modules": "~5.4.3",
+    "tns-platform-declarations": "~5.4.3",
+    "tslint": "^5.8.0",
+    "typescript": "~3.1.6",
+    "zone.js": "^0.8.26"
+  },
+  "homepage": "https://github.com/lfabreges/nativescript-localize",
+  "keywords": [
+    "nativescript",
+    "internationalization",
+    "i18n",
+    "translation",
+    "localization",
+    "l10n",
+    "angular",
+    "ios",
+    "android"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "nativescript-localize",
+  "nativescript": {
+    "platforms": {
+      "android": "5.0.0",
+      "ios": "5.0.0"
+    },
+    "hooks": [
+      {
+        "type": "before-checkForChanges",
+        "script": "hooks/before-checkForChanges.js",
+        "inject": true
+      },
+      {
+        "type": "before-watchPatterns",
+        "script": "hooks/before-watchPatterns.js",
+        "inject": true
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lfabreges/nativescript-localize.git"
+  },
+  "scripts": {
+    "compile": "tsc -p hooks && tsc && ngc -p tsconfig.aot.json",
+    "postinstall": "node postinstall.js",
+    "preuninstall": "node preuninstall.js",
+    "tslint": "tslint **/*.ts --config ../tslint.json"
+  },
+  "typings": "index.d.ts",
+  "version": "4.2.2"
+}

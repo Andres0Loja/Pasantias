@@ -55,6 +55,7 @@ exports.checkNameNextPage = function(args) {
 	  fancyAlert.TNSFancyAlert.showError("Not so fast!", "Please enter your name to continue", "OK");
 	} else {
 		StorageUtil.setName(name.trim());
-		frameModule.topmost().navigate('views/onboarding/askForEmailView/askForEmailView');
+		//frameModule.topmost().navigate('views/onboarding/askForEmailView/askForEmailView');
+		frameModule.topmost().navigate('views/onboarding/watchlistOnboardingView/watchlistOnboardingView');
 	}
 };

@@ -5,7 +5,7 @@
 
   <ActionBar class="action-bar">
     <ActionBar.titleView>
-      <Label text="Active Range" horizontalAlignment="center" class="action-bar-title" />
+      <Label text="{{ L('views.hoursView.title') }}" horizontalAlignment="center" class="action-bar-title" />
     </ActionBar.titleView>
     <NavigationButton tap="toggleDrawer" icon="res://ic_hamburger" />
   </ActionBar>
@@ -20,13 +20,13 @@
       <StackLayout orientation="vertical" >
         <StackLayout orientation="vertical" class="scroll-layout" >
           <GridLayout rows="auto" columns="*,*,*,*,*,*,*" id="days-grid" class="week-layout" />
-          <Label class="picker-label" text="Start Time" />
+          <Label class="picker-label" text="{{ L('views.hoursView.startTime') }}" />
           <TimePicker id="start-picker" class="picker"/>
-          <Label class="picker-label" text="End Time" />
+          <Label class="picker-label" text="{{ L('views.hoursView.endTime') }}" />
           <TimePicker id="end-picker" class="picker" />
-          <Label id="active-text" textWrap="true" class="active-label" text="Active 24 hours a day, 7 days a week" />
+          <Label id="active-text" textWrap="true" class="active-label" text="{{ L('views.hoursView.activeLabel.default') }}" />
         </StackLayout>
-        <Button class="save-button" tap="onSave" text="save changes" />
+        <Button class="save-button" tap="onSave" text="{{ L('views.hoursView.button') }}" />
       </StackLayout>
     </sd:RadSideDrawer.mainContent>
 

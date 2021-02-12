@@ -6,33 +6,33 @@
 		<StackLayout class="subdrawer-content">
 			<StackLayout orientation="horizontal" class="side-option" id="progress-option" >
 				<Image class="side-icon" src="res://ic_progress" id="progress-icon" />
-				<Label text="Progress" class="side-label" />
+				<Label text="{{ L('shared.sd.menus.progress') }}" class="side-label" />
 			</StackLayout>
 			<StackLayout orientation="horizontal" class="side-option" id="watchlist-option" >
 				<Image class="side-icon" src="res://ic_watchlist" id="watchlist-icon" />
-				<Label text="Apps" class="side-label" />
+				<Label text="{{ L('shared.sd.menus.apps') }}" class="side-label" />
 			</StackLayout>
 			<StackLayout orientation="horizontal" class="side-option" id="nudges-option" >
 				<Image class="side-icon" src="res://ic_phone_lock" id="nudges-icon" />
-				<Label text="Nudges" class="side-label" id='lined-option'/>
+				<Label text="{{ L('shared.sd.menus.nudges') }}" class="side-label" id='lined-option'/>
 			</StackLayout>
 			<StackLayout orientation="horizontal" class="side-option" id="goals-option" >
 				<Image class="side-icon" src="res://ic_goals" id="goals-icon" />
-				<Label text="Goals" class="side-label" />
+				<Label text="{{ L('shared.sd.menus.goals') }}" class="side-label" />
 			</StackLayout>
 			<StackLayout orientation="horizontal" class="side-option" id="settings-option" >
 				<Image class="side-icon" src="res://ic_settings" id="settings-icon" />
-				<Label text="Settings" class="side-label" />
+				<Label text="{{ L('shared.sd.menus.settings') }}" class="side-label" />
 			</StackLayout>
 		</StackLayout>
 		<StackLayout id="bottom-drawer-content">
 			<StackLayout orientation="horizontal" class="bottom-option" id="lockdown-option" tap="setLockdown">
 				<Image class="bottom-icon" src="res://ic_key" id="lockdown-icon" />
-				<Label text="Lockdown Mode" class="bottom-label" />
+				<Label text="{{ L('shared.sd.menus.lockdown') }}" class="bottom-label" />
 			</StackLayout>
 			<StackLayout orientation="horizontal" class="bottom-option" id="snooze-option" tap="setSnooze">
 				<Image class="bottom-icon" src="res://ic_alarm" id="side-icon" />
-				<Label text="Snooze Nudges" class="bottom-label" />
+				<Label text="{{ L('shared.sd.menus.snooze') }}" class="bottom-label" />
 			</StackLayout>
 		</StackLayout>
 	</StackLayout>

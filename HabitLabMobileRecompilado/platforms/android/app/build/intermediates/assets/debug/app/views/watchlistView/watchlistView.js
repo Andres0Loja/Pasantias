@@ -13,6 +13,8 @@ var targets;
 var fromGoals = false;
 var overlayShowing = false;
 
+const localize = require("nativescript-localize");
+
 exports.onItemTap = function(args) {
   events.push({category: "navigation", index: "watchlist_to_detail"});
   
@@ -140,7 +142,13 @@ showIntroPage = function() {
   msg.visibility = "collapse";
   var manageTargets = page.getViewById("manageTargets");
   manageTargets.visibility = "collapse";
-  TargetOverlay.showIntroDialog("Introducing: Targets", "Choose apps you'd rather spend time on to start building positive habits", "Ok!", showTutorialPage, redirect);
+  TargetOverlay.showIntroDialog(
+  	localize("views.watchlistView.dialog.title"), 
+  	localize("views.watchlistView.dialog.message"), 
+  	"Ok!", 
+  	showTutorialPage, 
+  	redirect
+  );
   overlayShowing = true;
 }
 

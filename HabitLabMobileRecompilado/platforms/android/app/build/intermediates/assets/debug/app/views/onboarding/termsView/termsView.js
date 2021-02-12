@@ -8,8 +8,14 @@
  var frameModule = require("ui/frame");
  var fancyAlert = require('nativescript-fancyalert');
  var http = require("http");
+ var observable = require("data/observable");
  var page;
  var nameField;
+ 
+ exports.pageLoaded = function(args) {
+ 	page = args.object;
+ 	page.bindingContext = new observable.Observable();
+ }
 
  exports.acceptTerms = function(args) {
    // They accepted the terms! Log to the server that they accepted the terms,
@@ -23,6 +29,6 @@
        _id: "accept_terms"
      })
    });
-   StorageUtil.acceptTerms()
-   frameModule.topmost().navigate('views/onboarding/nameView/nameView')
+   StorageUtil.acceptTerms();
+   frameModule.topmost().navigate('views/onboarding/nameView/nameView');
  }

@@ -6,7 +6,7 @@
 
   <ActionBar class="action-bar">
     <ActionBar.titleView>
-      <Label text="Create Your Own Nudge" horizontalAlignment="center" class="action-bar-title" />
+      <Label text="{{ L('views.ownNudgeView.title') }}" horizontalAlignment="center" class="action-bar-title" />
     </ActionBar.titleView>
     <NavigationButton tap="toggleDrawer" icon="res://ic_hamburger" />
   </ActionBar>
@@ -23,7 +23,7 @@
             <StackLayout>
             <StackLayout>
                       <StackLayout>
-                        <Label text="Select an Image" class="header"/>
+                        <Label text="{{ L('views.ownNudgeView.text') }" class="header"/>
                       </StackLayout>
                       <StackLayout>
                       <ListView items="{{images}}"  separatorColor="#FFFFFF" orientation="Horizontal" >
@@ -68,7 +68,7 @@
             </StackLayout>
 
             <StackLayout>
-              <Button text="Add a Message" tap ="addMessage" />
+              <Button text="{{ L('views.ownNudgeView.button') }}" tap ="addMessage" />
             </StackLayout>
             </StackLayout>
         </StackLayout>

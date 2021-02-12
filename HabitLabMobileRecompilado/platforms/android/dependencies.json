@@ -20,6 +20,10 @@
         "directory": "../../node_modules/nativescript-loading-indicator-new"
     },
     {
+        "name": "nativescript-localize",
+        "directory": "../../node_modules/nativescript-localize"
+    },
+    {
         "name": "nativescript-localstorage",
         "directory": "../../node_modules/nativescript-localstorage"
     },

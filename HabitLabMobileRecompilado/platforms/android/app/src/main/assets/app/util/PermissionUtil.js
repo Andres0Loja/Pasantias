@@ -11,6 +11,8 @@ var AccessibilityServiceInfo = android.accessibilityservice.AccessibilityService
 var WindowManager = android.view.WindowManager;
 var AccountManager = android.accounts.AccountManager;
 
+const localize = require("nativescript-localize");
+
 /*
  * checkSystemOverlayPermission
  * ----------------------------
@@ -106,9 +108,10 @@ exports.getOverlayType = function(otherOverlay) {
 exports.promptUserForEmail = function() {
 	return new Promise(function(resolve, reject){
 		var context = application.android.context.getApplicationContext();
-		permission.requestPermission(android.Manifest.permission.GET_ACCOUNTS,
-			"Can we associate your data with your email address? This will be used to sync" +
-			" cross-device interent usage in a future release!").then(function() {
+		permission.requestPermission(
+			android.Manifest.permission.GET_ACCOUNTS,
+			localize("util.permission.question")
+			).then(function() {
 				//Great! So, let's fetch it.
 				var manager = AccountManager.get(context);
 				var accounts = manager.getAccounts();
@@ -116,11 +119,11 @@ exports.promptUserForEmail = function() {
 					//We got it! Now, let's add it to local storage for safekeeping.
 					resolve(accounts[0].name);
 				} else {
-					reject("Couldn't get your email.")
+					reject(localize("util.permission.reject1"))
 				}
 			}).catch(function() {
 				//Error here (or permission not granted). We just don't do anything then.
-				reject("You did not give us permission to view your email.");
+				reject(localize("util.permission.reject2"));
 			});
 	});
 }

@@ -8,7 +8,7 @@
 
   <ActionBar class="action-bar">
     <ActionBar.titleView>
-      <Label text="App Details" horizontalAlignment="center" class="action-bar-title" />
+      <Label text="{{ L('views.appDetailView.title') }}" horizontalAlignment="center" class="action-bar-title" />
     </ActionBar.titleView>
     <NavigationButton tap="toggleDrawer" icon="res://ic_hamburger" />
   </ActionBar>
@@ -32,21 +32,21 @@
 
               <Slides:Slide>
                 <StackLayout>
-                  <Label text="Week" class="app-detail-subtitle" horizontalAlignment="center"/>
+                  <Label text="{{ L('views.appDetailView.timeUnits.week') }}" class="app-detail-subtitle" horizontalAlignment="center"/>
                   <Placeholder creatingView="weekView"/>
                   <Image class="arrowRight" col="2" src="res://ic_arrow_right" tap="goToMonth"/>
                 </StackLayout>
               </Slides:Slide>
               <Slides:Slide>
-                <Label text="Month" class="app-detail-subtitle" horizontalAlignment="center"/>
+                <Label text="{{ L('views.appDetailView.timeUnits.month') }}" class="app-detail-subtitle" horizontalAlignment="center"/>
                 <Placeholder creatingView="monthView"/>
                 <Image class="arrowLeft" col="2" src="res://ic_arrow_left" tap ="goToWeek"/>
               </Slides:Slide>
             </Slides:SlideContainer>
-            <Label text="App Goals" class='app-detail-subtitle top-padded' />
+            <Label text="{{ L('views.appDetailView.goals') }}" class='app-detail-subtitle top-padded' />
             <goalelem:goalelem id="goal-changer" />
 
-            <Label id="nudges" text="Nudges" class='app-detail-subtitle top-padded' />
+            <Label id="nudges" text="{{ L('views.appDetailView.nudges') }}" class='app-detail-subtitle top-padded' />
             <StackLayout orientation="vertical" id="list" />
           </StackLayout>
 

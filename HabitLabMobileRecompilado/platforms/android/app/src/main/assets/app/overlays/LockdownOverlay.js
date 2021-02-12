@@ -16,6 +16,7 @@ var TypedValue = android.util.TypedValue;
 var ProgressBar = android.widget.ProgressBar;
 var LayoutParams = android.view.ViewGroup.LayoutParams;
 
+const localize = require("nativescript-localize");
 
 /******************************
  *          PAINTS            *
@@ -146,7 +147,7 @@ exports.showOverlay = function (title, msg, pos, prog, max, posCallback, negCall
   			PixelFormat.TRANSLUCENT);
   		linkParams.gravity = Gravity.LEFT | Gravity.TOP;
   		overlayLink = new TextView(context);
-  		overlayLink.setText("Turn Off Lockdown Mode");
+  		overlayLink.setText(localize("overlays.lockdown"));
   		overlayLink.setTextSize(TypedValue.COMPLEX_UNIT_PT, 5);
   		overlayLink.setTextColor(Color.WHITE);
   		overlayLink.setHorizontallyScrolling(false);

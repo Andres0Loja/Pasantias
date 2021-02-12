@@ -68,6 +68,8 @@ var monthchartMade = false;
 var fromTutorial = false;
 var events;
 
+const localize = require("nativescript-localize");
+
 exports.pageNavigating = function(args) {
     page = args.object;
      if (page.navigationContext) {
@@ -97,8 +99,8 @@ exports.pageLoaded = function(args) {
                 var options = {
                     moduleName: 'views/watchlistView/watchlistView',
                     context: {
-                    index: 1,
-                    fromGoals: false
+                    	index: 1,
+                    	fromGoals: false
                     }
                 }
                 frameModule.topmost().navigate(options);
@@ -111,11 +113,21 @@ exports.pageLoaded = function(args) {
         permissionUtil.launchSystemOverlayIntent(context)
     }
     if (!permissionUtil.checkAccessibilityPermission()) {
-        FancyAlert.show(FancyAlert.type.INFO, "Accessibility", "Looks like our accessibility service was stopped, please re-enable to allow our nudges to work!",
-            "Take me there!", cb);
+        FancyAlert.show(
+        	FancyAlert.type.INFO, 
+        	localize("views.progressView.alerts.info1.title"), 
+        	localize("views.progressView.alerts.info1.message"),
+          localize("views.progressView.alerts.info1.extra"), 
+          cb
+        );
     } else if (!permissionUtil.checkSystemOverlayPermission()) {
-        FancyAlert.show(FancyAlert.type.INFO, "Drawing", "Looks like our overlay permission was turned off. Please re-enable the the system overlay permission!", 
-        "Take me to settings!", overlayCallback)
+        FancyAlert.show(
+        	FancyAlert.type.INFO, 
+        	localize("views.progressView.alerts.info2.title"), 
+        	localize("views.progressView.alerts.info2.message"), 
+        	localize("views.progressView.alerts.info2.extra"), 
+        	overlayCallback
+        )
     }
 
   	drawer = page.getViewById("sideDrawer");
@@ -348,7 +360,13 @@ rerender_monthchart = function() {
           }
        })
        data.setValueFormatter(dataFormatter);
-      var xLabels = toJavaStringArray(["4 weeks ago", "3 weeks ago", "2 weeks ago", "Last Week", "This Week" ])
+      var xLabels = toJavaStringArray([
+      	localize("views.progressView.graphLabels.4weeksAgo"), 
+      	localize("views.progressView.graphLabels.3weeksAgo"), 
+      	localize("views.progressView.graphLabels.2weeksAgo"), 
+      	localize("views.progressView.graphLabels.lastWeek"), 
+      	localize("views.progressView.graphLabels.thisWeek")
+      ])
        let axisformatter = new IAxisValueFormatter({
           getFormattedValue: function(value, axis) {
               return xLabels[value]
@@ -424,10 +442,10 @@ populateListViewsDay = function() {
     var timeTotalDesc;
     if (total <= 60) {
         totalReport = total;
-        totalTimeDesc = "mins on phone"
+        totalTimeDesc = localize("views.progressView.timeDescriptions.populating.mins")
     } else {
         totalReport = Math.round(total/6)/10;
-        totalTimeDesc = "hrs on phone"
+        totalTimeDesc = localize("views.progressView.timeDescriptions.populating.hours")
     }
 
     //'buttons' that show the usage daily overall phone usage
@@ -435,11 +453,11 @@ populateListViewsDay = function() {
 	dayStats.push(
 	{
 		value: unlocks,
-		desc: "unlocks"
+		desc: localize("views.progressView.timeStats.unlocks")
 	},
 	{
 		value: glances,
-		desc: "glances"
+		desc: localize("views.progressView.timeStats.glances")
 	},
     {
         value: totalReport,
@@ -464,10 +482,10 @@ populateListViewsWeek = function() {
     var timeWatchlistDesc;
     if (timeOnWatchlistAppsWeek <= 60) {
         watchlistReport = timeOnWatchlistAppsWeek;
-        timeWatchlistDesc = "mins on watchlist"
+        timeWatchlistDesc = localize("views.progressView.timeDescriptions.watchlist.mins")
     } else {
         watchlistReport = Math.round(timeOnWatchlistAppsWeek/6)/10;
-        timeWatchlistDesc = "hrs on watchlist"
+        timeWatchlistDesc = localize("views.progressView.timeDescriptions.watchlist.hours")
     }
 
     //If less than 1 hour, show minutes instead of 0.2hrs
@@ -475,10 +493,10 @@ populateListViewsWeek = function() {
     var timeTotalDesc;
     if (timeOnPhoneWeek <= 60) {
         totalReport = timeOnPhoneWeek;
-        totalTimeDesc = "mins on phone"
+        totalTimeDesc = localize("views.progressView.timeDescriptions.populating.mins")
     } else {
         totalReport = Math.round(timeOnPhoneWeek/6)/10;
-        totalTimeDesc = "hrs on phone"
+        totalTimeDesc = localize("views.progressView.timeDescriptions.populating.hours")
     }
 
 
@@ -486,7 +504,7 @@ populateListViewsWeek = function() {
 	weekStats.push(
 	{
 		value: unlocks,
-        desc: "unlocks"
+        desc: localize("views.progressView.timeStats.unlocks")
 
 	},
 	{
@@ -516,10 +534,10 @@ populateListViewMonth = function () {
     var timeWatchlistDesc;
     if (totalWatchlistMonth <= 60) {
         watchlistReport = totalWatchlistMonth;
-        timeWatchlistDesc = "mins on watchlist"
+        timeWatchlistDesc = localize("views.progressView.timeDescriptions.watchlist.mins")
     } else {
         watchlistReport = Math.round(totalWatchlistMonth/6)/10;
-        timeWatchlistDesc = "hrs on watchlist"
+        timeWatchlistDesc = localize("views.progressView.timeDescriptions.watchlist.hours")
     }
 
     //If less than 1 hour, show minutes instead of 0.2hrs
@@ -527,17 +545,17 @@ populateListViewMonth = function () {
     var timeTotalDesc;
     if (totalTimePhoneMonth <= 60) {
         totalReport = totalTimePhoneMonth;
-        totalTimeDesc = "mins on phone"
+        totalTimeDesc = localize("views.progressView.timeDescriptions.populating.mins")
     } else {
         totalReport = Math.round(totalTimePhoneMonth/6)/10;
-        totalTimeDesc = "hrs on phone"
+        totalTimeDesc = localize("views.progressView.timeDescriptions.populating.hours")
     }
 
 	var monthStats = [];
 	monthStats.push(
 	{
 		value: unlocks,
-        desc: "unlocks"
+        desc: localize("views.progressView.timeStats.unlocks")
 	},
 	   {
         value: watchlistReport,
@@ -776,7 +794,7 @@ getAppsWeek = function () {
         var icon = basic[i].icon;
         var change = (getTotalTimeAppWeek(progressInfo.appStats[i], 1) === 0  || getTotalTimeAppWeek(progressInfo.appStats[i],0) === 0 ? 0.1 : Math.round(((getTotalTimeAppWeek(progressInfo.appStats[i], 0) - getTotalTimeAppWeek(progressInfo.appStats[i], 1))/getTotalTimeAppWeek(progressInfo.appStats[i], 0))*100));
         var percChange = (change ===  0.1 ? "" : (change > 0 ? "+" : "") + change + "%");
-        var percDesc = (percChange === "" ? "" : "from last week");
+        var percDesc = (percChange === "" ? "" : localize("views.progressView.timeDescriptions.percenteje"));
         weekApps.push({
             name: name,
             avgMins: avgMins,
@@ -931,9 +949,9 @@ function getSpannableString() {
     if (total === 0) {
         var myString;
         if (fromTutorial) {
-            myString = new SpannableString("This is where your daily progress will show up.\n Happy habit building!")
+            myString = new SpannableString(localize("views.progressView.spanStrings.span1"))
         } else {
-             myString = new SpannableString("You have not spent any time on your watchlist apps today!\n Keep up the good work!" );
+             myString = new SpannableString(localize("views.progressView.spanStrings.span2"));
         }
         myString.setSpan(new RelativeSizeSpan(1.2), 0, myString.length(), 0);
         myString.setSpan(new ForegroundColorSpan(Color.GRAY), 0, myString.length(), 0);

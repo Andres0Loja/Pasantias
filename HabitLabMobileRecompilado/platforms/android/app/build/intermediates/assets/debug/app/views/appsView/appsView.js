@@ -22,6 +22,8 @@ var pageData;
 var isWatchlist;
 var isTargetTutorial;
 
+const localize = require("nativescript-localize");
+
 exports.closeKeyboard = function() {
   search.dismissSoftInput();
 };
@@ -129,18 +131,18 @@ exports.pageLoaded = function(args) {
 
   if (isWatchlist) {
     pkgs = StorageUtil.getSelectedPackages();
-    pageData.set("title", "Select apps to spend less time on");
-    pageData.set("header", "Manage Watchlist");
+    pageData.set("title", localize('views.appsView.pageData.watchlist.title'));
+    pageData.set("header", localize('views.appsView.pageData.watchlist.header'));
   } else {
     pkgs = StorageUtil.getTargetSelectedPackages();
-    pageData.set("title", "Select apps to spend more time on");
-    pageData.set("header", "Manage Targets");
+    pageData.set("title", localize('views.appsView.pageData.targets.title'));
+    pageData.set("header", localize('views.appsView.pageData.targets.header'));
   }
 
   pageData.set('filter', '');
   var loader = new LoadingIndicator();
   var options = {
-    message: 'Retrieving installed applications...',
+    message: localize('views.appsView.pageData.message'),
     progress: 0.65,
     android: {
       indeterminate: true,
@@ -202,7 +204,11 @@ exports.onDone = function() {
       }
     });
     if (isTargetTutorial) {
-      fancyAlert.TNSFancyAlert.showSuccess("Success!", "Your target apps are added. You can monitor them anytime here!", "Sweet!");
+      fancyAlert.TNSFancyAlert.showSuccess(
+      	localize('views.appsView.alerts.success.title'), 
+      	localize('views.appsView.alerts.success.message'), 
+      	localize('views.appsView.alerts.success.extra')
+      );
       var options = {
         moduleName: 'views/watchlistView/watchlistView',
         context: {
@@ -216,7 +222,11 @@ exports.onDone = function() {
       frame.topmost().goBack();
     }
   } else {
-    fancyAlert.TNSFancyAlert.showError("Uh Oh!", "Please select at least one app to monitor!", "Okay");
+    fancyAlert.TNSFancyAlert.showError(
+    		localize('views.appsView.alerts.error.title'), 
+    		localize('views.appsView.alerts.error.messge'), 
+    		"Okay"
+    	);
   }
 
 };

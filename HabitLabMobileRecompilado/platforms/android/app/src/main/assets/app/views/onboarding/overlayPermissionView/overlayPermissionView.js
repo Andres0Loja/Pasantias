@@ -6,26 +6,31 @@ var page;
 const application = require("application");
 const fromObject = require("data/observable").fromObject;
 
+const localize = require("nativescript-localize");
 
 exports.pageLoaded = function(args) {
   page = args.object
   source = fromObject({
-    button_text: "Give Overlay Permission",
-    text_field : "Many nudges require us to draw on top of other applications. To allow nudges to work, please enable the overlay permission.",
+    button_text: localize("views.onboarding.overlayPermissionView.button1"),
+    text_field : localize("views.onboarding.overlayPermissionView.text"),
     done: "visible"
   })
   page.bindingContext = source
   StorageUtil.addLogEvents([{category: "navigation", index: "overlayPermissionView"}])
   if (!PermissionUtil.checkSystemOverlayPermission()) {
-    fancyAlert.TNSFancyAlert.showInfo("Let us nudge you!", "Some of our nudges need to be able to show you alerts while you are in other apps. Please enable the overlay permission for us.", "Got it!");
+    fancyAlert.TNSFancyAlert.showInfo(
+    	localize("views.onboarding.overlayPermissionView.alert.title"), 
+    	localize("views.onboarding.overlayPermissionView.alert.message"), 
+    	localize("views.onboarding.overlayPermissionView.alert.extra")
+    );
   } else if (frame.topmost() == page) {
     frame.topmost().navigate({
       moduleName: 'views/onboarding/accessibilityPermissionView/accessibilityPermissionView',
     });
   } else {
     //Set button text to move on:
-    source.set("button_text", "Move On")
-    source.set("text_field",  "Awesome! You enabled the overlay permission!")
+    source.set("button_text", localize("views.onboarding.overlayPermissionView.moveOn.button"))
+    source.set("text_field",  localize("views.onboarding.overlayPermissionView.moveOn.text"))
     source.set("done", "hidden")
   }
   

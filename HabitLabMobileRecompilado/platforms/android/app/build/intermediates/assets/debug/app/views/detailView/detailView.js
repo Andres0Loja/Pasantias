@@ -12,9 +12,15 @@ var mainSwitch;
 var events;
 var id;
 
+const localize = require("nativescript-localize");
+
 exports.toggleDrawer = function() {
   if (!StorageUtil.isTutorialComplete()) {
-    fancyAlert.TNSFancyAlert.showError("Almost there!", "Finish up the tutorial to begin exploring the app!", "Got It!");
+    fancyAlert.TNSFancyAlert.showError(
+    		localize('views.detailView.alerts.error.title'), 
+    		localize('views.detailView.alerts.error.message'), 
+    		localize('views.detailView.alerts.error.extra')
+    	);
   } else {
     events.push({category: "navigation", index: "menu"});
     drawer.toggleDrawerState();
@@ -93,8 +99,13 @@ exports.pageLoaded = function(args) {
     permissionUtil.launchAccessibilityServiceIntent();
   };
   if (!permissionUtil.checkAccessibilityPermission()) {
-    FancyAlert.show(FancyAlert.type.INFO, "Oops!", "Looks like our accessibility service was stopped, please re-enable to allow our nudges to work!",
-        "Take me there!", cb);
+    FancyAlert.show(
+    		FancyAlert.type.INFO, 
+    		localize('views.detailView.alerts.info.title'), 
+    		localize('views.detailView.alerts.info.message'),
+        	localize('views.detailView.alerts.info.extra'), 
+        	cb
+    );
   }
 };
 

@@ -12,6 +12,8 @@ var toToggle;
 var pkgs;
 const fromObject = require("data/observable").fromObject;
 
+const localize = require("nativescript-localize");
+
 exports.gridUnloaded = function(args) {
   args.object.removeChildren();
 };
@@ -21,7 +23,7 @@ exports.pageLoaded = function(args) {
   source = fromObject({
     progress_value: 0,
     progress_visibility: "visible",
-    prompt_text: "Loading Applications...",
+    prompt_text: localize("views.onboarding.watchlistOnboardingView.promptText1"),
     done_visibility: "collapsed"
   })
   page.bindingContext = source
@@ -59,7 +61,7 @@ var createGrid = function() {
     grid.addChild(createCell(list[i], Math.floor(i/3), i%3));
   });
   source.set("progress_visibility", "collapsed")
-  source.set("prompt_text", "Which apps would you like to spend less time on?")
+  source.set("prompt_text", localize("views.onboarding.watchlistOnboardingView.promptText2"))
   source.set("done_visibility", "visible")
 };
 
@@ -111,6 +113,9 @@ exports.onDone = function() {
     });
     frame.topmost().navigate('views/onboarding/nudgesOnboardingView/nudgesOnboardingView');  
   } else {
-    fancyAlert.TNSFancyAlert.showError("Uh Oh!", "Please select at least one app to monitor!", "Okay");
+    fancyAlert.TNSFancyAlert.showError(
+    		localize("views.onboarding.watchlistOnboardingView.alert.title"), 
+    		localize("views.onboarding.watchlistOnboardingView.alert.message"), 
+    		"Okay");
   }
 };

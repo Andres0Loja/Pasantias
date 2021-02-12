@@ -5,7 +5,7 @@
 
   <ActionBar class="action-bar">
     <ActionBar.titleView>
-      <Label text="Apps" horizontalAlignment="center" class="action-bar-title" />
+      <Label text="{{ L('views.watchlistView.title') }}" horizontalAlignment="center" class="action-bar-title" />
     </ActionBar.titleView>
     <NavigationButton tap="toggleDrawer" icon="res://ic_hamburger" />
   </ActionBar>
@@ -19,7 +19,7 @@
       <TabView androidSelectedTabHighlightColor="#FFA730" selectedIndexChanged="onIndexChange" id="tabView">
         <TabView.items>
 
-          <TabViewItem title="Watchlist">
+          <TabViewItem title="{{ L('views.watchlistView.watchlist.title') }}">
             <TabViewItem.view>
               <StackLayout>
               <ListView items="{{watchlist}}" separatorColor="#FFFFFF" itemTap="onItemTap" height="90%">
@@ -31,12 +31,12 @@
                   </GridLayout>
                 </ListView.itemTemplate>
               </ListView>
-             <Button text="Manage Watchlist" tap="onManageWatchlist" id="manage" class="manage-button"/>
+             <Button text="{{ L('views.watchlistView.watchlist.button') }}" tap="onManageWatchlist" id="manage" class="manage-button"/>
            </StackLayout>
           </TabViewItem.view>
           </TabViewItem>
 
-        <TabViewItem title="Targets">
+        <TabViewItem title="{{ L('views.watchlistView.targets.title') }}">
           <TabViewItem.view>
             <StackLayout>
               <ListView  id="targetList" items="{{target}}" separatorColor="#FFFFFF" height="90%">
@@ -48,11 +48,11 @@
                   </GridLayout>
                 </ListView.itemTemplate>
               </ListView>
-              <Label text="You have not selected any target apps! Tap manage targets to select some." class="none-selected-msg" visibility="collapse" id="noneSelectedMessage" textWrap="true" verticalAlignment="center" />
-             <Button text="Manage Targets" tap="onManageTargets" id="manageTargets" class="manage-button"/>
-             <Label text="HabitLab will help you redirect your attention to more productive apps" class="tutorial-header" id="tutorialHeader" visibility="collapse" textWrap="true" verticalAlignment="center" />
+              <Label text="{{ L('views.watchlistView.targets.text1') }}" class="none-selected-msg" visibility="collapse" id="noneSelectedMessage" textWrap="true" verticalAlignment="center" />
+             <Button text="{{ L('views.watchlistView.watchlist.button') }}" tap="onManageTargets" id="manageTargets" class="manage-button"/>
+             <Label text="{{ L('views.watchlistView.targets.text2') }}" class="tutorial-header" id="tutorialHeader" visibility="collapse" textWrap="true" verticalAlignment="center" />
              <Image id="tutorial-image" src="~/images/target_shot.png" visibility="collapse" verticalAlignment="center" />
-             <Button text="Next" id="nextTutorial" tap="goNextTutorial" visibility="collapse"/>
+             <Button text="{{ L('views.watchlistView.targets.button') }}" id="nextTutorial" tap="goNextTutorial" visibility="collapse"/>
            </StackLayout>
          </TabViewItem.view>
         </TabViewItem>

@@ -3,13 +3,16 @@ var StorageUtil = require("~/util/StorageUtil");
 var PermissionUtil = require("~/util/PermissionUtil");
 var frameModule = require("ui/frame");
 var fancyAlert = require('nativescript-fancyalert');
+var observable = require("data/observable");
 var page;
 var nameField;
 
+const localize = require("nativescript-localize");
 
 exports.pageLoaded = function(args) {
 
 	page = args.object;
+	page.bindingContext = new observable.Observable();
 	nameField = page.getViewById("name");
 	nameField.text = StorageUtil.getName() || "";
 
@@ -52,10 +55,13 @@ exports.pageLoaded = function(args) {
 exports.checkNameNextPage = function(args) {
 	var name = nameField.text;
 	if (name === "") {
-	  fancyAlert.TNSFancyAlert.showError("Not so fast!", "Please enter your name to continue", "OK");
+	  fancyAlert.TNSFancyAlert.showError(
+	  	localize("views.onboarding.nameView.alert.title"), 
+	  	localize("views.onboarding.nameView.alert.message"), 
+	  	"OK");
 	} else {
 		StorageUtil.setName(name.trim());
-		frameModule.topmost().navigate('views/onboarding/askForEmailView/askForEmailView');
-		//frameModule.topmost().navigate('views/onboarding/watchlistOnboardingView/watchlistOnboardingView');
+		//frameModule.topmost().navigate('views/onboarding/askForEmailView/askForEmailView');
+		frameModule.topmost().navigate('views/onboarding/watchlistOnboardingView/watchlistOnboardingView');
 	}
 };

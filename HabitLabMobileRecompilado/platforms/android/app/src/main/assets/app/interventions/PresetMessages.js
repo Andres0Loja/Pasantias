@@ -1,14 +1,16 @@
+const localize = require("nativescript-localize");
+
 module.exports = [
     {
-        message: 'Come On!',
+        message: localize("interventions.presets.message1"),
         type: 'message',
         level: 'content',
     }, {
-        message: 'Oh no!',
+        message: localize("interventions.presets.message2"),
         type: 'message',
         level: 'content',
     }, {
-        message: 'I should leave!',
+        message: localize("interventions.presets.message3"),
         type: 'message',
         level: 'content',
     }

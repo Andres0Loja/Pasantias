@@ -10,6 +10,8 @@ var events;
 var page;
 var pageData;
 
+const localize = require("nativescript-localize");
+
 exports.toggleDrawer = function() {
     events.push({category: "navigation", index: "menu"});
 	drawer.toggleDrawerState();
@@ -35,10 +37,10 @@ var editName = function () {
  	
 
 	var alert = new android.app.AlertDialog.Builder(application.android.foregroundActivity);
-    alert.setTitle("Change Your Name");
-    alert.setMessage("What would you like us to call you?");
-    alert.setPositiveButton("Change Name", onClickListener);
-    alert.setNegativeButton("Cancel", null);
+    alert.setTitle(localize("views.settingsView.alerts.setName.title"));
+    alert.setMessage(localize("views.settingsView.alerts.setName.message"));
+    alert.setPositiveButton(localize("views.settingsView.alerts.setName.okButton"), onClickListener);
+    alert.setNegativeButton(localize("views.settingsView.alerts.setName.cancelButton"), null);
     alert.setView(layout);
     var dialog = alert.show();
 
@@ -49,9 +51,9 @@ var editName = function () {
                 events.push({category: "features", index: "editname_changed"});
 	    		StorageUtil.setName(newName);
 	    		dialog.dismiss();
-                Toast.makeText("Name changed to " + newName).show();
+                Toast.makeText(localize("views.settingsView.alerts.setName.success") + newName).show();
 	    	} else {
-	    		Toast.makeText("Please enter your name").show();
+	    		Toast.makeText(localize("views.settingsView.alerts.setName.error")).show();
 	    	} 	
 	    }
 	});
@@ -68,7 +70,7 @@ exports.startAccessibilityService = function() {
     if (!permission.checkAccessibilityPermission()) {
         permission.launchAccessibilityServiceIntent();
     } else {
-        Toast.makeText("Already enabled").show();
+        Toast.makeText(localize("views.settingsView.permission")).show();
     }
 }
 
@@ -111,10 +113,10 @@ var goToFeedback = function() {
 var eraseData = function() {
     events.push({category: "features", index: "erase_data"});
 	var alert = new android.app.AlertDialog.Builder(application.android.foregroundActivity);
-    alert.setTitle("Destroy All Data?");
-    alert.setMessage("HabitLab will lose track of all your progress! Would you still like to continue?");
-    alert.setPositiveButton("Delete", onClickListener);
-    alert.setNegativeButton("Cancel", null);
+    alert.setTitle(localize("views.settingsView.alerts.eraseData.title"));
+    alert.setMessage(localize("views.settingsView.alerts.eraseData.message"));
+    alert.setPositiveButton(localize("views.settingsView.alerts.eraseData.okButton"), onClickListener);
+    alert.setNegativeButton(localize("views.settingsView.alerts.eraseData.cancelButton"), null);
     var dialog = alert.show();
 
     var onClickListener = new android.view.View.OnClickListener({
@@ -122,7 +124,7 @@ var eraseData = function() {
             events.push({category: "features", index: "erase_data_confirm"});
 	    	StorageUtil.setUpDB(true);
 	    	dialog.dismiss();
-            Toast.makeText("Data Erased").show();
+            Toast.makeText(localize("views.settingsView.alerts.eraseData.success")).show();
 	    }
 	});
 
@@ -141,30 +143,30 @@ exports.pageLoaded = function(args) {
     pageData = new observable.Observable();
     page.bindingContext = pageData;
     var settings = [{
-        title: 'Edit Name',
-        subtitle: 'Set your preferred name',
+        title: localize("views.settingsView.settings.editName.title"),
+        subtitle: localize("views.settingsView.settings.editName.subtitle"),
         icon: 'res://ic_account',
         onTap: editName
     }, {
-        title: 'Active Hours',
-        subtitle: 'Set when HabitLab can nudge you',
+        title: localize("views.settingsView.settings.activateHours.title"),
+        subtitle: localize("views.settingsView.settings.activateHours.subtitle"),
         icon: 'res://ic_alarm',
         hasArrow: true,
         onTap: setHours
     }, {
-        title: 'Feedback',
-        subtitle: 'Tell us what you think about HabitLab',
+        title: localize("views.settingsView.settings.feedback.title"),
+        subtitle: localize("views.settingsView.settings.feedback.subtitle"),
         icon: 'res://ic_feedback',
         hasArrow: true,
         onTap: goToFeedback
     }, {
-        title: 'FAQ',
+        title: localize("views.settingsView.settings.faq.title"),
         subtitle: '',
         icon: 'res://ic_faq',
         hasArrow: true,
         onTap: goToFAQ
     }, {
-        title: 'Erase Data',
+        title: localize("views.settingsView.settings.eraseData.title"),
         subtitle: '',
         icon: 'res://ic_trash',
         onTap: eraseData

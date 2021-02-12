@@ -70,19 +70,20 @@ exports.getIdToken = async function() {
     // Build a GoogleSignInClient with the options specified by gso.
     var mGoogleSignInClient = GoogleSignIn.getClient(application.android.context.getApplicationContext(), gso)
     var task = await mGoogleSignInClient.silentSignIn()
-    if (StorageUtil.isSignedIn()) {
+    if (!StorageUtil.isSignedIn()) {
         moveOn()
-    } else if (task.isSuccessful()) {
-        StorageUtil.addLogEvents([{category: "sucessfully signed in", index: "askForEmailView"}])
-        moveOn()
+    }//Comentar aqui para deshabilitar uso de Google Sign 
+    //else if (task.isSuccessful()) {
+    //    StorageUtil.addLogEvents([{category: "sucessfully signed in", index: "askForEmailView"}])
+    //    moveOn()
         //Cool! We can just get the id.
-        return task.getResult().getIdToken()
-    } else {
+    //    return task.getResult().getIdToken()
+    //} else {
         // We need to have the user sign in.
-        var signInIntent = mGoogleSignInClient.getSignInIntent()
-        application.android.foregroundActivity.startActivityForResult(signInIntent, RC_SIGN_IN)
-        return undefined
-    }
+    //    var signInIntent = mGoogleSignInClient.getSignInIntent()
+    //    application.android.foregroundActivity.startActivityForResult(signInIntent, RC_SIGN_IN)
+    //    return undefined
+    //}
 }
 
 moveOn = function () {

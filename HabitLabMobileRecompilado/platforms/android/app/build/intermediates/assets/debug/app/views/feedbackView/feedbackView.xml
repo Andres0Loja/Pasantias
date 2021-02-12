@@ -5,7 +5,7 @@
 
   <ActionBar class="action-bar">
     <ActionBar.titleView>
-      <Label text="Feedback" horizontalAlignment="center" class="action-bar-title" />
+      <Label text="{{ L('views.feedbackView.title') }}" horizontalAlignment="center" class="action-bar-title" />
     </ActionBar.titleView>
     <NavigationButton tap="toggleDrawer" icon="res://ic_hamburger" />
   </ActionBar>
@@ -18,13 +18,13 @@
 
     <sd:RadSideDrawer.mainContent horizontalAlignment="center">
       <StackLayout orientation="vertical" >
-        <Label text="Help us improve" class="contact-header" />
-        <Button text="Send Us Feedback" tap="goToSurvey" class="contact-button"/>
-        <Button text="Email Us" tap="composeEmail" class="contact-button"/>
+        <Label text="{{ L('views.feedbackView.text1') }}" class="contact-header" />
+        <Button text="{{ L('views.feedbackView.text2') }}" tap="goToSurvey" class="contact-button"/>
+        <Button text="{{ L('views.feedbackView.text3') }}" tap="composeEmail" class="contact-button"/>
 
-        <Label text="Learn more about HabitLab" class="contact-header" textWrap="true" />
-        <Button text="Visit the Chrome extension" tap="goToChromeExtension" class="contact-button"/>
-        <Button text="Visit the GitHub Wiki" tap="goToGitHubWiki" class="contact-button"/>
+        <Label text="{{ L('views.feedbackView.text4') }}" class="contact-header" textWrap="true" />
+        <Button text="{{ L('views.feedbackView.text5') }}" tap="goToChromeExtension" class="contact-button"/>
+        <Button text="{{ L('views.feedbackView.text6') }}" tap="goToGitHubWiki" class="contact-button"/>
       </StackLayout>
     </sd:RadSideDrawer.mainContent>
 

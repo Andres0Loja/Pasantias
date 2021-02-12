@@ -5,7 +5,7 @@
 
   <ActionBar class="action-bar">
     <ActionBar.titleView>
-      <Label text="Nudges" horizontalAlignment="center" class="action-bar-title" />
+      <Label text="{{ L('views.interventionsView.title') }}" horizontalAlignment="center" class="action-bar-title" />
     </ActionBar.titleView>
     <NavigationButton tap="toggleDrawer" icon="res://ic_hamburger" />
     <ActionItem id="search-icon" tap="onShowSearch" icon="res://ic_search" tap="onShowSearch"/>
@@ -18,7 +18,7 @@
 
    	<sd:RadSideDrawer.mainContent horizontalAlignment="center" >
       <StackLayout>
-        <SearchBar text="{{filter}}" hint="Search..." id="search-bar" visibility="collapse" submit="closeKeyboard"/>
+        <SearchBar text="{{filter}}" hint="{{ L('views.interventionsView.hint') }}" id="search-bar" visibility="collapse" submit="closeKeyboard"/>
         <Label text="no results" class="no-results" id="no-results" visibility="collapse" />
 
         <!-- TODO: Implement this feature: <StackLayout>
@@ -49,7 +49,7 @@
               </template>
             </ListView.itemTemplates>
           </ListView>
-          <Button id="finish" tap="goToProgress" visibility="collapse" text="finish tutorial" class="finish-tutorial-btn" />
+          <Button id="finish" tap="goToProgress" visibility="collapse" text="{{ L('views.interventionsView.button') }}" class="finish-tutorial-btn" />
         </StackLayout>
       </StackLayout>
     </sd:RadSideDrawer.mainContent>

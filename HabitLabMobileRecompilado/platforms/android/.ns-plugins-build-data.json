@@ -1,27 +1,27 @@
 {
 	"nativescript-fancyalert": {
-		"/home/wilson/Documentos/Pasantias/HabitLabMobile/node_modules/nativescript-fancyalert/platforms/android/include.gradle": "4177fc8187dc055a374e178005957f1c932606a9"
+		"/home/wilson/Documentos/Pasantias/Git/Pasantias/HabitLabMobileRecompilado/node_modules/nativescript-fancyalert/platforms/android/include.gradle": "4177fc8187dc055a374e178005957f1c932606a9"
 	},
 	"nativescript-ripple": {
-		"/home/wilson/Documentos/Pasantias/HabitLabMobile/node_modules/nativescript-ripple/platforms/android/include.gradle": "58d15b5bf553c30d572984eb61a845b27b482d1c"
+		"/home/wilson/Documentos/Pasantias/Git/Pasantias/HabitLabMobileRecompilado/node_modules/nativescript-ripple/platforms/android/include.gradle": "58d15b5bf553c30d572984eb61a845b27b482d1c"
 	},
 	"nativescript-telerik-ui": {
-		"/home/wilson/Documentos/Pasantias/HabitLabMobile/node_modules/nativescript-telerik-ui/platforms/android/Common-2017.1.719-dev-release.aar": "39053a380e7def2b84a91f5aaa4e648cec6e39f9",
-		"/home/wilson/Documentos/Pasantias/HabitLabMobile/node_modules/nativescript-telerik-ui/platforms/android/Data-2017.1.719-dev-release.aar": "838e2e0b0e927fe39887b6a4bd8d2cf7c1be4c0a",
-		"/home/wilson/Documentos/Pasantias/HabitLabMobile/node_modules/nativescript-telerik-ui/platforms/android/include.gradle": "310403eebf414780269c583447d82de90b432c4c",
-		"/home/wilson/Documentos/Pasantias/HabitLabMobile/node_modules/nativescript-telerik-ui/platforms/android/Primitives-2017.1.719-dev-release.aar": "9e90cf2af0f6dff7f79712058242ce314a43485c",
-		"/home/wilson/Documentos/Pasantias/HabitLabMobile/node_modules/nativescript-telerik-ui/platforms/android/List-2017.1.719-dev-release.aar": "603874159fb22a1b5477c76430fac80fb7697240"
+		"/home/wilson/Documentos/Pasantias/Git/Pasantias/HabitLabMobileRecompilado/node_modules/nativescript-telerik-ui/platforms/android/Common-2017.1.719-dev-release.aar": "39053a380e7def2b84a91f5aaa4e648cec6e39f9",
+		"/home/wilson/Documentos/Pasantias/Git/Pasantias/HabitLabMobileRecompilado/node_modules/nativescript-telerik-ui/platforms/android/Data-2017.1.719-dev-release.aar": "838e2e0b0e927fe39887b6a4bd8d2cf7c1be4c0a",
+		"/home/wilson/Documentos/Pasantias/Git/Pasantias/HabitLabMobileRecompilado/node_modules/nativescript-telerik-ui/platforms/android/include.gradle": "310403eebf414780269c583447d82de90b432c4c",
+		"/home/wilson/Documentos/Pasantias/Git/Pasantias/HabitLabMobileRecompilado/node_modules/nativescript-telerik-ui/platforms/android/Primitives-2017.1.719-dev-release.aar": "9e90cf2af0f6dff7f79712058242ce314a43485c",
+		"/home/wilson/Documentos/Pasantias/Git/Pasantias/HabitLabMobileRecompilado/node_modules/nativescript-telerik-ui/platforms/android/List-2017.1.719-dev-release.aar": "603874159fb22a1b5477c76430fac80fb7697240"
 	},
 	"nativescript-tooltip": {
-		"/home/wilson/Documentos/Pasantias/HabitLabMobile/node_modules/nativescript-tooltip/platforms/android/include.gradle": "8b30e903b3ae2c361bf3155cc170e53c9deb3c8b"
+		"/home/wilson/Documentos/Pasantias/Git/Pasantias/HabitLabMobileRecompilado/node_modules/nativescript-tooltip/platforms/android/include.gradle": "8b30e903b3ae2c361bf3155cc170e53c9deb3c8b"
 	},
 	"nativescript-version-number": {
-		"/home/wilson/Documentos/Pasantias/HabitLabMobile/node_modules/nativescript-version-number/platforms/android/AndroidManifest.xml": "a49c6297b29f6fca5b1b61650dae089ff2181ba0",
-		"/home/wilson/Documentos/Pasantias/HabitLabMobile/node_modules/nativescript-version-number/platforms/android/README.md": "45f2f63427be0a461a7e2dfd5ff0ad5bab64068f",
-		"/home/wilson/Documentos/Pasantias/HabitLabMobile/node_modules/nativescript-version-number/platforms/android/include.gradle": "4945565d2e438104a7124474e0975db3692b0b02",
-		"/home/wilson/Documentos/Pasantias/HabitLabMobile/node_modules/nativescript-version-number/platforms/android/nativescript_version_number.aar": "9f8e6f1632118709b4c920303c7639c4ec8e547d"
+		"/home/wilson/Documentos/Pasantias/Git/Pasantias/HabitLabMobileRecompilado/node_modules/nativescript-version-number/platforms/android/AndroidManifest.xml": "a49c6297b29f6fca5b1b61650dae089ff2181ba0",
+		"/home/wilson/Documentos/Pasantias/Git/Pasantias/HabitLabMobileRecompilado/node_modules/nativescript-version-number/platforms/android/README.md": "45f2f63427be0a461a7e2dfd5ff0ad5bab64068f",
+		"/home/wilson/Documentos/Pasantias/Git/Pasantias/HabitLabMobileRecompilado/node_modules/nativescript-version-number/platforms/android/include.gradle": "4945565d2e438104a7124474e0975db3692b0b02",
+		"/home/wilson/Documentos/Pasantias/Git/Pasantias/HabitLabMobileRecompilado/node_modules/nativescript-version-number/platforms/android/nativescript_version_number.aar": "9f8e6f1632118709b4c920303c7639c4ec8e547d"
 	},
 	"tns-core-modules-widgets": {
-		"/home/wilson/Documentos/Pasantias/HabitLabMobile/node_modules/tns-core-modules-widgets/platforms/android/widgets-release.aar": "7a062e96fe7b542638c6a6570de1531521a7307b"
+		"/home/wilson/Documentos/Pasantias/Git/Pasantias/HabitLabMobileRecompilado/node_modules/tns-core-modules-widgets/platforms/android/widgets-release.aar": "7a062e96fe7b542638c6a6570de1531521a7307b"
 	}
 }

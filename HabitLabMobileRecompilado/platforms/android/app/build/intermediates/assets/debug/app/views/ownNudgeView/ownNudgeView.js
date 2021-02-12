@@ -19,6 +19,8 @@ var info; // array of messages
 var images; // array of images
 //var events;
 
+const localize = require("nativescript-localize");
+
 exports.closeKeyboard = function() {
     search.dismissSoftInput();
 };
@@ -51,7 +53,7 @@ var loadMessages = function() {
     info = preSetMessages;
 
     info.push({
-        title: 'Select a Message',
+        title: localize("views.ownNudgeView.messages.load"),
         isHeader: true,
         type: 'message',
         level: 'header',
@@ -85,10 +87,10 @@ exports.onMessageTap = function(args) {
 // this will add new messages to the presetmessages file
 exports.addMessage = function() {
     dialogs.prompt({
-        title: "Add a message",
-        okButtonText: "Okay",
-        cancelButtonText: "Cancel",
-        defaultText: "Message"
+        title: localize("views.ownNudgeView.messages.title"),
+        okButtonText: "Okey",
+        cancelButtonText: localize("views.ownNudgeView.messages.cancelButton"),
+        defaultText: localize("views.ownNudgeView.messages.defaultText")
     }).then(function (r) {
         addedMessage = r.text;
         

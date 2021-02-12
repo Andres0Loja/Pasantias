@@ -8,7 +8,7 @@
 
 	<ActionBar class="action-bar">
     <ActionBar.titleView>
-      <Label text="Progress" horizontalAlignment="center" class="action-bar-title" />
+      <Label text="{{ L('views.progressView.title') }}" horizontalAlignment="center" class="action-bar-title" />
     </ActionBar.titleView>
     <NavigationButton tap="toggleDrawer" icon="res://ic_hamburger" />
 	</ActionBar>
@@ -23,12 +23,12 @@
 				<TabView.items>
 
 					<!-- DAY VIEW -->
-					<TabViewItem title="Day">
+					<TabViewItem title="{{ L('views.progressView.dayView.title') }}">
 					  <TabViewItem.view >
 					   		<StackLayout>
 
 					   			<!-- DAY VIEW GRAPH -->
-					   			<Label text="Mins on Watchlist Today" class="header" horizontalAlignment="center" tap="toggle"/>
+					   			<Label text="{{ L('views.progressView.dayView.graph.title') }}" class="header" horizontalAlignment="center" tap="toggle"/>
 					   			<Placeholder creatingView="dayView" visibility="{{ showDayGraph ? 'visible' : 'collapsed'}}" id="dayViewGraph" class="graph" tap="toggle"/>
 					   			<Image class="showMore" src="res://ic_show_more" visibility="{{ showDayGraph ? 'collapsed' : 'visible'}}" tap="toggle"/>
 
@@ -56,9 +56,9 @@
 			   			        	      <Image row="0" col="0" src="{{ icon }}" class="thumb img-rounded" />
 				        	            <StackLayout row="0" col="1" >
 			        	                <Label text="{{ name }}" class="list-group-item-heading" />
-			        	                <Label text="{{ 'Opened '+ visits + ' times' }}" class="list-group-item-text" />
+			        	                <Label text="{{ L('views.progressView.extra.opened') + ' '+ visits + ' ' + L('views.progressView.extra.times') }}" class="list-group-item-text" />
 				        	            </StackLayout>
-				        	            <Label row="0" col="2" text="{{ mins + ' mins' }}" class="list-group-item-text"/>
+				        	            <Label row="0" col="2" text="{{ mins + ' ' + L('views.progressView.extra.mins') }}" class="list-group-item-text"/>
 				        	            <Image class="settings-button-icon" src="res://ic_arrow_right" row="0" col="3"/>
 					   			        	</GridLayout>
 					   			       	</RL:Ripple>
@@ -70,12 +70,12 @@
 					</TabViewItem>
 
 					<!-- WEEK VIEW -->
-		 			<TabViewItem title="Week" >
+		 			<TabViewItem title="{{ L('views.progressView.weekView.title') }}" >
 			 			<TabViewItem.view>
 					 	<StackLayout>
 
 					 		<!-- WEEK VIEW GRAPH -->
-	 				   		<Label text="Mins on Watchlist This Week" class="header" horizontalAlignment="center" tap="toggleWeek"/>
+	 				   		<Label text="{{ L('views.progressView.weekView.graph.title') }}" class="header" horizontalAlignment="center" tap="toggleWeek"/>
 							 <Placeholder creatingView="weekView" visibility="{{ showWeekGraph ? 'visible' : 'collapsed'}}" class="graph" tap="toggleWeek"/>
 							 <Image class="showMore" src="res://ic_show_more" visibility="{{ showWeekGraph ? 'collapsed' : 'visible'}}" tap="toggleWeek"/>
 
@@ -103,13 +103,13 @@
 	   			        	        		<Image row="0" col="0" src="{{ image }}" class="thumb img-rounded" />
 	   			        	        		<StackLayout row="0" col="1" >
 		        	                			<Label text="{{ name }}" class="list-group-item-heading"/>
-		        	                			<Label text="{{ 'Avg min/day:  ' + avgMins }}" class="list-group-item-text" />
+		        	                			<Label text="{{ L('views.progressView.extra.avgMins') + ': ' + avgMins }}" class="list-group-item-text" />
 	   			        	        		</StackLayout>
 				        	          		<StackLayout row="0" col="2" >
 			        	            			<Label text="{{ percChange }}" class="percChange" horizontalAlignment="center"/>
 			        	            			<Label text="{{ percDesc }}" class="small-text" />
 	   			        	        		</StackLayout>
-	   			        	        		<Label row="0" col="3" text="{{ totalMins + ' mins'}}" class="list-group-item-text" horizontalAlignment="center"/>
+	   			        	        		<Label row="0" col="3" text="{{ totalMins + ' ' + L('views.progressView.extra.mins') }}" class="list-group-item-text" horizontalAlignment="center"/>
 	   			        	        		<Image class="settings-button-icon" src="res://ic_arrow_right" row="0" col="4"/>
 			   			        		</GridLayout>
 			   			        	</RL:Ripple>
@@ -121,12 +121,12 @@
 				  </TabViewItem>
 
 					<!-- MONTH VIEW -->
-					<TabViewItem title="Month">
+					<TabViewItem title="{{ L('views.progressView.monthView.title') }}">
 						<TabViewItem.view>
 						    <StackLayout>
 
 						    	<!-- MONTH VIEW GRAPH -->
-	 				   			<Label text="Mins on Watchlist This Month" class="header" horizontalAlignment="center" tap="toggleMonth"/>
+	 				   			<Label text="{{ L('views.progressView.monthView.graph.title') }}" class="header" horizontalAlignment="center" tap="toggleMonth"/>
 								<Placeholder creatingView="monthView" visibility="{{ showMonthGraph ? 'visible' : 'collapsed'}}" class="graph" tap="toggleMonth"/>
 								<Image class="showMore" src="res://ic_show_more" visibility="{{ showMonthGraph ? 'collapsed' : 'visible'}}" tap="toggleMonth"/>
 
@@ -154,9 +154,9 @@
 			        	            		<Image row="0" col="0" src="{{ image }}" class="thumb img-rounded" />
 			        	            		<StackLayout row="0" col="1" >
 				        	                	<Label text="{{ name }}" class="list-group-item-heading" />
-				        	                	<Label text="{{ 'Avg min/day:  ' + avgMins }}" class="list-group-item-text" />
+				        	                	<Label text="{{ L('views.progressView.extra.avgMins') + ': ' + avgMins }}" class="list-group-item-text" />
 					        	            </StackLayout>
-		 			        	        	<Label row="0" col="2" text="{{ totalMins + ' mins'}}" class="list-group-item-text" horizontalAlignment="center"/>
+		 			        	        	<Label row="0" col="2" text="{{ totalMins + ' ' + L('views.progressView.extra.mins') }}" class="list-group-item-text" horizontalAlignment="center"/>
 		 			        	        	<Image class="settings-button-icon" src="res://ic_arrow_right" row="0" col="3"/>
 				   			        	</GridLayout>
 			   			        	</RL:Ripple>

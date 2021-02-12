@@ -5,7 +5,7 @@
 
   <ActionBar class="action-bar">
     <ActionBar.titleView>
-      <Label text="Nudge Details" horizontalAlignment="center" class="action-bar-title" />
+      <Label text="{{ L('views.detailView.title') }}" horizontalAlignment="center" class="action-bar-title" />
     </ActionBar.titleView>
     <NavigationButton tap="toggleDrawer" icon="res://ic_hamburger" />
   </ActionBar>
@@ -20,12 +20,12 @@
         <Label class="detail-label-title" text="{{name}}" />
         <Label class="detail-label-description" text="{{description}}" textWrap="true" />
         <FlexboxLayout orientation="horizontal" class="level-layout">
-          <Label text="Level: " class="detail-label" />
+          <Label text="{{ L('views.detailView.level') + ': ' }}" class="detail-label" />
           <Label className="{{'detail-label ' + level}}" text="{{levelLabel}}" />
         </FlexboxLayout>
-        <Button class="try-me-button" text="Show Me a Demo" tap="onButtonTap"/>
+        <Button class="try-me-button" text="{{ L('views.detailView.demo') }}" tap="onButtonTap"/>
         <FlexboxLayout orientation="horizontal" className="{{target === 'phone' ? 'level-layout' : 'disable-layout'}}">
-          <Label text="{{enabled ? 'Nudge Enabled' : 'Nudge Disabled'}}" class="detail-label small" />
+          <Label text="{{enabled ? L('views.detailView.enabled.true') : L('views.detailView.enabled.false')}}" class="detail-label small" />
           <Switch id="main-toggle" checked="{{enabled}}" tap="onMainToggle" />
         </FlexboxLayout>
 

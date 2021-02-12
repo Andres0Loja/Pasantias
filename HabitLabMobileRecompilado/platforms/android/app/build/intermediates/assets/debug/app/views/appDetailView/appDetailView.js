@@ -59,6 +59,8 @@ var goalChanged;
 var open;
 var number;
 
+const localize = require("nativescript-localize");
+
 var getGoal = function(txt, add) {
     txt = txt + ""
   var num = txt.replace(/[^0-9]/g, '') || 0;
@@ -88,6 +90,7 @@ exports.pageNavigating = function(args) {
 };
 
 exports.pageLoaded = function(args) {
+  page.bindingContext = new observable.Observable();
   events = [{category: 'page_visits', index: 'watchlist_detail'}];
   drawer = page.getViewById('sideDrawer');
   container = page.getViewById("slides");
@@ -174,15 +177,15 @@ var createItem = function(enabled, id, first)  {
   item.id = 'intervention' + id;
   item.className = 'app-detail-grid';
   var button = item.getViewById('button');
-  button.text = 'DISABLE ALL';
+  button.text = localize('views.appDetailView.button');
   button.className = 'app-detail-disable-button';
   button.on('tap', function() {
     events.push({category: 'features', index: 'watchlist_detail_disable_all'});
     dialogs.confirm({
-      title: "Disable this Nudge?",
-      message: "This means the nudge will no longer show up for any apps.",
-      okButtonText: "Disable",
-      cancelButtonText: "Cancel"
+      title: localize('views.appDetailView.dialog.title'),
+      message: localize('views.appDetailView.dialog.message'),
+      okButtonText: localize('views.appDetailView.dialog.okButton'),
+      cancelButtonText: localize('views.appDetailView.dialog.cancelButton')
     }).then(function (result) {
       if (result) {
         StorageUtil.disableForAll(id);

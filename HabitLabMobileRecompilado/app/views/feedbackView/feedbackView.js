@@ -5,12 +5,17 @@ var Uri = android.net.Uri;
 var StorageUtil = require('~/util/StorageUtil');
 var http = require('http');
 var FancyAlert = require("~/util/FancyAlert");
+var observable = require("data/observable");
 
-
+var page;
 var drawer;
 var events;
 
+const localize = require("nativescript-localize");
+
 exports.pageLoaded = function(args) {
+  page = args.object;
+  page.bindingContext = new observable.Observable()
   events = [{category: "page_visits", index: "settings_feedback"}];
   drawer = args.object.getViewById('sideDrawer');
 };
@@ -29,10 +34,10 @@ exports.goToSurvey = function() {
   var dialogs = require("ui/dialogs");
   // inputType property can be dialogs.inputType.password, dialogs.inputType.text, or dialogs.inputType.email.
   dialogs.prompt({
-    title: "Submit Feedback.",
-    message: "Help us make HabitLab better! What could we improve on?",
-    okButtonText: "Submit",
-    cancelButtonText: "Cancel",
+    title: localize('views.feedbackView.dialog.title'),
+    message: localize('views.feedbackView.dialog.message'),
+    okButtonText: localize('views.feedbackView.dialog.okButton'),
+    cancelButtonText: localize('views.feedbackView.dialog.cancelButton'),
     defaultText: "",
     inputType: dialogs.inputType.text
   }).then(function (r) {
@@ -44,12 +49,20 @@ exports.goToSurvey = function() {
         content: JSON.stringify({feedback: r.text, userid: StorageUtil.getUserID(),
                                 timestamp: Date.now()})
       })
-      FancyAlert.show(FancyAlert.type.SUCCESS, "Thanks!", "We received your feedback!"
-      + " Thank you for taking the time to write to us.", "OK")
+      FancyAlert.show(
+      	FancyAlert.type.SUCCESS, 
+      	localize('views.feedbackView.alerts.success.title'), 
+      	localize('views.feedbackView.alerts.success.message'),
+      	"OK"
+      )
     }
   }).catch(function (r) {
-    FancyAlert.show(FancyAlert.type.WARNING, "Error.", "Unfortunately, there was an error in submitting"
-   + " your feedback. You could alternatively email us.", "OK")
+    FancyAlert.show(
+    		FancyAlert.type.WARNING, 
+    		localize('views.feedbackView.alerts.warning.title'), 
+      	localize('views.feedbackView.alerts.warning.message'),
+    		"OK"
+    )
   });
 
 };

@@ -16,9 +16,11 @@ var phoneList;
 var appsList;
 var targetsList;
 
+const localize = require("nativescript-localize");
+
 exports.onInfo = function(args) {
   events.push({category: 'features', index: 'tooltips'});
-  const tip = new ToolTip(args.object, {text:"The number of times you check your phone's lock screen", width: 0.43*SCREEN_WIDTH, style: 'CustomToolTipLayoutStyle'});
+  const tip = new ToolTip(args.object, {text:localize('views.goalsView.tooltip'), width: 0.43*SCREEN_WIDTH, style: 'CustomToolTipLayoutStyle'});
   tip.show();
   setTimeout(function() {
     tip.hide();
@@ -28,9 +30,21 @@ exports.onInfo = function(args) {
 var initializePhoneList = function() {
   var goals = StorageUtil.getPhoneGoals();
   var phoneGoals = [];
+  var auxKey = ''
   Object.keys(goals).forEach(function (key) {
+  	switch(key) {
+  		case 'glances':
+  			auxKey = localize('views.goalsView.extras.glances');
+  			break;
+  		case 'unlocks':
+  			auxKey = localize('views.goalsView.extras.unlocks');
+  			break;
+  		case 'minutes':
+  			auxKey = localize('views.goalsView.extras.minutes');
+  			break;
+  	}
     phoneGoals.push({
-      name: key,
+      name: auxKey,
       value: goals[key]
     });
   });
@@ -125,8 +139,13 @@ exports.pageLoaded = function(args) {
   targetsList = page.getViewById('targets-list');
   initializeLists();
 
-  if (!pageData.get('tutorialFinished')) {
-    FancyAlert.show(FancyAlert.type.SUCCESS, "Great!", "Set some goals! Or not - you can come back here anytime by clicking on Goals in the menu", "Awesome!"); 
+  if (!pageData.get('tutorialFinished')) {//localize('views.goalsView.tooltip')
+    FancyAlert.show(
+    		FancyAlert.type.SUCCESS, 
+    		localize('views.goalsView.alerts.success.title'), 
+    		localize('views.goalsView.alerts.success.message'), 
+    		localize('views.goalsView.alerts.success.extra')
+    ); 
   }
 };
 
@@ -135,9 +154,21 @@ exports.onIndexChanged = function(args) {
   if (args.newIndex === 2) {
     if (!StorageUtil.isTargetOn()) {
       if (!StorageUtil.isTutorialComplete()) {
-        TargetOverlay.showIntroDialog("Targets are Locked", "Continue using HabitLab to unlock Targets.", "Ok", redirect, redirect);
+        TargetOverlay.showIntroDialog(
+        		localize('views.goalsView.dialog1.title'), 
+        		localize('views.goalsView.dialog1.message'), 
+        		"Ok", 
+        		redirect, 
+        		redirect
+        );
       } else {
-        TargetOverlay.showIntroDialog("Targets are Locked", "Choose target apps you'd rather spend time on to start building positive habits.", "Ok!", redirectToWatchlist, redirect);
+        TargetOverlay.showIntroDialog(
+        		localize('views.goalsView.dialog2.title'), 
+        		localize('views.goalsView.dialog2.message'), 
+        		"Ok!", 
+        		redirectToWatchlist, 
+        		redirect
+       );
       }
     }
   }
@@ -187,7 +218,11 @@ exports.pageUnloaded = function(args) {
 
 exports.toggleDrawer = function() {
   if (!StorageUtil.isTutorialComplete()) {
-    fancyAlert.TNSFancyAlert.showError("Complete Tutorial First", "Click done to continue with the tutorial, then you'll be ready to start exploring!", "Got It!");
+    fancyAlert.TNSFancyAlert.showError(
+    		localize('views.goalsView.alerts.error.title'), 
+    		localize('views.goalsView.alerts.error.message'), 
+    		localize('views.goalsView.alerts.error.extra')
+    );
   } else {
     events.push({category: "navigation", index: "menu"});
     drawer.toggleDrawerState();

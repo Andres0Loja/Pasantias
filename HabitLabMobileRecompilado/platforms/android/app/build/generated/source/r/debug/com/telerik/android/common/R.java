@@ -19,7 +19,7 @@ public final class R {
         public static final int trial_message = 0x7f0a004d;
     }
     public static final class string {
-        public static final int trial_message = 0x7f0c003f;
-        public static final int trial_message_caption = 0x7f0c0040;
+        public static final int trial_message = 0x7f0c0f02;
+        public static final int trial_message_caption = 0x7f0c0f03;
     }
 }

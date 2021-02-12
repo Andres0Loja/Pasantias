@@ -1,6538 +1,6540 @@
+const localize = require("nativescript-localize");
+
 module.exports = [
     {
         "quoteAuthor": "Thomas Edison",
-        "quoteText": "Genius is one percent inspiration and ninety-nine percent perspiration."
+        "quoteText": localize("interventions.quotes.0.quoteText")
     },
     {
         "quoteAuthor": "Yogi Berra",
-        "quoteText": "You can observe a lot just by watching."
+        "quoteText": localize("interventions.quotes.1.quoteText")
     },
     {
         "quoteAuthor": "Abraham Lincoln",
-        "quoteText": "A house divided against itself cannot stand."
+        "quoteText": localize("interventions.quotes.2.quoteText")
     },
     {
         "quoteAuthor": "Johann Wolfgang von Goethe",
-        "quoteText": "Difficulties increase the nearer we get to the goal."
+        "quoteText": localize("interventions.quotes.3.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Fate is in your hands and no one elses"
+        "quoteText": localize("interventions.quotes.4.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "Be the chief but never the lord."
+        "quoteText": localize("interventions.quotes.5.quoteText")
     },
     {
         "quoteAuthor": "Carl Sandburg",
-        "quoteText": "Nothing happens unless first we dream."
+        "quoteText": localize("interventions.quotes.6.quoteText")
     },
     {
         "quoteAuthor": "Aristotle",
-        "quoteText": "Well begun is half done."
+        "quoteText": localize("interventions.quotes.7.quoteText")
     },
     {
         "quoteAuthor": "Yogi Berra",
-        "quoteText": "Life is a learning experience, only if you learn."
+        "quoteText": localize("interventions.quotes.8.quoteText")
     },
     {
         "quoteAuthor": "Margaret Sangster",
-        "quoteText": "Self-complacency is fatal to progress."
+        "quoteText": localize("interventions.quotes.9.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "Peace comes from within. Do not seek it without."
+        "quoteText": localize("interventions.quotes.10.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "What you give is what you get."
+        "quoteText": localize("interventions.quotes.11.quoteText")
     },
     {
         "quoteAuthor": "Iris Murdoch",
-        "quoteText": "We can only learn to love by loving."
+        "quoteText": localize("interventions.quotes.12.quoteText")
     },
     {
         "quoteAuthor": "Karen Clark",
-        "quoteText": "Life is change. Growth is optional. Choose wisely."
+        "quoteText": localize("interventions.quotes.13.quoteText")
     },
     {
         "quoteAuthor": "Wayne Dyer",
-        "quoteText": "You'll see it when you believe it."
+        "quoteText": localize("interventions.quotes.14.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Today is the tomorrow we worried about yesterday."
+        "quoteText": localize("interventions.quotes.15.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "It's easier to see the mistakes on someone else's paper."
+        "quoteText": localize("interventions.quotes.16.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Every man dies. Not every man really lives."
+        "quoteText": localize("interventions.quotes.17.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "To lead people walk behind them."
+        "quoteText": localize("interventions.quotes.18.quoteText")
     },
     {
         "quoteAuthor": "William Shakespeare",
-        "quoteText": "Having nothing, nothing can he lose."
+        "quoteText": localize("interventions.quotes.19.quoteText")
     },
     {
         "quoteAuthor": "Henry J. Kaiser",
-        "quoteText": "Trouble is only opportunity in work clothes."
+        "quoteText": localize("interventions.quotes.20.quoteText")
     },
     {
         "quoteAuthor": "Publilius Syrus",
-        "quoteText": "A rolling stone gathers no moss."
+        "quoteText": localize("interventions.quotes.21.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Hill",
-        "quoteText": "Ideas are the beginning points of all fortunes."
+        "quoteText": localize("interventions.quotes.22.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "Doing nothing is better than being busy doing nothing."
+        "quoteText": localize("interventions.quotes.23.quoteText")
     },
     {
         "quoteAuthor": "Benjamin Spock",
-        "quoteText": "Trust yourself. You know more than you think you do."
+        "quoteText": localize("interventions.quotes.24.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "Study the past, if you would divine the future."
+        "quoteText": localize("interventions.quotes.25.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "The day is already blessed, find peace within it."
+        "quoteText": localize("interventions.quotes.26.quoteText")
     },
     {
         "quoteAuthor": "Sigmund Freud",
-        "quoteText": "From error to error one discovers the entire truth."
+        "quoteText": localize("interventions.quotes.27.quoteText")
     },
     {
         "quoteAuthor": "Benjamin Franklin",
-        "quoteText": "Well done is better than well said."
+        "quoteText": localize("interventions.quotes.28.quoteText")
     },
     {
         "quoteAuthor": "Ella Williams",
-        "quoteText": "Bite off more than you can chew, then chew it."
+        "quoteText": localize("interventions.quotes.29.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "Work out your own salvation. Do not depend on others."
+        "quoteText": localize("interventions.quotes.30.quoteText")
     },
     {
         "quoteAuthor": "Benjamin Franklin",
-        "quoteText": "One today is worth two tomorrows."
+        "quoteText": localize("interventions.quotes.31.quoteText")
     },
     {
         "quoteAuthor": "Christopher Reeve",
-        "quoteText": "Once you choose hope, anythings possible."
+        "quoteText": localize("interventions.quotes.32.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "God always takes the simplest way."
+        "quoteText": localize("interventions.quotes.33.quoteText")
     },
     {
         "quoteAuthor": "Charles Kettering",
-        "quoteText": "One fails forward toward success."
+        "quoteText": localize("interventions.quotes.34.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "From small beginnings come great things."
+        "quoteText": localize("interventions.quotes.35.quoteText")
     },
     {
         "quoteAuthor": "Chinese proverb",
-        "quoteText": "Learning is a treasure that will follow its owner everywhere"
+        "quoteText": localize("interventions.quotes.36.quoteText")
     },
     {
         "quoteAuthor": "Socrates",
-        "quoteText": "Be as you wish to seem."
+        "quoteText": localize("interventions.quotes.37.quoteText")
     },
     {
         "quoteAuthor": "V. Naipaul",
-        "quoteText": "The world is always in movement."
+        "quoteText": localize("interventions.quotes.38.quoteText")
     },
     {
         "quoteAuthor": "John Wooden",
-        "quoteText": "Never mistake activity for achievement."
+        "quoteText": localize("interventions.quotes.39.quoteText")
     },
     {
         "quoteAuthor": "Haddon Robinson",
-        "quoteText": "What worries you masters you."
+        "quoteText": localize("interventions.quotes.40.quoteText")
     },
     {
         "quoteAuthor": "Pearl Buck",
-        "quoteText": "One faces the future with ones past."
+        "quoteText": localize("interventions.quotes.41.quoteText")
     },
     {
         "quoteAuthor": "Brian Tracy",
-        "quoteText": "Goals are the fuel in the furnace of achievement."
+        "quoteText": localize("interventions.quotes.42.quoteText")
     },
     {
         "quoteAuthor": "Leonardo da Vinci",
-        "quoteText": "Who sows virtue reaps honour."
+        "quoteText": localize("interventions.quotes.43.quoteText")
     },
     {
         "quoteAuthor": "Dalai Lama",
-        "quoteText": "Be kind whenever possible. It is always possible."
+        "quoteText": localize("interventions.quotes.44.quoteText")
     },
     {
         "quoteAuthor": "Chinese proverb",
-        "quoteText": "Talk doesn't cook rice."
+        "quoteText": localize("interventions.quotes.45.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "He is able who thinks he is able."
+        "quoteText": localize("interventions.quotes.46.quoteText")
     },
     {
         "quoteAuthor": "Larry Elder",
-        "quoteText": "A goal without a plan is just a wish."
+        "quoteText": localize("interventions.quotes.47.quoteText")
     },
     {
         "quoteAuthor": "Michael Korda",
-        "quoteText": "To succeed, we must first believe that we can."
+        "quoteText": localize("interventions.quotes.48.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "Learn from yesterday, live for today, hope for tomorrow."
+        "quoteText": localize("interventions.quotes.49.quoteText")
     },
     {
         "quoteAuthor": "James Lowell",
-        "quoteText": "A weed is no more than a flower in disguise."
+        "quoteText": localize("interventions.quotes.50.quoteText")
     },
     {
         "quoteAuthor": "Yoda",
-        "quoteText": "Do, or do not. There is no try."
+        "quoteText": localize("interventions.quotes.51.quoteText")
     },
     {
         "quoteAuthor": "Harriet Beecher Stowe",
-        "quoteText": "All serious daring starts from within."
+        "quoteText": localize("interventions.quotes.52.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "The best teacher is experience learned from failures."
+        "quoteText": localize("interventions.quotes.53.quoteText")
     },
     {
         "quoteAuthor": "Murray Gell-Mann",
-        "quoteText": "Think how hard physics would be if particles could think."
+        "quoteText": localize("interventions.quotes.54.quoteText")
     },
     {
         "quoteAuthor": "John Lennon",
-        "quoteText": "Love is the flower you've got to let grow."
+        "quoteText": localize("interventions.quotes.55.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Hill",
-        "quoteText": "Don't wait. The time will never be just right."
+        "quoteText": localize("interventions.quotes.56.quoteText")
     },
     {
         "quoteAuthor": "Pericles",
-        "quoteText": "Time is the wisest counsellor of all."
+        "quoteText": localize("interventions.quotes.57.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Hill",
-        "quoteText": "You give before you get."
+        "quoteText": localize("interventions.quotes.58.quoteText")
     },
     {
         "quoteAuthor": "Socrates",
-        "quoteText": "Wisdom begins in wonder."
+        "quoteText": localize("interventions.quotes.59.quoteText")
     },
     {
         "quoteAuthor": "Baltasar Gracian",
-        "quoteText": "Without courage, wisdom bears no fruit."
+        "quoteText": localize("interventions.quotes.60.quoteText")
     },
     {
         "quoteAuthor": "Aristotle",
-        "quoteText": "Change in all things is sweet."
+        "quoteText": localize("interventions.quotes.61.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "What you fear is that which requires action to overcome."
+        "quoteText": localize("interventions.quotes.62.quoteText")
     },
     {
         "quoteAuthor": "Cullen Hightower",
-        "quoteText": "When performance exceeds ambition, the overlap is called success."
+        "quoteText": localize("interventions.quotes.63.quoteText")
     },
     {
         "quoteAuthor": "African proverb",
-        "quoteText": "When deeds speak, words are nothing."
+        "quoteText": localize("interventions.quotes.64.quoteText")
     },
     {
         "quoteAuthor": "Wayne Dyer",
-        "quoteText": "Real magic in relationships means an absence of judgement of others."
+        "quoteText": localize("interventions.quotes.65.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "I never think of the future. It comes soon enough."
+        "quoteText": localize("interventions.quotes.66.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "Skill to do comes of doing."
+        "quoteText": localize("interventions.quotes.67.quoteText")
     },
     {
         "quoteAuthor": "Sophocles",
-        "quoteText": "Wisdom is the supreme part of happiness."
+        "quoteText": localize("interventions.quotes.68.quoteText")
     },
     {
         "quoteAuthor": "Maya Angelou",
-        "quoteText": "I believe that every person is born with talent."
+        "quoteText": localize("interventions.quotes.69.quoteText")
     },
     {
         "quoteAuthor": "Abraham Lincoln",
-        "quoteText": "Important principles may, and must, be inflexible."
+        "quoteText": localize("interventions.quotes.70.quoteText")
     },
     {
         "quoteAuthor": "Richard Evans",
-        "quoteText": "The undertaking of a new action brings new strength."
+        "quoteText": localize("interventions.quotes.71.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "The years teach much which the days never know."
+        "quoteText": localize("interventions.quotes.72.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "Our distrust is very expensive."
+        "quoteText": localize("interventions.quotes.73.quoteText")
     },
     {
         "quoteAuthor": "Bodhidharma",
-        "quoteText": "All know the way; few actually walk it."
+        "quoteText": localize("interventions.quotes.74.quoteText")
     },
     {
         "quoteAuthor": "Johann Wolfgang von Goethe",
-        "quoteText": "Great talent finds happiness in execution."
+        "quoteText": localize("interventions.quotes.75.quoteText")
     },
     {
         "quoteAuthor": "Michelangelo",
-        "quoteText": "Faith in oneself is the best and safest course."
+        "quoteText": localize("interventions.quotes.76.quoteText")
     },
     {
         "quoteAuthor": "Winston Churchill",
-        "quoteText": "Courage is going from failure to failure without losing enthusiasm."
+        "quoteText": localize("interventions.quotes.77.quoteText")
     },
     {
         "quoteAuthor": "Leo Tolstoy",
-        "quoteText": "The two most powerful warriors are patience and time."
+        "quoteText": localize("interventions.quotes.78.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "Anticipate the difficult by managing the easy."
+        "quoteText": localize("interventions.quotes.79.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "Those who are free of resentful thoughts surely find peace."
+        "quoteText": localize("interventions.quotes.80.quoteText")
     },
     {
         "quoteAuthor": "Sophocles",
-        "quoteText": "A short saying often contains much wisdom."
+        "quoteText": localize("interventions.quotes.81.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "It takes both sunshine and rain to make a rainbow."
+        "quoteText": localize("interventions.quotes.82.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "A beautiful thing is never perfect."
+        "quoteText": localize("interventions.quotes.83.quoteText")
     },
     {
         "quoteAuthor": "Princess Diana",
-        "quoteText": "Only do what your heart tells you."
+        "quoteText": localize("interventions.quotes.84.quoteText")
     },
     {
         "quoteAuthor": "John Pierrakos",
-        "quoteText": "Life is movement-we breathe, we eat, we walk, we move!"
+        "quoteText": localize("interventions.quotes.85.quoteText")
     },
     {
         "quoteAuthor": "Eleanor Roosevelt",
-        "quoteText": "No one can make you feel inferior without your consent."
+        "quoteText": localize("interventions.quotes.86.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "Argue for your limitations, and sure enough theyre yours."
+        "quoteText": localize("interventions.quotes.87.quoteText")
     },
     {
         "quoteAuthor": "Seneca",
-        "quoteText": "Luck is what happens when preparation meets opportunity."
+        "quoteText": localize("interventions.quotes.88.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Bonaparte",
-        "quoteText": "Victory belongs to the most persevering."
+        "quoteText": localize("interventions.quotes.89.quoteText")
     },
     {
         "quoteAuthor": "William Shakespeare",
-        "quoteText": "Love all, trust a few, do wrong to none."
+        "quoteText": localize("interventions.quotes.90.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "In order to win, you must expect to win."
+        "quoteText": localize("interventions.quotes.91.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Hill",
-        "quoteText": "A goal is a dream with a deadline."
+        "quoteText": localize("interventions.quotes.92.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Hill",
-        "quoteText": "You can do it if you believe you can!"
+        "quoteText": localize("interventions.quotes.93.quoteText")
     },
     {
         "quoteAuthor": "Bo Jackson",
-        "quoteText": "Set your goals high, and don't stop till you get there."
+        "quoteText": localize("interventions.quotes.94.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Every new day is another chance to change your life."
+        "quoteText": localize("interventions.quotes.95.quoteText")
     },
     {
         "quoteAuthor": "Thich Nhat Hanh",
-        "quoteText": "Smile, breathe, and go slowly."
+        "quoteText": localize("interventions.quotes.96.quoteText")
     },
     {
         "quoteAuthor": "Liberace",
-        "quoteText": "Nobody will believe in you unless you believe in yourself."
+        "quoteText": localize("interventions.quotes.97.quoteText")
     },
     {
         "quoteAuthor": "William Arthur Ward",
-        "quoteText": "Do more than dream: work."
+        "quoteText": localize("interventions.quotes.98.quoteText")
     },
     {
         "quoteAuthor": "Seneca",
-        "quoteText": "No man was ever wise by chance."
+        "quoteText": localize("interventions.quotes.99.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Some pursue happiness, others create it."
+        "quoteText": localize("interventions.quotes.100.quoteText")
     },
     {
         "quoteAuthor": "William Shakespeare",
-        "quoteText": "He that is giddy thinks the world turns round."
+        "quoteText": localize("interventions.quotes.101.quoteText")
     },
     {
         "quoteAuthor": "Ellen Gilchrist",
-        "quoteText": "Don't ruin the present with the ruined past."
+        "quoteText": localize("interventions.quotes.102.quoteText")
     },
     {
         "quoteAuthor": "Albert Schweitzer",
-        "quoteText": "Do something wonderful, people may imitate it."
+        "quoteText": localize("interventions.quotes.103.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "We do what we do because we believe."
+        "quoteText": localize("interventions.quotes.104.quoteText")
     },
     {
         "quoteAuthor": "Eleanor Roosevelt",
-        "quoteText": "Do one thing every day that scares you."
+        "quoteText": localize("interventions.quotes.105.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "If you cannot be silent be brilliant and thoughtful."
+        "quoteText": localize("interventions.quotes.106.quoteText")
     },
     {
         "quoteAuthor": "Carl Jung",
-        "quoteText": "Who looks outside, dreams; who looks inside, awakes."
+        "quoteText": localize("interventions.quotes.107.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "What we think, we become."
+        "quoteText": localize("interventions.quotes.108.quoteText")
     },
     {
         "quoteAuthor": "Lord Herbert",
-        "quoteText": "The shortest answer is doing."
+        "quoteText": localize("interventions.quotes.109.quoteText")
     },
     {
         "quoteAuthor": "Leonardo da Vinci",
-        "quoteText": "All our knowledge has its origins in our perceptions."
+        "quoteText": localize("interventions.quotes.110.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "The harder you fall, the higher you bounce."
+        "quoteText": localize("interventions.quotes.111.quoteText")
     },
     {
         "quoteAuthor": "Anne Wilson Schaef",
-        "quoteText": "Trusting our intuition often saves us from disaster."
+        "quoteText": localize("interventions.quotes.112.quoteText")
     },
     {
         "quoteAuthor": "Sojourner Truth",
-        "quoteText": "Truth is powerful and it prevails."
+        "quoteText": localize("interventions.quotes.113.quoteText")
     },
     {
         "quoteAuthor": "Elizabeth Browning",
-        "quoteText": "Light tomorrow with today!"
+        "quoteText": localize("interventions.quotes.114.quoteText")
     },
     {
         "quoteAuthor": "German proverb",
-        "quoteText": "Silence is a fence around wisdom."
+        "quoteText": localize("interventions.quotes.115.quoteText")
     },
     {
         "quoteAuthor": "Madame de Stael",
-        "quoteText": "Society develops wit, but its contemplation alone forms genius."
+        "quoteText": localize("interventions.quotes.116.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "The simplest things are often the truest."
+        "quoteText": localize("interventions.quotes.117.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Everyone smiles in the same language."
+        "quoteText": localize("interventions.quotes.118.quoteText")
     },
     {
         "quoteAuthor": "Bernadette Devlin",
-        "quoteText": "Yesterday I dared to struggle. Today I dare to win."
+        "quoteText": localize("interventions.quotes.119.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Hill",
-        "quoteText": "No alibi will save you from accepting the responsibility."
+        "quoteText": localize("interventions.quotes.120.quoteText")
     },
     {
         "quoteAuthor": "Walt Disney",
-        "quoteText": "If you can dream it, you can do it."
+        "quoteText": localize("interventions.quotes.121.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "It is better to travel well than to arrive."
+        "quoteText": localize("interventions.quotes.122.quoteText")
     },
     {
         "quoteAuthor": "Anais Nin",
-        "quoteText": "Life shrinks or expands in proportion to one's courage."
+        "quoteText": localize("interventions.quotes.123.quoteText")
     },
     {
         "quoteAuthor": "Sun Tzu",
-        "quoteText": "You have to believe in yourself."
+        "quoteText": localize("interventions.quotes.124.quoteText")
     },
     {
         "quoteAuthor": "Wayne Dyer",
-        "quoteText": "Our intention creates our reality."
+        "quoteText": localize("interventions.quotes.125.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "Silence is a true friend who never betrays."
+        "quoteText": localize("interventions.quotes.126.quoteText")
     },
     {
         "quoteAuthor": "Johann Wolfgang von Goethe",
-        "quoteText": "Character develops itself in the stream of life."
+        "quoteText": localize("interventions.quotes.127.quoteText")
     },
     {
         "quoteAuthor": "American proverb",
-        "quoteText": "From little acorns mighty oaks do grow."
+        "quoteText": localize("interventions.quotes.128.quoteText")
     },
     {
         "quoteAuthor": "Jon Kabat-Zinn",
-        "quoteText": "You can't stop the waves, but you can learn to surf."
+        "quoteText": localize("interventions.quotes.129.quoteText")
     },
     {
         "quoteAuthor": "Gustave Flaubert",
-        "quoteText": "Reality does not conform to the ideal, but confirms it."
+        "quoteText": localize("interventions.quotes.130.quoteText")
     },
     {
         "quoteAuthor": "William Shakespeare",
-        "quoteText": "Speak low, if you speak love."
+        "quoteText": localize("interventions.quotes.131.quoteText")
     },
     {
         "quoteAuthor": "Johann Wolfgang von Goethe",
-        "quoteText": "A really great talent finds its happiness in execution."
+        "quoteText": localize("interventions.quotes.132.quoteText")
     },
     {
         "quoteAuthor": "John Lennon",
-        "quoteText": "Reality leaves a lot to the imagination."
+        "quoteText": localize("interventions.quotes.133.quoteText")
     },
     {
         "quoteAuthor": "Seneca",
-        "quoteText": "The greatest remedy for anger is delay."
+        "quoteText": localize("interventions.quotes.134.quoteText")
     },
     {
         "quoteAuthor": "Pearl Buck",
-        "quoteText": "Growth itself contains the germ of happiness."
+        "quoteText": localize("interventions.quotes.135.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "You can do what's reasonable or you can decide what's possible."
+        "quoteText": localize("interventions.quotes.136.quoteText")
     },
     {
         "quoteAuthor": "Leonardo da Vinci",
-        "quoteText": "Nothing strengthens authority so much as silence."
+        "quoteText": localize("interventions.quotes.137.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "Wherever you go, go with all your heart."
+        "quoteText": localize("interventions.quotes.138.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "The only real valuable thing is intuition."
+        "quoteText": localize("interventions.quotes.139.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "Good luck is another name for tenacity of purpose."
+        "quoteText": localize("interventions.quotes.140.quoteText")
     },
     {
         "quoteAuthor": "Sylvia Voirol",
-        "quoteText": "Rainbows apologize for angry skies."
+        "quoteText": localize("interventions.quotes.141.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Friendship isn't a big thing. It's a million little things."
+        "quoteText": localize("interventions.quotes.142.quoteText")
     },
     {
         "quoteAuthor": "Theophrastus",
-        "quoteText": "Time is the most valuable thing a man can spend."
+        "quoteText": localize("interventions.quotes.143.quoteText")
     },
     {
         "quoteAuthor": "Tony Robbins",
-        "quoteText": "Whatever happens, take responsibility."
+        "quoteText": localize("interventions.quotes.144.quoteText")
     },
     {
         "quoteAuthor": "Oscar Wilde",
-        "quoteText": "Experience is simply the name we give our mistakes."
+        "quoteText": localize("interventions.quotes.145.quoteText")
     },
     {
         "quoteAuthor": "Wayne Dyer",
-        "quoteText": "I think and that is all that I am."
+        "quoteText": localize("interventions.quotes.146.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "A good plan today is better than a perfect plan tomorrow."
+        "quoteText": localize("interventions.quotes.147.quoteText")
     },
     {
         "quoteAuthor": "Gloria Steinem",
-        "quoteText": "If the shoe doesn't fit, must we change the foot?"
+        "quoteText": localize("interventions.quotes.148.quoteText")
     },
     {
         "quoteAuthor": "Marcus Aurelius",
-        "quoteText": "Each day provides its own gifts."
+        "quoteText": localize("interventions.quotes.149.quoteText")
     },
     {
         "quoteAuthor": "Publilius Syrus",
-        "quoteText": "While we stop to think, we often miss our opportunity."
+        "quoteText": localize("interventions.quotes.150.quoteText")
     },
     {
         "quoteAuthor": "Bernard Shaw",
-        "quoteText": "Life isn't about finding yourself. Life is about creating yourself."
+        "quoteText": localize("interventions.quotes.151.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "To bring anything into your life, imagine that it's already there."
+        "quoteText": localize("interventions.quotes.152.quoteText")
     },
     {
         "quoteAuthor": "German proverb",
-        "quoteText": "Begin to weave and God will give you the thread."
+        "quoteText": localize("interventions.quotes.153.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "The more you know yourself, the more you forgive yourself."
+        "quoteText": localize("interventions.quotes.154.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Someone remembers, someone cares; your name is whispered in someone's prayers."
+        "quoteText": localize("interventions.quotes.155.quoteText")
     },
     {
         "quoteAuthor": "Mary Bethune",
-        "quoteText": "Without faith, nothing is possible. With it, nothing is impossible."
+        "quoteText": localize("interventions.quotes.156.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "Once we accept our limits, we go beyond them."
+        "quoteText": localize("interventions.quotes.157.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Don't be pushed by your problems; be led by your dreams."
+        "quoteText": localize("interventions.quotes.158.quoteText")
     },
     {
         "quoteAuthor": "Brian Tracy",
-        "quoteText": "Whatever we expect with confidence becomes our own self-fulfilling prophecy."
+        "quoteText": localize("interventions.quotes.159.quoteText")
     },
     {
         "quoteAuthor": "Pablo Picasso",
-        "quoteText": "Everything you can imagine is real."
+        "quoteText": localize("interventions.quotes.160.quoteText")
     },
     {
         "quoteAuthor": "Usman Asif",
-        "quoteText": "Fear is a darkroom where negatives develop."
+        "quoteText": localize("interventions.quotes.161.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Bonaparte",
-        "quoteText": "The truest wisdom is a resolute determination."
+        "quoteText": localize("interventions.quotes.162.quoteText")
     },
     {
         "quoteAuthor": "Victor Hugo",
-        "quoteText": "Life is the flower for which love is the honey."
+        "quoteText": localize("interventions.quotes.163.quoteText")
     },
     {
         "quoteAuthor": "Epictetus",
-        "quoteText": "Freedom is the right to live as we wish."
+        "quoteText": localize("interventions.quotes.164.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Change your thoughts, change your life!"
+        "quoteText": localize("interventions.quotes.165.quoteText")
     },
     {
         "quoteAuthor": "Robert Heller",
-        "quoteText": "Never ignore a gut feeling, but never believe that it's enough."
+        "quoteText": localize("interventions.quotes.166.quoteText")
     },
     {
         "quoteAuthor": "Marcus Aurelius",
-        "quoteText": "Loss is nothing else but change,and change is Natures delight."
+        "quoteText": localize("interventions.quotes.167.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Someone is special only if you tell them."
+        "quoteText": localize("interventions.quotes.168.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Today is the tomorrow you worried about yesterday."
+        "quoteText": localize("interventions.quotes.169.quoteText")
     },
     {
         "quoteAuthor": "Thich Nhat Hanh",
-        "quoteText": "There is no way to happiness, happiness is the way."
+        "quoteText": localize("interventions.quotes.170.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "The day always looks brighter from behind a smile."
+        "quoteText": localize("interventions.quotes.171.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "A stumble may prevent a fall."
+        "quoteText": localize("interventions.quotes.172.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "He who talks more is sooner exhausted."
+        "quoteText": localize("interventions.quotes.173.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "He who is contented is rich."
+        "quoteText": localize("interventions.quotes.174.quoteText")
     },
     {
         "quoteAuthor": "Plutarch",
-        "quoteText": "What we achieve inwardly will change outer reality."
+        "quoteText": localize("interventions.quotes.175.quoteText")
     },
     {
         "quoteAuthor": "Ralph Waldo Emerson",
-        "quoteText": "Our strength grows out of our weaknesses."
+        "quoteText": localize("interventions.quotes.176.quoteText")
     },
     {
         "quoteAuthor": "Mahatma Gandhi",
-        "quoteText": "We must become the change we want to see."
+        "quoteText": localize("interventions.quotes.177.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Hill",
-        "quoteText": "Happiness is found in doing, not merely possessing."
+        "quoteText": localize("interventions.quotes.178.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Put your future in good hands : your own."
+        "quoteText": localize("interventions.quotes.179.quoteText")
     },
     {
         "quoteAuthor": "Wit",
-        "quoteText": "We choose our destiny in the way we treat others."
+        "quoteText": localize("interventions.quotes.180.quoteText")
     },
     {
         "quoteAuthor": "Voltaire",
-        "quoteText": "No snowflake in an avalanche ever feels responsible."
+        "quoteText": localize("interventions.quotes.181.quoteText")
     },
     {
         "quoteAuthor": "Virgil",
-        "quoteText": "Fortune favours the brave."
+        "quoteText": localize("interventions.quotes.182.quoteText")
     },
     {
         "quoteAuthor": "Joseph Stalin",
-        "quoteText": "I believe in one thing only, the power of human will."
+        "quoteText": localize("interventions.quotes.183.quoteText")
     },
     {
         "quoteAuthor": "Robert Frost",
-        "quoteText": "The best way out is always through."
+        "quoteText": localize("interventions.quotes.184.quoteText")
     },
     {
         "quoteAuthor": "Seneca",
-        "quoteText": "The mind unlearns with difficulty what it has long learned."
+        "quoteText": localize("interventions.quotes.185.quoteText")
     },
     {
         "quoteAuthor": "Abraham Lincoln",
-        "quoteText": "I destroy my enemies when I make them my friends."
+        "quoteText": localize("interventions.quotes.186.quoteText")
     },
     {
         "quoteAuthor": "Thomas Fuller",
-        "quoteText": "No garden is without its weeds."
+        "quoteText": localize("interventions.quotes.187.quoteText")
     },
     {
         "quoteAuthor": "Elbert Hubbard",
-        "quoteText": "There is no failure except in no longer trying."
+        "quoteText": localize("interventions.quotes.188.quoteText")
     },
     {
         "quoteAuthor": "Turkish proverb",
-        "quoteText": "Kind words will unlock an iron door."
+        "quoteText": localize("interventions.quotes.189.quoteText")
     },
     {
         "quoteAuthor": "Hugh Miller",
-        "quoteText": "Problems are only opportunities with thorns on them."
+        "quoteText": localize("interventions.quotes.190.quoteText")
     },
     {
         "quoteAuthor": "A. Powell Davies",
-        "quoteText": "Life is just a chance to grow a soul."
+        "quoteText": localize("interventions.quotes.191.quoteText")
     },
     {
         "quoteAuthor": "Johann Wolfgang von Goethe",
-        "quoteText": "Mountains cannot be surmounted except by winding paths."
+        "quoteText": localize("interventions.quotes.192.quoteText")
     },
     {
         "quoteAuthor": "Thich Nhat Hanh",
-        "quoteText": "May our hearts garden of awakening bloom with hundreds of flowers."
+        "quoteText": localize("interventions.quotes.193.quoteText")
     },
     {
         "quoteAuthor": "John Dryden",
-        "quoteText": "Fortune befriends the bold."
+        "quoteText": localize("interventions.quotes.194.quoteText")
     },
     {
         "quoteAuthor": "Friedrich von Schiller",
-        "quoteText": "Keep true to the dreams of thy youth."
+        "quoteText": localize("interventions.quotes.195.quoteText")
     },
     {
         "quoteAuthor": "Mike Ditka",
-        "quoteText": "You're never a loser until you quit trying."
+        "quoteText": localize("interventions.quotes.196.quoteText")
     },
     {
         "quoteAuthor": "Immanuel Kant",
-        "quoteText": "Science is organized knowledge. Wisdom is organized life."
+        "quoteText": localize("interventions.quotes.197.quoteText")
     },
     {
         "quoteAuthor": "Johann Wolfgang von Goethe",
-        "quoteText": "Knowing is not enough; we must apply!"
+        "quoteText": localize("interventions.quotes.198.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "Strong beliefs win strong men, and then make them stronger."
+        "quoteText": localize("interventions.quotes.199.quoteText")
     },
     {
         "quoteAuthor": "Albert Camus",
-        "quoteText": "Autumn is a second spring when every leaf is a flower."
+        "quoteText": localize("interventions.quotes.200.quoteText")
     },
     {
         "quoteAuthor": "Toni Morrison",
-        "quoteText": "If you surrender to the wind, you can ride it."
+        "quoteText": localize("interventions.quotes.201.quoteText")
     },
     {
         "quoteAuthor": "Helen Keller",
-        "quoteText": "Keep yourself to the sunshine and you cannot see the shadow."
+        "quoteText": localize("interventions.quotes.202.quoteText")
     },
     {
         "quoteAuthor": "Paulo Coelho",
-        "quoteText": "Write your plans in pencil and give God the eraser."
+        "quoteText": localize("interventions.quotes.203.quoteText")
     },
     {
         "quoteAuthor": "Pablo Picasso",
-        "quoteText": "Inspiration exists, but it has to find us working."
+        "quoteText": localize("interventions.quotes.204.quoteText")
     },
     {
         "quoteAuthor": "Jonathan Kozol",
-        "quoteText": "Pick battles big enough to matter, small enough to win."
+        "quoteText": localize("interventions.quotes.205.quoteText")
     },
     {
         "quoteAuthor": "Janis Joplin",
-        "quoteText": "Don't compromise yourself. You are all you've got."
+        "quoteText": localize("interventions.quotes.206.quoteText")
     },
     {
         "quoteAuthor": "Sophocles",
-        "quoteText": "A short saying oft contains much wisdom."
+        "quoteText": localize("interventions.quotes.207.quoteText")
     },
     {
         "quoteAuthor": "Epictetus",
-        "quoteText": "Difficulties are things that show a person what they are."
+        "quoteText": localize("interventions.quotes.208.quoteText")
     },
     {
         "quoteAuthor": "Honore de Balzac",
-        "quoteText": "When you doubt your power, you give power to your doubt."
+        "quoteText": localize("interventions.quotes.209.quoteText")
     },
     {
         "quoteAuthor": "Ovid",
-        "quoteText": "The cause is hidden. The effect is visible to all."
+        "quoteText": localize("interventions.quotes.210.quoteText")
     },
     {
         "quoteAuthor": "Francis Bacon",
-        "quoteText": "A prudent question is one half of wisdom."
+        "quoteText": localize("interventions.quotes.211.quoteText")
     },
     {
         "quoteAuthor": "Tony Robbins",
-        "quoteText": "The path to success is to take massive, determined action."
+        "quoteText": localize("interventions.quotes.212.quoteText")
     },
     {
         "quoteAuthor": "Manuel Puig",
-        "quoteText": "I allow my intuition to lead my path."
+        "quoteText": localize("interventions.quotes.213.quoteText")
     },
     {
         "quoteAuthor": "William R. Inge",
-        "quoteText": "Nature takes away any faculty that is not used."
+        "quoteText": localize("interventions.quotes.214.quoteText")
     },
     {
         "quoteAuthor": "Epictetus",
-        "quoteText": "If you wish to be a writer, write."
+        "quoteText": localize("interventions.quotes.215.quoteText")
     },
     {
         "quoteAuthor": "Wayne Dyer",
-        "quoteText": "There is no way to prosperity, prosperity is the way."
+        "quoteText": localize("interventions.quotes.216.quoteText")
     },
     {
         "quoteAuthor": "Jim Rohn",
-        "quoteText": "Either you run the day or the day runs you."
+        "quoteText": localize("interventions.quotes.217.quoteText")
     },
     {
         "quoteAuthor": "Publilius Syrus",
-        "quoteText": "Better be ignorant of a matter than half know it."
+        "quoteText": localize("interventions.quotes.218.quoteText")
     },
     {
         "quoteAuthor": "Oprah Winfrey",
-        "quoteText": "Follow your instincts. That is where true wisdom manifests itself."
+        "quoteText": localize("interventions.quotes.219.quoteText")
     },
     {
         "quoteAuthor": "Benjamin Franklin",
-        "quoteText": "There never was a good knife made of bad steel."
+        "quoteText": localize("interventions.quotes.220.quoteText")
     },
     {
         "quoteAuthor": "Anatole France",
-        "quoteText": "To accomplish great things, we must dream as well as act."
+        "quoteText": localize("interventions.quotes.221.quoteText")
     },
     {
         "quoteAuthor": "Saint Augustine",
-        "quoteText": "Patience is the companion of wisdom."
+        "quoteText": localize("interventions.quotes.222.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "The mind is everything. What you think you become."
+        "quoteText": localize("interventions.quotes.223.quoteText")
     },
     {
         "quoteAuthor": "Voltaire",
-        "quoteText": "To enjoy life, we must touch much of it lightly."
+        "quoteText": localize("interventions.quotes.224.quoteText")
     },
     {
         "quoteAuthor": "Maya Lin",
-        "quoteText": "To fly, we have to have resistance."
+        "quoteText": localize("interventions.quotes.225.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "What you see depends on what you're looking for."
+        "quoteText": localize("interventions.quotes.226.quoteText")
     },
     {
         "quoteAuthor": "Blaise Pascal",
-        "quoteText": "The heart has its reasons which reason knows not of."
+        "quoteText": localize("interventions.quotes.227.quoteText")
     },
     {
         "quoteAuthor": "William Shakespeare",
-        "quoteText": "Be great in act, as you have been in thought."
+        "quoteText": localize("interventions.quotes.228.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Bonaparte",
-        "quoteText": "Imagination rules the world."
+        "quoteText": localize("interventions.quotes.229.quoteText")
     },
     {
         "quoteAuthor": "Blaise Pascal",
-        "quoteText": "Kind words do not cost much. Yet they accomplish much."
+        "quoteText": localize("interventions.quotes.230.quoteText")
     },
     {
         "quoteAuthor": "Michelangelo",
-        "quoteText": "There is no greater harm than that of time wasted."
+        "quoteText": localize("interventions.quotes.231.quoteText")
     },
     {
         "quoteAuthor": "Jonas Salk",
-        "quoteText": "Intuition will tell the thinking mind where to look next."
+        "quoteText": localize("interventions.quotes.232.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Worry gives a small thing a big shadow."
+        "quoteText": localize("interventions.quotes.233.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Hill",
-        "quoteText": "Fears are nothing more than a state of mind."
+        "quoteText": localize("interventions.quotes.234.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "The journey of a thousand miles begins with one step."
+        "quoteText": localize("interventions.quotes.235.quoteText")
     },
     {
         "quoteAuthor": "Peter Drucker",
-        "quoteText": "Efficiency is doing things right; effectiveness is doing the right things."
+        "quoteText": localize("interventions.quotes.236.quoteText")
     },
     {
         "quoteAuthor": "Luisa Sigea",
-        "quoteText": "Blaze with the fire that is never extinguished."
+        "quoteText": localize("interventions.quotes.237.quoteText")
     },
     {
         "quoteAuthor": "Dr. Seuss",
-        "quoteText": "Don't cry because it's over. Smile because it happened."
+        "quoteText": localize("interventions.quotes.238.quoteText")
     },
     {
         "quoteAuthor": "Jason Fried",
-        "quoteText": "No is easier to do. Yes is easier to say."
+        "quoteText": localize("interventions.quotes.239.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "To be wrong is nothing unless you continue to remember it."
+        "quoteText": localize("interventions.quotes.240.quoteText")
     },
     {
         "quoteAuthor": "Babe Ruth",
-        "quoteText": "Yesterdays home runs don't win today's games."
+        "quoteText": localize("interventions.quotes.241.quoteText")
     },
     {
         "quoteAuthor": "Carlyle",
-        "quoteText": "Silence is deep as Eternity, Speech is shallow as Time."
+        "quoteText": localize("interventions.quotes.242.quoteText")
     },
     {
         "quoteAuthor": "Leo F. Buscaglia",
-        "quoteText": "Don't smother each other. No one can grow in the shade."
+        "quoteText": localize("interventions.quotes.243.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "An ant on the move does more than a dozing ox"
+        "quoteText": localize("interventions.quotes.244.quoteText")
     },
     {
         "quoteAuthor": "Indira Gandhi",
-        "quoteText": "You can't shake hands with a clenched fist."
+        "quoteText": localize("interventions.quotes.245.quoteText")
     },
     {
         "quoteAuthor": "Plato",
-        "quoteText": "A good decision is based on knowledge and not on numbers."
+        "quoteText": localize("interventions.quotes.246.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "The cautious seldom err."
+        "quoteText": localize("interventions.quotes.247.quoteText")
     },
     {
         "quoteAuthor": "Frederick Douglass",
-        "quoteText": "If there is no struggle, there is no progress."
+        "quoteText": localize("interventions.quotes.248.quoteText")
     },
     {
         "quoteAuthor": "Willa Cather",
-        "quoteText": "Where there is great love, there are always miracles."
+        "quoteText": localize("interventions.quotes.249.quoteText")
     },
     {
         "quoteAuthor": "John Lennon",
-        "quoteText": "Time you enjoy wasting, was not wasted."
+        "quoteText": localize("interventions.quotes.250.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "Every problem has a gift for you in its hands."
+        "quoteText": localize("interventions.quotes.251.quoteText")
     },
     {
         "quoteAuthor": "Jean de la Fontaine",
-        "quoteText": "Sadness flies away on the wings of time."
+        "quoteText": localize("interventions.quotes.252.quoteText")
     },
     {
         "quoteAuthor": "Publilius Syrus",
-        "quoteText": "I have often regretted my speech, never my silence."
+        "quoteText": localize("interventions.quotes.253.quoteText")
     },
     {
         "quoteAuthor": "Thomas Jefferson",
-        "quoteText": "Never put off till tomorrow what you can do today."
+        "quoteText": localize("interventions.quotes.254.quoteText")
     },
     {
         "quoteAuthor": "Thomas Dewar",
-        "quoteText": "Minds are like parachutes. They only function when open."
+        "quoteText": localize("interventions.quotes.255.quoteText")
     },
     {
         "quoteAuthor": "George Patton",
-        "quoteText": "If a man does his best, what else is there?"
+        "quoteText": localize("interventions.quotes.256.quoteText")
     },
     {
         "quoteAuthor": "Benjamin Disraeli",
-        "quoteText": "The secret of success is constancy to purpose."
+        "quoteText": localize("interventions.quotes.257.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "Life is a progress, and not a station."
+        "quoteText": localize("interventions.quotes.258.quoteText")
     },
     {
         "quoteAuthor": "Horace Friess",
-        "quoteText": "All seasons are beautiful for the person who carries happiness within."
+        "quoteText": localize("interventions.quotes.259.quoteText")
     },
     {
         "quoteAuthor": "Elbert Hubbard",
-        "quoteText": "To avoid criticism, do nothing, say nothing, be nothing."
+        "quoteText": localize("interventions.quotes.260.quoteText")
     },
     {
         "quoteAuthor": "Ovid",
-        "quoteText": "All things change; nothing perishes."
+        "quoteText": localize("interventions.quotes.261.quoteText")
     },
     {
         "quoteAuthor": "Haynes Bayly",
-        "quoteText": "Absence makes the heart grow fonder."
+        "quoteText": localize("interventions.quotes.262.quoteText")
     },
     {
         "quoteAuthor": "Lauren Bacall",
-        "quoteText": "Imagination is the highest kite one can fly."
+        "quoteText": localize("interventions.quotes.263.quoteText")
     },
     {
         "quoteAuthor": "Frank Herbert",
-        "quoteText": "The beginning of knowledge is the discovery of something we do not understand."
+        "quoteText": localize("interventions.quotes.264.quoteText")
     },
     {
         "quoteAuthor": "Elizabeth Browning",
-        "quoteText": "Love doesn't make the world go round, love is what makes the ride worthwhile."
+        "quoteText": localize("interventions.quotes.265.quoteText")
     },
     {
         "quoteAuthor": "Arthur Conan Doyle",
-        "quoteText": "Whenever you have eliminated the impossible, whatever remains, however improbable, must be the truth."
+        "quoteText": localize("interventions.quotes.266.quoteText")
     },
     {
         "quoteAuthor": "J. Willard Marriott",
-        "quoteText": "Good timber does not grow with ease; the stronger the wind, the stronger the trees."
+        "quoteText": localize("interventions.quotes.267.quoteText")
     },
     {
         "quoteAuthor": "Dalai Lama",
-        "quoteText": "I believe that we are fundamentally the same and have the same basic potential."
+        "quoteText": localize("interventions.quotes.268.quoteText")
     },
     {
         "quoteAuthor": "Edward Gibbon",
-        "quoteText": "The winds and waves are always on the side of the ablest navigators."
+        "quoteText": localize("interventions.quotes.269.quoteText")
     },
     {
         "quoteAuthor": "Eleanor Roosevelt",
-        "quoteText": "The future belongs to those who believe in the beauty of their dreams."
+        "quoteText": localize("interventions.quotes.270.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "To get something you never had, you have to do something you never did."
+        "quoteText": localize("interventions.quotes.271.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Be thankful when you don't know something for it gives you the opportunity to learn."
+        "quoteText": localize("interventions.quotes.272.quoteText")
     },
     {
         "quoteAuthor": "Mahatma Gandhi",
-        "quoteText": "Strength does not come from physical capacity. It comes from an indomitable will."
+        "quoteText": localize("interventions.quotes.273.quoteText")
     },
     {
         "quoteAuthor": "Og Mandino",
-        "quoteText": "Each misfortune you encounter will carry in it the seed of tomorrows good luck."
+        "quoteText": localize("interventions.quotes.274.quoteText")
     },
     {
         "quoteAuthor": "Lewis B. Smedes",
-        "quoteText": "To forgive is to set a prisoner free and realize that prisoner was you."
+        "quoteText": localize("interventions.quotes.275.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "In separateness lies the world's great misery, in compassion lies the world's true strength."
+        "quoteText": localize("interventions.quotes.276.quoteText")
     },
     {
         "quoteAuthor": "Nikos Kazantzakis",
-        "quoteText": "By believing passionately in something that does not yet exist, we create it."
+        "quoteText": localize("interventions.quotes.277.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Letting go isn't the end of the world; it's the beginning of a new life."
+        "quoteText": localize("interventions.quotes.278.quoteText")
     },
     {
         "quoteAuthor": "John Eliot",
-        "quoteText": "All the great performers I have worked with are fuelled by a personal dream."
+        "quoteText": localize("interventions.quotes.279.quoteText")
     },
     {
         "quoteAuthor": "A. A. Milne",
-        "quoteText": "One of the advantages of being disorderly is that one is constantly making exciting discoveries."
+        "quoteText": localize("interventions.quotes.280.quoteText")
     },
     {
         "quoteAuthor": "Marie Curie",
-        "quoteText": "I never see what has been done; I only see what remains to be done."
+        "quoteText": localize("interventions.quotes.281.quoteText")
     },
     {
         "quoteAuthor": "Seneca",
-        "quoteText": "Begin at once to live and count each separate day as a separate life."
+        "quoteText": localize("interventions.quotes.282.quoteText")
     },
     {
         "quoteAuthor": "Lawrence Peter",
-        "quoteText": "If you don't know where you are going, you will probably end up somewhere else."
+        "quoteText": localize("interventions.quotes.283.quoteText")
     },
     {
         "quoteAuthor": "Hannah More",
-        "quoteText": "It is not so important to know everything as to appreciate what we learn."
+        "quoteText": localize("interventions.quotes.284.quoteText")
     },
     {
         "quoteAuthor": "John Berry",
-        "quoteText": "The bird of paradise alights only upon the hand that does not grasp."
+        "quoteText": localize("interventions.quotes.285.quoteText")
     },
     {
         "quoteAuthor": "William Yeats",
-        "quoteText": "Think as a wise man but communicate in the language of the people."
+        "quoteText": localize("interventions.quotes.286.quoteText")
     },
     {
         "quoteAuthor": "Epictetus",
-        "quoteText": "Practice yourself, for heavens sake in little things, and then proceed to greater."
+        "quoteText": localize("interventions.quotes.287.quoteText")
     },
     {
         "quoteAuthor": "Seneca",
-        "quoteText": "If one does not know to which port is sailing, no wind is favorable."
+        "quoteText": localize("interventions.quotes.288.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Our greatest glory is not in never failing but rising everytime we fall."
+        "quoteText": localize("interventions.quotes.289.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Being right is highly overrated. Even a stopped clock is right twice a day."
+        "quoteText": localize("interventions.quotes.290.quoteText")
     },
     {
         "quoteAuthor": "Ken S. Keyes",
-        "quoteText": "To be upset over what you don't have is to waste what you do have."
+        "quoteText": localize("interventions.quotes.291.quoteText")
     },
     {
         "quoteAuthor": "Thomas Edison",
-        "quoteText": "If we did the things we are capable of, we would astound ourselves."
+        "quoteText": localize("interventions.quotes.292.quoteText")
     },
     {
         "quoteAuthor": "Marie Curie",
-        "quoteText": "Nothing in life is to be feared. It is only to be understood."
+        "quoteText": localize("interventions.quotes.293.quoteText")
     },
     {
         "quoteAuthor": "Tony Robbins",
-        "quoteText": "Successful people ask better questions, and as a result, they get better answers."
+        "quoteText": localize("interventions.quotes.294.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Love is not blind; it simply enables one to see things others fail to see."
+        "quoteText": localize("interventions.quotes.295.quoteText")
     },
     {
         "quoteAuthor": "Anne Schaef",
-        "quoteText": "Life is a process. We are a process. The universe is a process."
+        "quoteText": localize("interventions.quotes.296.quoteText")
     },
     {
         "quoteAuthor": "Eleanor Roosevelt",
-        "quoteText": "I think somehow we learn who we really are and then live with that decision."
+        "quoteText": localize("interventions.quotes.297.quoteText")
     },
     {
         "quoteAuthor": "Kenneth Patton",
-        "quoteText": "We learn what we have said from those who listen to our speaking."
+        "quoteText": localize("interventions.quotes.298.quoteText")
     },
     {
         "quoteAuthor": "Kahlil Gibran",
-        "quoteText": "A little knowledge that acts is worth infinitely more than much knowledge that is idle."
+        "quoteText": localize("interventions.quotes.299.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "If you get up one more time than you fall, you will make it through."
+        "quoteText": localize("interventions.quotes.300.quoteText")
     },
     {
         "quoteAuthor": "Flora Whittemore",
-        "quoteText": "The doors we open and close each day decide the lives we live."
+        "quoteText": localize("interventions.quotes.301.quoteText")
     },
     {
         "quoteAuthor": "H. W. Arnold",
-        "quoteText": "The worst bankrupt in the world is the person who has lost his enthusiasm."
+        "quoteText": localize("interventions.quotes.302.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "Happiness comes when your work and words are of benefit to yourself and others."
+        "quoteText": localize("interventions.quotes.303.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Don't focus on making the right decision, focus on making the decision the right one."
+        "quoteText": localize("interventions.quotes.304.quoteText")
     },
     {
         "quoteAuthor": "Wayne Dyer",
-        "quoteText": "Everything is perfect in the universe, even your desire to improve it."
+        "quoteText": localize("interventions.quotes.305.quoteText")
     },
     {
         "quoteAuthor": "Eden Phillpotts",
-        "quoteText": "The universe is full of magical things, patiently waiting for our wits to grow sharper."
+        "quoteText": localize("interventions.quotes.306.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "Just as a candle cannot burn without fire, men cannot live without a spiritual life."
+        "quoteText": localize("interventions.quotes.307.quoteText")
     },
     {
         "quoteAuthor": "Mark Twain",
-        "quoteText": "A thing long expected takes the form of the unexpected when at last it comes."
+        "quoteText": localize("interventions.quotes.308.quoteText")
     },
     {
         "quoteAuthor": "Benjamin Disraeli",
-        "quoteText": "Action may not always bring happiness; but there is no happiness without action."
+        "quoteText": localize("interventions.quotes.309.quoteText")
     },
     {
         "quoteAuthor": "Oprah Winfrey",
-        "quoteText": "I don't believe in failure. It is not failure if you enjoyed the process."
+        "quoteText": localize("interventions.quotes.310.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "What you do not want done to yourself, do not do to others."
+        "quoteText": localize("interventions.quotes.311.quoteText")
     },
     {
         "quoteAuthor": "Winston Churchill",
-        "quoteText": "Short words are best and the old words when short are best of all."
+        "quoteText": localize("interventions.quotes.312.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "If you light a lamp for somebody, it will also brighten your path."
+        "quoteText": localize("interventions.quotes.313.quoteText")
     },
     {
         "quoteAuthor": "Lin-yutang",
-        "quoteText": "I have done my best: that is about all the philosophy of living one needs."
+        "quoteText": localize("interventions.quotes.314.quoteText")
     },
     {
         "quoteAuthor": "Benjamin Disraeli",
-        "quoteText": "Through perseverance many people win success out of what seemed destined to be certain failure."
+        "quoteText": localize("interventions.quotes.315.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Give thanks for the rain of life that propels us to reach new horizons."
+        "quoteText": localize("interventions.quotes.316.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Love is just a word until someone comes along and gives it meaning."
+        "quoteText": localize("interventions.quotes.317.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "We all have problems. The way we solve them is what makes us different."
+        "quoteText": localize("interventions.quotes.318.quoteText")
     },
     {
         "quoteAuthor": "Dave Weinbaum",
-        "quoteText": "The secret to a rich life is to have more beginnings than endings."
+        "quoteText": localize("interventions.quotes.319.quoteText")
     },
     {
         "quoteAuthor": "Ralph Waldo Emerson",
-        "quoteText": "It is only when the mind and character slumber that the dress can be seen."
+        "quoteText": localize("interventions.quotes.320.quoteText")
     },
     {
         "quoteAuthor": "Maya Angelou",
-        "quoteText": "If you don't like something, change it. If you can't change it, change your attitude."
+        "quoteText": localize("interventions.quotes.321.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "Reviewing what you have learned and learning anew, you are fit to be a teacher."
+        "quoteText": localize("interventions.quotes.322.quoteText")
     },
     {
         "quoteAuthor": "Augustinus Sanctus",
-        "quoteText": "The world is a book, and those who do not travel read only a page."
+        "quoteText": localize("interventions.quotes.323.quoteText")
     },
     {
         "quoteAuthor": "Henri-Frederic Amiel",
-        "quoteText": "So long as a person is capable of self-renewal they are a living being."
+        "quoteText": localize("interventions.quotes.324.quoteText")
     },
     {
         "quoteAuthor": "Louisa Alcott",
-        "quoteText": "I'm not afraid of storms, for Im learning how to sail my ship."
+        "quoteText": localize("interventions.quotes.325.quoteText")
     },
     {
         "quoteAuthor": "Voltaire",
-        "quoteText": "Think for yourselves and let others enjoy the privilege to do so too."
+        "quoteText": localize("interventions.quotes.326.quoteText")
     },
     {
         "quoteAuthor": "Annie Dillard",
-        "quoteText": "How we spend our days is, of course, how we spend our lives."
+        "quoteText": localize("interventions.quotes.327.quoteText")
     },
     {
         "quoteAuthor": "Man Ray",
-        "quoteText": "It has never been my object to record my dreams, just to realize them."
+        "quoteText": localize("interventions.quotes.328.quoteText")
     },
     {
         "quoteAuthor": "Sigmund Freud",
-        "quoteText": "The most complicated achievements of thought are possible without the assistance of consciousness."
+        "quoteText": localize("interventions.quotes.329.quoteText")
     },
     {
         "quoteAuthor": "Wayne Dyer",
-        "quoteText": "Be miserable. Or motivate yourself. Whatever has to be done, it's always your choice."
+        "quoteText": localize("interventions.quotes.330.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Hill",
-        "quoteText": "Most great people have attained their greatest success just one step beyond their greatest failure."
+        "quoteText": localize("interventions.quotes.331.quoteText")
     },
     {
         "quoteAuthor": "Henry Ford",
-        "quoteText": "If you think you can, you can. And if you think you can't, you're right."
+        "quoteText": localize("interventions.quotes.332.quoteText")
     },
     {
         "quoteAuthor": "St. Augustine",
-        "quoteText": "Better to have loved and lost, than to have never loved at all."
+        "quoteText": localize("interventions.quotes.333.quoteText")
     },
     {
         "quoteAuthor": "Leo Tolstoy",
-        "quoteText": "Everyone thinks of changing the world, but no one thinks of changing himself."
+        "quoteText": localize("interventions.quotes.334.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "The best way to pay for a lovely moment is to enjoy it."
+        "quoteText": localize("interventions.quotes.335.quoteText")
     },
     {
         "quoteAuthor": "Winston Churchill",
-        "quoteText": "You have enemies? Good. That means you've stood up for something, sometime in your life."
+        "quoteText": localize("interventions.quotes.336.quoteText")
     },
     {
         "quoteAuthor": "John De Paola",
-        "quoteText": "Slow down and everything you are chasing will come around and catch you."
+        "quoteText": localize("interventions.quotes.337.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "Your worst enemy cannot harm you as much as your own unguarded thoughts."
+        "quoteText": localize("interventions.quotes.338.quoteText")
     },
     {
         "quoteAuthor": "Lily Tomlin",
-        "quoteText": "I always wanted to be somebody, but I should have been more specific."
+        "quoteText": localize("interventions.quotes.339.quoteText")
     },
     {
         "quoteAuthor": "John Lennon",
-        "quoteText": "Yeah we all shine on, like the moon, and the stars, and the sun."
+        "quoteText": localize("interventions.quotes.340.quoteText")
     },
     {
         "quoteAuthor": "Martin Fischer",
-        "quoteText": "Knowledge is a process of piling up facts; wisdom lies in their simplification."
+        "quoteText": localize("interventions.quotes.341.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "Life is like riding a bicycle. To keep your balance you must keep moving."
+        "quoteText": localize("interventions.quotes.342.quoteText")
     },
     {
         "quoteAuthor": "Albert Schweitzer",
-        "quoteText": "We should all be thankful for those people who rekindle the inner spirit."
+        "quoteText": localize("interventions.quotes.343.quoteText")
     },
     {
         "quoteAuthor": "Thomas Edison",
-        "quoteText": "Opportunity is missed by most because it is dressed in overalls and looks like work."
+        "quoteText": localize("interventions.quotes.344.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "Feeling and longing are the motive forces behind all human endeavor and human creations."
+        "quoteText": localize("interventions.quotes.345.quoteText")
     },
     {
         "quoteAuthor": "Johann Wolfgang von Goethe",
-        "quoteText": "In the end we retain from our studies only that which we practically apply."
+        "quoteText": localize("interventions.quotes.346.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "If you correct your mind, the rest of your life will fall into place."
+        "quoteText": localize("interventions.quotes.347.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "The world makes way for the man who knows where he is going."
+        "quoteText": localize("interventions.quotes.348.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Hill",
-        "quoteText": "When your desires are strong enough you will appear to possess superhuman powers to achieve."
+        "quoteText": localize("interventions.quotes.349.quoteText")
     },
     {
         "quoteAuthor": "John Adams",
-        "quoteText": "Patience and perseverance have a magical effect before which difficulties disappear and obstacles vanish."
+        "quoteText": localize("interventions.quotes.350.quoteText")
     },
     {
         "quoteAuthor": "Henry David Thoreau",
-        "quoteText": "I cannot make my days longer so I strive to make them better."
+        "quoteText": localize("interventions.quotes.351.quoteText")
     },
     {
         "quoteAuthor": "Chinese proverb",
-        "quoteText": "Tension is who you think you should be. Relaxation is who you are."
+        "quoteText": localize("interventions.quotes.352.quoteText")
     },
     {
         "quoteAuthor": "Helen Keller",
-        "quoteText": "Never bend your head. Always hold it high. Look the world right in the eye."
+        "quoteText": localize("interventions.quotes.353.quoteText")
     },
     {
         "quoteAuthor": "Albert Schweitzer",
-        "quoteText": "One who gains strength by overcoming obstacles possesses the only strength which can overcome adversity."
+        "quoteText": localize("interventions.quotes.354.quoteText")
     },
     {
         "quoteAuthor": "Calvin Coolidge",
-        "quoteText": "We cannot do everything at once, but we can do something at once."
+        "quoteText": localize("interventions.quotes.355.quoteText")
     },
     {
         "quoteAuthor": "Abraham Lincoln",
-        "quoteText": "You have to do your own growing no matter how tall your grandfather was."
+        "quoteText": localize("interventions.quotes.356.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Invent your world. Surround yourself with people, color, sounds, and work that nourish you."
+        "quoteText": localize("interventions.quotes.357.quoteText")
     },
     {
         "quoteAuthor": "General Douglas MacArthur",
-        "quoteText": "It is fatal to enter any war without the will to win it."
+        "quoteText": localize("interventions.quotes.358.quoteText")
     },
     {
         "quoteAuthor": "Julius Charles Hare",
-        "quoteText": "Be what you are. This is the first step toward becoming better than you are."
+        "quoteText": localize("interventions.quotes.359.quoteText")
     },
     {
         "quoteAuthor": "Buckminster Fuller",
-        "quoteText": "There is nothing in a caterpillar that tells you it's going to be a butterfly."
+        "quoteText": localize("interventions.quotes.360.quoteText")
     },
     {
         "quoteAuthor": "Dalai Lama",
-        "quoteText": "Love and compassion open our own inner life, reducing stress, distrust and loneliness."
+        "quoteText": localize("interventions.quotes.361.quoteText")
     },
     {
         "quoteAuthor": "Walter Lippmann",
-        "quoteText": "Ideals are an imaginative understanding of that which is desirable in that which is possible."
+        "quoteText": localize("interventions.quotes.362.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "The superior man is satisfied and composed; the mean man is always full of distress."
+        "quoteText": localize("interventions.quotes.363.quoteText")
     },
     {
         "quoteAuthor": "Bruce Lee",
-        "quoteText": "If you spend too much time thinking about a thing, you'll never get it done."
+        "quoteText": localize("interventions.quotes.364.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "The way is not in the sky. The way is in the heart."
+        "quoteText": localize("interventions.quotes.365.quoteText")
     },
     {
         "quoteAuthor": "Abraham Lincoln",
-        "quoteText": "Most people are about as happy as they make up their minds to be"
+        "quoteText": localize("interventions.quotes.366.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "Three things cannot be long hidden: the sun, the moon, and the truth."
+        "quoteText": localize("interventions.quotes.367.quoteText")
     },
     {
         "quoteAuthor": "Dalai Lama",
-        "quoteText": "More often than not, anger is actually an indication of weakness rather than of strength."
+        "quoteText": localize("interventions.quotes.368.quoteText")
     },
     {
         "quoteAuthor": "Jim Beggs",
-        "quoteText": "Before you put on a frown, make absolutely sure there are no smiles available."
+        "quoteText": localize("interventions.quotes.369.quoteText")
     },
     {
         "quoteAuthor": "Donald Kircher",
-        "quoteText": "A man of ability and the desire to accomplish something can do anything."
+        "quoteText": localize("interventions.quotes.370.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "You, yourself, as much as anybody in the entire universe, deserve your love and affection."
+        "quoteText": localize("interventions.quotes.371.quoteText")
     },
     {
         "quoteAuthor": "Eckhart Tolle",
-        "quoteText": "It is not uncommon for people to spend their whole life waiting to start living."
+        "quoteText": localize("interventions.quotes.372.quoteText")
     },
     {
         "quoteAuthor": "H. Jackson Browne",
-        "quoteText": "Don't be afraid to go out on a limb. That's where the fruit is."
+        "quoteText": localize("interventions.quotes.373.quoteText")
     },
     {
         "quoteAuthor": "Marquis Vauvenargues",
-        "quoteText": "Wicked people are always surprised to find ability in those that are good."
+        "quoteText": localize("interventions.quotes.374.quoteText")
     },
     {
         "quoteAuthor": "Charlotte Bronte",
-        "quoteText": "Life is so constructed that an event does not, cannot, will not, match the expectation."
+        "quoteText": localize("interventions.quotes.375.quoteText")
     },
     {
         "quoteAuthor": "Wayne Dyer",
-        "quoteText": "If you change the way you look at things, the things you look at change."
+        "quoteText": localize("interventions.quotes.376.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Hill",
-        "quoteText": "No man can succeed in a line of endeavor which he does not like."
+        "quoteText": localize("interventions.quotes.377.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "You will not be punished for your anger, you will be punished by your anger."
+        "quoteText": localize("interventions.quotes.378.quoteText")
     },
     {
         "quoteAuthor": "Robert Stevenson",
-        "quoteText": "Don't judge each day by the harvest you reap but by the seeds you plant."
+        "quoteText": localize("interventions.quotes.379.quoteText")
     },
     {
         "quoteAuthor": "Andy Warhol",
-        "quoteText": "They say that time changes things, but you actually have to change them yourself."
+        "quoteText": localize("interventions.quotes.380.quoteText")
     },
     {
         "quoteAuthor": "Benjamin Disraeli",
-        "quoteText": "Never apologize for showing feelings. When you do so, you apologize for the truth."
+        "quoteText": localize("interventions.quotes.381.quoteText")
     },
     {
         "quoteAuthor": "Pema Chodron",
-        "quoteText": "The truth you believe and cling to makes you unavailable to hear anything new."
+        "quoteText": localize("interventions.quotes.382.quoteText")
     },
     {
         "quoteAuthor": "Horace",
-        "quoteText": "Adversity has the effect of eliciting talents, which in prosperous circumstances would have lain dormant."
+        "quoteText": localize("interventions.quotes.383.quoteText")
     },
     {
         "quoteAuthor": "Morris West",
-        "quoteText": "If you spend your whole life waiting for the storm, you'll never enjoy the sunshine."
+        "quoteText": localize("interventions.quotes.384.quoteText")
     },
     {
         "quoteAuthor": "Franklin Roosevelt",
-        "quoteText": "The only limit to our realization of tomorrow will be our doubts of today."
+        "quoteText": localize("interventions.quotes.385.quoteText")
     },
     {
         "quoteAuthor": "Edwin Chapin",
-        "quoteText": "Every action of our lives touches on some chord that will vibrate in eternity."
+        "quoteText": localize("interventions.quotes.386.quoteText")
     },
     {
         "quoteAuthor": "Les Brown",
-        "quoteText": "Shoot for the moon. Even if you miss, you'll land among the stars."
+        "quoteText": localize("interventions.quotes.387.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "It does not matter how slowly you go as long as you do not stop."
+        "quoteText": localize("interventions.quotes.388.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Every day may not be good, but there's something good in every day."
+        "quoteText": localize("interventions.quotes.389.quoteText")
     },
     {
         "quoteAuthor": "Abraham Lincoln",
-        "quoteText": "Most folks are about as happy as they make up their minds to be."
+        "quoteText": localize("interventions.quotes.390.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "If you would take, you must first give, this is the beginning of intelligence."
+        "quoteText": localize("interventions.quotes.391.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Some people think it's holding that makes one strong, sometimes it's letting go."
+        "quoteText": localize("interventions.quotes.392.quoteText")
     },
     {
         "quoteAuthor": "Havelock Ellis",
-        "quoteText": "It is on our failures that we base a new and different and better success."
+        "quoteText": localize("interventions.quotes.393.quoteText")
     },
     {
         "quoteAuthor": "John Ruskin",
-        "quoteText": "Quality is never an accident; it is always the result of intelligent effort."
+        "quoteText": localize("interventions.quotes.394.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "To study and not think is a waste. To think and not study is dangerous."
+        "quoteText": localize("interventions.quotes.395.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "Life is a succession of lessons, which must be lived to be understood."
+        "quoteText": localize("interventions.quotes.396.quoteText")
     },
     {
         "quoteAuthor": "Thomas Hardy",
-        "quoteText": "Time changes everything except something within us which is always surprised by change."
+        "quoteText": localize("interventions.quotes.397.quoteText")
     },
     {
         "quoteAuthor": "Wayne Dyer",
-        "quoteText": "You are important enough to ask and you are blessed enough to receive back."
+        "quoteText": localize("interventions.quotes.398.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Hill",
-        "quoteText": "If you cannot do great things, do small things in a great way."
+        "quoteText": localize("interventions.quotes.399.quoteText")
     },
     {
         "quoteAuthor": "Oprah Winfrey",
-        "quoteText": "If you want your life to be more rewarding, you have to change the way you think."
+        "quoteText": localize("interventions.quotes.400.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Transformation doesn't take place with a vacuum; instead, it occurs when we are indirectly and directly connected to all those around us."
+        "quoteText": localize("interventions.quotes.401.quoteText")
     },
     {
         "quoteAuthor": "Leonardo Ruiz",
-        "quoteText": "The only difference between your abilities and others is the ability to put yourself in their shoes and actually try."
+        "quoteText": localize("interventions.quotes.402.quoteText")
     },
     {
         "quoteAuthor": "Leon Blum",
-        "quoteText": "The free man is he who does not fear to go to the end of his thought."
+        "quoteText": localize("interventions.quotes.403.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "Great are they who see that spiritual is stronger than any material force, that thoughts rule the world."
+        "quoteText": localize("interventions.quotes.404.quoteText")
     },
     {
         "quoteAuthor": "Bernard Shaw",
-        "quoteText": "A life spent making mistakes is not only more honourable but more useful than a life spent in doing nothing."
+        "quoteText": localize("interventions.quotes.405.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "The wise man does not lay up his own treasures. The more he gives to others, the more he has for his own."
+        "quoteText": localize("interventions.quotes.406.quoteText")
     },
     {
         "quoteAuthor": "Charles Dickens",
-        "quoteText": "Don't leave a stone unturned. It's always something, to know you have done the most you could."
+        "quoteText": localize("interventions.quotes.407.quoteText")
     },
     {
         "quoteAuthor": "Dalai Lama",
-        "quoteText": "By going beyond your own problems and taking care of others, you gain inner strength, self-confidence, courage, and a greater sense of calm."
+        "quoteText": localize("interventions.quotes.408.quoteText")
     },
     {
         "quoteAuthor": "Sam Keen",
-        "quoteText": "We come to love not by finding a perfect person, but by learning to see an imperfect person perfectly."
+        "quoteText": localize("interventions.quotes.409.quoteText")
     },
     {
         "quoteAuthor": "Walt Emerson",
-        "quoteText": "What lies behind us and what lies before us are tiny matters compared to what lies within us."
+        "quoteText": localize("interventions.quotes.410.quoteText")
     },
     {
         "quoteAuthor": "John Astin",
-        "quoteText": "There are things so deep and complex that only intuition can reach it in our stage of development as human beings."
+        "quoteText": localize("interventions.quotes.411.quoteText")
     },
     {
         "quoteAuthor": "Elbert Hubbard",
-        "quoteText": "A little more persistence, a little more effort, and what seemed hopeless failure may turn to glorious success."
+        "quoteText": localize("interventions.quotes.412.quoteText")
     },
     {
         "quoteAuthor": "Henry Moore",
-        "quoteText": "There is no retirement for an artist, it's your way of living so there is no end to it."
+        "quoteText": localize("interventions.quotes.413.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "I will not be concerned at other men is not knowing me;I will be concerned at my own want of ability."
+        "quoteText": localize("interventions.quotes.414.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Why worry about things you can't control when you can keep yourself busy controlling the things that depend on you?"
+        "quoteText": localize("interventions.quotes.415.quoteText")
     },
     {
         "quoteAuthor": "Laozi",
-        "quoteText": "When you are content to be simply yourself and don't compare or compete, everybody will respect you."
+        "quoteText": localize("interventions.quotes.416.quoteText")
     },
     {
         "quoteAuthor": "William Shakespeare",
-        "quoteText": "Be not afraid of greatness: some are born great, some achieve greatness, and some have greatness thrust upon them."
+        "quoteText": localize("interventions.quotes.417.quoteText")
     },
     {
         "quoteAuthor": "George Sheehan",
-        "quoteText": "Success means having the courage, the determination, and the will to become the person you believe you were meant to be."
+        "quoteText": localize("interventions.quotes.418.quoteText")
     },
     {
         "quoteAuthor": "Thomas Jefferson",
-        "quoteText": "Do you want to know who you are? Don't ask. Act! Action will delineate and define you."
+        "quoteText": localize("interventions.quotes.419.quoteText")
     },
     {
         "quoteAuthor": "Antoine de Saint-Exupery",
-        "quoteText": "It is only with the heart that one can see rightly, what is essential is invisible to the eye."
+        "quoteText": localize("interventions.quotes.420.quoteText")
     },
     {
         "quoteAuthor": "Marcel Proust",
-        "quoteText": "Let us be grateful to people who make us happy; they are the charming gardeners who make our souls blossom."
+        "quoteText": localize("interventions.quotes.421.quoteText")
     },
     {
         "quoteAuthor": "Epictetus",
-        "quoteText": "Make the best use of what is in your power, and take the rest as it happens."
+        "quoteText": localize("interventions.quotes.422.quoteText")
     },
     {
         "quoteAuthor": "Louise Hay",
-        "quoteText": "The thoughts we choose to think are the tools we use to paint the canvas of our lives."
+        "quoteText": localize("interventions.quotes.423.quoteText")
     },
     {
         "quoteAuthor": "W. Clement Stone",
-        "quoteText": "No matter how carefully you plan your goals they will never be more that pipe dreams unless you pursue them with gusto."
+        "quoteText": localize("interventions.quotes.424.quoteText")
     },
     {
         "quoteAuthor": "Robert McKain",
-        "quoteText": "The reason most goals are not achieved is that we spend our time doing second things first."
+        "quoteText": localize("interventions.quotes.425.quoteText")
     },
     {
         "quoteAuthor": "John Quincy Adams",
-        "quoteText": "If your actions inspire others to dream more, learn more, do more and become more, you are a leader."
+        "quoteText": localize("interventions.quotes.426.quoteText")
     },
     {
         "quoteAuthor": "Thomas Jefferson",
-        "quoteText": "I'm a great believer in luck and I find the harder I work, the more I have of it."
+        "quoteText": localize("interventions.quotes.427.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "Do not waste yourself in rejection, nor bark against the bad, but chant the beauty of the good."
+        "quoteText": localize("interventions.quotes.428.quoteText")
     },
     {
         "quoteAuthor": "Johann Wolfgang von Goethe",
-        "quoteText": "The person born with a talent they are meant to use will find their greatest happiness in using it."
+        "quoteText": localize("interventions.quotes.429.quoteText")
     },
     {
         "quoteAuthor": "William Saroyan",
-        "quoteText": "Good people are good because they've come to wisdom through failure. We get very little wisdom from success, you know."
+        "quoteText": localize("interventions.quotes.430.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Your destiny isn't just fate; it is how you use your own developed abilities to get what you want."
+        "quoteText": localize("interventions.quotes.431.quoteText")
     },
     {
         "quoteAuthor": "Leonardo da Vinci",
-        "quoteText": "Iron rusts from disuse; water loses its purity from stagnation... even so does inaction sap the vigour of the mind."
+        "quoteText": localize("interventions.quotes.432.quoteText")
     },
     {
         "quoteAuthor": "Isaac Asimov",
-        "quoteText": "A subtle thought that is in error may yet give rise to fruitful inquiry that can establish truths of great value."
+        "quoteText": localize("interventions.quotes.433.quoteText")
     },
     {
         "quoteAuthor": "Henry Van Dyke",
-        "quoteText": "Be glad of life because it gives you the chance to love, to work, to play, and to look up at the stars."
+        "quoteText": localize("interventions.quotes.434.quoteText")
     },
     {
         "quoteAuthor": "Yogi Berra",
-        "quoteText": "You got to be careful if you don't know where you're going, because you might not get there."
+        "quoteText": localize("interventions.quotes.435.quoteText")
     },
     {
         "quoteAuthor": "Naguib Mahfouz",
-        "quoteText": "You can tell whether a man is clever by his answers. You can tell whether a man is wise by his questions."
+        "quoteText": localize("interventions.quotes.436.quoteText")
     },
     {
         "quoteAuthor": "Anthony Robbins",
-        "quoteText": "Life is a gift, and it offers us the privilege, opportunity, and responsibility to give something back by becoming more"
+        "quoteText": localize("interventions.quotes.437.quoteText")
     },
     {
         "quoteAuthor": "John Wooden",
-        "quoteText": "You can't let praise or criticism get to you. It's a weakness to get caught up in either one."
+        "quoteText": localize("interventions.quotes.438.quoteText")
     },
     {
         "quoteAuthor": "Og Mandino",
-        "quoteText": "I will love the light for it shows me the way, yet I will endure the darkness because it shows me the stars."
+        "quoteText": localize("interventions.quotes.439.quoteText")
     },
     {
         "quoteAuthor": "Jane Addams",
-        "quoteText": "Our doubts are traitors and make us lose the good we often might win, by fearing to attempt."
+        "quoteText": localize("interventions.quotes.440.quoteText")
     },
     {
         "quoteAuthor": "Thomas Carlyle",
-        "quoteText": "By nature man hates change; seldom will he quit his old home till it has actually fallen around his ears."
+        "quoteText": localize("interventions.quotes.441.quoteText")
     },
     {
         "quoteAuthor": "M. Scott Peck",
-        "quoteText": "Until you value yourself, you won't value your time. Until you value your time, you won't do anything with it."
+        "quoteText": localize("interventions.quotes.442.quoteText")
     },
     {
         "quoteAuthor": "Maureen Dowd",
-        "quoteText": "The minute you settle for less than you deserve, you get even less than you settled for."
+        "quoteText": localize("interventions.quotes.443.quoteText")
     },
     {
         "quoteAuthor": "Charles Darwin",
-        "quoteText": "The highest stage in moral ure at which we can arrive is when we recognize that we ought to control our thoughts."
+        "quoteText": localize("interventions.quotes.444.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "It is better to take many small steps in the right direction than to make a great leap forward only to stumble backward."
+        "quoteText": localize("interventions.quotes.445.quoteText")
     },
     {
         "quoteAuthor": "Dalai Lama",
-        "quoteText": "If we have a positive mental attitude, then even when surrounded by hostility, we shall not lack inner peace."
+        "quoteText": localize("interventions.quotes.446.quoteText")
     },
     {
         "quoteAuthor": "Christopher Morley",
-        "quoteText": "There is only one success, to be able to spend your life in your own way."
+        "quoteText": localize("interventions.quotes.447.quoteText")
     },
     {
         "quoteAuthor": "Hannah Arendt",
-        "quoteText": "Promises are the uniquely human way of ordering the future, making it predictable and reliable to the extent that this is humanly possible."
+        "quoteText": localize("interventions.quotes.448.quoteText")
     },
     {
         "quoteAuthor": "Alan Cohen",
-        "quoteText": "Appreciation is the highest form of prayer, for it acknowledges the presence of good wherever you shine the light of your thankful thoughts."
+        "quoteText": localize("interventions.quotes.449.quoteText")
     },
     {
         "quoteAuthor": "Aldous Huxley",
-        "quoteText": "There is only one corner of the universe you can be certain of improving, and that's your own self."
+        "quoteText": localize("interventions.quotes.450.quoteText")
     },
     {
         "quoteAuthor": "Marian Edelman",
-        "quoteText": "You're not obligated to win. You're obligated to keep trying to do the best you can every day."
+        "quoteText": localize("interventions.quotes.451.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Everyone can taste success when the going is easy, but few know how to taste victory when times get tough."
+        "quoteText": localize("interventions.quotes.452.quoteText")
     },
     {
         "quoteAuthor": "Sue Patton Thoele",
-        "quoteText": "Deep listening is miraculous for both listener and speaker.When someone receives us with open-hearted, non-judging, intensely interested listening, our spirits expand."
+        "quoteText": localize("interventions.quotes.453.quoteText")
     },
     {
         "quoteAuthor": "Frank Crane",
-        "quoteText": "You may be deceived if you trust too much, but you will live in torment if you don't trust enough."
+        "quoteText": localize("interventions.quotes.454.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "Great indeed is the sublimity of the Creative, to which all beings owe their beginning and which permeates all heaven."
+        "quoteText": localize("interventions.quotes.455.quoteText")
     },
     {
         "quoteAuthor": "Kathleen Norris",
-        "quoteText": "All that is necessary is to accept the impossible, do without the indispensable, and bear the intolerable."
+        "quoteText": localize("interventions.quotes.456.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "Choose a job you love, and you will never have to work a day in your life."
+        "quoteText": localize("interventions.quotes.457.quoteText")
     },
     {
         "quoteAuthor": "Eckhart Tolle",
-        "quoteText": "You cannot find yourself by going into the past. You can find yourself by coming into the present."
+        "quoteText": localize("interventions.quotes.458.quoteText")
     },
     {
         "quoteAuthor": "Anne Bronte",
-        "quoteText": "All our talents increase in the using, and the every faculty, both good and bad, strengthen by exercise."
+        "quoteText": localize("interventions.quotes.459.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "In order to live free and happily you must sacrifice boredom. It is not always an easy sacrifice."
+        "quoteText": localize("interventions.quotes.460.quoteText")
     },
     {
         "quoteAuthor": "Desiderius Erasmus",
-        "quoteText": "The fox has many tricks. The hedgehog has but one. But that is the best of all."
+        "quoteText": localize("interventions.quotes.461.quoteText")
     },
     {
         "quoteAuthor": "Arthur Rubinstein",
-        "quoteText": "Of course there is no formula for success except perhaps an unconditional acceptance of life and what it brings."
+        "quoteText": localize("interventions.quotes.462.quoteText")
     },
     {
         "quoteAuthor": "Louis Pasteur",
-        "quoteText": "Let me tell you the secret that has led me to my goal: my strength lies solely in my tenacity"
+        "quoteText": localize("interventions.quotes.463.quoteText")
     },
     {
         "quoteAuthor": "Rumi",
-        "quoteText": "Something opens our wings. Something makes boredom and hurt disappear. Someone fills the cup in front of us: We taste only sacredness."
+        "quoteText": localize("interventions.quotes.464.quoteText")
     },
     {
         "quoteAuthor": "Sogyal Rinpoche",
-        "quoteText": "We must never forget that it is through our actions, words, and thoughts that we have a choice."
+        "quoteText": localize("interventions.quotes.465.quoteText")
     },
     {
         "quoteAuthor": "Dennis Kimbro",
-        "quoteText": "We see things not as they are, but as we are. Our perception is shaped by our previous experiences."
+        "quoteText": localize("interventions.quotes.466.quoteText")
     },
     {
         "quoteAuthor": "William Penn",
-        "quoteText": "True silence is the rest of the mind; it is to the spirit what sleep is to the body, nourishment and refreshment."
+        "quoteText": localize("interventions.quotes.467.quoteText")
     },
     {
         "quoteAuthor": "Immanuel Kant",
-        "quoteText": "All our knowledge begins with the senses, proceeds then to the understanding, and ends with reason. There is nothing higher than reason."
+        "quoteText": localize("interventions.quotes.468.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "The thought manifests as the word. The word manifests as the deed. The deed develops into habit. And the habit hardens into character."
+        "quoteText": localize("interventions.quotes.469.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "As the rest of the world is walking out the door, your best friends are the ones walking in."
+        "quoteText": localize("interventions.quotes.470.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Patience is a virtue but you will never ever accomplish anything if you don't exercise action over patience."
+        "quoteText": localize("interventions.quotes.471.quoteText")
     },
     {
         "quoteAuthor": "Robert Lynd",
-        "quoteText": "Any of us can achieve virtue, if by virtue we merely mean the avoidance of the vices that do not attract us."
+        "quoteText": localize("interventions.quotes.472.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "If the single man plant himself indomitably on his instincts, and there abide, the huge world will come round to him."
+        "quoteText": localize("interventions.quotes.473.quoteText")
     },
     {
         "quoteAuthor": "Eleanor Roosevelt",
-        "quoteText": "Friendship with oneself is all important because without it one cannot be friends with anybody else in the world."
+        "quoteText": localize("interventions.quotes.474.quoteText")
     },
     {
         "quoteAuthor": "Robert Fulghum",
-        "quoteText": "Peace is not something you wish for. It's something you make, something you do, something you are, and something you give away."
+        "quoteText": localize("interventions.quotes.475.quoteText")
     },
     {
         "quoteAuthor": "Bruce Lee",
-        "quoteText": "A wise man can learn more from a foolish question than a fool can learn from a wise answer."
+        "quoteText": localize("interventions.quotes.476.quoteText")
     },
     {
         "quoteAuthor": "Arthur Schopenhauer",
-        "quoteText": "Every man takes the limits of his own field of vision for the limits of the world."
+        "quoteText": localize("interventions.quotes.477.quoteText")
     },
     {
         "quoteAuthor": "Andre Gide",
-        "quoteText": "One does not discover new lands without consenting to lose sight of the shore for a very long time."
+        "quoteText": localize("interventions.quotes.478.quoteText")
     },
     {
         "quoteAuthor": "Sai Baba",
-        "quoteText": "What is new in the world? Nothing. What is old in the world? Nothing. Everything has always been and will always be."
+        "quoteText": localize("interventions.quotes.479.quoteText")
     },
     {
         "quoteAuthor": "Dalai Lama",
-        "quoteText": "Genuine love should first be directed at oneself. if we do not love ourselves, how can we love others?"
+        "quoteText": localize("interventions.quotes.480.quoteText")
     },
     {
         "quoteAuthor": "Tom Lehrer",
-        "quoteText": "Life is like a sewer. What you get out of it depends on what you put into it."
+        "quoteText": localize("interventions.quotes.481.quoteText")
     },
     {
         "quoteAuthor": "Bruce Lee",
-        "quoteText": "Notice that the stiffest tree is most easily cracked, while the bamboo or willow survives by bending with the wind."
+        "quoteText": localize("interventions.quotes.482.quoteText")
     },
     {
         "quoteAuthor": "Alfred Sheinwold",
-        "quoteText": "Learn all you can from the mistakes of others. You won't have time to make them all yourself."
+        "quoteText": localize("interventions.quotes.483.quoteText")
     },
     {
         "quoteAuthor": "Sri Chinmoy",
-        "quoteText": "Judge nothing, you will be happy. Forgive everything, you will be happier. Love everything, you will be happiest."
+        "quoteText": localize("interventions.quotes.484.quoteText")
     },
     {
         "quoteAuthor": "Johann Wolfgang von Goethe",
-        "quoteText": "People are so constituted that everybody would rather undertake what they see others do, whether they have an aptitude for it or not."
+        "quoteText": localize("interventions.quotes.485.quoteText")
     },
     {
         "quoteAuthor": "James Freeman Clarke",
-        "quoteText": "We are either progressing or retrograding all the while. There is no such thing as remaining stationary in this life."
+        "quoteText": localize("interventions.quotes.486.quoteText")
     },
     {
         "quoteAuthor": "Anais Nin",
-        "quoteText": "The possession of knowledge does not kill the sense of wonder and mystery. There is always more mystery."
+        "quoteText": localize("interventions.quotes.487.quoteText")
     },
     {
         "quoteAuthor": "Marcus Aurelius",
-        "quoteText": "Everything that happens happens as it should, and if you observe carefully, you will find this to be so."
+        "quoteText": localize("interventions.quotes.488.quoteText")
     },
     {
         "quoteAuthor": "Wayne Dyer",
-        "quoteText": "What we think determines what happens to us, so if we want to change our lives, we need to stretch our minds."
+        "quoteText": localize("interventions.quotes.489.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "In a controversy the instant we feel anger we have already ceased striving for the truth, and have begun striving for ourselves."
+        "quoteText": localize("interventions.quotes.490.quoteText")
     },
     {
         "quoteAuthor": "Sydney Smith",
-        "quoteText": "It is the greatest of all mistakes to do nothing because you can only do little, do what you can."
+        "quoteText": localize("interventions.quotes.491.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "When you see a man of worth, think of how you may emulate him. When you see one who is unworthy, examine yourself."
+        "quoteText": localize("interventions.quotes.492.quoteText")
     },
     {
         "quoteAuthor": "Mary Kay Ash",
-        "quoteText": "Aerodynamically the bumblebee shouldn't be able to fly, but the bumblebee doesn't know that so it goes on flying anyway."
+        "quoteText": localize("interventions.quotes.493.quoteText")
     },
     {
         "quoteAuthor": "Lloyd Jones",
-        "quoteText": "Those who try to do something and fail are infinitely better than those who try nothing and succeed."
+        "quoteText": localize("interventions.quotes.494.quoteText")
     },
     {
         "quoteAuthor": "Vista Kelly",
-        "quoteText": "Snowflakes are one of natures most fragile things, but just look what they can do when they stick together."
+        "quoteText": localize("interventions.quotes.495.quoteText")
     },
     {
         "quoteAuthor": "Ben Stein",
-        "quoteText": "The first step to getting the things you want out of life is this: decide what you want."
+        "quoteText": localize("interventions.quotes.496.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Why compare yourself with others? No one in the entire world can do a better job of being you than you."
+        "quoteText": localize("interventions.quotes.497.quoteText")
     },
     {
         "quoteAuthor": "Aldous Huxley",
-        "quoteText": "Experience is not what happens to a man. It is what a man does with what happens to him."
+        "quoteText": localize("interventions.quotes.498.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "A good teacher is like a candle, it consumes itself to light the way for others."
+        "quoteText": localize("interventions.quotes.499.quoteText")
     },
     {
         "quoteAuthor": "Oscar Wilde",
-        "quoteText": "The only thing to do with good advice is to pass it on. It is never of any use to oneself."
+        "quoteText": localize("interventions.quotes.500.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Life is not measured by the breaths we take, but by the moments that take our breath."
+        "quoteText": localize("interventions.quotes.501.quoteText")
     },
     {
         "quoteAuthor": "Honore de Balzac",
-        "quoteText": "The smallest flower is a thought, a life answering to some feature of the Great Whole, of whom they have a persistent intuition."
+        "quoteText": localize("interventions.quotes.502.quoteText")
     },
     {
         "quoteAuthor": "Jacob Braude",
-        "quoteText": "Consider how hard it is to change yourself and you'll understand what little chance you have in trying to change others."
+        "quoteText": localize("interventions.quotes.503.quoteText")
     },
     {
         "quoteAuthor": "Vince Lombardi",
-        "quoteText": "If you'll not settle for anything less than your best, you will be amazed at what you can accomplish in your lives."
+        "quoteText": localize("interventions.quotes.504.quoteText")
     },
     {
         "quoteAuthor": "Oliver Holmes",
-        "quoteText": "What lies behind us and what lies before us are small matters compared to what lies within us."
+        "quoteText": localize("interventions.quotes.505.quoteText")
     },
     {
         "quoteAuthor": "Dalai Lama",
-        "quoteText": "With the realization of ones own potential and self-confidence in ones ability, one can build a better world."
+        "quoteText": localize("interventions.quotes.506.quoteText")
     },
     {
         "quoteAuthor": "Nelson Mandela",
-        "quoteText": "There is nothing like returning to a place that remains unchanged to find the ways in which you yourself have altered."
+        "quoteText": localize("interventions.quotes.507.quoteText")
     },
     {
         "quoteAuthor": "Robert Anthony",
-        "quoteText": "Forget about all the reasons why something may not work. You only need to find one good reason why it will."
+        "quoteText": localize("interventions.quotes.508.quoteText")
     },
     {
         "quoteAuthor": "Aristotle",
-        "quoteText": "It is the mark of an educated mind to be able to entertain a thought without accepting it."
+        "quoteText": localize("interventions.quotes.509.quoteText")
     },
     {
         "quoteAuthor": "Washington Irving",
-        "quoteText": "Love is never lost. If not reciprocated, it will flow back and soften and purify the heart."
+        "quoteText": localize("interventions.quotes.510.quoteText")
     },
     {
         "quoteAuthor": "Anne Frank",
-        "quoteText": "We all live with the objective of being happy; our lives are all different and yet the same."
+        "quoteText": localize("interventions.quotes.511.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Many people think of prosperity that concerns money only to forget that true prosperity is of the mind."
+        "quoteText": localize("interventions.quotes.512.quoteText")
     },
     {
         "quoteAuthor": "Thich Nhat Hanh",
-        "quoteText": "To be beautiful means to be yourself. You don't need to be accepted by others. You need to accept yourself."
+        "quoteText": localize("interventions.quotes.513.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "Do not overrate what you have received, nor envy others. He who envies others does not obtain peace of mind."
+        "quoteText": localize("interventions.quotes.514.quoteText")
     },
     {
         "quoteAuthor": "Jessamyn West",
-        "quoteText": "It is very easy to forgive others their mistakes; it takes more grit to forgive them for having witnessed your own."
+        "quoteText": localize("interventions.quotes.515.quoteText")
     },
     {
         "quoteAuthor": "Plato",
-        "quoteText": "Bodily exercise, when compulsory, does no harm to the body; but knowledge which is acquired under compulsion obtains no hold on the mind."
+        "quoteText": localize("interventions.quotes.516.quoteText")
     },
     {
         "quoteAuthor": "Bruce Lee",
-        "quoteText": "Always be yourself, express yourself, have faith in yourself, do not go out and look for a successful personality and duplicate it."
+        "quoteText": localize("interventions.quotes.517.quoteText")
     },
     {
         "quoteAuthor": "Charlotte Gilman",
-        "quoteText": "Let us revere, let us worship, but erect and open-eyed, the highest, not the lowest; the future, not the past!"
+        "quoteText": localize("interventions.quotes.518.quoteText")
     },
     {
         "quoteAuthor": "Mother Teresa",
-        "quoteText": "Every time you smile at someone, it is an action of love, a gift to that person, a beautiful thing."
+        "quoteText": localize("interventions.quotes.519.quoteText")
     },
     {
         "quoteAuthor": "Margaret Runbeck",
-        "quoteText": "Silences make the real conversations between friends. Not the saying but the never needing to say is what counts."
+        "quoteText": localize("interventions.quotes.520.quoteText")
     },
     {
         "quoteAuthor": "Dalai Lama",
-        "quoteText": "The key to transforming our hearts and minds is to have an understanding of how our thoughts and emotions work."
+        "quoteText": localize("interventions.quotes.521.quoteText")
     },
     {
         "quoteAuthor": "Johann Wolfgang von Goethe",
-        "quoteText": "If you must tell me your opinions, tell me what you believe in. I have plenty of douts of my own."
+        "quoteText": localize("interventions.quotes.522.quoteText")
     },
     {
         "quoteAuthor": "Ovid",
-        "quoteText": "Chance is always powerful. Let your hook be always cast; in the pool where you least expect it, there will be a fish."
+        "quoteText": localize("interventions.quotes.523.quoteText")
     },
     {
         "quoteAuthor": "Og Mandino",
-        "quoteText": "I seek constantly to improve my manners and graces, for they are the sugar to which all are attracted."
+        "quoteText": localize("interventions.quotes.524.quoteText")
     },
     {
         "quoteAuthor": "James Barrie",
-        "quoteText": "We never understand how little we need in this world until we know the loss of it."
+        "quoteText": localize("interventions.quotes.525.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "The real measure of your wealth is how much youd be worth if you lost all your money."
+        "quoteText": localize("interventions.quotes.526.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "To keep the body in good health is a duty... otherwise we shall not be able to keep our mind strong and clear."
+        "quoteText": localize("interventions.quotes.527.quoteText")
     },
     {
         "quoteAuthor": "Bruce Lee",
-        "quoteText": "Take no thought of who is right or wrong or who is better than. Be not for or against."
+        "quoteText": localize("interventions.quotes.528.quoteText")
     },
     {
         "quoteAuthor": "Everett Dirksen",
-        "quoteText": "I am a man of fixed and unbending principles, the first of which is to be flexible at all times."
+        "quoteText": localize("interventions.quotes.529.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Today, give a stranger a smile without waiting for it may be the joy they need to have a great day."
+        "quoteText": localize("interventions.quotes.530.quoteText")
     },
     {
         "quoteAuthor": "Henry Miller",
-        "quoteText": "The moment one gives close attention to anything, even a blade of grass, it becomes a mysterious, awesome, indescribably magnificent world in itself."
+        "quoteText": localize("interventions.quotes.531.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "At the center of your being you have the answer; you know who you are and you know what you want."
+        "quoteText": localize("interventions.quotes.532.quoteText")
     },
     {
         "quoteAuthor": "Niels Bohr",
-        "quoteText": "How wonderful that we have met with a paradox. Now we have some hope of making progress."
+        "quoteText": localize("interventions.quotes.533.quoteText")
     },
     {
         "quoteAuthor": "Georg Lichtenberg",
-        "quoteText": "Everyone is a genius at least once a year. A real genius has his original ideas closer together."
+        "quoteText": localize("interventions.quotes.534.quoteText")
     },
     {
         "quoteAuthor": "Anais Nin",
-        "quoteText": "Dreams pass into the reality of action. From the actions stems the dream again; and this interdependence produces the highest form of living."
+        "quoteText": localize("interventions.quotes.535.quoteText")
     },
     {
         "quoteAuthor": "Gloria Steinem",
-        "quoteText": "Without leaps of imagination, or dreaming, we lose the excitement of possibilities. Dreaming, after all, is a form of planning."
+        "quoteText": localize("interventions.quotes.536.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Sadness may be part of life but there is no need to let it dominate your entire life."
+        "quoteText": localize("interventions.quotes.537.quoteText")
     },
     {
         "quoteAuthor": "Charles Schwab",
-        "quoteText": "Keeping a little ahead of conditions is one of the secrets of business, the trailer seldom goes far."
+        "quoteText": localize("interventions.quotes.538.quoteText")
     },
     {
         "quoteAuthor": "Epictetus",
-        "quoteText": "Nature gave us one tongue and two ears so we could hear twice as much as we speak."
+        "quoteText": localize("interventions.quotes.539.quoteText")
     },
     {
         "quoteAuthor": "Barbara Baron",
-        "quoteText": "Don't wait for your feelings to change to take the action. Take the action and your feelings will change."
+        "quoteText": localize("interventions.quotes.540.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "You are always free to change your mind and choose a different future, or a different past."
+        "quoteText": localize("interventions.quotes.541.quoteText")
     },
     {
         "quoteAuthor": "Lou Holtz",
-        "quoteText": "You were not born a winner, and you were not born a loser. You are what you make yourself be."
+        "quoteText": localize("interventions.quotes.542.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Hill",
-        "quoteText": "Cherish your visions and your dreams as they are the children of your soul, the blueprints of your ultimate achievements."
+        "quoteText": localize("interventions.quotes.543.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Hill",
-        "quoteText": "Cherish your visions and your dreams as they are the children of your soul; the blueprints of your ultimate achievements."
+        "quoteText": localize("interventions.quotes.544.quoteText")
     },
     {
         "quoteAuthor": "Robert Stevenson",
-        "quoteText": "To be what we are, and to become what we are capable of becoming, is the only end of life."
+        "quoteText": localize("interventions.quotes.545.quoteText")
     },
     {
         "quoteAuthor": "Charles DeLint",
-        "quoteText": "The road leading to a goal does not separate you from the destination; it is essentially a part of it."
+        "quoteText": localize("interventions.quotes.546.quoteText")
     },
     {
         "quoteAuthor": "Bruce Lee",
-        "quoteText": "Take things as they are. Punch when you have to punch. Kick when you have to kick."
+        "quoteText": localize("interventions.quotes.547.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "I believe that a simple and unassuming manner of life is best for everyone, best both for the body and the mind."
+        "quoteText": localize("interventions.quotes.548.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Though no one can go back and make a brand new start, anyone can start from now and make a brand new ending."
+        "quoteText": localize("interventions.quotes.549.quoteText")
     },
     {
         "quoteAuthor": "Paavo Nurmi",
-        "quoteText": "Mind is everything: muscle, pieces of rubber. All that I am, I am because of my mind."
+        "quoteText": localize("interventions.quotes.550.quoteText")
     },
     {
         "quoteAuthor": "Anne Frank",
-        "quoteText": "How wonderful it is that nobody need wait a single moment before starting to improve the world."
+        "quoteText": localize("interventions.quotes.551.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "A friend is someone who understands your past, believes in your future, and accepts you just the way you are."
+        "quoteText": localize("interventions.quotes.552.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "It is one of the blessings of old friends that you can afford to be stupid with them."
+        "quoteText": localize("interventions.quotes.553.quoteText")
     },
     {
         "quoteAuthor": "Tryon Edwards",
-        "quoteText": "He that never changes his opinions, never corrects his mistakes, and will never be wiser on the morrow than he is today."
+        "quoteText": localize("interventions.quotes.554.quoteText")
     },
     {
         "quoteAuthor": "Abraham Lincoln",
-        "quoteText": "Give me six hours to chop down a tree and I will spend the first four sharpening the axe."
+        "quoteText": localize("interventions.quotes.555.quoteText")
     },
     {
         "quoteAuthor": "E. M. Forster",
-        "quoteText": "One must be fond of people and trust them if one is not to make a mess of life."
+        "quoteText": localize("interventions.quotes.556.quoteText")
     },
     {
         "quoteAuthor": "David Seamans",
-        "quoteText": "We cannot change our memories, but we can change their meaning and the power they have over us."
+        "quoteText": localize("interventions.quotes.557.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "Being in humaneness is good. If we select other goodness and thus are far apart from humaneness, how can we be the wise?"
+        "quoteText": localize("interventions.quotes.558.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "To give hope to someone occurs when you teach them how to use the tools to do it for themselves."
+        "quoteText": localize("interventions.quotes.559.quoteText")
     },
     {
         "quoteAuthor": "Lucille Ball",
-        "quoteText": "Id rather regret the things that I have done than the things that I have not done."
+        "quoteText": localize("interventions.quotes.560.quoteText")
     },
     {
         "quoteAuthor": "Eckhart Tolle",
-        "quoteText": "The past has no power to stop you from being present now. Only your grievance about the past can do that."
+        "quoteText": localize("interventions.quotes.561.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "If the stars should appear but one night every thousand years how man would marvel and adore."
+        "quoteText": localize("interventions.quotes.562.quoteText")
     },
     {
         "quoteAuthor": "Laurence J. Peter",
-        "quoteText": "There are two kinds of failures: those who thought and never did, and those who did and never thought."
+        "quoteText": localize("interventions.quotes.563.quoteText")
     },
     {
         "quoteAuthor": "Elizabeth Arden",
-        "quoteText": "I'm not interested in age. People who tell me their age are silly. You're as old as you feel."
+        "quoteText": localize("interventions.quotes.564.quoteText")
     },
     {
         "quoteAuthor": "Dalai Lama",
-        "quoteText": "I find hope in the darkest of days, and focus in the brightest. I do not judge the universe."
+        "quoteText": localize("interventions.quotes.565.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "When it is obvious that the goals cannot be reached, don't adjust the goals, adjust the action steps."
+        "quoteText": localize("interventions.quotes.566.quoteText")
     },
     {
         "quoteAuthor": "Nikola Tesla",
-        "quoteText": "Our virtues and our failings are inseparable, like force and matter. When they separate, man is no more."
+        "quoteText": localize("interventions.quotes.567.quoteText")
     },
     {
         "quoteAuthor": "Leo Aikman",
-        "quoteText": "Blessed is the person who is too busy to worry in the daytime, and too sleepy to worry at night."
+        "quoteText": localize("interventions.quotes.568.quoteText")
     },
     {
         "quoteAuthor": "Pablo Picasso",
-        "quoteText": "He can who thinks he can, and he can't who thinks he can't. This is an inexorable, indisputable law."
+        "quoteText": localize("interventions.quotes.569.quoteText")
     },
     {
         "quoteAuthor": "Vernon Cooper",
-        "quoteText": "These days people seek knowledge, not wisdom. Knowledge is of the past, wisdom is of the future."
+        "quoteText": localize("interventions.quotes.570.quoteText")
     },
     {
         "quoteAuthor": "Benjamin Disraeli",
-        "quoteText": "One secret of success in life is for a man to be ready for his opportunity when it comes."
+        "quoteText": localize("interventions.quotes.571.quoteText")
     },
     {
         "quoteAuthor": "Dalai Lama",
-        "quoteText": "People take different roads seeking fulfilment and happiness. Just because theyre not on your road doesn't mean they've gotten lost."
+        "quoteText": localize("interventions.quotes.572.quoteText")
     },
     {
         "quoteAuthor": "Carl Jung",
-        "quoteText": "The shoe that fits one person pinches another; there is no recipe for living that suits all cases."
+        "quoteText": localize("interventions.quotes.573.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "There are only two mistakes one can make along the road to truth; not going all the way, and not starting."
+        "quoteText": localize("interventions.quotes.574.quoteText")
     },
     {
         "quoteAuthor": "Marcus Aurelius",
-        "quoteText": "Very little is needed to make a happy life; it is all within yourself, in your way of thinking."
+        "quoteText": localize("interventions.quotes.575.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Giving up doesn't always mean you are weak. Sometimes it means that you are strong enough to let go."
+        "quoteText": localize("interventions.quotes.576.quoteText")
     },
     {
         "quoteAuthor": "Johann Wolfgang von Goethe",
-        "quoteText": "Treat people as if they were what they ought to be and you help them to become what they are capable of being."
+        "quoteText": localize("interventions.quotes.577.quoteText")
     },
     {
         "quoteAuthor": "Thich Nhat Hanh",
-        "quoteText": "The most precious gift we can offer anyone is our attention. When mindfulness embraces those we love, they will bloom like flowers."
+        "quoteText": localize("interventions.quotes.578.quoteText")
     },
     {
         "quoteAuthor": "Jack Dixon",
-        "quoteText": "If you focus on results, you will never change. If you focus on change, you will get results."
+        "quoteText": localize("interventions.quotes.579.quoteText")
     },
     {
         "quoteAuthor": "G. K. Chesterton",
-        "quoteText": "I would maintain that thanks are the highest form of thought, and that gratitude is happiness doubled by wonder."
+        "quoteText": localize("interventions.quotes.580.quoteText")
     },
     {
         "quoteAuthor": "Denis Waitley",
-        "quoteText": "There are two primary choices in life: to accept conditions as they exist, or accept the responsibility for changing them."
+        "quoteText": localize("interventions.quotes.581.quoteText")
     },
     {
         "quoteAuthor": "Lao-Tzu",
-        "quoteText": "All difficult things have their origin in that which is easy, and great things in that which is small."
+        "quoteText": localize("interventions.quotes.582.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "You can be what you want to be. You have the power within and we will help you always."
+        "quoteText": localize("interventions.quotes.583.quoteText")
     },
     {
         "quoteAuthor": "Johannes Gaertner",
-        "quoteText": "To speak gratitude is courteous and pleasant, to enact gratitude is generous and noble, but to live gratitude is to touch Heaven."
+        "quoteText": localize("interventions.quotes.584.quoteText")
     },
     {
         "quoteAuthor": "Doug Larson",
-        "quoteText": "Wisdom is the reward you get for a lifetime of listening when you'd have preferred to talk."
+        "quoteText": localize("interventions.quotes.585.quoteText")
     },
     {
         "quoteAuthor": "Charles Lamb",
-        "quoteText": "The greatest pleasure I know is to do a good action by stealth, and to have it found out by accident."
+        "quoteText": localize("interventions.quotes.586.quoteText")
     },
     {
         "quoteAuthor": "John Muir",
-        "quoteText": "When one tugs at a single thing in nature, he finds it attached to the rest of the world."
+        "quoteText": localize("interventions.quotes.587.quoteText")
     },
     {
         "quoteAuthor": "Winston Churchill",
-        "quoteText": "Courage is what it takes to stand up and speak; courage is also what it takes to sit down and listen."
+        "quoteText": localize("interventions.quotes.588.quoteText")
     },
     {
         "quoteAuthor": "Helen Keller",
-        "quoteText": "The most beautiful things in the world cannot be seen or even touched. They must be felt with the heart."
+        "quoteText": localize("interventions.quotes.589.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "To live a pure unselfish life, one must count nothing as ones own in the midst of abundance."
+        "quoteText": localize("interventions.quotes.590.quoteText")
     },
     {
         "quoteAuthor": "Thomas Edison",
-        "quoteText": "Many of life's failures are people who did not realize how close they were to success when they gave up."
+        "quoteText": localize("interventions.quotes.591.quoteText")
     },
     {
         "quoteAuthor": "William Ward",
-        "quoteText": "When we seek to discover the best in others, we somehow bring out the best in ourselves."
+        "quoteText": localize("interventions.quotes.592.quoteText")
     },
     {
         "quoteAuthor": "Michael Jordan",
-        "quoteText": "If you accept the expectations of others, especially negative ones, then you never will change the outcome."
+        "quoteText": localize("interventions.quotes.593.quoteText")
     },
     {
         "quoteAuthor": "Oliver Holmes",
-        "quoteText": "A man may fulfil the object of his existence by asking a question he cannot answer, and attempting a task he cannot achieve."
+        "quoteText": localize("interventions.quotes.594.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "I am not bothered by the fact that I am unknown. I am bothered when I do not know others."
+        "quoteText": localize("interventions.quotes.595.quoteText")
     },
     {
         "quoteAuthor": "Epictetus",
-        "quoteText": "He is a wise man who does not grieve for the things which he has not, but rejoices for those which he has."
+        "quoteText": localize("interventions.quotes.596.quoteText")
     },
     {
         "quoteAuthor": "Pablo Picasso",
-        "quoteText": "I am always doing that which I cannot do, in order that I may learn how to do it."
+        "quoteText": localize("interventions.quotes.597.quoteText")
     },
     {
         "quoteAuthor": "Barack Obama",
-        "quoteText": "If you're walking down the right path and you're willing to keep walking, eventually you'll make progress."
+        "quoteText": localize("interventions.quotes.598.quoteText")
     },
     {
         "quoteAuthor": "Ivy Baker Priest",
-        "quoteText": "The world is round and the place which may seem like the end may also be the beginning."
+        "quoteText": localize("interventions.quotes.599.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Never miss an opportunity to make others happy, even if you have to leave them alone in order to do it."
+        "quoteText": localize("interventions.quotes.600.quoteText")
     },
     {
         "quoteAuthor": "Danielle Ingrum",
-        "quoteText": "Give it all you've got because you never know if there's going to be a next time."
+        "quoteText": localize("interventions.quotes.601.quoteText")
     },
     {
         "quoteAuthor": "Old German proverb",
-        "quoteText": "You have to take it as it happens, but you should try to make it happen the way you want to take it."
+        "quoteText": localize("interventions.quotes.602.quoteText")
     },
     {
         "quoteAuthor": "Ralph Blum",
-        "quoteText": "Nothing is predestined: The obstacles of your past can become the gateways that lead to new beginnings."
+        "quoteText": localize("interventions.quotes.603.quoteText")
     },
     {
         "quoteAuthor": "Bruce Lee",
-        "quoteText": "Im not in this world to live up to your expectations and you're not in this world to live up to mine."
+        "quoteText": localize("interventions.quotes.604.quoteText")
     },
     {
         "quoteAuthor": "Thich Nhat Hanh",
-        "quoteText": "Sometimes your joy is the source of your smile, but sometimes your smile can be the source of your joy."
+        "quoteText": localize("interventions.quotes.605.quoteText")
     },
     {
         "quoteAuthor": "Walter Cronkite",
-        "quoteText": "I can't imagine a person becoming a success who doesn't give this game of life everything hes got."
+        "quoteText": localize("interventions.quotes.606.quoteText")
     },
     {
         "quoteAuthor": "Socrates",
-        "quoteText": "The greatest way to live with honor in this world is to be what we pretend to be."
+        "quoteText": localize("interventions.quotes.607.quoteText")
     },
     {
         "quoteAuthor": "Seneca",
-        "quoteText": "The conditions of conquest are always easy. We have but to toil awhile, endure awhile, believe always, and never turn back."
+        "quoteText": localize("interventions.quotes.608.quoteText")
     },
     {
         "quoteAuthor": "Chalmers",
-        "quoteText": "The grand essentials of happiness are: something to do, something to love, and something to hope for."
+        "quoteText": localize("interventions.quotes.609.quoteText")
     },
     {
         "quoteAuthor": "Thich Nhat Hanh",
-        "quoteText": "By living deeply in the present moment we can understand the past better and we can prepare for a better future."
+        "quoteText": localize("interventions.quotes.610.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "Do not be too timid and squeamish about your reactions. All life is an experiment. The more experiments you make the better."
+        "quoteText": localize("interventions.quotes.611.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "Do not go where the path may lead, go instead where there is no path and leave a trail."
+        "quoteText": localize("interventions.quotes.612.quoteText")
     },
     {
         "quoteAuthor": "Robert Louis Stevenson",
-        "quoteText": "There is no duty we so underrate as the duty of being happy. By being happy we sow anonymous benefits upon the world."
+        "quoteText": localize("interventions.quotes.613.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Hill",
-        "quoteText": "Edison failed 10,000 times before he made the electric light. Do not be discouraged if you fail a few times."
+        "quoteText": localize("interventions.quotes.614.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Yesterday is history. Tomorrow is a mystery. And today? Today is a gift that's why they call it the present."
+        "quoteText": localize("interventions.quotes.615.quoteText")
     },
     {
         "quoteAuthor": "Henry Thoreau",
-        "quoteText": "The only way to tell the truth is to speak with kindness. Only the words of a loving man can be heard."
+        "quoteText": localize("interventions.quotes.616.quoteText")
     },
     {
         "quoteAuthor": "Benjamin Disraeli",
-        "quoteText": "The greatest good you can do for another is not just to share your riches but to reveal to him his own."
+        "quoteText": localize("interventions.quotes.617.quoteText")
     },
     {
         "quoteAuthor": "Brian Tracy",
-        "quoteText": "You can only grow if you're willing to feel awkward and uncomfortable when you try something new."
+        "quoteText": localize("interventions.quotes.618.quoteText")
     },
     {
         "quoteAuthor": "Joan Didion",
-        "quoteText": "To free us from the expectations of others, to give us back to ourselves, there lies the great, singular power of self-respect."
+        "quoteText": localize("interventions.quotes.619.quoteText")
     },
     {
         "quoteAuthor": "Mabel Newcomber",
-        "quoteText": "It is more important to know where you are going than to get there quickly. Do not mistake activity for achievement."
+        "quoteText": localize("interventions.quotes.620.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "When you don't know what you believe, everything becomes an argument. Everything is debatable. But when you stand for something, decisions are obvious."
+        "quoteText": localize("interventions.quotes.621.quoteText")
     },
     {
         "quoteAuthor": "Robert Graves",
-        "quoteText": "Intuition is the supra-logic that cuts out all the routine processes of thought and leaps straight from the problem to the answer."
+        "quoteText": localize("interventions.quotes.622.quoteText")
     },
     {
         "quoteAuthor": "Frank Wright",
-        "quoteText": "The thing always happens that you really believe in; and the belief in a thing makes it happen."
+        "quoteText": localize("interventions.quotes.623.quoteText")
     },
     {
         "quoteAuthor": "Francois de La Rochefoucauld",
-        "quoteText": "A true friend is the most precious of all possessions and the one we take the least thought about acquiring."
+        "quoteText": localize("interventions.quotes.624.quoteText")
     },
     {
         "quoteAuthor": "Epictetus",
-        "quoteText": "There is only one way to happiness and that is to cease worrying about things which are beyond the power of our will."
+        "quoteText": localize("interventions.quotes.625.quoteText")
     },
     {
         "quoteAuthor": "Margaret Cousins",
-        "quoteText": "Appreciation can make a day, even change a life. Your willingness to put it into words is all that is necessary."
+        "quoteText": localize("interventions.quotes.626.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Every sixty seconds you spend angry, upset or mad, is a full minute of happiness you'll never get back."
+        "quoteText": localize("interventions.quotes.627.quoteText")
     },
     {
         "quoteAuthor": "Thomas Carlyle",
-        "quoteText": "This world, after all our science and sciences, is still a miracle; wonderful, inscrutable, magical and more, to whosoever will think of it."
+        "quoteText": localize("interventions.quotes.628.quoteText")
     },
     {
         "quoteAuthor": "Pearl Buck",
-        "quoteText": "Every great mistake has a halfway moment, a split second when it can be recalled and perhaps remedied."
+        "quoteText": localize("interventions.quotes.629.quoteText")
     },
     {
         "quoteAuthor": "Catherine Pulsifer",
-        "quoteText": "You can adopt the attitude there is nothing you can do, or you can see the challenge as your call to action."
+        "quoteText": localize("interventions.quotes.630.quoteText")
     },
     {
         "quoteAuthor": "Alfred Tennyson",
-        "quoteText": "The happiness of a man in this life does not consist in the absence but in the mastery of his passions."
+        "quoteText": localize("interventions.quotes.631.quoteText")
     },
     {
         "quoteAuthor": "Margaret Mead",
-        "quoteText": "Never doubt that a small group of thoughtful, committed people can change the world. Indeed. It is the only thing that ever has."
+        "quoteText": localize("interventions.quotes.632.quoteText")
     },
     {
         "quoteAuthor": "Ovid",
-        "quoteText": "Let your hook always be cast; in the pool where you least expect it, there will be a fish."
+        "quoteText": localize("interventions.quotes.633.quoteText")
     },
     {
         "quoteAuthor": "Remez Sasson",
-        "quoteText": "You get peace of mind not by thinking about it or imagining it, but by quietening and relaxing the restless mind."
+        "quoteText": localize("interventions.quotes.634.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "Your friends will know you better in the first minute you meet than your acquaintances will know you in a thousand years."
+        "quoteText": localize("interventions.quotes.635.quoteText")
     },
     {
         "quoteAuthor": "Pema Chodron",
-        "quoteText": "When you begin to touch your heart or let your heart be touched, you begin to discover that it's bottomless."
+        "quoteText": localize("interventions.quotes.636.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "If you love someone, set them free. If they come back they're yours; if they don't they never were."
+        "quoteText": localize("interventions.quotes.637.quoteText")
     },
     {
         "quoteAuthor": "David Jordan",
-        "quoteText": "Wisdom is knowing what to do next; Skill is knowing how ot do it, and Virtue is doing it."
+        "quoteText": localize("interventions.quotes.638.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "Bad things are not the worst things that can happen to us. Nothing is the worst thing that can happen to us!"
+        "quoteText": localize("interventions.quotes.639.quoteText")
     },
     {
         "quoteAuthor": "Alan Watts",
-        "quoteText": "No valid plans for the future can be made by those who have no capacity for living now."
+        "quoteText": localize("interventions.quotes.640.quoteText")
     },
     {
         "quoteAuthor": "Oscar Wilde",
-        "quoteText": "The aim of life is self-development. To realize ones nature perfectly, that is what each of us is here for."
+        "quoteText": localize("interventions.quotes.641.quoteText")
     },
     {
         "quoteAuthor": "Anatole France",
-        "quoteText": "To accomplish great things, we must not only act, but also dream; not only plan, but also believe."
+        "quoteText": localize("interventions.quotes.642.quoteText")
     },
     {
         "quoteAuthor": "Thomas Edison",
-        "quoteText": "The first requisite for success is the ability to apply your physical and mental energies to one problem incessantly without growing weary."
+        "quoteText": localize("interventions.quotes.643.quoteText")
     },
     {
         "quoteAuthor": "John Steinbeck",
-        "quoteText": "If we could learn to like ourselves, even a little, maybe our cruelties and angers might melt away."
+        "quoteText": localize("interventions.quotes.644.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "If we are facing in the right direction, all we have to do is keep on walking."
+        "quoteText": localize("interventions.quotes.645.quoteText")
     },
     {
         "quoteAuthor": "Eleanor Roosevelt",
-        "quoteText": "Remember always that you not only have the right to be an individual, you have an obligation to be one."
+        "quoteText": localize("interventions.quotes.646.quoteText")
     },
     {
         "quoteAuthor": "Denis Waitley",
-        "quoteText": "There are two primary choices in life: to accept conditions as they exist, or accept responsibility for changing them."
+        "quoteText": localize("interventions.quotes.647.quoteText")
     },
     {
         "quoteAuthor": "Epictetus",
-        "quoteText": "If you seek truth you will not seek victory by dishonourable means, and if you find truth you will become invincible."
+        "quoteText": localize("interventions.quotes.648.quoteText")
     },
     {
         "quoteAuthor": "Eknath Easwaran",
-        "quoteText": "Through meditation and by giving full attention to one thing at a time, we can learn to direct attention where we choose."
+        "quoteText": localize("interventions.quotes.649.quoteText")
     },
     {
         "quoteAuthor": "Helen Keller",
-        "quoteText": "We could never learn to be brave and patient if there were only joy in the world."
+        "quoteText": localize("interventions.quotes.650.quoteText")
     },
     {
         "quoteAuthor": "Marcus Aurelius",
-        "quoteText": "If it is not right do not do it; if it is not true do not say it."
+        "quoteText": localize("interventions.quotes.651.quoteText")
     },
     {
         "quoteAuthor": "Norman Schwarzkopf",
-        "quoteText": "The truth of the matter is that you always know the right thing to do. The hard part is doing it."
+        "quoteText": localize("interventions.quotes.652.quoteText")
     },
     {
         "quoteAuthor": "Julie Morgenstern",
-        "quoteText": "Some people thrive on huge, dramatic change. Some people prefer the slow and steady route. Do what's right for you."
+        "quoteText": localize("interventions.quotes.653.quoteText")
     },
     {
         "quoteAuthor": "Blaise Pascal",
-        "quoteText": "Man is equally incapable of seeing the nothingness from which he emerges and the infinity in which he is engulfed."
+        "quoteText": localize("interventions.quotes.654.quoteText")
     },
     {
         "quoteAuthor": "Laura Teresa Marquez",
-        "quoteText": "Arrogance and rudeness are training wheels on the bicycle of life, for weak people who cannot keep their balance without them."
+        "quoteText": localize("interventions.quotes.655.quoteText")
     },
     {
         "quoteAuthor": "Chinese proverb",
-        "quoteText": "If you are patient in one moment of anger, you will escape one hundred days of sorrow."
+        "quoteText": localize("interventions.quotes.656.quoteText")
     },
     {
         "quoteAuthor": "Abraham Lincoln",
-        "quoteText": "When you have got an elephant by the hind legs and he is trying to run away, it's best to let him run."
+        "quoteText": localize("interventions.quotes.657.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Courage is not about taking risks unknowingly but putting your own being in front of challenges that others may not be able to."
+        "quoteText": localize("interventions.quotes.658.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "Can miles truly separate you from friends... If you want to be with someone you love, aren't you already there?"
+        "quoteText": localize("interventions.quotes.659.quoteText")
     },
     {
         "quoteAuthor": "Harry Kemp",
-        "quoteText": "The poor man is not he who is without a cent, but he who is without a dream."
+        "quoteText": localize("interventions.quotes.660.quoteText")
     },
     {
         "quoteAuthor": "Benjamin Disraeli",
-        "quoteText": "The greatest good you can do for another is not just share your riches, but reveal to them their own."
+        "quoteText": localize("interventions.quotes.661.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment."
+        "quoteText": localize("interventions.quotes.662.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Peace of mind is not the absence of conflict from life, but the ability to cope with it."
+        "quoteText": localize("interventions.quotes.663.quoteText")
     },
     {
         "quoteAuthor": "Helen Keller",
-        "quoteText": "Face your deficiencies and acknowledge them; but do not let them master you. Let them teach you patience, sweetness, insight."
+        "quoteText": localize("interventions.quotes.664.quoteText")
     },
     {
         "quoteAuthor": "John Kennedy",
-        "quoteText": "Change is the law of life. And those who look only to the past or present are certain to miss the future."
+        "quoteText": localize("interventions.quotes.665.quoteText")
     },
     {
         "quoteAuthor": "Marcus Aurelius",
-        "quoteText": "You have power over your mind, not outside events. Realize this, and you will find strength."
+        "quoteText": localize("interventions.quotes.666.quoteText")
     },
     {
         "quoteAuthor": "Louis Pasteur",
-        "quoteText": "Let me tell you the secret that has led me to my goal: my strength lies solely in my tenacity."
+        "quoteText": localize("interventions.quotes.667.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "We are what we think. All that we are arises with our thoughts. With our thoughts, we make the world."
+        "quoteText": localize("interventions.quotes.668.quoteText")
     },
     {
         "quoteAuthor": "Henry Longfellow",
-        "quoteText": "He that respects himself is safe from others; he wears a coat of mail that none can pierce."
+        "quoteText": localize("interventions.quotes.669.quoteText")
     },
     {
         "quoteAuthor": "Wayne Dyer",
-        "quoteText": "I cannot always control what goes on outside. But I can always control what goes on inside."
+        "quoteText": localize("interventions.quotes.670.quoteText")
     },
     {
         "quoteAuthor": "Daisaku Ikeda",
-        "quoteText": "What matters is the value we've created in our lives, the people we've made happy and how much we've grown as people."
+        "quoteText": localize("interventions.quotes.671.quoteText")
     },
     {
         "quoteAuthor": "Epictetus",
-        "quoteText": "When you are offended at any man's fault, turn to yourself and study your own failings. Then you will forget your anger."
+        "quoteText": localize("interventions.quotes.672.quoteText")
     },
     {
         "quoteAuthor": "Rumi",
-        "quoteText": "Everyone has been made for some particular work, and the desire for that work has been put in every heart."
+        "quoteText": localize("interventions.quotes.673.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Bonaparte",
-        "quoteText": "Take time to deliberate, but when the time for action has arrived, stop thinking and go in."
+        "quoteText": localize("interventions.quotes.674.quoteText")
     },
     {
         "quoteAuthor": "Dalai Lama",
-        "quoteText": "With realization of ones own potential and self-confidence in ones ability, one can build a better world."
+        "quoteText": localize("interventions.quotes.675.quoteText")
     },
     {
         "quoteAuthor": "Franklin Roosevelt",
-        "quoteText": "Happiness is not in the mere possession of money; it lies in the joy of achievement, in the thrill of creative effort."
+        "quoteText": localize("interventions.quotes.676.quoteText")
     },
     {
         "quoteAuthor": "Pearl Buck",
-        "quoteText": "You cannot make yourself feel something you do not feel, but you can make yourself do right in spite of your feelings."
+        "quoteText": localize("interventions.quotes.677.quoteText")
     },
     {
         "quoteAuthor": "Mary Kay Ash",
-        "quoteText": "Those who are blessed with the most talent don't necessarily outperform everyone else. It's the people with follow-through who excel."
+        "quoteText": localize("interventions.quotes.678.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "Try not to become a man of success, but rather try to become a man of value."
+        "quoteText": localize("interventions.quotes.679.quoteText")
     },
     {
         "quoteAuthor": "Sophocles",
-        "quoteText": "Men of perverse opinion do not know the excellence of what is in their hands, till some one dash it from them."
+        "quoteText": localize("interventions.quotes.680.quoteText")
     },
     {
         "quoteAuthor": "Rene Descartes",
-        "quoteText": "It is not enough to have a good mind; the main thing is to use it well."
+        "quoteText": localize("interventions.quotes.681.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Responsibility is not inherited, it is a choice that everyone needs to make at some point in their life."
+        "quoteText": localize("interventions.quotes.682.quoteText")
     },
     {
         "quoteAuthor": "Amelia Earhart",
-        "quoteText": "Never do things others can do and will do, if there are things others cannot do or will not do."
+        "quoteText": localize("interventions.quotes.683.quoteText")
     },
     {
         "quoteAuthor": "Jimmy Dean",
-        "quoteText": "I can't change the direction of the wind, but I can adjust my sails to always reach my destination."
+        "quoteText": localize("interventions.quotes.684.quoteText")
     },
     {
         "quoteAuthor": "George Allen",
-        "quoteText": "People of mediocre ability sometimes achieve outstanding success because they don't know when to quit. Most men succeed because they are determined to."
+        "quoteText": localize("interventions.quotes.685.quoteText")
     },
     {
         "quoteAuthor": "Joseph Roux",
-        "quoteText": "A fine quotation is a diamond on the finger of a man of wit, and a pebble in the hand of a fool."
+        "quoteText": localize("interventions.quotes.686.quoteText")
     },
     {
         "quoteAuthor": "Bernice Reagon",
-        "quoteText": "Life's challenges are not supposed to paralyse you, they're supposed to help you discover who you are."
+        "quoteText": localize("interventions.quotes.687.quoteText")
     },
     {
         "quoteAuthor": "Socrates",
-        "quoteText": "The greatest way to live with honour in this world is to be what we pretend to be."
+        "quoteText": localize("interventions.quotes.688.quoteText")
     },
     {
         "quoteAuthor": "Henri Bergson",
-        "quoteText": "To exist is to change, to change is to mature, to mature is to go on creating oneself endlessly."
+        "quoteText": localize("interventions.quotes.689.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "Try not to become a man of success but rather try to become a man of value."
+        "quoteText": localize("interventions.quotes.690.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "You can't create in a vacuum. Life gives you the material and dreams can propel new beginnings."
+        "quoteText": localize("interventions.quotes.691.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "Your work is to discover your world and then with all your heart give yourself to it."
+        "quoteText": localize("interventions.quotes.692.quoteText")
     },
     {
         "quoteAuthor": "Daisaku Ikeda",
-        "quoteText": "The person who lives life fully, glowing with life's energy, is the person who lives a successful life."
+        "quoteText": localize("interventions.quotes.693.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "Don't turn away from possible futures before you're certain you don't have anything to learn from them."
+        "quoteText": localize("interventions.quotes.694.quoteText")
     },
     {
         "quoteAuthor": "David Brinkley",
-        "quoteText": "A successful person is one who can lay a firm foundation with the bricks that others throw at him or her."
+        "quoteText": localize("interventions.quotes.695.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "All that we are is the result of what we have thought. The mind is everything. What we think we become."
+        "quoteText": localize("interventions.quotes.696.quoteText")
     },
     {
         "quoteAuthor": "Henri-Frederic Amiel",
-        "quoteText": "Work while you have the light. You are responsible for the talent that has been entrusted to you."
+        "quoteText": localize("interventions.quotes.697.quoteText")
     },
     {
         "quoteAuthor": "William Shakespeare",
-        "quoteText": "How far that little candle throws its beams! So shines a good deed in a naughty world."
+        "quoteText": localize("interventions.quotes.698.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Hill",
-        "quoteText": "Every adversity, every failure, every heartache carries with it the seed of an equal or greater benefit."
+        "quoteText": localize("interventions.quotes.699.quoteText")
     },
     {
         "quoteAuthor": "Tony Robbins",
-        "quoteText": "It is in your moments of decision that your destiny is shaped."
+        "quoteText": localize("interventions.quotes.700.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "An obstacle may be either a stepping stone or a stumbling block."
+        "quoteText": localize("interventions.quotes.701.quoteText")
     },
     {
         "quoteAuthor": "Pierre Auguste Renoir",
-        "quoteText": "The pain passes, but the beauty remains."
+        "quoteText": localize("interventions.quotes.702.quoteText")
     },
     {
         "quoteAuthor": "Bob Newhart",
-        "quoteText": "All I can say about life is, Oh God, enjoy it!"
+        "quoteText": localize("interventions.quotes.703.quoteText")
     },
     {
         "quoteAuthor": "Rita Mae Brown",
-        "quoteText": "Creativity comes from trust. Trust your instincts. And never hope more than you work."
+        "quoteText": localize("interventions.quotes.704.quoteText")
     },
     {
         "quoteAuthor": "Lululemon",
-        "quoteText": "Your outlook on life is a direct reflection on how much you like yourself."
+        "quoteText": localize("interventions.quotes.705.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "I have just three things to teach: simplicity, patience, compassion. These three are your greatest treasures."
+        "quoteText": localize("interventions.quotes.706.quoteText")
     },
     {
         "quoteAuthor": "Kin Hubbard",
-        "quoteText": "You won't skid if you stay in a rut."
+        "quoteText": localize("interventions.quotes.707.quoteText")
     },
     {
         "quoteAuthor": "Mary Morrissey",
-        "quoteText": "You block your dream when you allow your fear to grow bigger than your faith."
+        "quoteText": localize("interventions.quotes.708.quoteText")
     },
     {
         "quoteAuthor": "Aristotle",
-        "quoteText": "Happiness depends upon ourselves."
+        "quoteText": localize("interventions.quotes.709.quoteText")
     },
     {
         "quoteAuthor": "Albert Schweitzer",
-        "quoteText": "Wherever a man turns he can find someone who needs him."
+        "quoteText": localize("interventions.quotes.710.quoteText")
     },
     {
         "quoteAuthor": "Maya Angelou",
-        "quoteText": "If one is lucky, a solitary fantasy can totally transform one million realities."
+        "quoteText": localize("interventions.quotes.711.quoteText")
     },
     {
         "quoteAuthor": "Leo Buscaglia",
-        "quoteText": "Never idealize others. They will never live up to your expectations."
+        "quoteText": localize("interventions.quotes.712.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "When you realize there is nothing lacking, the whole world belongs to you."
+        "quoteText": localize("interventions.quotes.713.quoteText")
     },
     {
         "quoteAuthor": "Dalai Lama",
-        "quoteText": "Happiness is not something ready made. It comes from your own actions."
+        "quoteText": localize("interventions.quotes.714.quoteText")
     },
     {
         "quoteAuthor": "Peter Elbow",
-        "quoteText": "Meaning is not what you start with but what you end up with."
+        "quoteText": localize("interventions.quotes.715.quoteText")
     },
     {
         "quoteAuthor": "Anne Frank",
-        "quoteText": "No one has ever become poor by giving."
+        "quoteText": localize("interventions.quotes.716.quoteText")
     },
     {
         "quoteAuthor": "Mother Teresa",
-        "quoteText": "Be faithful in small things because it is in them that your strength lies."
+        "quoteText": localize("interventions.quotes.717.quoteText")
     },
     {
         "quoteAuthor": "Heraclitus",
-        "quoteText": "All is flux; nothing stays still."
+        "quoteText": localize("interventions.quotes.718.quoteText")
     },
     {
         "quoteAuthor": "Leonardo da Vinci",
-        "quoteText": "He who is fixed to a star does not change his mind."
+        "quoteText": localize("interventions.quotes.719.quoteText")
     },
     {
         "quoteAuthor": "Marcus Aurelius",
-        "quoteText": "He who lives in harmony with himself lives in harmony with the universe."
+        "quoteText": localize("interventions.quotes.720.quoteText")
     },
     {
         "quoteAuthor": "Sophocles",
-        "quoteText": "Ignorant men don't know what good they hold in their hands until they've flung it away."
+        "quoteText": localize("interventions.quotes.721.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "When the solution is simple, God is answering."
+        "quoteText": localize("interventions.quotes.722.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Hill",
-        "quoteText": "All achievements, all earned riches, have their beginning in an idea."
+        "quoteText": localize("interventions.quotes.723.quoteText")
     },
     {
         "quoteAuthor": "Publilius Syrus",
-        "quoteText": "Do not turn back when you are just at the goal."
+        "quoteText": localize("interventions.quotes.724.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "You can't trust without risk but neither can you live in a cocoon."
+        "quoteText": localize("interventions.quotes.725.quoteText")
     },
     {
         "quoteAuthor": "Rudolf Arnheim",
-        "quoteText": "All perceiving is also thinking, all reasoning is also intuition, all observation is also invention."
+        "quoteText": localize("interventions.quotes.726.quoteText")
     },
     {
         "quoteAuthor": "Channing",
-        "quoteText": "Error is discipline through which we advance."
+        "quoteText": localize("interventions.quotes.727.quoteText")
     },
     {
         "quoteAuthor": "Pearl Buck",
-        "quoteText": "The truth is always exciting. Speak it, then. Life is dull without it."
+        "quoteText": localize("interventions.quotes.728.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "The superior man is modest in his speech, but exceeds in his actions."
+        "quoteText": localize("interventions.quotes.729.quoteText")
     },
     {
         "quoteAuthor": "Voltaire",
-        "quoteText": "The longer we dwell on our misfortunes, the greater is their power to harm us."
+        "quoteText": localize("interventions.quotes.730.quoteText")
     },
     {
         "quoteAuthor": "Cervantes",
-        "quoteText": "Those who will play with cats must expect to be scratched."
+        "quoteText": localize("interventions.quotes.731.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "I've never seen a smiling face that was not beautiful."
+        "quoteText": localize("interventions.quotes.732.quoteText")
     },
     {
         "quoteAuthor": "Aristotle",
-        "quoteText": "In all things of nature there is something of the marvellous."
+        "quoteText": localize("interventions.quotes.733.quoteText")
     },
     {
         "quoteAuthor": "Marcus Aurelius",
-        "quoteText": "The universe is transformation; our life is what our thoughts make it."
+        "quoteText": localize("interventions.quotes.734.quoteText")
     },
     {
         "quoteAuthor": "Samuel Johnson",
-        "quoteText": "Memory is the mother of all wisdom."
+        "quoteText": localize("interventions.quotes.735.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "Silence is the true friend that never betrays."
+        "quoteText": localize("interventions.quotes.736.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Hill",
-        "quoteText": "You might well remember that nothing can bring you success but yourself."
+        "quoteText": localize("interventions.quotes.737.quoteText")
     },
     {
         "quoteAuthor": "Benjamin Franklin",
-        "quoteText": "Watch the little things; a small leak will sink a great ship."
+        "quoteText": localize("interventions.quotes.738.quoteText")
     },
     {
         "quoteAuthor": "William Shakespeare",
-        "quoteText": "God has given you one face, and you make yourself another."
+        "quoteText": localize("interventions.quotes.739.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "To be wronged is nothing unless you continue to remember it."
+        "quoteText": localize("interventions.quotes.740.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Kindness is the greatest wisdom."
+        "quoteText": localize("interventions.quotes.741.quoteText")
     },
     {
         "quoteAuthor": "Tehyi Hsieh",
-        "quoteText": "Action will remove the doubts that theory cannot solve."
+        "quoteText": localize("interventions.quotes.742.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Don't miss all the beautiful colors of the rainbow looking for that pot of gold."
+        "quoteText": localize("interventions.quotes.743.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Hill",
-        "quoteText": "Your big opportunity may be right where you are now."
+        "quoteText": localize("interventions.quotes.744.quoteText")
     },
     {
         "quoteAuthor": "Chinese proverb",
-        "quoteText": "People who say it cannot be done should not interrupt those who are doing it."
+        "quoteText": localize("interventions.quotes.745.quoteText")
     },
     {
         "quoteAuthor": "Japanese proverb",
-        "quoteText": "The day you decide to do it is your lucky day."
+        "quoteText": localize("interventions.quotes.746.quoteText")
     },
     {
         "quoteAuthor": "Cicero",
-        "quoteText": "We must not say every mistake is a foolish one."
+        "quoteText": localize("interventions.quotes.747.quoteText")
     },
     {
         "quoteAuthor": "George Patton",
-        "quoteText": "Accept challenges, so that you may feel the exhilaration of victory."
+        "quoteText": localize("interventions.quotes.748.quoteText")
     },
     {
         "quoteAuthor": "Anatole France",
-        "quoteText": "It is better to understand a little than to misunderstand a lot."
+        "quoteText": localize("interventions.quotes.749.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "You don't drown by falling in water. You drown by staying there."
+        "quoteText": localize("interventions.quotes.750.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Never be afraid to try, remember... Amateurs built the ark, Professionals built the Titanic."
+        "quoteText": localize("interventions.quotes.751.quoteText")
     },
     {
         "quoteAuthor": "Johann Wolfgang von Goethe",
-        "quoteText": "Correction does much, but encouragement does more."
+        "quoteText": localize("interventions.quotes.752.quoteText")
     },
     {
         "quoteAuthor": "Epictetus",
-        "quoteText": "Know, first, who you are, and then adorn yourself accordingly."
+        "quoteText": localize("interventions.quotes.753.quoteText")
     },
     {
         "quoteAuthor": "Oprah Winfrey",
-        "quoteText": "The biggest adventure you can ever take is to live the life of your dreams."
+        "quoteText": localize("interventions.quotes.754.quoteText")
     },
     {
         "quoteAuthor": "Charles Swindoll",
-        "quoteText": "Life is 10% what happens to you and 90% how you react to it."
+        "quoteText": localize("interventions.quotes.755.quoteText")
     },
     {
         "quoteAuthor": "Cynthia Ozick",
-        "quoteText": "To want to be what one can be is purpose in life."
+        "quoteText": localize("interventions.quotes.756.quoteText")
     },
     {
         "quoteAuthor": "Dalai Lama",
-        "quoteText": "Remember that sometimes not getting what you want is a wonderful stroke of luck."
+        "quoteText": localize("interventions.quotes.757.quoteText")
     },
     {
         "quoteAuthor": "Winston Churchill",
-        "quoteText": "History will be kind to me for I intend to write it."
+        "quoteText": localize("interventions.quotes.758.quoteText")
     },
     {
         "quoteAuthor": "Wayne Dyer",
-        "quoteText": "Our lives are a sum total of the choices we have made."
+        "quoteText": localize("interventions.quotes.759.quoteText")
     },
     {
         "quoteAuthor": "Leonardo da Vinci",
-        "quoteText": "Time stays long enough for anyone who will use it."
+        "quoteText": localize("interventions.quotes.760.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Never tell me the sky's the limit when there are footprints on the moon."
+        "quoteText": localize("interventions.quotes.761.quoteText")
     },
     {
         "quoteAuthor": "Denis Waitley",
-        "quoteText": "You must welcome change as the rule but not as your ruler."
+        "quoteText": localize("interventions.quotes.762.quoteText")
     },
     {
         "quoteAuthor": "Jim Rohn",
-        "quoteText": "Give whatever you are doing and whoever you are with the gift of your attention."
+        "quoteText": localize("interventions.quotes.763.quoteText")
     },
     {
         "quoteAuthor": "Lena Horne",
-        "quoteText": "Always be smarter than the people who hire you."
+        "quoteText": localize("interventions.quotes.764.quoteText")
     },
     {
         "quoteAuthor": "Tom Peters",
-        "quoteText": "Formula for success: under promise and over deliver."
+        "quoteText": localize("interventions.quotes.765.quoteText")
     },
     {
         "quoteAuthor": "Henri Bergson",
-        "quoteText": "The eye sees only what the mind is prepared to comprehend."
+        "quoteText": localize("interventions.quotes.766.quoteText")
     },
     {
         "quoteAuthor": "Lee Mildon",
-        "quoteText": "People seldom notice old clothes if you wear a big smile."
+        "quoteText": localize("interventions.quotes.767.quoteText")
     },
     {
         "quoteAuthor": "Shakti Gawain",
-        "quoteText": "The more light you allow within you, the brighter the world you live in will be."
+        "quoteText": localize("interventions.quotes.768.quoteText")
     },
     {
         "quoteAuthor": "Walter Anderson",
-        "quoteText": "Nothing diminishes anxiety faster than action."
+        "quoteText": localize("interventions.quotes.769.quoteText")
     },
     {
         "quoteAuthor": "Andre Gide",
-        "quoteText": "Man cannot discover new oceans unless he has the courage to lose sight of the shore."
+        "quoteText": localize("interventions.quotes.770.quoteText")
     },
     {
         "quoteAuthor": "Carl Jung",
-        "quoteText": "Everything that irritates us about others can lead us to an understanding about ourselves."
+        "quoteText": localize("interventions.quotes.771.quoteText")
     },
     {
         "quoteAuthor": "Sun Tzu",
-        "quoteText": "Can you imagine what I would do if I could do all I can?"
+        "quoteText": localize("interventions.quotes.772.quoteText")
     },
     {
         "quoteAuthor": "Benjamin Disraeli",
-        "quoteText": "Ignorance never settle a question."
+        "quoteText": localize("interventions.quotes.773.quoteText")
     },
     {
         "quoteAuthor": "Paul Cezanne",
-        "quoteText": "The awareness of our own strength makes us modest."
+        "quoteText": localize("interventions.quotes.774.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "They must often change, who would be constant in happiness or wisdom."
+        "quoteText": localize("interventions.quotes.775.quoteText")
     },
     {
         "quoteAuthor": "Tom Krause",
-        "quoteText": "There are no failures. Just experiences and your reactions to them."
+        "quoteText": localize("interventions.quotes.776.quoteText")
     },
     {
         "quoteAuthor": "Frank Tyger",
-        "quoteText": "Your future depends on many things, but mostly on you."
+        "quoteText": localize("interventions.quotes.777.quoteText")
     },
     {
         "quoteAuthor": "Dorothy Thompson",
-        "quoteText": "Fear grows in darkness; if you think theres a bogeyman around, turn on the light."
+        "quoteText": localize("interventions.quotes.778.quoteText")
     },
     {
         "quoteAuthor": "Shunryu Suzuki",
-        "quoteText": "The most important point is to accept yourself and stand on your two feet."
+        "quoteText": localize("interventions.quotes.779.quoteText")
     },
     {
         "quoteAuthor": "Tomas Eliot",
-        "quoteText": "Do not expect the world to look bright, if you habitually wear gray-brown glasses."
+        "quoteText": localize("interventions.quotes.780.quoteText")
     },
     {
         "quoteAuthor": "John Dewey",
-        "quoteText": "Without some goals and some efforts to reach it, no man can live."
+        "quoteText": localize("interventions.quotes.781.quoteText")
     },
     {
         "quoteAuthor": "Richard Braunstein",
-        "quoteText": "He who obtains has little. He who scatters has much."
+        "quoteText": localize("interventions.quotes.782.quoteText")
     },
     {
         "quoteAuthor": "George Orwell",
-        "quoteText": "Myths which are believed in tend to become true."
+        "quoteText": localize("interventions.quotes.783.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "The foot feels the foot when it feels the ground."
+        "quoteText": localize("interventions.quotes.784.quoteText")
     },
     {
         "quoteAuthor": "John Petit-Senn",
-        "quoteText": "Not what we have but what we enjoy constitutes our abundance."
+        "quoteText": localize("interventions.quotes.785.quoteText")
     },
     {
         "quoteAuthor": "George Eliot",
-        "quoteText": "It is never too late to be what you might have been."
+        "quoteText": localize("interventions.quotes.786.quoteText")
     },
     {
         "quoteAuthor": "Mary Wollstonecraft",
-        "quoteText": "The beginning is always today."
+        "quoteText": localize("interventions.quotes.787.quoteText")
     },
     {
         "quoteAuthor": "Sheldon Kopp",
-        "quoteText": "In the long run we get no more than we have been willing to risk giving."
+        "quoteText": localize("interventions.quotes.788.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "Self-trust is the first secret of success."
+        "quoteText": localize("interventions.quotes.789.quoteText")
     },
     {
         "quoteAuthor": "Satchel Paige",
-        "quoteText": "Don't look back. Something might be gaining on you."
+        "quoteText": localize("interventions.quotes.790.quoteText")
     },
     {
         "quoteAuthor": "Marcus Aurelius",
-        "quoteText": "Look back over the past, with its changing empires that rose and fell, and you can foresee the future, too."
+        "quoteText": localize("interventions.quotes.791.quoteText")
     },
     {
         "quoteAuthor": "George Bernard Shaw",
-        "quoteText": "A life spent making mistakes is not only more honourable, but more useful than a life spent doing nothing."
+        "quoteText": localize("interventions.quotes.792.quoteText")
     },
     {
         "quoteAuthor": "Epictetus",
-        "quoteText": "Men are disturbed not by things, but by the view which they take of them."
+        "quoteText": localize("interventions.quotes.793.quoteText")
     },
     {
         "quoteAuthor": "Blaise Pascal",
-        "quoteText": "Imagination disposes of everything; it creates beauty, justice, and happiness, which are everything in this world."
+        "quoteText": localize("interventions.quotes.794.quoteText")
     },
     {
         "quoteAuthor": "Mark Twain",
-        "quoteText": "Happiness is a Swedish sunset, it is there for all, but most of us look the other way and lose it."
+        "quoteText": localize("interventions.quotes.795.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "A smile is a light in the window of your face to show your heart is at home."
+        "quoteText": localize("interventions.quotes.796.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Look forward to spring as a time when you can start to see what nature has to offer once again."
+        "quoteText": localize("interventions.quotes.797.quoteText")
     },
     {
         "quoteAuthor": "Billy Wilder",
-        "quoteText": "Trust your own instinct. Your mistakes might as well be your own, instead of someone elses."
+        "quoteText": localize("interventions.quotes.798.quoteText")
     },
     {
         "quoteAuthor": "Blaise Pascal",
-        "quoteText": "The least movement is of importance to all nature. The entire ocean is affected by a pebble."
+        "quoteText": localize("interventions.quotes.799.quoteText")
     },
     {
         "quoteAuthor": "Pablo Picasso",
-        "quoteText": "I am always doing that which I can not do, in order that I may learn how to do it."
+        "quoteText": localize("interventions.quotes.800.quoteText")
     },
     {
         "quoteAuthor": "Niccolo Machiavelli",
-        "quoteText": "Men in general judge more from appearances than from reality. All men have eyes, but few have the gift of penetration."
+        "quoteText": localize("interventions.quotes.801.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "You may only be someone in the world, but to someone else, you may be the world."
+        "quoteText": localize("interventions.quotes.802.quoteText")
     },
     {
         "quoteAuthor": "Henry Ward Beecher",
-        "quoteText": "Every artist dips his brush in his own soul, and paints his own nature into his pictures."
+        "quoteText": localize("interventions.quotes.803.quoteText")
     },
     {
         "quoteAuthor": "James Faust",
-        "quoteText": "If you take each challenge one step at a time, with faith in every footstep, your strength and understanding will increase."
+        "quoteText": localize("interventions.quotes.804.quoteText")
     },
     {
         "quoteAuthor": "Denis Waitley",
-        "quoteText": "Happiness cannot be travelled to, owned, earned, worn or consumed. Happiness is the spiritual experience of living every minute with love, grace and gratitude."
+        "quoteText": localize("interventions.quotes.805.quoteText")
     },
     {
         "quoteAuthor": "Hasidic saying",
-        "quoteText": "Everyone should carefully observe which way his heart draws him, and then choose that way with all his strength."
+        "quoteText": localize("interventions.quotes.806.quoteText")
     },
     {
         "quoteAuthor": "Joseph Campbell",
-        "quoteText": "When we quit thinking primarily about ourselves and our own self-preservation, we undergo a truly heroic transformation of consciousness."
+        "quoteText": localize("interventions.quotes.807.quoteText")
     },
     {
         "quoteAuthor": "Dhammapada",
-        "quoteText": "Do not give your attention to what others do or fail to do; give it to what you do or fail to do."
+        "quoteText": localize("interventions.quotes.808.quoteText")
     },
     {
         "quoteAuthor": "Peter Drucker",
-        "quoteText": "Follow effective action with quiet reflection. From the quiet reflection will come even more effective action."
+        "quoteText": localize("interventions.quotes.809.quoteText")
     },
     {
         "quoteAuthor": "Bernice Reagon",
-        "quoteText": "Life's challenges are not supposed to paralyze you, they're supposed to help you discover who you are."
+        "quoteText": localize("interventions.quotes.810.quoteText")
     },
     {
         "quoteAuthor": "Fannie Hamer",
-        "quoteText": "There is one thing you have got to learn about our movement. Three people are better than no people."
+        "quoteText": localize("interventions.quotes.811.quoteText")
     },
     {
         "quoteAuthor": "Ralph Waldo Emerson",
-        "quoteText": "Happiness is a perfume you cannot pour on others without getting a few drops on yourself."
+        "quoteText": localize("interventions.quotes.812.quoteText")
     },
     {
         "quoteAuthor": "Byron Roberts",
-        "quoteText": "It is not the mistake that has the most power, instead, it is learning from the mistake to advance your own attributes."
+        "quoteText": localize("interventions.quotes.813.quoteText")
     },
     {
         "quoteAuthor": "Thich Nhat Hanh",
-        "quoteText": "The amount of happiness that you have depends on the amount of freedom you have in your heart."
+        "quoteText": localize("interventions.quotes.814.quoteText")
     },
     {
         "quoteAuthor": "Carl Jung",
-        "quoteText": "Your vision will become clear only when you look into your heart. Who looks outside, dreams. Who looks inside, awakens."
+        "quoteText": localize("interventions.quotes.815.quoteText")
     },
     {
         "quoteAuthor": "Babatunde Olatunji",
-        "quoteText": "Yesterday is history. Tomorrow is a mystery. And today? Today is a gift. That is why we call it the present."
+        "quoteText": localize("interventions.quotes.816.quoteText")
     },
     {
         "quoteAuthor": "Tony Robbins",
-        "quoteText": "The way we communicate with others and with ourselves ultimately determines the quality of our lives."
+        "quoteText": localize("interventions.quotes.817.quoteText")
     },
     {
         "quoteAuthor": "Tony Blair",
-        "quoteText": "Sometimes it is better to lose and do the right thing than to win and do the wrong thing."
+        "quoteText": localize("interventions.quotes.818.quoteText")
     },
     {
         "quoteAuthor": "Mother Teresa",
-        "quoteText": "Let us always meet each other with smile, for the smile is the beginning of love."
+        "quoteText": localize("interventions.quotes.819.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "A bend in the road is not the end of the road...unless you fail to make the turn."
+        "quoteText": localize("interventions.quotes.820.quoteText")
     },
     {
         "quoteAuthor": "Aristotle",
-        "quoteText": "We are what we repeatedly do. Excellence, then, is not an act, but a habit."
+        "quoteText": localize("interventions.quotes.821.quoteText")
     },
     {
         "quoteAuthor": "Ray Bradbury",
-        "quoteText": "Living at risk is jumping off the cliff and building your wings on the way down."
+        "quoteText": localize("interventions.quotes.822.quoteText")
     },
     {
         "quoteAuthor": "Albert Camus",
-        "quoteText": "In the depth of winter, I finally learned that there was within me an invincible summer."
+        "quoteText": localize("interventions.quotes.823.quoteText")
     },
     {
         "quoteAuthor": "Madame de Stael",
-        "quoteText": "Wit lies in recognizing the resemblance among things which differ and the difference between things which are alike."
+        "quoteText": localize("interventions.quotes.824.quoteText")
     },
     {
         "quoteAuthor": "Elbert Hubbard",
-        "quoteText": "A failure is a man who has blundered but is not capable of cashing in on the experience."
+        "quoteText": localize("interventions.quotes.825.quoteText")
     },
     {
         "quoteAuthor": "Herbert Swope",
-        "quoteText": "I cannot give you the formula for success, but I can give you the formula for failure: which is: Try to please everybody."
+        "quoteText": localize("interventions.quotes.826.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "One who asks a question is a fool for five minutes; one who does not ask a question remains a fool forever."
+        "quoteText": localize("interventions.quotes.827.quoteText")
     },
     {
         "quoteAuthor": "Laozi",
-        "quoteText": "The power of intuitive understanding will protect you from harm until the end of your days."
+        "quoteText": localize("interventions.quotes.828.quoteText")
     },
     {
         "quoteAuthor": "Abraham Lincoln",
-        "quoteText": "The best thing about the future is that it only comes one day at a time."
+        "quoteText": localize("interventions.quotes.829.quoteText")
     },
     {
         "quoteAuthor": "Epictetus",
-        "quoteText": "We have two ears and one mouth so that we can listen twice as much as we speak."
+        "quoteText": localize("interventions.quotes.830.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Fear of failure is one attitude that will keep you at the same point in your life."
+        "quoteText": localize("interventions.quotes.831.quoteText")
     },
     {
         "quoteAuthor": "Ed Cunningham",
-        "quoteText": "Friends are those rare people who ask how we are and then wait to hear the answer."
+        "quoteText": localize("interventions.quotes.832.quoteText")
     },
     {
         "quoteAuthor": "Pema Chodron",
-        "quoteText": "If we learn to open our hearts, anyone, including the people who drive us crazy, can be our teacher."
+        "quoteText": localize("interventions.quotes.833.quoteText")
     },
     {
         "quoteAuthor": "Eleanor Roosevelt",
-        "quoteText": "People grow through experience if they meet life honestly and courageously. This is how character is built."
+        "quoteText": localize("interventions.quotes.834.quoteText")
     },
     {
         "quoteAuthor": "Ralph Waldo Emerson",
-        "quoteText": "A hero is no braver than an ordinary man, but he is braver five minutes longer."
+        "quoteText": localize("interventions.quotes.835.quoteText")
     },
     {
         "quoteAuthor": "Angela Schwindt",
-        "quoteText": "While we try to teach our children all about life, our children teach us what life is all about."
+        "quoteText": localize("interventions.quotes.836.quoteText")
     },
     {
         "quoteAuthor": "Wayne Dyer",
-        "quoteText": "When you dance, your purpose is not to get to a certain place on the floor. It's to enjoy each step along the way."
+        "quoteText": localize("interventions.quotes.837.quoteText")
     },
     {
         "quoteAuthor": "Dalai Lama",
-        "quoteText": "Genuine love should first be directed at oneself, if we do not love ourselves, how can we love others?"
+        "quoteText": localize("interventions.quotes.838.quoteText")
     },
     {
         "quoteAuthor": "Orison Marden",
-        "quoteText": "The Creator has not given you a longing to do that which you have no ability to do."
+        "quoteText": localize("interventions.quotes.839.quoteText")
     },
     {
         "quoteAuthor": "Sam Levenson",
-        "quoteText": "It's so simple to be wise. Just think of something stupid to say and then don't say it."
+        "quoteText": localize("interventions.quotes.840.quoteText")
     },
     {
         "quoteAuthor": "Dalai Lama",
-        "quoteText": "Consider that not only do negative thoughts and emotions destroy our experience of peace, they also undermine our health."
+        "quoteText": localize("interventions.quotes.841.quoteText")
     },
     {
         "quoteAuthor": "Doris Mortman",
-        "quoteText": "Until you make peace with who you are, you will never be content with what you have."
+        "quoteText": localize("interventions.quotes.842.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "No one saves us but ourselves. No one can and no one may. We ourselves must walk the path."
+        "quoteText": localize("interventions.quotes.843.quoteText")
     },
     {
         "quoteAuthor": "Henry Miller",
-        "quoteText": "The moment one gives close attention to anything, it becomes a mysterious, awesome, indescribably magnificent world in itself."
+        "quoteText": localize("interventions.quotes.844.quoteText")
     },
     {
         "quoteAuthor": "Mohandas Gandhi",
-        "quoteText": "Happiness is when what you think, what you say, and what you do are in harmony."
+        "quoteText": localize("interventions.quotes.845.quoteText")
     },
     {
         "quoteAuthor": "Dalai Lama",
-        "quoteText": "The greatest antidote to insecurity and the sense of fear is compassion, it brings one back to the basis of one's inner strength"
+        "quoteText": localize("interventions.quotes.846.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Courage is the discovery that you may not win, and trying when you know you can lose."
+        "quoteText": localize("interventions.quotes.847.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "To be thoughtful and kind only takes a few seconds compared to the timeless hurt caused by one rude gesture."
+        "quoteText": localize("interventions.quotes.848.quoteText")
     },
     {
         "quoteAuthor": "Mortimer Adler",
-        "quoteText": "The purpose of learning is growth, and our minds, unlike our bodies, can continue growing as we continue to live."
+        "quoteText": localize("interventions.quotes.849.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "When you realize how perfect everything is you will tilt your head back and laugh at the sky."
+        "quoteText": localize("interventions.quotes.850.quoteText")
     },
     {
         "quoteAuthor": "Mary Kay Ash",
-        "quoteText": "For every failure, there's an alternative course of action. You just have to find it. When you come to a roadblock, take a detour."
+        "quoteText": localize("interventions.quotes.851.quoteText")
     },
     {
         "quoteAuthor": "Walter Linn",
-        "quoteText": "It is surprising what a man can do when he has to, and how little most men will do when they don't have to."
+        "quoteText": localize("interventions.quotes.852.quoteText")
     },
     {
         "quoteAuthor": "Tenzin Gyatso",
-        "quoteText": "To be aware of a single shortcoming in oneself is more useful than to be aware of a thousand in someone else."
+        "quoteText": localize("interventions.quotes.853.quoteText")
     },
     {
         "quoteAuthor": "Edmund Burke",
-        "quoteText": "Nobody made a greater mistake than he who did nothing because he could do only a little."
+        "quoteText": localize("interventions.quotes.854.quoteText")
     },
     {
         "quoteAuthor": "Albert Schweitzer",
-        "quoteText": "Constant kindness can accomplish much. As the sun makes ice melt, kindness causes misunderstanding, mistrust, and hostility to evaporate."
+        "quoteText": localize("interventions.quotes.855.quoteText")
     },
     {
         "quoteAuthor": "Rene Descartes",
-        "quoteText": "The greatest minds are capable of the greatest vices as well as of the greatest virtues."
+        "quoteText": localize("interventions.quotes.856.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "A man should look for what is, and not for what he thinks should be."
+        "quoteText": localize("interventions.quotes.857.quoteText")
     },
     {
         "quoteAuthor": "William Channing",
-        "quoteText": "Difficulties are meant to rouse, not discourage. The human spirit is to grow strong by conflict."
+        "quoteText": localize("interventions.quotes.858.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "If you have no respect for your own values how can you be worthy of respect from others."
+        "quoteText": localize("interventions.quotes.859.quoteText")
     },
     {
         "quoteAuthor": "Alphonse Karr",
-        "quoteText": "Some people are always grumbling because roses have thorns; I am thankful that thorns have roses."
+        "quoteText": localize("interventions.quotes.860.quoteText")
     },
     {
         "quoteAuthor": "W. H. Auden",
-        "quoteText": "To choose what is difficult all ones days, as if it were easy, that is faith."
+        "quoteText": localize("interventions.quotes.861.quoteText")
     },
     {
         "quoteAuthor": "Lou Holtz",
-        "quoteText": "Ability is what you're capable of doing. Motivation determines what you do.Attitude determines how well you do it."
+        "quoteText": localize("interventions.quotes.862.quoteText")
     },
     {
         "quoteAuthor": "Thomas Carlyle",
-        "quoteText": "Do not be embarrassed by your mistakes. Nothing can teach us better than our understanding of them. This is one of the best ways of self-education."
+        "quoteText": localize("interventions.quotes.863.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "Thousands of candles can be lighted from a single candle, and the life of the candle will not be shortened. Happiness never decreases by being shared."
+        "quoteText": localize("interventions.quotes.864.quoteText")
     },
     {
         "quoteAuthor": "Michel de Montaigne",
-        "quoteText": "I care not so much what I am to others as what I am to myself. I will be rich by myself, and not by borrowing."
+        "quoteText": localize("interventions.quotes.865.quoteText")
     },
     {
         "quoteAuthor": "Margaret Laurence",
-        "quoteText": "Know that although in the eternal scheme of things you are small, you are also unique and irreplaceable, as are all your fellow humans everywhere in the world."
+        "quoteText": localize("interventions.quotes.866.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Bonaparte",
-        "quoteText": "To do all that one is able to do, is to be a man; to do all that one would like to do, is to be a god."
+        "quoteText": localize("interventions.quotes.867.quoteText")
     },
     {
         "quoteAuthor": "Ajahn Chah",
-        "quoteText": "If you let go a little, you will have a little peace. If you let go a lot, you will have a lot of peace."
+        "quoteText": localize("interventions.quotes.868.quoteText")
     },
     {
         "quoteAuthor": "Dalai Lama",
-        "quoteText": "There is no need for temples, no need for complicated philosophies. My brain and my heart are my temples; my philosophy is kindness."
+        "quoteText": localize("interventions.quotes.869.quoteText")
     },
     {
         "quoteAuthor": "Vincent Lombardi",
-        "quoteText": "The spirit, the will to win, and the will to excel, are the things that endure. These qualities are so much more important than the events that occur."
+        "quoteText": localize("interventions.quotes.870.quoteText")
     },
     {
         "quoteAuthor": "Jean-Paul Sartre",
-        "quoteText": "Man is not sum of what he has already, but rather the sum of what he does not yet have, of what he could have."
+        "quoteText": localize("interventions.quotes.871.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "Don't believe what your eyes are telling you. All they show is limitation. Look with your understanding, find out what you already know, and you'll see the way to fly."
+        "quoteText": localize("interventions.quotes.872.quoteText")
     },
     {
         "quoteAuthor": "Elisabeth Kubler-Ross",
-        "quoteText": "I believe that we are solely responsible for our choices, and we have to accept the consequences of every deed, word, and thought throughout our lifetime."
+        "quoteText": localize("interventions.quotes.873.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Wishes can be your best avenue of getting what you want when you turn wishes into action. Action moves your wish to the forefront from thought to reality."
+        "quoteText": localize("interventions.quotes.874.quoteText")
     },
     {
         "quoteAuthor": "Kahlil Gibran",
-        "quoteText": "To understand the heart and mind of a person, look not at what he has already achieved, but at what he aspires to do."
+        "quoteText": localize("interventions.quotes.875.quoteText")
     },
     {
         "quoteAuthor": "Bernard Shaw",
-        "quoteText": "I am of the opinion that my life belongs to the community, and as long as I live it is my privilege to do for it whatever I can."
+        "quoteText": localize("interventions.quotes.876.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "Imagination is more important than knowledge. For while knowledge defines all we currently know and understand, imagination points to all we might yet discover and create."
+        "quoteText": localize("interventions.quotes.877.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "When you see a good person, think of becoming like him. When you see someone not so good, reflect on your own weak points."
+        "quoteText": localize("interventions.quotes.878.quoteText")
     },
     {
         "quoteAuthor": "Anne Lindbergh",
-        "quoteText": "If one is estranged from oneself, then one is estranged from others too. If one is out of touch with oneself, then one cannot touch others."
+        "quoteText": localize("interventions.quotes.879.quoteText")
     },
     {
         "quoteAuthor": "Dale Carnegie",
-        "quoteText": "Most of the important things in the world have been accomplished by people who have kept on trying when there seemed to be no hope at all."
+        "quoteText": localize("interventions.quotes.880.quoteText")
     },
     {
         "quoteAuthor": "John Lennon",
-        "quoteText": "You may say Im a dreamer, but Im not the only one, I hope someday you will join us, and the world will live as one."
+        "quoteText": localize("interventions.quotes.881.quoteText")
     },
     {
         "quoteAuthor": "Nathaniel Hawthorne",
-        "quoteText": "Happiness is as a butterfly which, when pursued, is always beyond our grasp, but which if you will sit down quietly, may alight upon you."
+        "quoteText": localize("interventions.quotes.882.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "He who experiences the unity of life sees his own Self in all beings, and all beings in his own Self, and looks on everything with an impartial eye."
+        "quoteText": localize("interventions.quotes.883.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "In the sky, there is no distinction of east and west; people create distinctions out of their own minds and then believe them to be true."
+        "quoteText": localize("interventions.quotes.884.quoteText")
     },
     {
         "quoteAuthor": "Caroline Myss",
-        "quoteText": "You cannot change anything in your life with intention alone, which can become a watered-down, occasional hope that you'll get to tomorrow. Intention without action is useless."
+        "quoteText": localize("interventions.quotes.885.quoteText")
     },
     {
         "quoteAuthor": "Winston Churchill",
-        "quoteText": "Before you can inspire with emotion, you must be swamped with it yourself. Before you can move their tears, your own must flow. To convince them, you must yourself believe."
+        "quoteText": localize("interventions.quotes.886.quoteText")
     },
     {
         "quoteAuthor": "William James",
-        "quoteText": "The greatest discovery of our generation is that human beings can alter their lives by altering their attitudes of mind. As you think, so shall you be."
+        "quoteText": localize("interventions.quotes.887.quoteText")
     },
     {
         "quoteAuthor": "Henry David Thoreau",
-        "quoteText": "If one advances confidently in the direction of his dream, and endeavours to live the life which he had imagines, he will meet with a success unexpected in common hours."
+        "quoteText": localize("interventions.quotes.888.quoteText")
     },
     {
         "quoteAuthor": "Pearl Buck",
-        "quoteText": "The secret of joy in work is contained in one word, excellence. To know how to do something well is to enjoy it."
+        "quoteText": localize("interventions.quotes.889.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "When you meet someone better than yourself, turn your thoughts to becoming his equal. When you meet someone not as good as you are, look within and examine your own self."
+        "quoteText": localize("interventions.quotes.890.quoteText")
     },
     {
         "quoteAuthor": "Uta Hagen",
-        "quoteText": "We must overcome the notion that we must be regular. It robs you of the chance to be extraordinary and leads you to the mediocre."
+        "quoteText": localize("interventions.quotes.891.quoteText")
     },
     {
         "quoteAuthor": "Orison Marden",
-        "quoteText": "Most of our obstacles would melt away if, instead of cowering before them, we should make up our minds to walk boldly through them."
+        "quoteText": localize("interventions.quotes.892.quoteText")
     },
     {
         "quoteAuthor": "Victor Frankl",
-        "quoteText": "Everything can be taken from a man but ... the last of the human freedoms, to choose ones attitude in any given set of circumstances, to choose ones own way."
+        "quoteText": localize("interventions.quotes.893.quoteText")
     },
     {
         "quoteAuthor": "Edward de Bono",
-        "quoteText": "It is better to have enough ideas for some of them to be wrong, than to be always right by having no ideas at all."
+        "quoteText": localize("interventions.quotes.894.quoteText")
     },
     {
         "quoteAuthor": "Abraham Lincoln",
-        "quoteText": "Character is like a tree and reputation like a shadow. The shadow is what we think of it; the tree is the real thing."
+        "quoteText": localize("interventions.quotes.895.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "By letting it go it all gets done. The world is won by those who let it go. But when you try and try. The world is beyond the winning."
+        "quoteText": localize("interventions.quotes.896.quoteText")
     },
     {
         "quoteAuthor": "Amy Tan",
-        "quoteText": "I am like a falling star who has finally found her place next to another in a lovely constellation, where we will sparkle in the heavens forever."
+        "quoteText": localize("interventions.quotes.897.quoteText")
     },
     {
         "quoteAuthor": "Epictetus",
-        "quoteText": "Not every difficult and dangerous thing is suitable for training, but only that which is conducive to success in achieving the object of our effort."
+        "quoteText": localize("interventions.quotes.898.quoteText")
     },
     {
         "quoteAuthor": "Stephen Covey",
-        "quoteText": "We are not animals. We are not a product of what has happened to us in our past. We have the power of choice."
+        "quoteText": localize("interventions.quotes.899.quoteText")
     },
     {
         "quoteAuthor": "Paul Graham",
-        "quoteText": "The most dangerous way to lose time is not to spend it having fun, but to spend it doing fake work. When you spend time having fun, you know you're being self-indulgent."
+        "quoteText": localize("interventions.quotes.900.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "Thousands of candles can be lit from a single, and the life of the candle will not be shortened. Happiness never decreases by being shared."
+        "quoteText": localize("interventions.quotes.901.quoteText")
     },
     {
         "quoteAuthor": "Chuck Norris",
-        "quoteText": "A lot of times people look at the negative side of what they feel they can't do. I always look on the positive side of what I can do."
+        "quoteText": localize("interventions.quotes.902.quoteText")
     },
     {
         "quoteAuthor": "Amiel",
-        "quoteText": "Without passion man is a mere latent force and possibility, like the flint which awaits the shock of the iron before it can give forth its spark."
+        "quoteText": localize("interventions.quotes.903.quoteText")
     },
     {
         "quoteAuthor": "Amy Bloom",
-        "quoteText": "Love at first sight is easy to understand; its when two people have been looking at each other for a lifetime that it becomes a miracle."
+        "quoteText": localize("interventions.quotes.904.quoteText")
     },
     {
         "quoteAuthor": "Keshavan Nair",
-        "quoteText": "With courage you will dare to take risks, have the strength to be compassionate, and the wisdom to be humble. Courage is the foundation of integrity."
+        "quoteText": localize("interventions.quotes.905.quoteText")
     },
     {
         "quoteAuthor": "Margaret Smith",
-        "quoteText": "The right way is not always the popular and easy way. Standing for right when it is unpopular is a true test of moral character."
+        "quoteText": localize("interventions.quotes.906.quoteText")
     },
     {
         "quoteAuthor": "Frederick Douglass",
-        "quoteText": "I prefer to be true to myself, even at the hazard of incurring the ridicule of others, rather than to be false, and to incur my own abhorrence."
+        "quoteText": localize("interventions.quotes.907.quoteText")
     },
     {
         "quoteAuthor": "Helen Keller",
-        "quoteText": "No pessimist ever discovered the secrets of the stars, or sailed to an uncharted land, or opened a new heaven to the human spirit."
+        "quoteText": localize("interventions.quotes.908.quoteText")
     },
     {
         "quoteAuthor": "Marcus Aurelius",
-        "quoteText": "When you arise in the morning, think of what a precious privilege it is to be alive, to breathe, to think, to enjoy, to love."
+        "quoteText": localize("interventions.quotes.909.quoteText")
     },
     {
         "quoteAuthor": "Helen Keller",
-        "quoteText": "Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, vision cleared, ambition inspired, and success achieved."
+        "quoteText": localize("interventions.quotes.910.quoteText")
     },
     {
         "quoteAuthor": "Oprah Winfrey",
-        "quoteText": "Although there may be tragedy in your life, there's always a possibility to triumph. It doesn't matter who you are, where you come from. The ability to triumph begins with you. Always."
+        "quoteText": localize("interventions.quotes.911.quoteText")
     },
     {
         "quoteAuthor": "Ingrid Bergman",
-        "quoteText": "You must train your intuition, you must trust the small voice inside you which tells you exactly what to say, what to decide."
+        "quoteText": localize("interventions.quotes.912.quoteText")
     },
     {
         "quoteAuthor": "Marcus Aurelius",
-        "quoteText": "Accept the things to which fate binds you, and love the people with whom fate brings you together, but do so with all your heart."
+        "quoteText": localize("interventions.quotes.913.quoteText")
     },
     {
         "quoteAuthor": "John Kennedy",
-        "quoteText": "Let us resolve to be masters, not the victims, of our history, controlling our own destiny without giving way to blind suspicions and emotions."
+        "quoteText": localize("interventions.quotes.914.quoteText")
     },
     {
         "quoteAuthor": "Marie Curie",
-        "quoteText": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less."
+        "quoteText": localize("interventions.quotes.915.quoteText")
     },
     {
         "quoteAuthor": "Anne Frank",
-        "quoteText": "Parents can only give good advice or put them on the right paths, but the final forming of a persons character lies in their own hands."
+        "quoteText": localize("interventions.quotes.916.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Adversity isn't set against you to fail; adversity is a way to build your character so that you can succeed over and over again through perseverance."
+        "quoteText": localize("interventions.quotes.917.quoteText")
     },
     {
         "quoteAuthor": "Robert Fulghum",
-        "quoteText": "If you break your neck, if you have nothing to eat, if your house is on fire, then you got a problem. Everything else is inconvenience."
+        "quoteText": localize("interventions.quotes.918.quoteText")
     },
     {
         "quoteAuthor": "Albert Schweitzer",
-        "quoteText": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful."
+        "quoteText": localize("interventions.quotes.919.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "If A is success in life, then A equals x plus y plus z. Work is x; y is play; and z is keeping your mouth shut."
+        "quoteText": localize("interventions.quotes.920.quoteText")
     },
     {
         "quoteAuthor": "Thornton Wilder",
-        "quoteText": "My advice to you is not to inquire why or whither, but just enjoy your ice cream while its on your plate, that's my philosophy."
+        "quoteText": localize("interventions.quotes.921.quoteText")
     },
     {
         "quoteAuthor": "John Dewey",
-        "quoteText": "Conflict is the gadfly of thought. It stirs us to observation and memory. It instigates to invention. It shocks us out of sheeplike passivity, and sets us at noting and contriving."
+        "quoteText": localize("interventions.quotes.922.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "He who conquers others is strong; He who conquers himself is mighty."
+        "quoteText": localize("interventions.quotes.923.quoteText")
     },
     {
         "quoteAuthor": "Wayne Dyer",
-        "quoteText": "Anything you really want, you can attain, if you really go after it."
+        "quoteText": localize("interventions.quotes.924.quoteText")
     },
     {
         "quoteAuthor": "John Dewey",
-        "quoteText": "Arriving at one point is the starting point to another."
+        "quoteText": localize("interventions.quotes.925.quoteText")
     },
     {
         "quoteAuthor": "James Oppenheim",
-        "quoteText": "The foolish man seeks happiness in the distance, the wise grows it under his feet."
+        "quoteText": localize("interventions.quotes.926.quoteText")
     },
     {
         "quoteAuthor": "Martha Washington",
-        "quoteText": "The greatest part of our happiness depends on our dispositions, not our circumstances."
+        "quoteText": localize("interventions.quotes.927.quoteText")
     },
     {
         "quoteAuthor": "Margaret Bonnano",
-        "quoteText": "It is only possible to live happily ever after on a day to day basis."
+        "quoteText": localize("interventions.quotes.928.quoteText")
     },
     {
         "quoteAuthor": "Goethe",
-        "quoteText": "A man sees in the world what he carries in his heart."
+        "quoteText": localize("interventions.quotes.929.quoteText")
     },
     {
         "quoteAuthor": "Benjamin Disraeli",
-        "quoteText": "Action may not always bring happiness, but there is no happiness without action."
+        "quoteText": localize("interventions.quotes.930.quoteText")
     },
     {
         "quoteAuthor": "Joe Paterno",
-        "quoteText": "Believe deep down in your heart that you're destined to do great things."
+        "quoteText": localize("interventions.quotes.931.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "Sooner or later, those who win are those who think they can."
+        "quoteText": localize("interventions.quotes.932.quoteText")
     },
     {
         "quoteAuthor": "Tony Robbins",
-        "quoteText": "The only limit to your impact is your imagination and commitment."
+        "quoteText": localize("interventions.quotes.933.quoteText")
     },
     {
         "quoteAuthor": "Cathy Pulsifer",
-        "quoteText": "You are special, you are unique, you are the best!"
+        "quoteText": localize("interventions.quotes.934.quoteText")
     },
     {
         "quoteAuthor": "William Arthur Ward",
-        "quoteText": "Four steps to achievement: Plan purposefully. Prepare prayerfully. Proceed positively. Pursue persistently."
+        "quoteText": localize("interventions.quotes.935.quoteText")
     },
     {
         "quoteAuthor": "Bruce Lee",
-        "quoteText": "To know oneself is to study oneself in action with another person."
+        "quoteText": localize("interventions.quotes.936.quoteText")
     },
     {
         "quoteAuthor": "Bishop Desmond Tutu",
-        "quoteText": "We must not allow ourselves to become like the system we oppose."
+        "quoteText": localize("interventions.quotes.937.quoteText")
     },
     {
         "quoteAuthor": "Thich Nhat Hanh",
-        "quoteText": "Smile, breathe and go slowly."
+        "quoteText": localize("interventions.quotes.938.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "Reality is merely an illusion, albeit a very persistent one."
+        "quoteText": localize("interventions.quotes.939.quoteText")
     },
     {
         "quoteAuthor": "Franklin Roosevelt",
-        "quoteText": "When you come to the end of your rope, tie a knot and hang on."
+        "quoteText": localize("interventions.quotes.940.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "Always be mindful of the kindness and not the faults of others."
+        "quoteText": localize("interventions.quotes.941.quoteText")
     },
     {
         "quoteAuthor": "Carl Jung",
-        "quoteText": "Everything that irritates us about others can lead us to an understanding of ourselves."
+        "quoteText": localize("interventions.quotes.942.quoteText")
     },
     {
         "quoteAuthor": "Dale Carnegie",
-        "quoteText": "When fate hands us a lemon, lets try to make lemonade."
+        "quoteText": localize("interventions.quotes.943.quoteText")
     },
     {
         "quoteAuthor": "Mohandas Gandhi",
-        "quoteText": "The weak can never forgive. Forgiveness is the attribute of the strong."
+        "quoteText": localize("interventions.quotes.944.quoteText")
     },
     {
         "quoteAuthor": "Chanakya",
-        "quoteText": "A man is great by deeds, not by birth."
+        "quoteText": localize("interventions.quotes.945.quoteText")
     },
     {
         "quoteAuthor": "Dale Carnegie",
-        "quoteText": "Success is getting what you want. Happiness is wanting what you get."
+        "quoteText": localize("interventions.quotes.946.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Put your future in good hands, your own."
+        "quoteText": localize("interventions.quotes.947.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Truth isn't all about what actually happens but more about how what has happened is interpreted."
+        "quoteText": localize("interventions.quotes.948.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "A good rest is half the work."
+        "quoteText": localize("interventions.quotes.949.quoteText")
     },
     {
         "quoteAuthor": "Robert Stevenson",
-        "quoteText": "Don't judge each day by the harvest you reap but by the seeds that you plant."
+        "quoteText": localize("interventions.quotes.950.quoteText")
     },
     {
         "quoteAuthor": "Demosthenes",
-        "quoteText": "Small opportunities are often the beginning of great enterprises."
+        "quoteText": localize("interventions.quotes.951.quoteText")
     },
     {
         "quoteAuthor": "Gail Sheehy",
-        "quoteText": "To be tested is good. The challenged life may be the best therapist."
+        "quoteText": localize("interventions.quotes.952.quoteText")
     },
     {
         "quoteAuthor": "English proverb",
-        "quoteText": "Take heed: you do not find what you do not seek."
+        "quoteText": localize("interventions.quotes.953.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "Happiness is the reward we get for living to the highest right we know."
+        "quoteText": localize("interventions.quotes.954.quoteText")
     },
     {
         "quoteAuthor": "Cervantes",
-        "quoteText": "Be slow of tongue and quick of eye."
+        "quoteText": localize("interventions.quotes.955.quoteText")
     },
     {
         "quoteAuthor": "Mohandas Gandhi",
-        "quoteText": "Freedom is not worth having if it does not connote freedom to err."
+        "quoteText": localize("interventions.quotes.956.quoteText")
     },
     {
         "quoteAuthor": "John Locke",
-        "quoteText": "I have always thought the actions of men the best interpreters of their thoughts."
+        "quoteText": localize("interventions.quotes.957.quoteText")
     },
     {
         "quoteAuthor": "Soren Kierkegaard",
-        "quoteText": "To dare is to lose ones footing momentarily. To not dare is to lose oneself."
+        "quoteText": localize("interventions.quotes.958.quoteText")
     },
     {
         "quoteAuthor": "David Eddings",
-        "quoteText": "No day in which you learn something is a complete loss."
+        "quoteText": localize("interventions.quotes.959.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "Peace cannot be kept by force. It can only be achieved by understanding."
+        "quoteText": localize("interventions.quotes.960.quoteText")
     },
     {
         "quoteAuthor": "David McCullough",
-        "quoteText": "Real success is finding your lifework in the work that you love."
+        "quoteText": localize("interventions.quotes.961.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "Better than a thousand hollow words, is one word that brings peace."
+        "quoteText": localize("interventions.quotes.962.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "All the flowers of all the tomorrows are in the seeds of today."
+        "quoteText": localize("interventions.quotes.963.quoteText")
     },
     {
         "quoteAuthor": "Joseph Campbell",
-        "quoteText": "Your sacred space is where you can find yourself again and again."
+        "quoteText": localize("interventions.quotes.964.quoteText")
     },
     {
         "quoteAuthor": "Bruce Lee",
-        "quoteText": "As you think, so shall you become."
+        "quoteText": localize("interventions.quotes.965.quoteText")
     },
     {
         "quoteAuthor": "William Blake",
-        "quoteText": "In seed time learn, in harvest teach, in winter enjoy."
+        "quoteText": localize("interventions.quotes.966.quoteText")
     },
     {
         "quoteAuthor": "Cheng Yen",
-        "quoteText": "Happiness does not come from having much, but from being attached to little."
+        "quoteText": localize("interventions.quotes.967.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "Every gift from a friend is a wish for your happiness."
+        "quoteText": localize("interventions.quotes.968.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "Go put your creed into the deed. Nor speak with double tongue."
+        "quoteText": localize("interventions.quotes.969.quoteText")
     },
     {
         "quoteAuthor": "Euripides",
-        "quoteText": "The wisest men follow their own direction."
+        "quoteText": localize("interventions.quotes.970.quoteText")
     },
     {
         "quoteAuthor": "William Sloane Coffin",
-        "quoteText": "Hope arouses, as nothing else can arouse, a passion for the possible."
+        "quoteText": localize("interventions.quotes.971.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "Everything has beauty, but not everyone sees it."
+        "quoteText": localize("interventions.quotes.972.quoteText")
     },
     {
         "quoteAuthor": "Pema Chodron",
-        "quoteText": "Nothing ever goes away until it has taught us what we need to know."
+        "quoteText": localize("interventions.quotes.973.quoteText")
     },
     {
         "quoteAuthor": "Maya Angelou",
-        "quoteText": "When you learn, teach. When you get, give."
+        "quoteText": localize("interventions.quotes.974.quoteText")
     },
     {
         "quoteAuthor": "Dorothy Thompson",
-        "quoteText": "Only when we are no longer afraid do we begin to live."
+        "quoteText": localize("interventions.quotes.975.quoteText")
     },
     {
         "quoteAuthor": "Andy Rooney",
-        "quoteText": "If you smile when no one else is around, you really mean it."
+        "quoteText": localize("interventions.quotes.976.quoteText")
     },
     {
         "quoteAuthor": "Martin Luther King, Jr.",
-        "quoteText": "Love is the only force capable of transforming an enemy into friend."
+        "quoteText": localize("interventions.quotes.977.quoteText")
     },
     {
         "quoteAuthor": "Carl Jung",
-        "quoteText": "In all chaos there is a cosmos, in all disorder a secret order."
+        "quoteText": localize("interventions.quotes.978.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "A man is not where he lives but where he loves."
+        "quoteText": localize("interventions.quotes.979.quoteText")
     },
     {
         "quoteAuthor": "Winston Churchill",
-        "quoteText": "The price of greatness is responsibility."
+        "quoteText": localize("interventions.quotes.980.quoteText")
     },
     {
         "quoteAuthor": "Paul Tillich",
-        "quoteText": "Decision is a risk rooted in the courage of being free."
+        "quoteText": localize("interventions.quotes.981.quoteText")
     },
     {
         "quoteAuthor": "William Burroughs",
-        "quoteText": "Your mind will answer most questions if you learn to relax and wait for the answer."
+        "quoteText": localize("interventions.quotes.982.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "The world doesn't happen to you it happens from you."
+        "quoteText": localize("interventions.quotes.983.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "We cannot solve our problems with the same thinking we used when we created them."
+        "quoteText": localize("interventions.quotes.984.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "More powerful than the will to win is the courage to begin."
+        "quoteText": localize("interventions.quotes.985.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "Learning is finding out what you already know."
+        "quoteText": localize("interventions.quotes.986.quoteText")
     },
     {
         "quoteAuthor": "Alfred Painter",
-        "quoteText": "Saying thank you is more than good manners. It is good spirituality."
+        "quoteText": localize("interventions.quotes.987.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "Silence is a source of great strength."
+        "quoteText": localize("interventions.quotes.988.quoteText")
     },
     {
         "quoteAuthor": "Anne Lamott",
-        "quoteText": "Joy is the best makeup."
+        "quoteText": localize("interventions.quotes.989.quoteText")
     },
     {
         "quoteAuthor": "Seneca",
-        "quoteText": "There is no great genius without some touch of madness."
+        "quoteText": localize("interventions.quotes.990.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "A jug fills drop by drop."
+        "quoteText": localize("interventions.quotes.991.quoteText")
     },
     {
         "quoteAuthor": "Doris Mortman",
-        "quoteText": "Until you make peace with who you are, you'll never be content with what you have."
+        "quoteText": localize("interventions.quotes.992.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "We aim above the mark to hit the mark."
+        "quoteText": localize("interventions.quotes.993.quoteText")
     },
     {
         "quoteAuthor": "Catherine Pulsifer",
-        "quoteText": "Being angry never solves anything."
+        "quoteText": localize("interventions.quotes.994.quoteText")
     },
     {
         "quoteAuthor": "Orison Marden",
-        "quoteText": "All men who have achieved great things have been great dreamers."
+        "quoteText": localize("interventions.quotes.995.quoteText")
     },
     {
         "quoteAuthor": "Arthur Conan Doyle",
-        "quoteText": "Mediocrity knows nothing higher than itself, but talent instantly recognizes genius."
+        "quoteText": localize("interventions.quotes.996.quoteText")
     },
     {
         "quoteAuthor": "Walter Lippmann",
-        "quoteText": "Where all think alike, no one thinks very much."
+        "quoteText": localize("interventions.quotes.997.quoteText")
     },
     {
         "quoteAuthor": "Marcus Aurelius",
-        "quoteText": "Everything that exists is in a manner the seed of that which will be."
+        "quoteText": localize("interventions.quotes.998.quoteText")
     },
     {
         "quoteAuthor": "Marie Curie",
-        "quoteText": "Be less curious about people and more curious about ideas."
+        "quoteText": localize("interventions.quotes.999.quoteText")
     },
     {
         "quoteAuthor": "Charles Perkhurst",
-        "quoteText": "The heart has eyes which the brain knows nothing of."
+        "quoteText": localize("interventions.quotes.1000.quoteText")
     },
     {
         "quoteAuthor": "Robert Kennedy",
-        "quoteText": "Only those who dare to fail greatly can ever achieve greatly."
+        "quoteText": localize("interventions.quotes.1001.quoteText")
     },
     {
         "quoteAuthor": "Richard Whately",
-        "quoteText": "Lose an hour in the morning, and you will spend all day looking for it."
+        "quoteText": localize("interventions.quotes.1002.quoteText")
     },
     {
         "quoteAuthor": "Bruce Lee",
-        "quoteText": "Mistakes are always forgivable, if one has the courage to admit them."
+        "quoteText": localize("interventions.quotes.1003.quoteText")
     },
     {
         "quoteAuthor": "William Shakespeare",
-        "quoteText": "Go to your bosom: Knock there, and ask your heart what it doth know."
+        "quoteText": localize("interventions.quotes.1004.quoteText")
     },
     {
         "quoteAuthor": "Dalai Lama",
-        "quoteText": "Happiness mainly comes from our own attitude, rather than from external factors."
+        "quoteText": localize("interventions.quotes.1005.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "If you do not change direction, you may end up where you are heading."
+        "quoteText": localize("interventions.quotes.1006.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "What we see is mainly what we look for."
+        "quoteText": localize("interventions.quotes.1007.quoteText")
     },
     {
         "quoteAuthor": "Marsha Petrie Sue",
-        "quoteText": "Stay away from what might have been and look at what will be."
+        "quoteText": localize("interventions.quotes.1008.quoteText")
     },
     {
         "quoteAuthor": "William James",
-        "quoteText": "Act as if what you do makes a difference. It does."
+        "quoteText": localize("interventions.quotes.1009.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Passion creates the desire for more and action fuelled by passion creates a future."
+        "quoteText": localize("interventions.quotes.1010.quoteText")
     },
     {
         "quoteAuthor": "Alexander Pope",
-        "quoteText": "Do good by stealth, and blush to find it fame."
+        "quoteText": localize("interventions.quotes.1011.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Hill",
-        "quoteText": "Opportunity often comes disguised in the form of misfortune, or temporary defeat."
+        "quoteText": localize("interventions.quotes.1012.quoteText")
     },
     {
         "quoteAuthor": "Thomas Jefferson",
-        "quoteText": "Don't talk about what you have done or what you are going to do."
+        "quoteText": localize("interventions.quotes.1013.quoteText")
     },
     {
         "quoteAuthor": "Seneca",
-        "quoteText": "Most powerful is he who has himself in his own power."
+        "quoteText": localize("interventions.quotes.1014.quoteText")
     },
     {
         "quoteAuthor": "Bernard Shaw",
-        "quoteText": "We don't stop playing because we grow old; we grow old because we stop playing."
+        "quoteText": localize("interventions.quotes.1015.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Experience can only be gained by doing not by thinking or dreaming."
+        "quoteText": localize("interventions.quotes.1016.quoteText")
     },
     {
         "quoteAuthor": "Mark Twain",
-        "quoteText": "Always tell the truth. That way, you don't have to remember what you said."
+        "quoteText": localize("interventions.quotes.1017.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "From wonder into wonder existence opens."
+        "quoteText": localize("interventions.quotes.1018.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Bonaparte",
-        "quoteText": "He who fears being conquered is sure of defeat."
+        "quoteText": localize("interventions.quotes.1019.quoteText")
     },
     {
         "quoteAuthor": "John Lennon",
-        "quoteText": "Life is what happens while you are making other plans."
+        "quoteText": localize("interventions.quotes.1020.quoteText")
     },
     {
         "quoteAuthor": "Wayne Dyer",
-        "quoteText": "Doing what you love is the cornerstone of having abundance in your life."
+        "quoteText": localize("interventions.quotes.1021.quoteText")
     },
     {
         "quoteAuthor": "Johann Wolfgang von Goethe",
-        "quoteText": "Kindness is the golden chain by which society is bound together."
+        "quoteText": localize("interventions.quotes.1022.quoteText")
     },
     {
         "quoteAuthor": "Nietzsche",
-        "quoteText": "You need chaos in your soul to give birth to a dancing star."
+        "quoteText": localize("interventions.quotes.1023.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "It can't be spring if your heart is filled with past failures."
+        "quoteText": localize("interventions.quotes.1024.quoteText")
     },
     {
         "quoteAuthor": "Brendan Francis",
-        "quoteText": "No yesterdays are ever wasted for those who give themselves to today."
+        "quoteText": localize("interventions.quotes.1025.quoteText")
     },
     {
         "quoteAuthor": "Tom Krause",
-        "quoteText": "There are no failures, just experiences and your reactions to them."
+        "quoteText": localize("interventions.quotes.1026.quoteText")
     },
     {
         "quoteAuthor": "Pablo Picasso",
-        "quoteText": "Action is the foundational key to all success."
+        "quoteText": localize("interventions.quotes.1027.quoteText")
     },
     {
         "quoteAuthor": "Abraham Maslow",
-        "quoteText": "What is necessary to change a person is to change his awareness of himself."
+        "quoteText": localize("interventions.quotes.1028.quoteText")
     },
     {
         "quoteAuthor": "Zig Ziglar",
-        "quoteText": "Positive thinking will let you do everything better than negative thinking will."
+        "quoteText": localize("interventions.quotes.1029.quoteText")
     },
     {
         "quoteAuthor": "Mother Teresa",
-        "quoteText": "We shall never know all the good that a simple smile can do."
+        "quoteText": localize("interventions.quotes.1030.quoteText")
     },
     {
         "quoteAuthor": "Frances de Sales",
-        "quoteText": "Nothing is so strong as gentleness. Nothing is so gentle as real strength."
+        "quoteText": localize("interventions.quotes.1031.quoteText")
     },
     {
         "quoteAuthor": "Ralph Waldo Emerson",
-        "quoteText": "Imagination is not a talent of some men but is the health of every man."
+        "quoteText": localize("interventions.quotes.1032.quoteText")
     },
     {
         "quoteAuthor": "Kenji Miyazawa",
-        "quoteText": "We must embrace pain and burn it as fuel for our journey."
+        "quoteText": localize("interventions.quotes.1033.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Don't wait for people to be friendly. Show them how."
+        "quoteText": localize("interventions.quotes.1034.quoteText")
     },
     {
         "quoteAuthor": "Chinese proverb",
-        "quoteText": "A gem cannot be polished without friction, nor a man perfected without trials."
+        "quoteText": localize("interventions.quotes.1035.quoteText")
     },
     {
         "quoteAuthor": "George Matthew Adams",
-        "quoteText": "Each day can be one of triumph if you keep up your interests."
+        "quoteText": localize("interventions.quotes.1036.quoteText")
     },
     {
         "quoteAuthor": "Robert M. Pirsig",
-        "quoteText": "The place to improve the world is first in one's own heart and head and hands."
+        "quoteText": localize("interventions.quotes.1037.quoteText")
     },
     {
         "quoteAuthor": "Winston Churchill",
-        "quoteText": "The pessimist sees difficulty in every opportunity. The optimist sees the opportunity in every difficulty."
+        "quoteText": localize("interventions.quotes.1038.quoteText")
     },
     {
         "quoteAuthor": "Albert Gray",
-        "quoteText": "Winners have simply formed the habit of doing things losers don't like to do."
+        "quoteText": localize("interventions.quotes.1039.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "Nature is a mutable cloud which is always and never the same."
+        "quoteText": localize("interventions.quotes.1040.quoteText")
     },
     {
         "quoteAuthor": "Grandma Moses",
-        "quoteText": "Life is what you make of it. Always has been, always will be."
+        "quoteText": localize("interventions.quotes.1041.quoteText")
     },
     {
         "quoteAuthor": "Swedish proverb",
-        "quoteText": "Worry often gives a small thing a big shadow."
+        "quoteText": localize("interventions.quotes.1042.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "I want you to be everything that's you, deep at the center of your being."
+        "quoteText": localize("interventions.quotes.1043.quoteText")
     },
     {
         "quoteAuthor": "William Shakespeare",
-        "quoteText": "We know what we are, but know not what we may be."
+        "quoteText": localize("interventions.quotes.1044.quoteText")
     },
     {
         "quoteAuthor": "Jean-Paul Sartre",
-        "quoteText": "Freedom is what you do with what's been done to you."
+        "quoteText": localize("interventions.quotes.1045.quoteText")
     },
     {
         "quoteAuthor": "Felix Adler",
-        "quoteText": "The truth which has made us free will in the end make us glad also."
+        "quoteText": localize("interventions.quotes.1046.quoteText")
     },
     {
         "quoteAuthor": "Joseph Joubert",
-        "quoteText": "He who has imagination without learning has wings but no feet."
+        "quoteText": localize("interventions.quotes.1047.quoteText")
     },
     {
         "quoteAuthor": "Elizabeth Browning",
-        "quoteText": "Whoso loves, believes the impossible."
+        "quoteText": localize("interventions.quotes.1048.quoteText")
     },
     {
         "quoteAuthor": "Ella Fitzgerald",
-        "quoteText": "It isn't where you come from, it's where you're going that counts."
+        "quoteText": localize("interventions.quotes.1049.quoteText")
     },
     {
         "quoteAuthor": "Pema Chodron",
-        "quoteText": "The greatest obstacle to connecting with our joy is resentment."
+        "quoteText": localize("interventions.quotes.1050.quoteText")
     },
     {
         "quoteAuthor": "C. Pulsifer",
-        "quoteText": "When anger use your energy to do something productive."
+        "quoteText": localize("interventions.quotes.1051.quoteText")
     },
     {
         "quoteAuthor": "Blaise Pascal",
-        "quoteText": "We are all something, but none of us are everything."
+        "quoteText": localize("interventions.quotes.1052.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "If you can't explain it simply, you don't understand it well enough."
+        "quoteText": localize("interventions.quotes.1053.quoteText")
     },
     {
         "quoteAuthor": "Marcus Aurelius",
-        "quoteText": "He who lives in harmony with himself lives in harmony with the world."
+        "quoteText": localize("interventions.quotes.1054.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "He who knows himself is enlightened."
+        "quoteText": localize("interventions.quotes.1055.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "Build a better mousetrap and the world will beat a path to your door."
+        "quoteText": localize("interventions.quotes.1056.quoteText")
     },
     {
         "quoteAuthor": "Abraham Lincoln",
-        "quoteText": "As our case is new, we must think and act anew."
+        "quoteText": localize("interventions.quotes.1057.quoteText")
     },
     {
         "quoteAuthor": "Mother Teresa",
-        "quoteText": "If you can't feed a hundred people, then feed just one."
+        "quoteText": localize("interventions.quotes.1058.quoteText")
     },
     {
         "quoteAuthor": "Robert Frost",
-        "quoteText": "In three words I can sum up everything Ive learned about life: it goes on."
+        "quoteText": localize("interventions.quotes.1059.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Don't let today's disappointments cast a shadow on tomorrow's dreams."
+        "quoteText": localize("interventions.quotes.1060.quoteText")
     },
     {
         "quoteAuthor": "Tony Robbins",
-        "quoteText": "You always succeed in producing a result."
+        "quoteText": localize("interventions.quotes.1061.quoteText")
     },
     {
         "quoteAuthor": "Wayne Dyer",
-        "quoteText": "Everything you are against weakens you. Everything you are for empowers you."
+        "quoteText": localize("interventions.quotes.1062.quoteText")
     },
     {
         "quoteAuthor": "Fran Watson",
-        "quoteText": "As we risk ourselves, we grow. Each new experience is a risk."
+        "quoteText": localize("interventions.quotes.1063.quoteText")
     },
     {
         "quoteAuthor": "Mary Almanac",
-        "quoteText": "Who we are never changes. Who we think we are does."
+        "quoteText": localize("interventions.quotes.1064.quoteText")
     },
     {
         "quoteAuthor": "Elbert Hubbard",
-        "quoteText": "The final proof of greatness lies in being able to endure criticism without resentment."
+        "quoteText": localize("interventions.quotes.1065.quoteText")
     },
     {
         "quoteAuthor": "Victor Hugo",
-        "quoteText": "An invasion of armies can be resisted, but not an idea whose time has come."
+        "quoteText": localize("interventions.quotes.1066.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Never let lack of money interfere with having fun."
+        "quoteText": localize("interventions.quotes.1067.quoteText")
     },
     {
         "quoteAuthor": "Ralph Marston",
-        "quoteText": "Excellence is not a skill. It is an attitude."
+        "quoteText": localize("interventions.quotes.1068.quoteText")
     },
     {
         "quoteAuthor": "Lewis Cass",
-        "quoteText": "People may doubt what you say, but they will believe what you do."
+        "quoteText": localize("interventions.quotes.1069.quoteText")
     },
     {
         "quoteAuthor": "Thomas Paine",
-        "quoteText": "The most formidable weapon against errors of every kind is reason."
+        "quoteText": localize("interventions.quotes.1070.quoteText")
     },
     {
         "quoteAuthor": "Danilo Dolci",
-        "quoteText": "It's important to know that words don't move mountains. Work, exacting work moves mountains."
+        "quoteText": localize("interventions.quotes.1071.quoteText")
     },
     {
         "quoteAuthor": "Franz Liszt",
-        "quoteText": "Beware of missing chances; otherwise it may be altogether too late some day."
+        "quoteText": localize("interventions.quotes.1072.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "You only lose what you cling to."
+        "quoteText": localize("interventions.quotes.1073.quoteText")
     },
     {
         "quoteAuthor": "Corita Kent",
-        "quoteText": "Life is a succession of moments. To live each one is to succeed."
+        "quoteText": localize("interventions.quotes.1074.quoteText")
     },
     {
         "quoteAuthor": "Ralph Waldo Emerson",
-        "quoteText": "Most of the shadows of life are caused by standing in our own sunshine."
+        "quoteText": localize("interventions.quotes.1075.quoteText")
     },
     {
         "quoteAuthor": "Plato",
-        "quoteText": "Good actions give strength to ourselves and inspire good actions in others."
+        "quoteText": localize("interventions.quotes.1076.quoteText")
     },
     {
         "quoteAuthor": "Antoine de Saint-Exupery",
-        "quoteText": "I know but one freedom and that is the freedom of the mind."
+        "quoteText": localize("interventions.quotes.1077.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "In the middle of every difficulty lies opportunity."
+        "quoteText": localize("interventions.quotes.1078.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "Every human being is the author of his own health or disease."
+        "quoteText": localize("interventions.quotes.1079.quoteText")
     },
     {
         "quoteAuthor": "Mark Twain",
-        "quoteText": "When in doubt, tell the truth."
+        "quoteText": localize("interventions.quotes.1080.quoteText")
     },
     {
         "quoteAuthor": "John Dewey",
-        "quoteText": "Every great advance in science has issued from a new audacity of the imagination."
+        "quoteText": localize("interventions.quotes.1081.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Hill",
-        "quoteText": "The ladder of success is never crowded at the top."
+        "quoteText": localize("interventions.quotes.1082.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "He who has health has hope, and he who has hope has everything."
+        "quoteText": localize("interventions.quotes.1083.quoteText")
     },
     {
         "quoteAuthor": "Maya Angelou",
-        "quoteText": "All great achievements require time."
+        "quoteText": localize("interventions.quotes.1084.quoteText")
     },
     {
         "quoteAuthor": "Alice Walker",
-        "quoteText": "No person is your friend who demands your silence, or denies your right to grow."
+        "quoteText": localize("interventions.quotes.1085.quoteText")
     },
     {
         "quoteAuthor": "Charles Chesnutt",
-        "quoteText": "Impossibilities are merely things which we have not yet learned."
+        "quoteText": localize("interventions.quotes.1086.quoteText")
     },
     {
         "quoteAuthor": "Japanese proverb",
-        "quoteText": "Vision without action is a daydream. Action without vision is a nightmare."
+        "quoteText": localize("interventions.quotes.1087.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "The Superior Man is aware of Righteousness, the inferior man is aware of advantage."
+        "quoteText": localize("interventions.quotes.1088.quoteText")
     },
     {
         "quoteAuthor": "Elizabeth Kenny",
-        "quoteText": "He who angers you conquers you."
+        "quoteText": localize("interventions.quotes.1089.quoteText")
     },
     {
         "quoteAuthor": "Winston Churchill",
-        "quoteText": "I never worry about action, but only inaction."
+        "quoteText": localize("interventions.quotes.1090.quoteText")
     },
     {
         "quoteAuthor": "Epictetus",
-        "quoteText": "No man is free who is not master of himself."
+        "quoteText": localize("interventions.quotes.1091.quoteText")
     },
     {
         "quoteAuthor": "Aristotle",
-        "quoteText": "Those that know, do. Those that understand, teach."
+        "quoteText": localize("interventions.quotes.1092.quoteText")
     },
     {
         "quoteAuthor": "Thich Nhat Hanh",
-        "quoteText": "If we are not fully ourselves, truly in the present moment, we miss everything."
+        "quoteText": localize("interventions.quotes.1093.quoteText")
     },
     {
         "quoteAuthor": "Aesop",
-        "quoteText": "No act of kindness, no matter how small, is ever wasted."
+        "quoteText": localize("interventions.quotes.1094.quoteText")
     },
     {
         "quoteAuthor": "Channing",
-        "quoteText": "Every man is a volume if you know how to read him."
+        "quoteText": localize("interventions.quotes.1095.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "The difficulties of life are intended to make us better, not bitter."
+        "quoteText": localize("interventions.quotes.1096.quoteText")
     },
     {
         "quoteAuthor": "Henry Ford",
-        "quoteText": "Quality means doing it right when no one is looking."
+        "quoteText": localize("interventions.quotes.1097.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Change your words. Change your world."
+        "quoteText": localize("interventions.quotes.1098.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "Great acts are made up of small deeds."
+        "quoteText": localize("interventions.quotes.1099.quoteText")
     },
     {
         "quoteAuthor": "Mal Pancoast",
-        "quoteText": "The odds of hitting your target go up dramatically when you aim at it."
+        "quoteText": localize("interventions.quotes.1100.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Open minds lead to open doors."
+        "quoteText": localize("interventions.quotes.1101.quoteText")
     },
     {
         "quoteAuthor": "Virgil",
-        "quoteText": "They can do all because they think they can."
+        "quoteText": localize("interventions.quotes.1102.quoteText")
     },
     {
         "quoteAuthor": "Edward Young",
-        "quoteText": "On every thorn, delightful wisdom grows, In every rill a sweet instruction flows."
+        "quoteText": localize("interventions.quotes.1103.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "Your body is precious. It is our vehicle for awakening. Treat it with care."
+        "quoteText": localize("interventions.quotes.1104.quoteText")
     },
     {
         "quoteAuthor": "Claire Charmont",
-        "quoteText": "The one who always loses, is the only person who gets the reward."
+        "quoteText": localize("interventions.quotes.1105.quoteText")
     },
     {
         "quoteAuthor": "Pema Chodron",
-        "quoteText": "The future is completely open, and we are writing it moment to moment."
+        "quoteText": localize("interventions.quotes.1106.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Each time we face a fear, we gain strength, courage, and confidence in the doing."
+        "quoteText": localize("interventions.quotes.1107.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "Ask yourself the secret of your success. Listen to your answer, and practice it."
+        "quoteText": localize("interventions.quotes.1108.quoteText")
     },
     {
         "quoteAuthor": "Sinvyest Tan",
-        "quoteText": "Don't frown because you never know who is falling in love with your smile."
+        "quoteText": localize("interventions.quotes.1109.quoteText")
     },
     {
         "quoteAuthor": "Joyce Brothers",
-        "quoteText": "Trust your hunches. They're usually based on facts filed away just below the conscious level."
+        "quoteText": localize("interventions.quotes.1110.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "Nothing is at last sacred but the integrity of your own mind."
+        "quoteText": localize("interventions.quotes.1111.quoteText")
     },
     {
         "quoteAuthor": "Anthony D'Angelo",
-        "quoteText": "Listen to your intuition. It will tell you everything you need to know."
+        "quoteText": localize("interventions.quotes.1112.quoteText")
     },
     {
         "quoteAuthor": "Anais Nin",
-        "quoteText": "The personal life deeply lived always expands into truths beyond itself."
+        "quoteText": localize("interventions.quotes.1113.quoteText")
     },
     {
         "quoteAuthor": "Eckhart Tolle",
-        "quoteText": "Whenever something negative happens to you, there is a deep lesson concealed within it."
+        "quoteText": localize("interventions.quotes.1114.quoteText")
     },
     {
         "quoteAuthor": "Goethe",
-        "quoteText": "What is not started today is never finished tomorrow."
+        "quoteText": localize("interventions.quotes.1115.quoteText")
     },
     {
         "quoteAuthor": "Gordon Hinckley",
-        "quoteText": "Our kindness may be the most persuasive argument for that which we believe."
+        "quoteText": localize("interventions.quotes.1116.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "Chaos is inherent in all compounded things. Strive on with diligence."
+        "quoteText": localize("interventions.quotes.1117.quoteText")
     },
     {
         "quoteAuthor": "Abraham Lincoln",
-        "quoteText": "Be sure you put your feet in the right place, then stand firm."
+        "quoteText": localize("interventions.quotes.1118.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "Nothing great was ever achieved without enthusiasm."
+        "quoteText": localize("interventions.quotes.1119.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "The meaning I picked, the one that changed my life: Overcome fear, behold wonder."
+        "quoteText": localize("interventions.quotes.1120.quoteText")
     },
     {
         "quoteAuthor": "Plutarch",
-        "quoteText": "Know how to listen, and you will profit even from those who talk badly."
+        "quoteText": localize("interventions.quotes.1121.quoteText")
     },
     {
         "quoteAuthor": "Edmond Rostand",
-        "quoteText": "A man is not old as long as he is seeking something."
+        "quoteText": localize("interventions.quotes.1122.quoteText")
     },
     {
         "quoteAuthor": "Ymber Delecto",
-        "quoteText": "The time you think you're missing, misses you too."
+        "quoteText": localize("interventions.quotes.1123.quoteText")
     },
     {
         "quoteAuthor": "Michael Vance",
-        "quoteText": "Life is not measured by the breaths you take, but by its breathtaking moments."
+        "quoteText": localize("interventions.quotes.1124.quoteText")
     },
     {
         "quoteAuthor": "Sophocles",
-        "quoteText": "Much wisdom often goes with fewer words."
+        "quoteText": localize("interventions.quotes.1125.quoteText")
     },
     {
         "quoteAuthor": "Bruce Lee",
-        "quoteText": "If you love life, don't waste time, for time is what life is made up of."
+        "quoteText": localize("interventions.quotes.1126.quoteText")
     },
     {
         "quoteAuthor": "Samuel Taylor Coleridge",
-        "quoteText": "Imagination is the living power and prime agent of all human perception."
+        "quoteText": localize("interventions.quotes.1127.quoteText")
     },
     {
         "quoteAuthor": "Naomi Williams",
-        "quoteText": "It is impossible to feel grateful and depressed in the same moment."
+        "quoteText": localize("interventions.quotes.1128.quoteText")
     },
     {
         "quoteAuthor": "Frederick Wilcox",
-        "quoteText": "Progress always involves risks. You can't steal second base and keep your foot on first."
+        "quoteText": localize("interventions.quotes.1129.quoteText")
     },
     {
         "quoteAuthor": "Simone Weil",
-        "quoteText": "Liberty, taking the word in its concrete sense, consists in the ability to choose."
+        "quoteText": localize("interventions.quotes.1130.quoteText")
     },
     {
         "quoteAuthor": "John Dryden",
-        "quoteText": "A thing well said will be wit in all languages."
+        "quoteText": localize("interventions.quotes.1131.quoteText")
     },
     {
         "quoteAuthor": "Og Mandino",
-        "quoteText": "Always do your best. What you plant now, you will harvest later."
+        "quoteText": localize("interventions.quotes.1132.quoteText")
     },
     {
         "quoteAuthor": "Forrest Gump",
-        "quoteText": "My mama always said: life's like a box of chocolate, you never know what you gonna get."
+        "quoteText": localize("interventions.quotes.1133.quoteText")
     },
     {
         "quoteAuthor": "Jean Lacordaire",
-        "quoteText": "We are the leaves of one branch, the drops of one sea, the flowers of one garden."
+        "quoteText": localize("interventions.quotes.1134.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "If you come to a fork in the road, take it."
+        "quoteText": localize("interventions.quotes.1135.quoteText")
     },
     {
         "quoteAuthor": "Moliere",
-        "quoteText": "It is not only for what we do that we are held responsible, but also for what we do not do."
+        "quoteText": localize("interventions.quotes.1136.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Nobody can do everything, but everybody can do something."
+        "quoteText": localize("interventions.quotes.1137.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Hill",
-        "quoteText": "The world has the habit of making room for the man whose actions show that he knows where he is going."
+        "quoteText": localize("interventions.quotes.1138.quoteText")
     },
     {
         "quoteAuthor": "Heraclitus",
-        "quoteText": "You cannot step twice into the same river, for other waters are continually flowing in."
+        "quoteText": localize("interventions.quotes.1139.quoteText")
     },
     {
         "quoteAuthor": "Booker Washington",
-        "quoteText": "Excellence is to do a common thing in an uncommon way."
+        "quoteText": localize("interventions.quotes.1140.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "No matter how hard the past, you can always begin again."
+        "quoteText": localize("interventions.quotes.1141.quoteText")
     },
     {
         "quoteAuthor": "Pablo Picasso",
-        "quoteText": "I begin with an idea and then it becomes something else."
+        "quoteText": localize("interventions.quotes.1142.quoteText")
     },
     {
         "quoteAuthor": "Mark Twain",
-        "quoteText": "Whoever is happy will make others happy, too."
+        "quoteText": localize("interventions.quotes.1143.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "Your work is to discover your work and then with all your heart to give yourself to it."
+        "quoteText": localize("interventions.quotes.1144.quoteText")
     },
     {
         "quoteAuthor": "Epictetus",
-        "quoteText": "It's not what happens to you, but how you react to it that matters."
+        "quoteText": localize("interventions.quotes.1145.quoteText")
     },
     {
         "quoteAuthor": "Woody Guthrie",
-        "quoteText": "Take it easy, but take it."
+        "quoteText": localize("interventions.quotes.1146.quoteText")
     },
     {
         "quoteAuthor": "Benjamin Disraeli",
-        "quoteText": "Never apologize for showing feeling. When you do so, you apologize for truth."
+        "quoteText": localize("interventions.quotes.1147.quoteText")
     },
     {
         "quoteAuthor": "Ovid",
-        "quoteText": "Take rest; a field that has rested gives a bountiful crop."
+        "quoteText": localize("interventions.quotes.1148.quoteText")
     },
     {
         "quoteAuthor": "Anais Nin",
-        "quoteText": "Age does not protect you from love. But love, to some extent, protects you from age."
+        "quoteText": localize("interventions.quotes.1149.quoteText")
     },
     {
         "quoteAuthor": "Forrest Church",
-        "quoteText": "Do what you can. Want what you have. Be who you are."
+        "quoteText": localize("interventions.quotes.1150.quoteText")
     },
     {
         "quoteAuthor": "Coco Chanel",
-        "quoteText": "There are people who have money and people who are rich."
+        "quoteText": localize("interventions.quotes.1151.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Why worry about tomorrow, when today is all we have?"
+        "quoteText": localize("interventions.quotes.1152.quoteText")
     },
     {
         "quoteAuthor": "Ambrose Bierce",
-        "quoteText": "Speak when you are angry and you will make the best speech you will ever regret."
+        "quoteText": localize("interventions.quotes.1153.quoteText")
     },
     {
         "quoteAuthor": "Henry Thoreau",
-        "quoteText": "Things do not change, we change."
+        "quoteText": localize("interventions.quotes.1154.quoteText")
     },
     {
         "quoteAuthor": "Mark Twain",
-        "quoteText": "The exercise of an extraordinary gift is the supremest pleasure in life."
+        "quoteText": localize("interventions.quotes.1155.quoteText")
     },
     {
         "quoteAuthor": "Etty Hillesum",
-        "quoteText": "Sometimes the most important thing in a whole day is the rest we take between two deep breaths."
+        "quoteText": localize("interventions.quotes.1156.quoteText")
     },
     {
         "quoteAuthor": "Mohandas Gandhi",
-        "quoteText": "Forgiveness is choosing to love. It is the first skill of self-giving love."
+        "quoteText": localize("interventions.quotes.1157.quoteText")
     },
     {
         "quoteAuthor": "William Londen",
-        "quoteText": "To ensure good health: eat lightly, breathe deeply, live moderately, cultivate cheerfulness, and maintain an interest in life."
+        "quoteText": localize("interventions.quotes.1158.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Most smiles are started by another smile."
+        "quoteText": localize("interventions.quotes.1159.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "Nothing is softer or more flexible than water, yet nothing can resist it."
+        "quoteText": localize("interventions.quotes.1160.quoteText")
     },
     {
         "quoteAuthor": "Dalai Lama",
-        "quoteText": "It is difficult to achieve a spirit of genuine cooperation as long as people remain indifferent to the feelings and happiness of others."
+        "quoteText": localize("interventions.quotes.1161.quoteText")
     },
     {
         "quoteAuthor": "Benjamin Franklin",
-        "quoteText": "Experience keeps a dear school, but fools will learn in no other."
+        "quoteText": localize("interventions.quotes.1162.quoteText")
     },
     {
         "quoteAuthor": "Thornton Wilder",
-        "quoteText": "We can only be said to be alive in those moments when our hearts are conscious of our treasures."
+        "quoteText": localize("interventions.quotes.1163.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "Fine words and an insinuating appearance are seldom associated with true virtue"
+        "quoteText": localize("interventions.quotes.1164.quoteText")
     },
     {
         "quoteAuthor": "Oliver Holmes",
-        "quoteText": "We do not quit playing because we grow old, we grow old because we quit playing."
+        "quoteText": localize("interventions.quotes.1165.quoteText")
     },
     {
         "quoteAuthor": "Wayne Dyer",
-        "quoteText": "You can't choose up sides on a round world."
+        "quoteText": localize("interventions.quotes.1166.quoteText")
     },
     {
         "quoteAuthor": "Mark Twain",
-        "quoteText": "Kindness is the language which the deaf can hear and the blind can see."
+        "quoteText": localize("interventions.quotes.1167.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "I may not know everything, but everything is not known yet anyway."
+        "quoteText": localize("interventions.quotes.1168.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "If we could see the miracle of a single flower clearly, our whole life would change."
+        "quoteText": localize("interventions.quotes.1169.quoteText")
     },
     {
         "quoteAuthor": "Carl Jung",
-        "quoteText": "Without this playing with fantasy no creative work has ever yet come to birth. The debt we owe to the play of the imagination is incalculable."
+        "quoteText": localize("interventions.quotes.1170.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "You cannot travel the path until you have become the path itself."
+        "quoteText": localize("interventions.quotes.1171.quoteText")
     },
     {
         "quoteAuthor": "Theodore Roosevelt",
-        "quoteText": "Keep your eyes on the stars and your feet on the ground."
+        "quoteText": localize("interventions.quotes.1172.quoteText")
     },
     {
         "quoteAuthor": "William White",
-        "quoteText": "I am not afraid of tomorrow, for I have seen yesterday and I love today."
+        "quoteText": localize("interventions.quotes.1173.quoteText")
     },
     {
         "quoteAuthor": "Jamie Paolinetti",
-        "quoteText": "Limitations live only in our minds. But if we use our imaginations, our possibilities become limitless."
+        "quoteText": localize("interventions.quotes.1174.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "When you lose, don't lose the lesson."
+        "quoteText": localize("interventions.quotes.1175.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Bonaparte",
-        "quoteText": "If you want a thing done well, do it yourself."
+        "quoteText": localize("interventions.quotes.1176.quoteText")
     },
     {
         "quoteAuthor": "Eriksson",
-        "quoteText": "The greatest barrier to success is the fear of failure."
+        "quoteText": localize("interventions.quotes.1177.quoteText")
     },
     {
         "quoteAuthor": "John Ruskin",
-        "quoteText": "Sunshine is delicious, rain is refreshing, wind braces us up, snow is exhilarating; there is really no such thing as bad weather, only different kinds of good weather."
+        "quoteText": localize("interventions.quotes.1178.quoteText")
     },
     {
         "quoteAuthor": "Joe Namath",
-        "quoteText": "If you aren't going all the way, why go at all?"
+        "quoteText": localize("interventions.quotes.1179.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "Our greatest glory is not in never falling, but in rising every time we fall."
+        "quoteText": localize("interventions.quotes.1180.quoteText")
     },
     {
         "quoteAuthor": "Pierre Abelard",
-        "quoteText": "The beginning of wisdom is found in doubting; by doubting we come to the question, and by seeking we may come upon the truth."
+        "quoteText": localize("interventions.quotes.1181.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "If I could reach up and hold a star for every time you've made me smile, the entire evening sky would be in the palm of my hand."
+        "quoteText": localize("interventions.quotes.1182.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "We are shaped by our thoughts; we become what we think. When the mind is pure, joy follows like a shadow that never leaves."
+        "quoteText": localize("interventions.quotes.1183.quoteText")
     },
     {
         "quoteAuthor": "Tony Robbins",
-        "quoteText": "Stay committed to your decisions, but stay flexible in your approach."
+        "quoteText": localize("interventions.quotes.1184.quoteText")
     },
     {
         "quoteAuthor": "Albert Schweitzer",
-        "quoteText": "An optimist is a person who sees a green light everywhere, while the pessimist sees only the red spotlight... The truly wise person is colour-blind."
+        "quoteText": localize("interventions.quotes.1185.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "Each man has his own vocation; his talent is his call. There is one direction in which all space is open to him."
+        "quoteText": localize("interventions.quotes.1186.quoteText")
     },
     {
         "quoteAuthor": "Dhammapada",
-        "quoteText": "Just as a flower, which seems beautiful has color but no perfume, so are the fruitless words of a man who speaks them but does them not."
+        "quoteText": localize("interventions.quotes.1187.quoteText")
     },
     {
         "quoteAuthor": "William James",
-        "quoteText": "To change ones life, start immediately, do it flamboyantly, no exceptions."
+        "quoteText": localize("interventions.quotes.1188.quoteText")
     },
     {
         "quoteAuthor": "John F. Kennedy",
-        "quoteText": "As we express our gratitude, we must never forget that the highest appreciation is not to utter words, but to live by them."
+        "quoteText": localize("interventions.quotes.1189.quoteText")
     },
     {
         "quoteAuthor": "Booker Washington",
-        "quoteText": "The world cares very little about what a man or woman knows; it is what a man or woman is able to do that counts."
+        "quoteText": localize("interventions.quotes.1190.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "The steeper the mountain the harder the climb the better the view from the finishing line"
+        "quoteText": localize("interventions.quotes.1191.quoteText")
     },
     {
         "quoteAuthor": "Dr. David M. Burns",
-        "quoteText": "Aim for success, not perfection. Never give up your right to be wrong, because then you will lose the ability to learn new things and move forward with your life."
+        "quoteText": localize("interventions.quotes.1192.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "When I let go of what I am, I become what I might be."
+        "quoteText": localize("interventions.quotes.1193.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Transformation does not start with some one else changing you; transformation is an inner self reworking of what you are now to what you will be."
+        "quoteText": localize("interventions.quotes.1194.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Time is not a measure the length of a day or month or year but more a measure of what you have accomplished."
+        "quoteText": localize("interventions.quotes.1195.quoteText")
     },
     {
         "quoteAuthor": "Johann Wolfgang von Goethe",
-        "quoteText": "Wherever a man may happen to turn, whatever a man may undertake, he will always end up by returning to the path which nature has marked out for him."
+        "quoteText": localize("interventions.quotes.1196.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "Holding on to anger is like grasping a hot coal with the intent of throwing it at someone else; you are the one who gets burned."
+        "quoteText": localize("interventions.quotes.1197.quoteText")
     },
     {
         "quoteAuthor": "African proverb",
-        "quoteText": "When there is no enemy within, the enemies outside cannot hurt you."
+        "quoteText": localize("interventions.quotes.1198.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "He who controls others may be powerful, but he who has mastered himself is mightier still."
+        "quoteText": localize("interventions.quotes.1199.quoteText")
     },
     {
         "quoteAuthor": "Wayne Dyer",
-        "quoteText": "There is no scarcity of opportunity to make a living at what you love; theres only scarcity of resolve to make it happen."
+        "quoteText": localize("interventions.quotes.1200.quoteText")
     },
     {
         "quoteAuthor": "Wolfgang Amadeus Mozart",
-        "quoteText": "Neither a lofty degree of intelligence nor imagination nor both together go to the making of genius. Love, love, love, that is the soul of genius."
+        "quoteText": localize("interventions.quotes.1201.quoteText")
     },
     {
         "quoteAuthor": "H. Bertram Lewis",
-        "quoteText": "The happy and efficient people in this world are those who accept trouble as a normal detail of human life and resolve to capitalize it when it comes along."
+        "quoteText": localize("interventions.quotes.1202.quoteText")
     },
     {
         "quoteAuthor": "Saul Alinsky",
-        "quoteText": "As an organizer I start from where the world is, as it is, not as I would like it to be."
+        "quoteText": localize("interventions.quotes.1203.quoteText")
     },
     {
         "quoteAuthor": "Zig Ziglar",
-        "quoteText": "You are the only person on Earth who can use your ability."
+        "quoteText": localize("interventions.quotes.1204.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Don't let what you can't do stop you from doing what you can do."
+        "quoteText": localize("interventions.quotes.1205.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Complaining doesn't change a thing only taking action does."
+        "quoteText": localize("interventions.quotes.1206.quoteText")
     },
     {
         "quoteAuthor": "Charles A. Lindbergh",
-        "quoteText": "Life a culmination of the past, an awareness of the present, an indication of the future beyond knowledge, the quality that gives a touch of divinity to matter."
+        "quoteText": localize("interventions.quotes.1207.quoteText")
     },
     {
         "quoteAuthor": "Robert Brault",
-        "quoteText": "Enjoy the little things, for one day you may look back and realize they were the big things."
+        "quoteText": localize("interventions.quotes.1208.quoteText")
     },
     {
         "quoteAuthor": "Oprah Winfrey",
-        "quoteText": "With every experience, you alone are painting your own canvas, thought by thought, choice by choice."
+        "quoteText": localize("interventions.quotes.1209.quoteText")
     },
     {
         "quoteAuthor": "Rumi",
-        "quoteText": "Let the beauty of what you love be what you do."
+        "quoteText": localize("interventions.quotes.1210.quoteText")
     },
     {
         "quoteAuthor": "Epictetus",
-        "quoteText": "The world turns aside to let any man pass who knows where he is going."
+        "quoteText": localize("interventions.quotes.1211.quoteText")
     },
     {
         "quoteAuthor": "Kahlil Gibran",
-        "quoteText": "Beauty is not in the face; beauty is a light in the heart."
+        "quoteText": localize("interventions.quotes.1212.quoteText")
     },
     {
         "quoteAuthor": "John Lubbock",
-        "quoteText": "A day of worry is more exhausting than a day of work."
+        "quoteText": localize("interventions.quotes.1213.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "Truth, and goodness, and beauty are but different faces of the same all."
+        "quoteText": localize("interventions.quotes.1214.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "To be great is to be misunderstood."
+        "quoteText": localize("interventions.quotes.1215.quoteText")
     },
     {
         "quoteAuthor": "Alfred Adler",
-        "quoteText": "Trust only movement. Life happens at the level of events, not of words. Trust movement."
+        "quoteText": localize("interventions.quotes.1216.quoteText")
     },
     {
         "quoteAuthor": "Winston Churchill",
-        "quoteText": "Never, never, never give up."
+        "quoteText": localize("interventions.quotes.1217.quoteText")
     },
     {
         "quoteAuthor": "Andre Gide",
-        "quoteText": "The most decisive actions of our life... are most often unconsidered actions."
+        "quoteText": localize("interventions.quotes.1218.quoteText")
     },
     {
         "quoteAuthor": "Robert Schuller",
-        "quoteText": "As we grow as unique persons, we learn to respect the uniqueness of others."
+        "quoteText": localize("interventions.quotes.1219.quoteText")
     },
     {
         "quoteAuthor": "Robert Schuller",
-        "quoteText": "Failure doesn't mean you are a failure it just means you haven't succeeded yet."
+        "quoteText": localize("interventions.quotes.1220.quoteText")
     },
     {
         "quoteAuthor": "Mahatma Gandhi",
-        "quoteText": "It is the quality of our work which will please God, not the quantity."
+        "quoteText": localize("interventions.quotes.1221.quoteText")
     },
     {
         "quoteAuthor": "Stephen Kaggwa",
-        "quoteText": "Try and fail, but don't fail to try."
+        "quoteText": localize("interventions.quotes.1222.quoteText")
     },
     {
         "quoteAuthor": "Epictetus",
-        "quoteText": "First say to yourself what you would be; and then do what you have to do."
+        "quoteText": localize("interventions.quotes.1223.quoteText")
     },
     {
         "quoteAuthor": "Carl Jung",
-        "quoteText": "Through pride we are ever deceiving ourselves. But deep down below the surface of the average conscience a still, small voice says to us, Something is out of tune."
+        "quoteText": localize("interventions.quotes.1224.quoteText")
     },
     {
         "quoteAuthor": "Epictetus",
-        "quoteText": "Keep silence for the most part, and speak only when you must, and then briefly."
+        "quoteText": localize("interventions.quotes.1225.quoteText")
     },
     {
         "quoteAuthor": "Percy Shelley",
-        "quoteText": "Fear not for the future, weep not for the past."
+        "quoteText": localize("interventions.quotes.1226.quoteText")
     },
     {
         "quoteAuthor": "Wayne Dyer",
-        "quoteText": "We are Divine enough to ask and we are important enough to receive."
+        "quoteText": localize("interventions.quotes.1227.quoteText")
     },
     {
         "quoteAuthor": "Korean proverb",
-        "quoteText": "If you kick a stone in anger, you'll hurt your own foot."
+        "quoteText": localize("interventions.quotes.1228.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "To see things in the seed, that is genius."
+        "quoteText": localize("interventions.quotes.1229.quoteText")
     },
     {
         "quoteAuthor": "Bertrand Russell",
-        "quoteText": "The happiness that is genuinely satisfying is accompanied by the fullest exercise of our faculties and the fullest realization of the world in which we live."
+        "quoteText": localize("interventions.quotes.1230.quoteText")
     },
     {
         "quoteAuthor": "Douglas Adams",
-        "quoteText": "Human beings, who are almost unique in having the ability to learn from the experience of others, are also remarkable for their apparent disinclination to do so."
+        "quoteText": localize("interventions.quotes.1231.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "Make the most of yourself, for that is all there is of you."
+        "quoteText": localize("interventions.quotes.1232.quoteText")
     },
     {
         "quoteAuthor": "Muriel Rukeyser",
-        "quoteText": "The universe is made of stories, not atoms."
+        "quoteText": localize("interventions.quotes.1233.quoteText")
     },
     {
         "quoteAuthor": "Frank Wright",
-        "quoteText": "Respect should be earned by actions, and not acquired by years."
+        "quoteText": localize("interventions.quotes.1234.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "I hear and I forget. I see and I remember. I do and I understand."
+        "quoteText": localize("interventions.quotes.1235.quoteText")
     },
     {
         "quoteAuthor": "Will Durant",
-        "quoteText": "The trouble with most people is that they think with their hopes or fears or wishes rather than with their minds."
+        "quoteText": localize("interventions.quotes.1236.quoteText")
     },
     {
         "quoteAuthor": "Chuck Norris",
-        "quoteText": "A lot of people give up just before theyre about to make it. You know you never know when that next obstacle is going to be the last one."
+        "quoteText": localize("interventions.quotes.1237.quoteText")
     },
     {
         "quoteAuthor": "Lauren Raffo",
-        "quoteText": "Sometimes the biggest act of courage is a small one."
+        "quoteText": localize("interventions.quotes.1238.quoteText")
     },
     {
         "quoteAuthor": "Tony Robbins",
-        "quoteText": "People are not lazy. They simply have impotent goals, that is, goals that do not inspire them."
+        "quoteText": localize("interventions.quotes.1239.quoteText")
     },
     {
         "quoteAuthor": "Eckhart Tolle",
-        "quoteText": "You do not become good by trying to be good, but by finding the goodness that is already within you."
+        "quoteText": localize("interventions.quotes.1240.quoteText")
     },
     {
         "quoteAuthor": "Marcus Aurelius",
-        "quoteText": "Waste no more time arguing about what a good man should be. Be one."
+        "quoteText": localize("interventions.quotes.1241.quoteText")
     },
     {
         "quoteAuthor": "John Barrymore",
-        "quoteText": "Happiness often sneaks in through a door you didn't know you left open."
+        "quoteText": localize("interventions.quotes.1242.quoteText")
     },
     {
         "quoteAuthor": "Mark Twain",
-        "quoteText": "There are basically two types of people. People who accomplish things, and people who claim to have accomplished things. The first group is less crowded."
+        "quoteText": localize("interventions.quotes.1243.quoteText")
     },
     {
         "quoteAuthor": "Winifred Holtby",
-        "quoteText": "The things that one most wants to do are the things that are probably most worth doing."
+        "quoteText": localize("interventions.quotes.1244.quoteText")
     },
     {
         "quoteAuthor": "Abraham Lincoln",
-        "quoteText": "Always bear in mind that your own resolution to succeed is more important than any one thing."
+        "quoteText": localize("interventions.quotes.1245.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "Setting an example is not the main means of influencing another, it is the only means."
+        "quoteText": localize("interventions.quotes.1246.quoteText")
     },
     {
         "quoteAuthor": "Richard Garriott",
-        "quoteText": "Chaos and Order are not enemies, only opposites."
+        "quoteText": localize("interventions.quotes.1247.quoteText")
     },
     {
         "quoteAuthor": "Henry Longfellow",
-        "quoteText": "Perseverance is a great element of success. If you only knock long enough and loud enough at the gate, you are sure to wake up somebody."
+        "quoteText": localize("interventions.quotes.1248.quoteText")
     },
     {
         "quoteAuthor": "Harriet Lerner",
-        "quoteText": "Only through our connectedness to others can we really know and enhance the self. And only through working on the self can we begin to enhance our connectedness to others."
+        "quoteText": localize("interventions.quotes.1249.quoteText")
     },
     {
         "quoteAuthor": "Chinese proverb",
-        "quoteText": "He who deliberates fully before taking a step will spend his entire life on one leg."
+        "quoteText": localize("interventions.quotes.1250.quoteText")
     },
     {
         "quoteAuthor": "Mother Teresa",
-        "quoteText": "Peace begins with a smile."
+        "quoteText": localize("interventions.quotes.1251.quoteText")
     },
     {
         "quoteAuthor": "Doug Horton",
-        "quoteText": "Be your own hero, it's cheaper than a movie ticket."
+        "quoteText": localize("interventions.quotes.1252.quoteText")
     },
     {
         "quoteAuthor": "Maori proverb",
-        "quoteText": "Turn your face toward the sun and the shadows will fall behind you."
+        "quoteText": localize("interventions.quotes.1253.quoteText")
     },
     {
         "quoteAuthor": "Jack Buck",
-        "quoteText": "Things turn out best for those who make the best of the way things turn out."
+        "quoteText": localize("interventions.quotes.1254.quoteText")
     },
     {
         "quoteAuthor": "Whoopi Goldberg",
-        "quoteText": "Were here for a reason. I believe a bit of the reason is to throw little torches out to lead people through the dark."
+        "quoteText": localize("interventions.quotes.1255.quoteText")
     },
     {
         "quoteAuthor": "Anthony Robbins",
-        "quoteText": "To effectively communicate, we must realize that we are all different in the way we perceive the world and use this understanding as a guide to our communication with others."
+        "quoteText": localize("interventions.quotes.1256.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "Ability will never catch up with the demand for it."
+        "quoteText": localize("interventions.quotes.1257.quoteText")
     },
     {
         "quoteAuthor": "Albert Schweitzer",
-        "quoteText": "Never say there is nothing beautiful in the world any more. There is always something to make you wonder in the shape of a tree, the trembling of a leaf."
+        "quoteText": localize("interventions.quotes.1258.quoteText")
     },
     {
         "quoteAuthor": "Henry Reed",
-        "quoteText": "Intuition is the very force or activity of the soul in its experience through whatever has been the experience of the soul itself."
+        "quoteText": localize("interventions.quotes.1259.quoteText")
     },
     {
         "quoteAuthor": "Tony Robbins",
-        "quoteText": "Setting goals is the first step in turning the invisible into the visible."
+        "quoteText": localize("interventions.quotes.1260.quoteText")
     },
     {
         "quoteAuthor": "Pat Riley",
-        "quoteText": "Courage is not the absence of fear, but simply moving on with dignity despite that fear."
+        "quoteText": localize("interventions.quotes.1261.quoteText")
     },
     {
         "quoteAuthor": "Galileo Galilei",
-        "quoteText": "All truths are easy to understand once they are discovered; the point is to discover them."
+        "quoteText": localize("interventions.quotes.1262.quoteText")
     },
     {
         "quoteAuthor": "Oscar Wilde",
-        "quoteText": "The smallest act of kindness is worth more than the grandest intention."
+        "quoteText": localize("interventions.quotes.1263.quoteText")
     },
     {
         "quoteAuthor": "Margaret Wheatley",
-        "quoteText": "We know from science that nothing in the universe exists as an isolated or independent entity."
+        "quoteText": localize("interventions.quotes.1264.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "Everything in the universe goes by indirection. There are no straight lines."
+        "quoteText": localize("interventions.quotes.1265.quoteText")
     },
     {
         "quoteAuthor": "George Eliot",
-        "quoteText": "What do we live for, if it is not to make life less difficult for each other?"
+        "quoteText": localize("interventions.quotes.1266.quoteText")
     },
     {
         "quoteAuthor": "Tenzin Gyatso",
-        "quoteText": "When we feel love and kindness toward others, it not only makes others feel loved and cared for, but it helps us also to develop inner happiness and peace."
+        "quoteText": localize("interventions.quotes.1267.quoteText")
     },
     {
         "quoteAuthor": "Maya Angelou",
-        "quoteText": "We may encounter many defeats but we must not be defeated."
+        "quoteText": localize("interventions.quotes.1268.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "Every person, all the events of your life are there because you have drawn them there. What you choose to do with them is up to you."
+        "quoteText": localize("interventions.quotes.1269.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "Logic will get you from A to B. Imagination will take you everywhere."
+        "quoteText": localize("interventions.quotes.1270.quoteText")
     },
     {
         "quoteAuthor": "Sarah Breathnach",
-        "quoteText": "Our deepest wishes are whispers of our authentic selves. We must learn to respect them. We must learn to listen."
+        "quoteText": localize("interventions.quotes.1271.quoteText")
     },
     {
         "quoteAuthor": "Henry Thoreau",
-        "quoteText": "The world is but a canvas to the imagination."
+        "quoteText": localize("interventions.quotes.1272.quoteText")
     },
     {
         "quoteAuthor": "Lisa Alther",
-        "quoteText": "Thats the risk you take if you change: that people you've been involved with won't like the new you. But other people who do will come along."
+        "quoteText": localize("interventions.quotes.1273.quoteText")
     },
     {
         "quoteAuthor": "Walter Benjamin",
-        "quoteText": "To be happy is to be able to become aware of oneself without fright."
+        "quoteText": localize("interventions.quotes.1274.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Strength to carry on despite the odds means you have faith in your own abilities and know how."
+        "quoteText": localize("interventions.quotes.1275.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "Make the most of yourself for that is all there is of you."
+        "quoteText": localize("interventions.quotes.1276.quoteText")
     },
     {
         "quoteAuthor": "Lama Yeshe",
-        "quoteText": "Be gentle first with yourself if you wish to be gentle with others."
+        "quoteText": localize("interventions.quotes.1277.quoteText")
     },
     {
         "quoteAuthor": "Cardinal Retz",
-        "quoteText": "A man who doesn't trust himself can never really trust anyone else."
+        "quoteText": localize("interventions.quotes.1278.quoteText")
     },
     {
         "quoteAuthor": "Benjamin Disraeli",
-        "quoteText": "We make our own fortunes and we call them fate."
+        "quoteText": localize("interventions.quotes.1279.quoteText")
     },
     {
         "quoteAuthor": "Vince Lombardi",
-        "quoteText": "Leaders aren't born they are made. And they are made just like anything else, through hard work. And that's the price well have to pay to achieve that goal, or any goal."
+        "quoteText": localize("interventions.quotes.1280.quoteText")
     },
     {
         "quoteAuthor": "E. E. Cummings",
-        "quoteText": "It takes courage to grow up and become who you really are."
+        "quoteText": localize("interventions.quotes.1281.quoteText")
     },
     {
         "quoteAuthor": "Og Mandino",
-        "quoteText": "Always seek out the seed of triumph in every adversity."
+        "quoteText": localize("interventions.quotes.1282.quoteText")
     },
     {
         "quoteAuthor": "Catherine Pulsifer",
-        "quoteText": "Rather than wishing for change, you first must be prepared to change."
+        "quoteText": localize("interventions.quotes.1283.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "I do not believe in a fate that falls on men however they act; but I do believe in a fate that falls on them unless they act."
+        "quoteText": localize("interventions.quotes.1284.quoteText")
     },
     {
         "quoteAuthor": "Holmes",
-        "quoteText": "Fame usually comes to those who are thinking about something else."
+        "quoteText": localize("interventions.quotes.1285.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Hill",
-        "quoteText": "First comes thought; then organization of that thought, into ideas and plans; then transformation of those plans into reality. The beginning, as you will observe, is in your imagination."
+        "quoteText": localize("interventions.quotes.1286.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "The superior man acts before he speaks, and afterwards speaks according to his action."
+        "quoteText": localize("interventions.quotes.1287.quoteText")
     },
     {
         "quoteAuthor": "Chinese proverb",
-        "quoteText": "A single conversation across the table with a wise person is worth a months study of books."
+        "quoteText": localize("interventions.quotes.1288.quoteText")
     },
     {
         "quoteAuthor": "Mohandas Gandhi",
-        "quoteText": "The difference between what we do and what we are capable of doing would suffice to solve most of the worlds problems."
+        "quoteText": localize("interventions.quotes.1289.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "You can never cross the ocean unless you have the courage to lose sight of the shore."
+        "quoteText": localize("interventions.quotes.1290.quoteText")
     },
     {
         "quoteAuthor": "Vaclav Havel",
-        "quoteText": "Work for something because it is good, not just because it stands a chance to succeed."
+        "quoteText": localize("interventions.quotes.1291.quoteText")
     },
     {
         "quoteAuthor": "Carl Jung",
-        "quoteText": "Knowledge rests not upon truth alone, but upon error also."
+        "quoteText": localize("interventions.quotes.1292.quoteText")
     },
     {
         "quoteAuthor": "Katherine Mansfield",
-        "quoteText": "Make it a rule of life never to regret and never to look back. Regret is an appalling waste of energy; you can't build on it; it's only for wallowing in."
+        "quoteText": localize("interventions.quotes.1293.quoteText")
     },
     {
         "quoteAuthor": "Victoria Holt",
-        "quoteText": "Never regret. If it's good, it's wonderful. If it's bad, it's experience."
+        "quoteText": localize("interventions.quotes.1294.quoteText")
     },
     {
         "quoteAuthor": "Chuang Tzu",
-        "quoteText": "When deeds and words are in accord, the whole world is transformed."
+        "quoteText": localize("interventions.quotes.1295.quoteText")
     },
     {
         "quoteAuthor": "Mother Teresa",
-        "quoteText": "Kind words can be short and easy to speak but their echoes are truly endless."
+        "quoteText": localize("interventions.quotes.1296.quoteText")
     },
     {
         "quoteAuthor": "William Blake",
-        "quoteText": "For everything that lives is holy, life delights in life."
+        "quoteText": localize("interventions.quotes.1297.quoteText")
     },
     {
         "quoteAuthor": "Dalai Lama",
-        "quoteText": "The most important thing is transforming our minds, for a new way of thinking, a new outlook: we should strive to develop a new inner world."
+        "quoteText": localize("interventions.quotes.1298.quoteText")
     },
     {
         "quoteAuthor": "Billie Armstrong",
-        "quoteText": "Our passion is our strength."
+        "quoteText": localize("interventions.quotes.1299.quoteText")
     },
     {
         "quoteAuthor": "Leonardo da Vinci",
-        "quoteText": "In rivers, the water that you touch is the last of what has passed and the first of that which comes; so with present time."
+        "quoteText": localize("interventions.quotes.1300.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Spring is a time for rebirth and the fulfilment of new life."
+        "quoteText": localize("interventions.quotes.1301.quoteText")
     },
     {
         "quoteAuthor": "Marcus Aurelius",
-        "quoteText": "There is nothing happens to any person but what was in his power to go through with."
+        "quoteText": localize("interventions.quotes.1302.quoteText")
     },
     {
         "quoteAuthor": "Alfred Korzybski",
-        "quoteText": "There are two ways to slide easily through life: to believe everything or to doubt everything; both ways save us from thinking."
+        "quoteText": localize("interventions.quotes.1303.quoteText")
     },
     {
         "quoteAuthor": "Alfred Whitehead",
-        "quoteText": "The art of progress is to preserve order amid change, and to preserve change amid order."
+        "quoteText": localize("interventions.quotes.1304.quoteText")
     },
     {
         "quoteAuthor": "Winston Churchill",
-        "quoteText": "We make a living by what we get, but we make a life by what we give."
+        "quoteText": localize("interventions.quotes.1305.quoteText")
     },
     {
         "quoteAuthor": "Friedrich von Schiller",
-        "quoteText": "If you want to study yourself, look into the hearts of other people. If you want to study other people, look into your own heart."
+        "quoteText": localize("interventions.quotes.1306.quoteText")
     },
     {
         "quoteAuthor": "Wayne Dyer",
-        "quoteText": "Maxim for life: You get treated in life the way you teach people to treat you."
+        "quoteText": localize("interventions.quotes.1307.quoteText")
     },
     {
         "quoteAuthor": "Charlotte Perkins Gilman",
-        "quoteText": "The first duty of a human being is to assume the right functional relationship to society, more briefly, to find your real job, and do it."
+        "quoteText": localize("interventions.quotes.1308.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "The key to growth is the introduction of higher dimensions of consciousness into our awareness."
+        "quoteText": localize("interventions.quotes.1309.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "Thought is the blossom; language the bud; action the fruit behind it."
+        "quoteText": localize("interventions.quotes.1310.quoteText")
     },
     {
         "quoteAuthor": "Daisaku Ikeda",
-        "quoteText": "True happiness means forging a strong spirit that is undefeated, no matter how trying our circumstances."
+        "quoteText": localize("interventions.quotes.1311.quoteText")
     },
     {
         "quoteAuthor": "Peter Drucker",
-        "quoteText": "There is nothing so useless as doing efficiently that which should not be done at all."
+        "quoteText": localize("interventions.quotes.1312.quoteText")
     },
     {
         "quoteAuthor": "Leonardo da Vinci",
-        "quoteText": "I have been impressed with the urgency of doing. Knowing is not enough; we must apply. Being willing is not enough; we must do."
+        "quoteText": localize("interventions.quotes.1313.quoteText")
     },
     {
         "quoteAuthor": "William Shakespeare",
-        "quoteText": "All the world is a stage, And all the men and women merely players.They have their exits and entrances; Each man in his time plays many parts."
+        "quoteText": localize("interventions.quotes.1314.quoteText")
     },
     {
         "quoteAuthor": "Nelson Mandela",
-        "quoteText": "As we are liberated from our own fear, our presence automatically liberates others."
+        "quoteText": localize("interventions.quotes.1315.quoteText")
     },
     {
         "quoteAuthor": "James Yorke",
-        "quoteText": "The most successful people are those who are good at plan B."
+        "quoteText": localize("interventions.quotes.1316.quoteText")
     },
     {
         "quoteAuthor": "Aristotle",
-        "quoteText": "Criticism is something you can easily avoid by saying nothing, doing nothing, and being nothing."
+        "quoteText": localize("interventions.quotes.1317.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "To fly as fast as thought, you must begin by knowing that you have already arrived."
+        "quoteText": localize("interventions.quotes.1318.quoteText")
     },
     {
         "quoteAuthor": "Hannah More",
-        "quoteText": "Obstacles are those things you see when you take your eyes off the goal."
+        "quoteText": localize("interventions.quotes.1319.quoteText")
     },
     {
         "quoteAuthor": "Michelangelo",
-        "quoteText": "The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it."
+        "quoteText": localize("interventions.quotes.1320.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "Great ideas often receive violent opposition from mediocre minds."
+        "quoteText": localize("interventions.quotes.1321.quoteText")
     },
     {
         "quoteAuthor": "Tony Robbins",
-        "quoteText": "We can change our lives. We can do, have, and be exactly what we wish."
+        "quoteText": localize("interventions.quotes.1322.quoteText")
     },
     {
         "quoteAuthor": "Zig Ziglar",
-        "quoteText": "You are the only person on earth who can use your ability."
+        "quoteText": localize("interventions.quotes.1323.quoteText")
     },
     {
         "quoteAuthor": "Jean Lacordaire",
-        "quoteText": "Neither genius, fame, nor love show the greatness of the soul. Only kindness can do that."
+        "quoteText": localize("interventions.quotes.1324.quoteText")
     },
     {
         "quoteAuthor": "Carl Jung",
-        "quoteText": "The least of things with a meaning is worth more in life than the greatest of things without it."
+        "quoteText": localize("interventions.quotes.1325.quoteText")
     },
     {
         "quoteAuthor": "Isocrates",
-        "quoteText": "The noblest worship is to make yourself as good and as just as you can."
+        "quoteText": localize("interventions.quotes.1326.quoteText")
     },
     {
         "quoteAuthor": "Carl Bard",
-        "quoteText": "Though no one can go back and make a brand new start, anyone can start from not and make a brand new ending."
+        "quoteText": localize("interventions.quotes.1327.quoteText")
     },
     {
         "quoteAuthor": "Denis Waitley",
-        "quoteText": "A dream is your creative vision for your life in the future. You must break out of your current comfort zone and become comfortable with the unfamiliar and the unknown."
+        "quoteText": localize("interventions.quotes.1328.quoteText")
     },
     {
         "quoteAuthor": "Robert Orben",
-        "quoteText": "Don't think of it as failure. Think of it as time-released success."
+        "quoteText": localize("interventions.quotes.1329.quoteText")
     },
     {
         "quoteAuthor": "Aristotle",
-        "quoteText": "We are what we repeatedly do. Excellence, then, is not an act but a habit."
+        "quoteText": localize("interventions.quotes.1330.quoteText")
     },
     {
         "quoteAuthor": "Abraham Lincoln",
-        "quoteText": "I walk slowly, but I never walk backward."
+        "quoteText": localize("interventions.quotes.1331.quoteText")
     },
     {
         "quoteAuthor": "Rene Descartes",
-        "quoteText": "Divide each difficulty into as many parts as is feasible and necessary to resolve it."
+        "quoteText": localize("interventions.quotes.1332.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "The best place to find a helping hand is at the end of your own arm."
+        "quoteText": localize("interventions.quotes.1333.quoteText")
     },
     {
         "quoteAuthor": "Blaise Pascal",
-        "quoteText": "We know the truth, not only by the reason, but by the heart."
+        "quoteText": localize("interventions.quotes.1334.quoteText")
     },
     {
         "quoteAuthor": "Kahlil Gibran",
-        "quoteText": "We choose our joys and sorrows long before we experience them."
+        "quoteText": localize("interventions.quotes.1335.quoteText")
     },
     {
         "quoteAuthor": "Oscar Wilde",
-        "quoteText": "Anybody can make history. Only a great man can write it."
+        "quoteText": localize("interventions.quotes.1336.quoteText")
     },
     {
         "quoteAuthor": "Hermann Hesse",
-        "quoteText": "If I know what love is, it is because of you."
+        "quoteText": localize("interventions.quotes.1337.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "Allow the world to live as it chooses, and allow yourself to live as you choose."
+        "quoteText": localize("interventions.quotes.1338.quoteText")
     },
     {
         "quoteAuthor": "Barack Obama",
-        "quoteText": "Focusing your life solely on making a buck shows a poverty of ambition. It asks too little of yourself. And it will leave you unfulfilled."
+        "quoteText": localize("interventions.quotes.1339.quoteText")
     },
     {
         "quoteAuthor": "Dalai Lama",
-        "quoteText": "Compassion and happiness are not a sign of weakness but a sign of strength."
+        "quoteText": localize("interventions.quotes.1340.quoteText")
     },
     {
         "quoteAuthor": "Franklin D. Roosevelt",
-        "quoteText": "It is common sense to take a method and try it. If it fails, admit it frankly and try another. But above all, try something."
+        "quoteText": localize("interventions.quotes.1341.quoteText")
     },
     {
         "quoteAuthor": "David Bader",
-        "quoteText": "Be here now. Be someplace else later. Is that so complicated?"
+        "quoteText": localize("interventions.quotes.1342.quoteText")
     },
     {
         "quoteAuthor": "Mahummad Ali",
-        "quoteText": "To be able to give away riches is mandatory if you wish to possess them. This is the only way that you will be truly rich."
+        "quoteText": localize("interventions.quotes.1343.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "Learning without reflection is a waste, reflection without learning is dangerous."
+        "quoteText": localize("interventions.quotes.1344.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Don't fear failure so much that you refuse to try new things. The saddest summary of life contains three descriptions: could have, might have, and should have."
+        "quoteText": localize("interventions.quotes.1345.quoteText")
     },
     {
         "quoteAuthor": "Bruce Lee",
-        "quoteText": "All fixed set patterns are incapable of adaptability or pliability. The truth is outside of all fixed patterns."
+        "quoteText": localize("interventions.quotes.1346.quoteText")
     },
     {
         "quoteAuthor": "Oprah Winfrey",
-        "quoteText": "I don't believe in failure. It's not failure if you enjoyed the process."
+        "quoteText": localize("interventions.quotes.1347.quoteText")
     },
     {
         "quoteAuthor": "Helen Keller",
-        "quoteText": "The best and most beautiful things in the world cannot be seen, nor touched... but are felt in the heart."
+        "quoteText": localize("interventions.quotes.1348.quoteText")
     },
     {
         "quoteAuthor": "David Rockefeller",
-        "quoteText": "Success in business requires training and discipline and hard work. But if you're not frightened by these things, the opportunities are just as great today as they ever were."
+        "quoteText": localize("interventions.quotes.1349.quoteText")
     },
     {
         "quoteAuthor": "Cavour",
-        "quoteText": "The man who trusts men will make fewer mistakes than he who distrusts them."
+        "quoteText": localize("interventions.quotes.1350.quoteText")
     },
     {
         "quoteAuthor": "Bruce Lee",
-        "quoteText": "The less effort, the faster and more powerful you will be."
+        "quoteText": localize("interventions.quotes.1351.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "We must be as courteous to a man as we are to a picture, which we are willing to give the advantage of a good light."
+        "quoteText": localize("interventions.quotes.1352.quoteText")
     },
     {
         "quoteAuthor": "Anais Nin",
-        "quoteText": "The dream was always running ahead of me. To catch up, to live for a moment in unison with it, that was the miracle."
+        "quoteText": localize("interventions.quotes.1353.quoteText")
     },
     {
         "quoteAuthor": "Ellen Parr",
-        "quoteText": "The cure for boredom is curiosity. There is no cure for curiosity."
+        "quoteText": localize("interventions.quotes.1354.quoteText")
     },
     {
         "quoteAuthor": "Mother Teresa",
-        "quoteText": "We can do no great things, only small things with great love."
+        "quoteText": localize("interventions.quotes.1355.quoteText")
     },
     {
         "quoteAuthor": "Kahlil Gibran",
-        "quoteText": "Be like the flower, turn your face to the sun."
+        "quoteText": localize("interventions.quotes.1356.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "Remembering a wrong is like carrying a burden on the mind."
+        "quoteText": localize("interventions.quotes.1357.quoteText")
     },
     {
         "quoteAuthor": "James Openheim",
-        "quoteText": "The foolish man seeks happiness in the distance; the wise grows it under his feet."
+        "quoteText": localize("interventions.quotes.1358.quoteText")
     },
     {
         "quoteAuthor": "Henry Beecher",
-        "quoteText": "Gratitude is the fairest blossom which springs from the soul."
+        "quoteText": localize("interventions.quotes.1359.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "If you look into your own heart, and you find nothing wrong there, what is there to worry about? What is there to fear?"
+        "quoteText": localize("interventions.quotes.1360.quoteText")
     },
     {
         "quoteAuthor": "John Acosta",
-        "quoteText": "You cannot have what you do not want."
+        "quoteText": localize("interventions.quotes.1361.quoteText")
     },
     {
         "quoteAuthor": "Ralph Waldo Emerson",
-        "quoteText": "Do not follow where the path may lead. Go, instead, where there is no path and leave a trail."
+        "quoteText": localize("interventions.quotes.1362.quoteText")
     },
     {
         "quoteAuthor": "Eleanor Roosevelt",
-        "quoteText": "It is not fair to ask of others what you are unwilling to do yourself."
+        "quoteText": localize("interventions.quotes.1363.quoteText")
     },
     {
         "quoteAuthor": "Carl Jung",
-        "quoteText": "Knowing your own darkness is the best method for dealing with the darknesses of other people."
+        "quoteText": localize("interventions.quotes.1364.quoteText")
     },
     {
         "quoteAuthor": "Moncure Conway",
-        "quoteText": "The best thing in every noble dream is the dreamer..."
+        "quoteText": localize("interventions.quotes.1365.quoteText")
     },
     {
         "quoteAuthor": "Walt Disney",
-        "quoteText": "Weve got to have a dream if we are going to make a dream come true."
+        "quoteText": localize("interventions.quotes.1366.quoteText")
     },
     {
         "quoteAuthor": "Norman Peale",
-        "quoteText": "If you want things to be different, perhaps the answer is to become different yourself."
+        "quoteText": localize("interventions.quotes.1367.quoteText")
     },
     {
         "quoteAuthor": "Alexander the Great",
-        "quoteText": "There is nothing impossible to him who will try."
+        "quoteText": localize("interventions.quotes.1368.quoteText")
     },
     {
         "quoteAuthor": "Theodore Rubin",
-        "quoteText": "Kindness is more important than wisdom, and the recognition of this is the beginning of wisdom."
+        "quoteText": localize("interventions.quotes.1369.quoteText")
     },
     {
         "quoteAuthor": "Harriet Tubman",
-        "quoteText": "Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to reach for the stars to change the world."
+        "quoteText": localize("interventions.quotes.1370.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "The only real failure in life is not to be true to the best one knows."
+        "quoteText": localize("interventions.quotes.1371.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "Anyone who doesn't take truth seriously in small matters cannot be trusted in large ones either."
+        "quoteText": localize("interventions.quotes.1372.quoteText")
     },
     {
         "quoteAuthor": "Barack Obama",
-        "quoteText": "Change will not come if we wait for some other person or some other time. We are the ones weve been waiting for. We are the change that we seek."
+        "quoteText": localize("interventions.quotes.1373.quoteText")
     },
     {
         "quoteAuthor": "George Santayan",
-        "quoteText": "Those who cannot learn from history are doomed to repeat it."
+        "quoteText": localize("interventions.quotes.1374.quoteText")
     },
     {
         "quoteAuthor": "Carlos Castaneda",
-        "quoteText": "The trick is in what one emphasizes. We either make ourselves miserable, or we make ourselves happy. The amount of work is the same."
+        "quoteText": localize("interventions.quotes.1375.quoteText")
     },
     {
         "quoteAuthor": "Seneca",
-        "quoteText": "Things that were hard to bear are sweet to remember."
+        "quoteText": localize("interventions.quotes.1376.quoteText")
     },
     {
         "quoteAuthor": "Henry James",
-        "quoteText": "Three things in human life are important. The first is to be kind. The second is to be kind. The third is to be kind."
+        "quoteText": localize("interventions.quotes.1377.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "However many holy words you read, However many you speak, What good will they do you If you do not act on upon them?"
+        "quoteText": localize("interventions.quotes.1378.quoteText")
     },
     {
         "quoteAuthor": "Virgil",
-        "quoteText": "They can conquer who believe they can."
+        "quoteText": localize("interventions.quotes.1379.quoteText")
     },
     {
         "quoteAuthor": "Frank Tyger",
-        "quoteText": "Learn to listen. Opportunity could be knocking at your door very softly."
+        "quoteText": localize("interventions.quotes.1380.quoteText")
     },
     {
         "quoteAuthor": "Sai Baba",
-        "quoteText": "All action results from thought, so it is thoughts that matter."
+        "quoteText": localize("interventions.quotes.1381.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle."
+        "quoteText": localize("interventions.quotes.1382.quoteText")
     },
     {
         "quoteAuthor": "Colette",
-        "quoteText": "I love my past. I love my present. Im not ashamed of what Ive had, and Im not sad because I have it no longer."
+        "quoteText": localize("interventions.quotes.1383.quoteText")
     },
     {
         "quoteAuthor": "Maya Angelou",
-        "quoteText": "Prejudice is a burden that confuses the past, threatens the future and renders the present inaccessible."
+        "quoteText": localize("interventions.quotes.1384.quoteText")
     },
     {
         "quoteAuthor": "William Hazlitt",
-        "quoteText": "Just as much as we see in others we have in ourselves."
+        "quoteText": localize("interventions.quotes.1385.quoteText")
     },
     {
         "quoteAuthor": "Geoffrey F. Abert",
-        "quoteText": "Prosperity depends more on wanting what you have than having what you want."
+        "quoteText": localize("interventions.quotes.1386.quoteText")
     },
     {
         "quoteAuthor": "Coco Chanel",
-        "quoteText": "How many cares one loses when one decides not to be something but to be someone."
+        "quoteText": localize("interventions.quotes.1387.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "He who knows, does not speak. He who speaks, does not know."
+        "quoteText": localize("interventions.quotes.1388.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "We cannot direct the wind but we can adjust the sails."
+        "quoteText": localize("interventions.quotes.1389.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "One may say the eternal mystery of the world is its comprehensibility."
+        "quoteText": localize("interventions.quotes.1390.quoteText")
     },
     {
         "quoteAuthor": "John Dewey",
-        "quoteText": "The self is not something ready-made, but something in continuous formation through choice of action."
+        "quoteText": localize("interventions.quotes.1391.quoteText")
     },
     {
         "quoteAuthor": "Mahatma Gandhi",
-        "quoteText": "Our greatness lies not so much in being able to remake the world as being able to remake ourselves."
+        "quoteText": localize("interventions.quotes.1392.quoteText")
     },
     {
         "quoteAuthor": "Philip Breedveld",
-        "quoteText": "Moments of complete apathy are the best for new creations."
+        "quoteText": localize("interventions.quotes.1393.quoteText")
     },
     {
         "quoteAuthor": "John Powell",
-        "quoteText": "The only real mistake is the one from which we learn nothing."
+        "quoteText": localize("interventions.quotes.1394.quoteText")
     },
     {
         "quoteAuthor": "Tim Menchen",
-        "quoteText": "To dream of the person you would like to be is to waste the person you are."
+        "quoteText": localize("interventions.quotes.1395.quoteText")
     },
     {
         "quoteAuthor": "Charles Dubois",
-        "quoteText": "The important thing is this: to be able at any moment to sacrifice what we are for what we could become."
+        "quoteText": localize("interventions.quotes.1396.quoteText")
     },
     {
         "quoteAuthor": "Cicero",
-        "quoteText": "Gratitude is not only the greatest of virtues, but the paren't of all the others."
+        "quoteText": localize("interventions.quotes.1397.quoteText")
     },
     {
         "quoteAuthor": "Lama Yeshe",
-        "quoteText": "It is never too late. Even if you are going to die tomorrow, keep yourself straight and clear and be a happy human being today."
+        "quoteText": localize("interventions.quotes.1398.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Respect is not something that you can ask for, buy or borrow. Respect is what you earn from each person no matter their background or status."
+        "quoteText": localize("interventions.quotes.1399.quoteText")
     },
     {
         "quoteAuthor": "Henry Thoreau",
-        "quoteText": "Things do not change; we change."
+        "quoteText": localize("interventions.quotes.1400.quoteText")
     },
     {
         "quoteAuthor": "Blaise Pascal",
-        "quoteText": "We must learn our limits. We are all something, but none of us are everything."
+        "quoteText": localize("interventions.quotes.1401.quoteText")
     },
     {
         "quoteAuthor": "Stephen Sigmund",
-        "quoteText": "Learn wisdom from the ways of a seedling. A seedling which is never hardened off through stressful situations will never become a strong productive plant."
+        "quoteText": localize("interventions.quotes.1402.quoteText")
     },
     {
         "quoteAuthor": "Charles R. Swindoll",
-        "quoteText": "We are all faced with a series of great opportunities brilliantly disguised as impossible situations."
+        "quoteText": localize("interventions.quotes.1403.quoteText")
     },
     {
         "quoteAuthor": "Albert Camus",
-        "quoteText": "All men have a sweetness in their life. That is what helps them go on. It is towards that they turn when they feel too worn out."
+        "quoteText": localize("interventions.quotes.1404.quoteText")
     },
     {
         "quoteAuthor": "Frank Tyger",
-        "quoteText": "Be a good listener. Your ears will never get you in trouble."
+        "quoteText": localize("interventions.quotes.1405.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "Meditation brings wisdom; lack of mediation leaves ignorance. Know well what leads you forward and what hold you back, and choose the path that leads to wisdom."
+        "quoteText": localize("interventions.quotes.1406.quoteText")
     },
     {
         "quoteAuthor": "Anatole France",
-        "quoteText": "You learn to speak by speaking, to study by studying, to run by running, to work by working; in just the same way, you learn to love by loving."
+        "quoteText": localize("interventions.quotes.1407.quoteText")
     },
     {
         "quoteAuthor": "John Marshall",
-        "quoteText": "To listen well is as powerful a means of communication and influence as to talk well."
+        "quoteText": localize("interventions.quotes.1408.quoteText")
     },
     {
         "quoteAuthor": "George Sand",
-        "quoteText": "There is only one happiness in life, to love and be loved."
+        "quoteText": localize("interventions.quotes.1409.quoteText")
     },
     {
         "quoteAuthor": "Matt Zotti",
-        "quoteText": "Live through feeling and you will live through love. For feeling is the language of the soul, and feeling is truth."
+        "quoteText": localize("interventions.quotes.1410.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "Kindness in words creates confidence. Kindness in thinking creates profoundness. Kindness in giving creates love."
+        "quoteText": localize("interventions.quotes.1411.quoteText")
     },
     {
         "quoteAuthor": "Thomas Jefferson",
-        "quoteText": "Reason and free inquiry are the only effectual agents against error."
+        "quoteText": localize("interventions.quotes.1412.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Bonaparte",
-        "quoteText": "The best cure for the body is a quiet mind."
+        "quoteText": localize("interventions.quotes.1413.quoteText")
     },
     {
         "quoteAuthor": "Dalai Lama",
-        "quoteText": "See the positive side, the potential, and make an effort."
+        "quoteText": localize("interventions.quotes.1414.quoteText")
     },
     {
         "quoteAuthor": "Jane Roberts",
-        "quoteText": "By accepting yourself and being fully what you are, your presence can make others happy."
+        "quoteText": localize("interventions.quotes.1415.quoteText")
     },
     {
         "quoteAuthor": "Norman Cousins",
-        "quoteText": "Never deny a diagnosis, but do deny the negative verdict that may go with it."
+        "quoteText": localize("interventions.quotes.1416.quoteText")
     },
     {
         "quoteAuthor": "Johann Wolfgang von Goethe",
-        "quoteText": "The really unhappy person is the one who leaves undone what they can do, and starts doing what they don't understand; no wonder they come to grief."
+        "quoteText": localize("interventions.quotes.1417.quoteText")
     },
     {
         "quoteAuthor": "Wayne Dyer",
-        "quoteText": "You cannot be lonely if you like the person you're alone with."
+        "quoteText": localize("interventions.quotes.1418.quoteText")
     },
     {
         "quoteAuthor": "G. K. Chesterton",
-        "quoteText": "I do not believe in a fate that falls on men however they act; but I do believe in a fate that falls on man unless they act."
+        "quoteText": localize("interventions.quotes.1419.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "If you propose to speak, always ask yourself, is it true, is it necessary, is it kind."
+        "quoteText": localize("interventions.quotes.1420.quoteText")
     },
     {
         "quoteAuthor": "Cadet Maxim",
-        "quoteText": "Risk more than others think is safe. Care more than others think is wise. Dream more than others think is practical.Expect more than others think is possible."
+        "quoteText": localize("interventions.quotes.1421.quoteText")
     },
     {
         "quoteAuthor": "Og Mandino",
-        "quoteText": "Failure will never overtake me if my determination to succeed is strong enough."
+        "quoteText": localize("interventions.quotes.1422.quoteText")
     },
     {
         "quoteAuthor": "Ralph Marston",
-        "quoteText": "Let go of your attachment to being right, and suddenly your mind is more open. You're able to benefit from the unique viewpoints of others, without being crippled by your own judgement."
+        "quoteText": localize("interventions.quotes.1423.quoteText")
     },
     {
         "quoteAuthor": "Mark Twain",
-        "quoteText": "Wrinkles should merely indicate where smiles have been."
+        "quoteText": localize("interventions.quotes.1424.quoteText")
     },
     {
         "quoteAuthor": "Zig Ziglar",
-        "quoteText": "Your attitude, not your aptitude, will determine your altitude."
+        "quoteText": localize("interventions.quotes.1425.quoteText")
     },
     {
         "quoteAuthor": "Rumi",
-        "quoteText": "Let yourself be silently drawn by the stronger pull of what you really love."
+        "quoteText": localize("interventions.quotes.1426.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "I gave my life to become the person I am right now. Was it worth it?"
+        "quoteText": localize("interventions.quotes.1427.quoteText")
     },
     {
         "quoteAuthor": "Hausa",
-        "quoteText": "Give thanks for a little and you will find a lot."
+        "quoteText": localize("interventions.quotes.1428.quoteText")
     },
     {
         "quoteAuthor": "Arie de Gues",
-        "quoteText": "Your ability to learn faster than your competition is your only sustainable competitive advantage."
+        "quoteText": localize("interventions.quotes.1429.quoteText")
     },
     {
         "quoteAuthor": "Paul Boese",
-        "quoteText": "Forgiveness does not change the past, but it does enlarge the future."
+        "quoteText": localize("interventions.quotes.1430.quoteText")
     },
     {
         "quoteAuthor": "Nikola Tesla",
-        "quoteText": "Let the future tell the truth, and evaluate each one according to his work and accomplishments. The present is theirs; the future, for which I have really worked, is mine."
+        "quoteText": localize("interventions.quotes.1431.quoteText")
     },
     {
         "quoteAuthor": "Aristotle",
-        "quoteText": "Moral excellence comes about as a result of habit. We become just by doing just acts, temperate by doing temperate acts, brave by doing brave acts."
+        "quoteText": localize("interventions.quotes.1432.quoteText")
     },
     {
         "quoteAuthor": "William James",
-        "quoteText": "The deepest craving of human nature is the need to be appreciated."
+        "quoteText": localize("interventions.quotes.1433.quoteText")
     },
     {
         "quoteAuthor": "Antoine de Saint-Exupery",
-        "quoteText": "Love does not consist of gazing at each other, but in looking together in the same direction."
+        "quoteText": localize("interventions.quotes.1434.quoteText")
     },
     {
         "quoteAuthor": "Edwin Markham",
-        "quoteText": "We have committed the Golden Rule to memory; let us now commit it to life."
+        "quoteText": localize("interventions.quotes.1435.quoteText")
     },
     {
         "quoteAuthor": "Robert Southey",
-        "quoteText": "It is with words as with sunbeams. The more they are condensed, the deeper they burn."
+        "quoteText": localize("interventions.quotes.1436.quoteText")
     },
     {
         "quoteAuthor": "Tony Robbins",
-        "quoteText": "When people are like each other they tend to like each other."
+        "quoteText": localize("interventions.quotes.1437.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "Sincerity is the way of Heaven. The attainment of sincerity is the way of men."
+        "quoteText": localize("interventions.quotes.1438.quoteText")
     },
     {
         "quoteAuthor": "Mohandas Gandhi",
-        "quoteText": "Be the change that you want to see in the world."
+        "quoteText": localize("interventions.quotes.1439.quoteText")
     },
     {
         "quoteAuthor": "Jim Rohn",
-        "quoteText": "The more you care, the stronger you can be."
+        "quoteText": localize("interventions.quotes.1440.quoteText")
     },
     {
         "quoteAuthor": "Oprah Winfrey",
-        "quoteText": "Lots of people want to ride with you in the limo, but what you want is someone who will take the bus with you when the limo breaks down."
+        "quoteText": localize("interventions.quotes.1441.quoteText")
     },
     {
         "quoteAuthor": "Goethe",
-        "quoteText": "Just trust yourself, then you will know how to live."
+        "quoteText": localize("interventions.quotes.1442.quoteText")
     },
     {
         "quoteAuthor": "Pema Chodron",
-        "quoteText": "To be fully alive, fully human, and completely awake is to be continually thrown out of the nest."
+        "quoteText": localize("interventions.quotes.1443.quoteText")
     },
     {
         "quoteAuthor": "Jim Rohn",
-        "quoteText": "If you don't design your own life plan, chances are you'll fall into someone else's plan. And guess what they have planned for you? Not much."
+        "quoteText": localize("interventions.quotes.1444.quoteText")
     },
     {
         "quoteAuthor": "Carl Jung",
-        "quoteText": "It all depends on how we look at things, and not how they are in themselves."
+        "quoteText": localize("interventions.quotes.1445.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Giving up doesn't always mean you are weak; sometimes it means that you are strong enough to let go."
+        "quoteText": localize("interventions.quotes.1446.quoteText")
     },
     {
         "quoteAuthor": "William Shakespeare",
-        "quoteText": "To climb steep hills requires a slow pace at first."
+        "quoteText": localize("interventions.quotes.1447.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "An idea that is developed and put into action is more important than an idea that exists only as an idea."
+        "quoteText": localize("interventions.quotes.1448.quoteText")
     },
     {
         "quoteAuthor": "Max Planck",
-        "quoteText": "It is not the possession of truth, but the success which attends the seeking after it, that enriches the seeker and brings happiness to him."
+        "quoteText": localize("interventions.quotes.1449.quoteText")
     },
     {
         "quoteAuthor": "Abraham Lincoln",
-        "quoteText": "Truth is generally the best vindication against slander."
+        "quoteText": localize("interventions.quotes.1450.quoteText")
     },
     {
         "quoteAuthor": "Anna Pavlova",
-        "quoteText": "To follow, without halt, one aim: There is the secret of success."
+        "quoteText": localize("interventions.quotes.1451.quoteText")
     },
     {
         "quoteAuthor": "Nelson Mandela",
-        "quoteText": "And as we let our own light shine, we unconsciously give other people permission to do the same."
+        "quoteText": localize("interventions.quotes.1452.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "What is a weed? A plant whose virtues have not yet been discovered."
+        "quoteText": localize("interventions.quotes.1453.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "Belief consists in accepting the affirmations of the soul; Unbelief, in denying them."
+        "quoteText": localize("interventions.quotes.1454.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Many people have gone further than they thought they could because someone else thought they could."
+        "quoteText": localize("interventions.quotes.1455.quoteText")
     },
     {
         "quoteAuthor": "Rabindranath Tagore",
-        "quoteText": "We read the world wrong and say that it deceives us."
+        "quoteText": localize("interventions.quotes.1456.quoteText")
     },
     {
         "quoteAuthor": "Edith Wharton",
-        "quoteText": "If only wed stop trying to be happy wed have a pretty good time."
+        "quoteText": localize("interventions.quotes.1457.quoteText")
     },
     {
         "quoteAuthor": "Eleanor Roosevelt",
-        "quoteText": "You must do the things you think you cannot do."
+        "quoteText": localize("interventions.quotes.1458.quoteText")
     },
     {
         "quoteAuthor": "Oscar Wilde",
-        "quoteText": "Be yourself; everyone else is already taken."
+        "quoteText": localize("interventions.quotes.1459.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "The mark of your ignorance is the depth of your belief in injustice and tragedy. What the caterpillar calls the end of the world, the Master calls the butterfly."
+        "quoteText": localize("interventions.quotes.1460.quoteText")
     },
     {
         "quoteAuthor": "Edna Millay",
-        "quoteText": "I am glad that I paid so little attention to good advice; had I abided by it I might have been saved from some of my most valuable mistakes."
+        "quoteText": localize("interventions.quotes.1461.quoteText")
     },
     {
         "quoteAuthor": "Abraham Lincoln",
-        "quoteText": "Most folks are as happy as they make up their minds to be."
+        "quoteText": localize("interventions.quotes.1462.quoteText")
     },
     {
         "quoteAuthor": "Oliver Holmes",
-        "quoteText": "Love is the master key that opens the gates of happiness."
+        "quoteText": localize("interventions.quotes.1463.quoteText")
     },
     {
         "quoteAuthor": "Cecil B. DeMille",
-        "quoteText": "The person who makes a success of living is the one who see his goal steadily and aims for it unswervingly. That is dedication."
+        "quoteText": localize("interventions.quotes.1464.quoteText")
     },
     {
         "quoteAuthor": "George Shaw",
-        "quoteText": "My reputation grows with every failure."
+        "quoteText": localize("interventions.quotes.1465.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "Good thoughts are no better than good dreams, unless they be executed."
+        "quoteText": localize("interventions.quotes.1466.quoteText")
     },
     {
         "quoteAuthor": "Dalai Lama",
-        "quoteText": "Happiness does not come about only due to external circumstances; it mainly derives from inner attitudes."
+        "quoteText": localize("interventions.quotes.1467.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "However many holy words you read, however many you speak, what good will they do you if you do not act on upon them?"
+        "quoteText": localize("interventions.quotes.1468.quoteText")
     },
     {
         "quoteAuthor": "Harry Banks",
-        "quoteText": "For success, attitude is equally as important as ability."
+        "quoteText": localize("interventions.quotes.1469.quoteText")
     },
     {
         "quoteAuthor": "Colin Powell",
-        "quoteText": "If you are going to achieve excellence in big things, you develop the habit in little matters. Excellence is not an exception, it is a prevailing attitude."
+        "quoteText": localize("interventions.quotes.1470.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "A person who never made a mistake never tried anything new."
+        "quoteText": localize("interventions.quotes.1471.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "Better than a thousand hollow words is one word that brings peace."
+        "quoteText": localize("interventions.quotes.1472.quoteText")
     },
     {
         "quoteAuthor": "George Bernard Shaw",
-        "quoteText": "The possibilities are numerous once we decide to act and not react."
+        "quoteText": localize("interventions.quotes.1473.quoteText")
     },
     {
         "quoteAuthor": "Henri Amiel",
-        "quoteText": "Almost everything comes from nothing."
+        "quoteText": localize("interventions.quotes.1474.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "Listen to what you know instead of what you fear."
+        "quoteText": localize("interventions.quotes.1475.quoteText")
     },
     {
         "quoteAuthor": "Betty Friedan",
-        "quoteText": "It is easier to live through someone else than to become complete yourself."
+        "quoteText": localize("interventions.quotes.1476.quoteText")
     },
     {
         "quoteAuthor": "John Simone",
-        "quoteText": "If you're in a bad situation, don't worry it'll change. If you're in a good situation, don't worry it'll change."
+        "quoteText": localize("interventions.quotes.1477.quoteText")
     },
     {
         "quoteAuthor": "Zig Ziglar",
-        "quoteText": "Remember that failure is an event, not a person."
+        "quoteText": localize("interventions.quotes.1478.quoteText")
     },
     {
         "quoteAuthor": "Oprah Winfrey",
-        "quoteText": "Don't settle for a relationship that won't let you be yourself."
+        "quoteText": localize("interventions.quotes.1479.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "What the caterpillar calls the end of the world, the master calls a butterfly."
+        "quoteText": localize("interventions.quotes.1480.quoteText")
     },
     {
         "quoteAuthor": "Thomas Carlyle",
-        "quoteText": "Instead of saying that man is the creature of circumstance, it would be nearer the mark to say that man is the architect of circumstance."
+        "quoteText": localize("interventions.quotes.1481.quoteText")
     },
     {
         "quoteAuthor": "Tony Robbins",
-        "quoteText": "If you do what you've always done, you'll get what youve always gotten."
+        "quoteText": localize("interventions.quotes.1482.quoteText")
     },
     {
         "quoteAuthor": "Mother Teresa",
-        "quoteText": "Do not wait for leaders; do it alone, person to person."
+        "quoteText": localize("interventions.quotes.1483.quoteText")
     },
     {
         "quoteAuthor": "Plotinus",
-        "quoteText": "Knowledge has three degrees, opinion, science, illumination. The means or instrument of the first is sense; of the second, dialectic; of the third, intuition."
+        "quoteText": localize("interventions.quotes.1484.quoteText")
     },
     {
         "quoteAuthor": "Mary Parrish",
-        "quoteText": "Love vanquishes time. To lovers, a moment can be eternity, eternity can be the tick of a clock."
+        "quoteText": localize("interventions.quotes.1485.quoteText")
     },
     {
         "quoteAuthor": "Voltaire",
-        "quoteText": "We never live; we are always in the expectation of living."
+        "quoteText": localize("interventions.quotes.1486.quoteText")
     },
     {
         "quoteAuthor": "Henri L. Bergson",
-        "quoteText": "Think like a man of action; act like a man of thought."
+        "quoteText": localize("interventions.quotes.1487.quoteText")
     },
     {
         "quoteAuthor": "Ziggy",
-        "quoteText": "You can complain because roses have thorns, or you can rejoice because thorns have roses."
+        "quoteText": localize("interventions.quotes.1488.quoteText")
     },
     {
         "quoteAuthor": "Anais Nin",
-        "quoteText": "There is not one big cosmic meaning for all, there is only the meaning we each give to our life."
+        "quoteText": localize("interventions.quotes.1489.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "A leader is best when people barely know he exists, when his work is done, his aim fulfilled, they will say: we did it ourselves."
+        "quoteText": localize("interventions.quotes.1490.quoteText")
     },
     {
         "quoteAuthor": "John Lennon",
-        "quoteText": "Time you enjoyed wasting was not wasted."
+        "quoteText": localize("interventions.quotes.1491.quoteText")
     },
     {
         "quoteAuthor": "Albert Camus",
-        "quoteText": "You will never be happy if you continue to search for what happiness consists of. You will never live if you are looking for the meaning of life."
+        "quoteText": localize("interventions.quotes.1492.quoteText")
     },
     {
         "quoteAuthor": "Daisaku Ikeda",
-        "quoteText": "Genuine sincerity opens people's hearts, while manipulation causes them to close."
+        "quoteText": localize("interventions.quotes.1493.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "To give ones self earnestly to the duties due to men, and, while respecting spiritual beings, to keep aloof from them, may be called wisdom."
+        "quoteText": localize("interventions.quotes.1494.quoteText")
     },
     {
         "quoteAuthor": "Zadok Rabinowitz",
-        "quoteText": "A man's dreams are an index to his greatness."
+        "quoteText": localize("interventions.quotes.1495.quoteText")
     },
     {
         "quoteAuthor": "William Lyon Phelps",
-        "quoteText": "This is the final test of a gentleman: his respect for those who can be of no possible value to him."
+        "quoteText": localize("interventions.quotes.1496.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "You teach best what you most need to learn."
+        "quoteText": localize("interventions.quotes.1497.quoteText")
     },
     {
         "quoteAuthor": "Winston Churchill",
-        "quoteText": "Continuous effort, not strength or intelligence, is the key to unlocking our potential."
+        "quoteText": localize("interventions.quotes.1498.quoteText")
     },
     {
         "quoteAuthor": "Henry Ford",
-        "quoteText": "Obstacles are those frightful things you see when you take your eyes off your goal."
+        "quoteText": localize("interventions.quotes.1499.quoteText")
     },
     {
         "quoteAuthor": "Wayne Dyer",
-        "quoteText": "Go for it now. The future is promised to no one."
+        "quoteText": localize("interventions.quotes.1500.quoteText")
     },
     {
         "quoteAuthor": "John Holmes",
-        "quoteText": "Never tell a young person that anything cannot be done. God may have been waiting centuries for someone ignorant enough of the impossible to do that very thing."
+        "quoteText": localize("interventions.quotes.1501.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Bold is not the act of foolishness but the attribute and inner strength to act when others will not so as to move forward not backward."
+        "quoteText": localize("interventions.quotes.1502.quoteText")
     },
     {
         "quoteAuthor": "Daisaku Ikeda",
-        "quoteText": "If we look at the world with a love of life, the world will reveal its beauty to us."
+        "quoteText": localize("interventions.quotes.1503.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "In skating over thin ice our safety is in our speed."
+        "quoteText": localize("interventions.quotes.1504.quoteText")
     },
     {
         "quoteAuthor": "W. Clement Stone",
-        "quoteText": "When you discover your mission, you will feel its demand. It will fill you with enthusiasm and a burning desire to get to work on it."
+        "quoteText": localize("interventions.quotes.1505.quoteText")
     },
     {
         "quoteAuthor": "Publilius Syrus",
-        "quoteText": "Never promise more than you can perform."
+        "quoteText": localize("interventions.quotes.1506.quoteText")
     },
     {
         "quoteAuthor": "Nora Roberts",
-        "quoteText": "If you don't go after what you want, you'll never have it. If you don't ask, the answer is always no. If you don't step forward, you're always in the same place."
+        "quoteText": localize("interventions.quotes.1507.quoteText")
     },
     {
         "quoteAuthor": "Lou Holtz",
-        "quoteText": "I can't believe that God put us on this earth to be ordinary."
+        "quoteText": localize("interventions.quotes.1508.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Hill",
-        "quoteText": "There are no limitations to the mind except those we acknowledge."
+        "quoteText": localize("interventions.quotes.1509.quoteText")
     },
     {
         "quoteAuthor": "Jules Poincare",
-        "quoteText": "It is through science that we prove, but through intuition that we discover."
+        "quoteText": localize("interventions.quotes.1510.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "Don't be dismayed by good-byes. A farewell is necessary before you can meet again. And meeting again, after moments or lifetimes, is certain for those who are friends."
+        "quoteText": localize("interventions.quotes.1511.quoteText")
     },
     {
         "quoteAuthor": "Carla Gordon",
-        "quoteText": "If someone in your life talked to you the way you talk to yourself, you would have left them long ago."
+        "quoteText": localize("interventions.quotes.1512.quoteText")
     },
     {
         "quoteAuthor": "Edward Ericson",
-        "quoteText": "The cosmos is neither moral or immoral; only people are. He who would move the world must first move himself."
+        "quoteText": localize("interventions.quotes.1513.quoteText")
     },
     {
         "quoteAuthor": "Daisaku Ikeda",
-        "quoteText": "If you lose today, win tomorrow. In this never-ending spirit of challenge is the heart of a victor."
+        "quoteText": localize("interventions.quotes.1514.quoteText")
     },
     {
         "quoteAuthor": "Linda Hogan",
-        "quoteText": "There is a way that nature speaks, that land speaks. Most of the time we are simply not patient enough, quiet enough, to pay attention to the story."
+        "quoteText": localize("interventions.quotes.1515.quoteText")
     },
     {
         "quoteAuthor": "Georg Lichtenberg",
-        "quoteText": "I cannot say whether things will get better if we change; what I can say is they must change if they are to get better."
+        "quoteText": localize("interventions.quotes.1516.quoteText")
     },
     {
         "quoteAuthor": "Eckhart Tolle",
-        "quoteText": "The greater part of human pain is unnecessary. It is self-created as long as the unobserved mind runs your life."
+        "quoteText": localize("interventions.quotes.1517.quoteText")
     },
     {
         "quoteAuthor": "Alexander Pope",
-        "quoteText": "Blessed is the man who expects nothing, for he shall never be disappointed."
+        "quoteText": localize("interventions.quotes.1518.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "He who knows others is wise. He who knows himself is enlightened."
+        "quoteText": localize("interventions.quotes.1519.quoteText")
     },
     {
         "quoteAuthor": "Peter Drucker",
-        "quoteText": "The best way to predict your future is to create it."
+        "quoteText": localize("interventions.quotes.1520.quoteText")
     },
     {
         "quoteAuthor": "May Sarton",
-        "quoteText": "A garden is always a series of losses set against a few triumphs, like life itself."
+        "quoteText": localize("interventions.quotes.1521.quoteText")
     },
     {
         "quoteAuthor": "Rachel Carson",
-        "quoteText": "If facts are the seeds that later produce knowledge and wisdom, then the emotions and the impressions of the senses are the fertile soil in which the seeds must grow."
+        "quoteText": localize("interventions.quotes.1522.quoteText")
     },
     {
         "quoteAuthor": "Ernest Hemingway",
-        "quoteText": "Never mistake motion for action."
+        "quoteText": localize("interventions.quotes.1523.quoteText")
     },
     {
         "quoteAuthor": "Hannah Senesh",
-        "quoteText": "One needs something to believe in, something for which one can have whole-hearted enthusiasm. One needs to feel that ones life has meaning, that one is needed in this world."
+        "quoteText": localize("interventions.quotes.1524.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "One who is too insistent on his own views, finds few to agree with him."
+        "quoteText": localize("interventions.quotes.1525.quoteText")
     },
     {
         "quoteAuthor": "Harry Burchell Mathews",
-        "quoteText": "Translation is the paradigm, the exemplar of all writing. It is translation that demonstrates most vividly the yearning for transformation that underlies every act involving speech, that supremely human gift."
+        "quoteText": localize("interventions.quotes.1526.quoteText")
     },
     {
         "quoteAuthor": "Voltaire",
-        "quoteText": "Meditation is the dissolution of thoughts in eternal awareness or Pure consciousness without objectification, knowing without thinking, merging finitude in infinity."
+        "quoteText": localize("interventions.quotes.1527.quoteText")
     },
     {
         "quoteAuthor": "George Shaw",
-        "quoteText": "The reasonable man adapts himself to the world; the unreasonable man persists in trying to adapt the world to himself. Therefore, all progress depends on the unreasonable man."
+        "quoteText": localize("interventions.quotes.1528.quoteText")
     },
     {
         "quoteAuthor": "Michael Burke",
-        "quoteText": "Good instincts usually tell you what to do long before your head has figured it out."
+        "quoteText": localize("interventions.quotes.1529.quoteText")
     },
     {
         "quoteAuthor": "Pema Chodron",
-        "quoteText": "It isn't what happens to us that causes us to suffer; it's what we say to ourselves about what happens."
+        "quoteText": localize("interventions.quotes.1530.quoteText")
     },
     {
         "quoteAuthor": "Edgar Allan Poe",
-        "quoteText": "Those who dream by day are cognizant of many things which escape those who dream only by night."
+        "quoteText": localize("interventions.quotes.1531.quoteText")
     },
     {
         "quoteAuthor": "Ben Sweetland",
-        "quoteText": "We cannot hold a torch to light another's path without brightening our own."
+        "quoteText": localize("interventions.quotes.1532.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "You are never given a wish without also being given the power to make it come true. You may have to work for it, however."
+        "quoteText": localize("interventions.quotes.1533.quoteText")
     },
     {
         "quoteAuthor": "Mother Teresa",
-        "quoteText": "Kind words can be short and easy to speak, but their echoes are truly endless."
+        "quoteText": localize("interventions.quotes.1534.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Count your joys instead of your woes. Count your friends instead of your foes."
+        "quoteText": localize("interventions.quotes.1535.quoteText")
     },
     {
         "quoteAuthor": "John Updike",
-        "quoteText": "Dreams come true. Without that possibility, nature would not incite us to have them."
+        "quoteText": localize("interventions.quotes.1536.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Staying in one place is the best path to be taken over and surpassed by many."
+        "quoteText": localize("interventions.quotes.1537.quoteText")
     },
     {
         "quoteAuthor": "Carl Sagan",
-        "quoteText": "Imagination will often carry us to worlds that never were. But without it we go nowhere."
+        "quoteText": localize("interventions.quotes.1538.quoteText")
     },
     {
         "quoteAuthor": "Helen Keller",
-        "quoteText": "When one door of happiness closes, another opens; but often we look so long at the closed door that we do not see the one which has been opened for us."
+        "quoteText": localize("interventions.quotes.1539.quoteText")
     },
     {
         "quoteAuthor": "Jawaharlal Nehru",
-        "quoteText": "A leader or a man of action in a crisis almost always acts subconsciously and then thinks of the reasons for his action."
+        "quoteText": localize("interventions.quotes.1540.quoteText")
     },
     {
         "quoteAuthor": "Albert Einstein",
-        "quoteText": "I have no special talent. I am only passionately curious."
+        "quoteText": localize("interventions.quotes.1541.quoteText")
     },
     {
         "quoteAuthor": "Elizabeth Montagu",
-        "quoteText": "I endeavour to be wise when I cannot be merry, easy when I cannot be glad, content with what cannot be mended and patient when there is no redress."
+        "quoteText": localize("interventions.quotes.1542.quoteText")
     },
     {
         "quoteAuthor": "William Scolavino",
-        "quoteText": "The height of your accomplishments will equal the depth of your convictions."
+        "quoteText": localize("interventions.quotes.1543.quoteText")
     },
     {
         "quoteAuthor": "Rabbi Hillel",
-        "quoteText": "If I am not for myself, who will be for me? If I am not for others, what am I? And if not now, when?"
+        "quoteText": localize("interventions.quotes.1544.quoteText")
     },
     {
         "quoteAuthor": "Audre Lorde",
-        "quoteText": "When I dare to be powerful, to use my strength in the service of my vision, then it becomes less and less important whether I am afraid."
+        "quoteText": localize("interventions.quotes.1545.quoteText")
     },
     {
         "quoteAuthor": "Alexis Carrel",
-        "quoteText": "All great men are gifted with intuition. They know without reasoning or analysis, what they need to know."
+        "quoteText": localize("interventions.quotes.1546.quoteText")
     },
     {
         "quoteAuthor": "Mark Twain",
-        "quoteText": "To get the full value of joy you must have someone to divide it with."
+        "quoteText": localize("interventions.quotes.1547.quoteText")
     },
     {
         "quoteAuthor": "Johann Wolfgang von Goethe",
-        "quoteText": "Sometimes our fate resembles a fruit tree in winter. Who would think that those branches would turn green again and blossom, but we hope it, we know it."
+        "quoteText": localize("interventions.quotes.1548.quoteText")
     },
     {
         "quoteAuthor": "Leo Tolstoy",
-        "quoteText": "We lost because we told ourselves we lost."
+        "quoteText": localize("interventions.quotes.1549.quoteText")
     },
     {
         "quoteAuthor": "James Pence",
-        "quoteText": "Success is determined by those whom prove the impossible, possible."
+        "quoteText": localize("interventions.quotes.1550.quoteText")
     },
     {
         "quoteAuthor": "Agatha Christie",
-        "quoteText": "Good advice is always certain to be ignored, but that's no reason not to give it."
+        "quoteText": localize("interventions.quotes.1551.quoteText")
     },
     {
         "quoteAuthor": "Dale Earnhardt",
-        "quoteText": "The winner ain't the one with the fastest car it's the one who refuses to lose."
+        "quoteText": localize("interventions.quotes.1552.quoteText")
     },
     {
         "quoteAuthor": "Robert C. Solomon",
-        "quoteText": "Spirituality can be severed from both vicious sectarianism and thoughtless banalities. Spirituality, I have come to see, is nothing less than the thoughtful love of life."
+        "quoteText": localize("interventions.quotes.1553.quoteText")
     },
     {
         "quoteAuthor": "Sam Rayburn",
-        "quoteText": "No one has a finer command of language than the person who keeps his mouth shut."
+        "quoteText": localize("interventions.quotes.1554.quoteText")
     },
     {
         "quoteAuthor": "Denis Waitley",
-        "quoteText": "The only person who never makes mistakes is the person who never does anything."
+        "quoteText": localize("interventions.quotes.1555.quoteText")
     },
     {
         "quoteAuthor": "John Lennon",
-        "quoteText": "Life is what happens to you while you're busy making other plans."
+        "quoteText": localize("interventions.quotes.1556.quoteText")
     },
     {
         "quoteAuthor": "Jonathan Swift",
-        "quoteText": "Discovery consists of seeing what everybody has seen and thinking what nobody else has thought."
+        "quoteText": localize("interventions.quotes.1557.quoteText")
     },
     {
         "quoteAuthor": "Margaret Fuller",
-        "quoteText": "If you have knowledge, let others light their candles in it."
+        "quoteText": localize("interventions.quotes.1558.quoteText")
     },
     {
         "quoteAuthor": "Epictetus",
-        "quoteText": "It is impossible for a man to learn what he thinks he already knows."
+        "quoteText": localize("interventions.quotes.1559.quoteText")
     },
     {
         "quoteAuthor": "Will Rogers",
-        "quoteText": "If you find yourself in a hole, the first thing to do is stop digging."
+        "quoteText": localize("interventions.quotes.1560.quoteText")
     },
     {
         "quoteAuthor": "Plutarch",
-        "quoteText": "To make no mistakes is not in the power of man; but from their errors and mistakes the wise and good learn wisdom for the future."
+        "quoteText": localize("interventions.quotes.1561.quoteText")
     },
     {
         "quoteAuthor": "Lee Womack",
-        "quoteText": "I think you can have moderate success by copying something else, but if you really want to knock it out of the park, you have to do something different and take chances."
+        "quoteText": localize("interventions.quotes.1562.quoteText")
     },
     {
         "quoteAuthor": "Marcus Aurelius",
-        "quoteText": "Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth."
+        "quoteText": localize("interventions.quotes.1563.quoteText")
     },
     {
         "quoteAuthor": "William Menninger",
-        "quoteText": "Six essential qualities that are the key to success: Sincerity, personal integrity, humility, courtesy, wisdom, charity."
+        "quoteText": localize("interventions.quotes.1564.quoteText")
     },
     {
         "quoteAuthor": "Lucille Ball",
-        "quoteText": "I have an everyday religion that works for me. Love yourself first, and everything else falls into line."
+        "quoteText": localize("interventions.quotes.1565.quoteText")
     },
     {
         "quoteAuthor": "Chuang Tzu",
-        "quoteText": "Flow with whatever is happening and let your mind be free. Stay centred by accepting whatever you are doing. This is the ultimate."
+        "quoteText": localize("interventions.quotes.1566.quoteText")
     },
     {
         "quoteAuthor": "Jane Addams",
-        "quoteText": "Nothing could be worse than the fear that one had given up too soon, and left one unexpended effort that might have saved the world."
+        "quoteText": localize("interventions.quotes.1567.quoteText")
     },
     {
         "quoteAuthor": "Aristotle",
-        "quoteText": "The energy of the mind is the essence of life."
+        "quoteText": localize("interventions.quotes.1568.quoteText")
     },
     {
         "quoteAuthor": "Horace",
-        "quoteText": "Begin, be bold, and venture to be wise."
+        "quoteText": localize("interventions.quotes.1569.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "Give a man a fish and you feed him for a day. Teach him how to fish and you feed him for a lifetime."
+        "quoteText": localize("interventions.quotes.1570.quoteText")
     },
     {
         "quoteAuthor": "Francis Bacon",
-        "quoteText": "A wise man will make more opportunities than he finds."
+        "quoteText": localize("interventions.quotes.1571.quoteText")
     },
     {
         "quoteAuthor": "Eddie Cantor",
-        "quoteText": "Slow down and enjoy life. It's not only the scenery you miss by going too fast, you also miss the sense of where you are going and why."
+        "quoteText": localize("interventions.quotes.1572.quoteText")
     },
     {
         "quoteAuthor": "Wayne Dyer",
-        "quoteText": "Miracles come in moments. Be ready and willing."
+        "quoteText": localize("interventions.quotes.1573.quoteText")
     },
     {
         "quoteAuthor": "Sophocles",
-        "quoteText": "Numberless are the worlds wonders, but none more wonderful than man."
+        "quoteText": localize("interventions.quotes.1574.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "So is cheerfulness, or a good temper, the more it is spent, the more remains."
+        "quoteText": localize("interventions.quotes.1575.quoteText")
     },
     {
         "quoteAuthor": "Francoise de Motteville",
-        "quoteText": "The true way to render ourselves happy is to love our work and find in it our pleasure."
+        "quoteText": localize("interventions.quotes.1576.quoteText")
     },
     {
         "quoteAuthor": "Wayne Dyer",
-        "quoteText": "When you judge another, you do not define them, you define yourself."
+        "quoteText": localize("interventions.quotes.1577.quoteText")
     },
     {
         "quoteAuthor": "Richard Bach",
-        "quoteText": "Argue for your limitations, and sure enough they're yours."
+        "quoteText": localize("interventions.quotes.1578.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "He who wishes to secure the good of others, has already secured his own."
+        "quoteText": localize("interventions.quotes.1579.quoteText")
     },
     {
         "quoteAuthor": "Plato",
-        "quoteText": "Wise men talk because they have something to say; fools, because they have to say something."
+        "quoteText": localize("interventions.quotes.1580.quoteText")
     },
     {
         "quoteAuthor": "Confucius",
-        "quoteText": "Life is really simple, but we insist on making it complicated."
+        "quoteText": localize("interventions.quotes.1581.quoteText")
     },
     {
         "quoteAuthor": "Jim Bishop",
-        "quoteText": "The future is an opaque mirror. Anyone who tries to look into it sees nothing but the dim outlines of an old and worried face."
+        "quoteText": localize("interventions.quotes.1582.quoteText")
     },
     {
         "quoteAuthor": "Carl Jung",
-        "quoteText": "Everything that irritates us about others can lead us to a better understanding of ourselves."
+        "quoteText": localize("interventions.quotes.1583.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "Beware of the half truth. You may have gotten hold of the wrong half."
+        "quoteText": localize("interventions.quotes.1584.quoteText")
     },
     {
         "quoteAuthor": "Elbert Hubbard",
-        "quoteText": "The greatest mistake you can make in life is to be continually fearing you will make one."
+        "quoteText": localize("interventions.quotes.1585.quoteText")
     },
     {
         "quoteAuthor": "Calvin Coolidge",
-        "quoteText": "I have never been hurt by anything I didn't say."
+        "quoteText": localize("interventions.quotes.1586.quoteText")
     },
     {
         "quoteAuthor": "Thomas Kempis",
-        "quoteText": "Be not angry that you cannot make others as you wish them to be, since you cannot make yourself as you wish to be."
+        "quoteText": localize("interventions.quotes.1587.quoteText")
     },
     {
         "quoteAuthor": "William Ward",
-        "quoteText": "Adversity causes some men to break, others to break records."
+        "quoteText": localize("interventions.quotes.1588.quoteText")
     },
     {
         "quoteAuthor": "Thomas Fuller",
-        "quoteText": "An invincible determination can accomplish almost anything and in this lies the great distinction between great men and little men."
+        "quoteText": localize("interventions.quotes.1589.quoteText")
     },
     {
         "quoteAuthor": "Abernathy",
-        "quoteText": "The industrial landscape is already littered with remains of once successful companies that could not adapt their strategic vision to altered conditions of competition."
+        "quoteText": localize("interventions.quotes.1590.quoteText")
     },
     {
         "quoteAuthor": "Christian Bovee",
-        "quoteText": "Example has more followers than reason."
+        "quoteText": localize("interventions.quotes.1591.quoteText")
     },
     {
         "quoteAuthor": "Epictetus",
-        "quoteText": "One that desires to excel should endeavour in those things that are in themselves most excellent."
+        "quoteText": localize("interventions.quotes.1592.quoteText")
     },
     {
         "quoteAuthor": "Mary Pickford",
-        "quoteText": "If you have made mistakes, there is always another chance for you. You may have a fresh start any moment you choose."
+        "quoteText": localize("interventions.quotes.1593.quoteText")
     },
     {
         "quoteAuthor": "Robert Pirsig",
-        "quoteText": "The only Zen you find on the tops of mountains is the Zen you bring up there."
+        "quoteText": localize("interventions.quotes.1594.quoteText")
     },
     {
         "quoteAuthor": "Doris Day",
-        "quoteText": "Gratitude is riches. Complaint is poverty."
+        "quoteText": localize("interventions.quotes.1595.quoteText")
     },
     {
         "quoteAuthor": "Richard Needham",
-        "quoteText": "Strong people make as many mistakes as weak people. Difference is that strong people admit their mistakes, laugh at them, learn from them. That is how they become strong."
+        "quoteText": localize("interventions.quotes.1596.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "To know your purpose is to live a life of direction, and in that direction is found peace and tranquillity."
+        "quoteText": localize("interventions.quotes.1597.quoteText")
     },
     {
         "quoteAuthor": "Harriet Woods",
-        "quoteText": "You can stand tall without standing on someone. You can be a victor without having victims."
+        "quoteText": localize("interventions.quotes.1598.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "Bad times have a scientific value. These are occasions a good learner would not miss."
+        "quoteText": localize("interventions.quotes.1599.quoteText")
     },
     {
         "quoteAuthor": "",
-        "quoteText": "It's not who you are that holds you back, it's who you think you're not."
+        "quoteText": localize("interventions.quotes.1600.quoteText")
     },
     {
         "quoteAuthor": "Pablo Picasso",
-        "quoteText": "All children are artists. The problem is how to remain an artist once he grows up."
+        "quoteText": localize("interventions.quotes.1601.quoteText")
     },
     {
         "quoteAuthor": "Philip Sidney",
-        "quoteText": "Either I will find a way, or I will make one."
+        "quoteText": localize("interventions.quotes.1602.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "He who knows that enough is enough will always have enough."
+        "quoteText": localize("interventions.quotes.1603.quoteText")
     },
     {
         "quoteAuthor": "Ralph Emerson",
-        "quoteText": "The only way to have a friend is to be one."
+        "quoteText": localize("interventions.quotes.1604.quoteText")
     },
     {
         "quoteAuthor": "Anne Bradstreet",
-        "quoteText": "If we had no winter, the spring would not be so pleasant; if we did not sometimes taste of adversity, prosperity would not be so welcome."
+        "quoteText": localize("interventions.quotes.1605.quoteText")
     },
     {
         "quoteAuthor": "Marianne Williamson",
-        "quoteText": "Joy is what happens to us when we allow ourselves to recognize how good things really are."
+        "quoteText": localize("interventions.quotes.1606.quoteText")
     },
     {
         "quoteAuthor": "Carl Jung",
-        "quoteText": "Your vision will become clear only when you can look into your own heart. Who looks outside, dreams; who looks inside, awakes."
+        "quoteText": localize("interventions.quotes.1607.quoteText")
     },
     {
         "quoteAuthor": "Brian Tracy",
-        "quoteText": "There is never enough time to do everything, but there is always enough time to do the most important thing."
+        "quoteText": localize("interventions.quotes.1608.quoteText")
     },
     {
         "quoteAuthor": "Marian Edelman",
-        "quoteText": "You really can change the world if you care enough."
+        "quoteText": localize("interventions.quotes.1609.quoteText")
     },
     {
         "quoteAuthor": "Buddha",
-        "quoteText": "What you are is what you have been. What you'll be is what you do now."
+        "quoteText": localize("interventions.quotes.1610.quoteText")
     },
     {
         "quoteAuthor": "Gordon Hinckley",
-        "quoteText": "Our lives are the only meaningful expression of what we believe and in Whom we believe. And the only real wealth, for any of us, lies in our faith."
+        "quoteText": localize("interventions.quotes.1611.quoteText")
     },
     {
         "quoteAuthor": "Benjamin Haydon",
-        "quoteText": "There surely is in human nature an inherent propensity to extract all the good out of all the evil."
+        "quoteText": localize("interventions.quotes.1612.quoteText")
     },
     {
         "quoteAuthor": "Lao Tzu",
-        "quoteText": "Music in the soul can be heard by the universe."
+        "quoteText": localize("interventions.quotes.1613.quoteText")
     },
     {
         "quoteAuthor": "John Lubbock",
-        "quoteText": "What we see depends mainly on what we look for."
+        "quoteText": localize("interventions.quotes.1614.quoteText")
     },
     {
         "quoteAuthor": "Bruce Lee",
-        "quoteText": "To hell with circumstances; I create opportunities."
+        "quoteText": localize("interventions.quotes.1615.quoteText")
     },
     {
         "quoteAuthor": "Ella Wilcox",
-        "quoteText": "The truest greatness lies in being kind, the truest wisdom in a happy mind."
+        "quoteText": localize("interventions.quotes.1616.quoteText")
     },
     {
         "quoteAuthor": "John Junor",
-        "quoteText": "An ounce of emotion is equal to a ton of facts."
+        "quoteText": localize("interventions.quotes.1617.quoteText")
     },
     {
         "quoteAuthor": "Barbara De Angelis",
-        "quoteText": "We need to find the courage to say NO to the things and people that are not serving us if we want to rediscover ourselves and live our lives with authenticity."
+        "quoteText": localize("interventions.quotes.1618.quoteText")
     },
     {
         "quoteAuthor": "Lazurus Long",
-        "quoteText": "Great is the art of beginning, but greater is the art of ending."
+        "quoteText": localize("interventions.quotes.1619.quoteText")
     },
     {
         "quoteAuthor": "Wayne Dyer",
-        "quoteText": "Simply put, you believer that things or people make you unhappy, but this is not accurate. You make yourself unhappy."
+        "quoteText": localize("interventions.quotes.1620.quoteText")
     },
     {
         "quoteAuthor": "Maya Angelou",
-        "quoteText": "Nothing will work unless you do."
+        "quoteText": localize("interventions.quotes.1621.quoteText")
     },
     {
         "quoteAuthor": "Catherine Pulsifer",
-        "quoteText": "Our ability to achieve happiness and success depends on the strength of our wings."
+        "quoteText": localize("interventions.quotes.1622.quoteText")
     },
     {
         "quoteAuthor": "Theodore H. White",
-        "quoteText": "To go against the dominant thinking of your friends, of most of the people you see every day, is perhaps the most difficult act of heroism you can perform."
+        "quoteText": localize("interventions.quotes.1623.quoteText")
     },
     {
         "quoteAuthor": "Melody Beattie",
-        "quoteText": "Gratitude makes sense of our past, brings peace for today, and creates a vision for tomorrow."
+        "quoteText": localize("interventions.quotes.1624.quoteText")
     },
     {
         "quoteAuthor": "Byron Pulsifer",
-        "quoteText": "Into each life rain must fall but rain can be the giver of life and it is all in your attitude that makes rain produce sunshine."
+        "quoteText": localize("interventions.quotes.1625.quoteText")
     },
     {
         "quoteAuthor": "Harold Nicolson",
-        "quoteText": "We are all inclined to judge ourselves by our ideals; others, by their acts."
+        "quoteText": localize("interventions.quotes.1626.quoteText")
     },
     {
         "quoteAuthor": "Rodin",
-        "quoteText": "Nothing is a waste of time if you use the experience wisely."
+        "quoteText": localize("interventions.quotes.1627.quoteText")
     },
     {
         "quoteAuthor": "Aristotle",
-        "quoteText": "If one way be better than another, that you may be sure is natures way."
+        "quoteText": localize("interventions.quotes.1628.quoteText")
     },
     {
         "quoteAuthor": "Napoleon Hill",
-        "quoteText": "Here is one quality that one must possess to win, and that is definiteness of purpose, the knowledge of what one wants, and a burning desire to possess it."
+        "quoteText": localize("interventions.quotes.1629.quoteText")
     },
     {
         "quoteAuthor": "William Shakespeare",
-        "quoteText": "It is not in the stars to hold our destiny but in ourselves."
+        "quoteText": localize("interventions.quotes.1630.quoteText")
     },
     {
         "quoteAuthor": "Tony Robbins",
-        "quoteText": "Using the power of decision gives you the capacity to get past any excuse to change any and every part of your life in an instant."
+        "quoteText": localize("interventions.quotes.1631.quoteText")
     },
     {
         "quoteAuthor": "Abraham Lincoln",
-        "quoteText": "I will prepare and some day my chance will come."
+        "quoteText": localize("interventions.quotes.1632.quoteText")
     },
     {
         "quoteAuthor": "Tom Jackson",
-        "quoteText": "Sometimes the cards we are dealt are not always fair. However you must keep smiling and moving on."
+        "quoteText": localize("interventions.quotes.1633.quoteText")
     }
 ]

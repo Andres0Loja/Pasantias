@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "/home/wilson/Documentos/Pasantias/Git/Pasantias/HabitLabMobileRecompilado/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
                     "source": "/home/wilson/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/39ad855b75eedccdb9341a0887e14404/res/values-watch-v20/values.xml",

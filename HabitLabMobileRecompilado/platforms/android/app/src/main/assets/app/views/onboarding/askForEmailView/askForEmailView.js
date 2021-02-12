@@ -17,8 +17,9 @@ let RC_SIGN_IN = 1;
 
 //To override startActivityForResult, we need to extend the activity:
 
-
+const localize = require("nativescript-localize");
 const superProto = android.app.Activity.prototype;
+
 android.app.Activity.extend("com.tns.NativeScriptActivity", {
     onCreate: function(savedInstanceState) {
         if(!this._callbacks) {
@@ -73,17 +74,17 @@ exports.getIdToken = async function() {
     if (!StorageUtil.isSignedIn()) {
         moveOn()
     }//Comentar aqui para deshabilitar uso de Google Sign 
-    else if (task.isSuccessful()) {
-        StorageUtil.addLogEvents([{category: "sucessfully signed in", index: "askForEmailView"}])
-        moveOn()
+    //else if (task.isSuccessful()) {
+    //    StorageUtil.addLogEvents([{category: "sucessfully signed in", index: "askForEmailView"}])
+    //    moveOn()
         //Cool! We can just get the id.
-        return task.getResult().getIdToken()
-    } else {
+    //    return task.getResult().getIdToken()
+    //} else {
         // We need to have the user sign in.
-        var signInIntent = mGoogleSignInClient.getSignInIntent()
-        application.android.foregroundActivity.startActivityForResult(signInIntent, RC_SIGN_IN)
-        return undefined
-    }
+    //    var signInIntent = mGoogleSignInClient.getSignInIntent()
+    //    application.android.foregroundActivity.startActivityForResult(signInIntent, RC_SIGN_IN)
+    //    return undefined
+    //}
 }
 
 moveOn = function () {
@@ -108,7 +109,7 @@ signInResult = function(data) {
             // The ApiException status code indicates the detailed failure reason.
             // Please refer to the GoogleSignInStatusCodes class reference for more information.
             var Toast = require("nativescript-toast");
-            Toast.makeText("Oops! An error occurred. Please try signing in again").show();
+            Toast.makeText(localize("views.onboarding.askForEmailView.error")).show();
             return undefined
         }
 }

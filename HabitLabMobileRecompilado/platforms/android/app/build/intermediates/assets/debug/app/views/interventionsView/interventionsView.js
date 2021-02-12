@@ -20,6 +20,8 @@ var search;
 var noResults;
 var pageData;
 
+const localize = require("nativescript-localize");
+
 exports.closeKeyboard = function() {
   search.dismissSoftInput();
 };
@@ -47,24 +49,24 @@ var initializeList = function() {
 
     return true;
   });
-
+  
   interventionList.push({
-    title: 'Hint Bubbles',
+    title: localize("views.interventionsView.interventionsList.hintBubbles.title"),
     isHeader: true,
     style: 'toast',
     level: 'priority'
   }, {
-    title: 'Notifications',
+    title: localize("views.interventionsView.interventionsList.notifications.title"),
     isHeader: true,
     style: 'notification',
     level: 'priority'
   }, {
-    title: 'Alerts',
+    title: localize("views.interventionsView.interventionsList.alerts.title"),
     isHeader: true,
     style: 'dialog',
     level: 'priority'
   }, {
-    title: 'Other',
+    title: localize("views.interventionsView.interventionsList.other"),
     isHeader: true,
     style: 'overlay',
     level: 'priority'
@@ -95,15 +97,24 @@ exports.onItemTap = function(args) {
     });
   } else {
     switch(tappedItem.title) {
-      case("Hint Bubbles"):
-          Toast.makeText("This is a hint bubble!").show();
+      case(localize("views.interventionsView.interventionsList.hintBubbles.title")):
+          Toast.makeText(localize("views.interventionsView.interventionsList.hintBubble.description")).show();
           break;
-      case("Notifications"):
-          NotificationUtil.sendNotification(context, "Demo", "This is a notification", 0, 0);
+      case(localize("views.interventionsView.interventionsList.notifications.title")):
+          NotificationUtil.sendNotification(
+          	context, 
+          	"Demo", 
+          	localize("views.interventionsView.interventionsList.notifications.description"), 
+          	0, 0
+          );
           break;
-      case("Alerts"):
+      case(localize("views.interventionsView.interventionsList.alerts.title")):
           var name = StorageUtil.getName();
-          DialogOverlay.showOneOptionDialogOverlay("Hey " + name + ", this is an alert!", "Ok", context);
+          DialogOverlay.showOneOptionDialogOverlay(
+          	"Hey " + name + ", " + localize("views.interventionsView.alerts.description"), 
+          	"Ok", 
+          	context
+          );
           break;
       default:
           break;
@@ -166,7 +177,12 @@ exports.pageLoaded = function(args) {
   pageData.set('filter', '');
   if (!StorageUtil.isTutorialComplete()) {
     if (!visited) {
-      FancyAlert.show(FancyAlert.type.INFO, "Welcome to Nudges!", "This is where your nudges live. Try tapping on one to see what it does!", "Ok");
+      FancyAlert.show(
+      	FancyAlert.type.INFO, 
+      	localize("views.interventionsView.alerts.info.title"), 
+      	localize("views.interventionsView.alerts.info.message"), 
+      	"Ok"
+      );
       visited = true;
     }
     page.getViewById('finish').visibility = 'visible';
@@ -186,9 +202,13 @@ exports.pageLoaded = function(args) {
 exports.goToProgress = function() {
   StorageUtil.addLogEvents([{setValue: new Date().toLocaleString(), category: 'navigation', index: 'finished_tutorial'}]);
   StorageUtil.setTutorialComplete();
-  FancyAlert.show(FancyAlert.type.SUCCESS, "All set!", 
-    "HabitLab can now start helping you create better mobile habits! Just keep using your phone like normal.", 
-    "Awesome!", null);
+  FancyAlert.show(
+  	FancyAlert.type.SUCCESS, 
+  	localize("views.interventionsView.alerts.success.title"), 
+     localize("views.interventionsView.alerts.success.message"), 
+     localize("views.interventionsView.alerts.success.extra"), 
+     null
+  );
   // fancyAlert.TNSFancyAlert.showSuccess("All set!", "HabitLab can now start helping you create better mobile habits! Just keep using your phone like normal.", "Awesome!");
   frameModule.topmost().navigate({
     moduleName: "views/progressView/progressView",
@@ -203,8 +223,12 @@ exports.pageUnloaded = function(args) {
 };
 
 exports.toggleDrawer = function() {
- if (!StorageUtil.isTutorialComplete()) {
-    fancyAlert.TNSFancyAlert.showError("Almost done!", "Click 'Finish Tutorial' to finish setting up HabitLab!", "Got It!");
+  if (!StorageUtil.isTutorialComplete()) {
+    fancyAlert.TNSFancyAlert.showError(
+   		localize("views.interventionsView.alerts.error.title"), 
+   		localize("views.interventionsView.alerts.error.message"), 
+   		localize("views.interventionsView.alerts.error.extra"),
+    );
   } else {
     search.dismissSoftInput();
     events.push({category: "navigation", index: "menu"});

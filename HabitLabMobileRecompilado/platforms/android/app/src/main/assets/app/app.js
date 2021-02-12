@@ -5,6 +5,9 @@ var http = require("http");
 var frame = require('ui/frame');
 var viewFile = 'onboarding/nameView';
 var view = 'nameView';
+const localize = require("nativescript-localize");
+
+applicationModule.setResources({ L: localize });
 
 if (StorageUtil.isTutorialComplete()) {
   //

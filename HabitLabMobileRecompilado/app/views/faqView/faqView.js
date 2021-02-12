@@ -1,60 +1,63 @@
 var StorageUtil = require('~/util/StorageUtil');
 var gestures = require("ui/gestures").GestureTypes;
 var builder = require('ui/builder');
+var observable = require("data/observable");
 
 var drawer;
 var page;
 var list;
 var events;
 
+const localize = require("nativescript-localize");
+
 var QandA = [{
-  question: "How can I navigate in HabitLab?",
-  answer: "Click the hamburger icon in the topleft corner of the screen. This opens the menu which allows you to get to HabitLab's main pages."
+  question: localize('views.faqView.1.question'),
+  answer: localize('views.faqView.1.answer')
 }, {
-  question: "How do I change which apps are on my watchlist?",
-  answer: "Open the menu and click on 'Goals'. Then click on the app icon in the top right corner." 
+  question: localize('views.faqView.2.question'),
+  answer: localize('views.faqView.2.answer') 
 }, {
-  question: "How do I change which nudges are on?",
-  answer: "Open the menu and click 'Nudges'. To turn nudges off for specific apps, click on the name of the nudge you want to edit then toggle it for your desired apps."
+  question: localize('views.faqView.3.question'),
+  answer: localize('views.faqView.3.answer')
 }, {
-  question: "How do I view my weekly and monthly progress?",
-  answer: "Open the menu and click 'Progress'. Then navigate to weekly or monthly progress using the tabs below the topbar"
+  question: localize('views.faqView.4.question'),
+  answer: localize('views.faqView.4.answer')
 }, {
-  question: "How do I change the name HabitLab mobile refers to me as?",
-  answer: "Open the menu and click 'Settings'. Then click the 'Edit Name' button."
+  question: localize('views.faqView.5.question'),
+  answer: localize('views.faqView.5.answer')
 }, {
-  question: "How can I see the number of minutes I spent on a specific app?",
-  answer: "Open the menu and click 'Progress'. You can see breakdowns for specific apps at the bottom of the page." 
+  question: localize('views.faqView.6.question'),
+  answer: localize('views.faqView.6.answer') 
 }, {
-  question: "How do I only allow nudges during a certain time period?",
-  answer: "Open the menu and click 'Settings'. Then click 'Set Active Time' and pick your time period." 
+  question: localize('views.faqView.7.question'),
+  answer: localize('views.faqView.7.answer')
 }, {
-  question: "How can I change the goals for glances and unlocks?",
-  answer: "Open the menu and click 'Goals'. Use the plus and minus buttons in the Phone Goals sections to change your goals."
+  question: localize('views.faqView.8.question'),
+  answer: localize('views.faqView.8.answer')
 }, {
-  question: "How can I change my goals for specific apps?",
-  answer: "Open the menu and click 'Goals'. Use the plus and minus buttons in the Watchlist Goals section to change your goals."
+  question: localize('views.faqView.9.question'),
+  answer: localize('views.faqView.9.answer')
 }, {
-  question: "There was an issue with HabitLab, what should I do?",
-  answer: "Sorry for the error! If you are willing, please send us a short description of the issue here: https://github.com/habitlab/HabitLabMobile/issues"
+  question: localize('views.faqView.10.question'),
+  answer: localize('views.faqView.10.answer')
 }, {
-  question: "How can I see which apps have a certain nudge enabled?",
-  answer: "Open the menu and click 'Nudges'. Then click on a nudge and it will take you to a page that allows you to see which apps have the nudge enabled."
+  question: localize('views.faqView.11.question'),
+  answer: localize('views.faqView.11.answer')
 }, {
-  question: "How can I see all the nudges for a certain app?",
-  answer: "Open the menu and click 'Goals'. In the Watchlist Goals section click on the name or icon of an app and it will show you a list of nudges for that app."
+  question: localize('views.faqView.12.question'),
+  answer: localize('views.faqView.12.answer')
 }, {
-  question: "Can I try out a nudge to see if I like it or not?",
-  answer: "Open the menu and click 'Nudges'. Then click on a nudge and it will take you to a page where you can try it out!"
+  question: localize('views.faqView.13.question'),
+  answer: localize('views.faqView.13.answer')
 }, {
-  question: "Why don't I have any data?",
-  answer: "HabitLab starts working as soon as you install the app. If you've recently installed the app or wiped your data, you will not have past data."
+  question: localize('views.faqView.14.question'),
+  answer: localize('views.faqView.14.answer')
 }, {
-  question: "I'm worried that HabitLab is accessing my data?",
-  answer: "By using HabitLab, you are helping the Stanford HCI Group help improve the product and better understand how to develop better online habits. All data being collected is anonymous. For more information, visit please visit https://github.com/habitlab/habitlab/wiki/Privacy#stanford-irb."
+  question: localize('views.faqView.15.question'),
+  answer: localize('views.faqView.15.answer')
 }, {
-  question: "What happens if I erase my data?",
-  answer: "This resets HabitLab back to the state it was when you started using it. Only do this if you understand that you will lose all your progress and updated goals and nudges."
+  question: localize('views.faqView.16.question'),
+  answer: localize('views.faqView.16.answer')
 }];
 
 var createFAQitem = function(info, id) {
@@ -92,6 +95,7 @@ var createFAQitem = function(info, id) {
 exports.pageLoaded = function(args) {
   events = [{category: "page_visits", index: "settings_faq"}];
   page = args.object;
+  page.bindingContext = new observable.Observable();
   drawer = page.getViewById('sideDrawer');
   list = page.getViewById('faq-list');
   QandA.forEach(function (elem, index) {

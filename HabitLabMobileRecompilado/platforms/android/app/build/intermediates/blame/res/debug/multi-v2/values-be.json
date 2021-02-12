@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml",
+            "outputFile": "/home/wilson/Documentos/Pasantias/Git/Pasantias/HabitLabMobileRecompilado/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml",
             "map": [
                 {
                     "source": "/home/wilson/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/9fa99a196cef938ce98cecb4014895f7/res/values-be/values.xml",

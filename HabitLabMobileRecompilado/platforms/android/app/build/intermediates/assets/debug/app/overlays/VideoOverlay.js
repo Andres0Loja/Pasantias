@@ -28,6 +28,8 @@ iconPaint.setStyle(Paint.Style.STROKE);
 
 var context = app.android.context;
 
+const localize = require("nativescript-localize");
+
 // Custom DialogView
 var OverlayView = android.view.View.extend({
 	onDraw: function (canvas) {
@@ -85,7 +87,7 @@ exports.showYoutube = function(width, height, pos, neg) {
 			permissions.getOverlayType(), 0, PixelFormat.TRANSLUCENT);
 		textParams.gravity = Gravity.LEFT | Gravity.TOP;
 		text = new TextView(context);
-		text.setText("Keep Watching?");
+		text.setText(localize("overlays.video.message"));
 		text.setTextSize(TypedValue.COMPLEX_UNIT_PT, 12);
 		text.setTextColor(Color.WHITE);
 		text.setHorizontallyScrolling(false);
@@ -101,7 +103,7 @@ exports.showYoutube = function(width, height, pos, neg) {
 			PixelFormat.TRANSLUCENT);
 		posButtonParams.gravity = Gravity.LEFT | Gravity.TOP;
 		posButton = new Button(context);
-		posButton.setText("Continue");
+		posButton.setText(localize("overlays.video.button1"));
 		posButton.setTextColor(Color.WHITE);
 		posButton.getBackground().setColorFilter(Color.parseColor("#CD201F"), android.graphics.PorterDuff.Mode.MULTIPLY);
 		posButton.setOnClickListener(new android.view.View.OnClickListener({
@@ -123,7 +125,7 @@ exports.showYoutube = function(width, height, pos, neg) {
 			PixelFormat.TRANSLUCENT);
 		negButtonParams.gravity = Gravity.LEFT | Gravity.TOP;
 		negButton = new Button(context);
-		negButton.setText("Exit");
+		negButton.setText(localize("overlays.video.button2"));
 		negButton.setTextColor(Color.WHITE);
 		negButton.getBackground().setColorFilter(Color.parseColor("#CD201F"), android.graphics.PorterDuff.Mode.MULTIPLY);
 		negButton.setOnClickListener(new android.view.View.OnClickListener({

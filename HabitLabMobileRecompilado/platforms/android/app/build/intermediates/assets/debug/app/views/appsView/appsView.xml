@@ -19,10 +19,10 @@
 
     <sd:RadSideDrawer.mainContent horizontalAlignment="center">
       <StackLayout id="main-layout">
-        <SearchBar hint="Search..." text="{{filter}}" id="search-bar" visibility="collapse" submit="closeKeyboard"/>
+        <SearchBar hint="{{ L('views.appsView.hint') }}" text="{{filter}}" id="search-bar" visibility="collapse" submit="closeKeyboard"/>
         <Label id="title" text="{{title}}"/>
         <StackLayout id="sub-layout">
-          <Label text="no results" class="no-results" id="no-results" visibility="collapse" height="90%" />
+          <Label text="{{ L('views.appsView.noResults') }}" class="no-results" id="no-results" visibility="collapse" height="90%" />
 
           <ListView items="{{apps}}" separatorColor="#FFFFFF" height="90%" id="app-list-view" visibility="{{apps.length ? 'visible' : 'collapse'}}">
             <ListView.itemTemplate>
@@ -55,7 +55,7 @@
               </GridLayout>
             </ListView.itemTemplate>
           </ListView>
-          <Button text="save" id="done-button" tap="onDone"/>
+          <Button text="{{ L('views.appsView.button') }}" id="done-button" tap="onDone"/>
         </StackLayout>
       </StackLayout>
     </sd:RadSideDrawer.mainContent>

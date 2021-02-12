@@ -23,6 +23,7 @@ var RadioGroup = android.widget.RadioGroup;
 var RadioButton = android.widget.RadioButton;
 const RADIO_MARGIN = 0.025
 
+const localize = require("nativescript-localize");
 
 /******************************
  *          PAINTS            *
@@ -229,7 +230,7 @@ exports.showOverlay = function (msg, op1, op2, op3, op4, snoozeMode, lockdownMod
 				// 	return;
 				// }
 				if (snoozeMode) {
-					Toast.makeText("HabitLab snoozed for " + selected).show();
+					Toast.makeText(localize("overlays.checkbox.toast1", selected)).show();
 					var value = parseInt(selected.substr(0, selected.indexOf(" ")));
 					if (value === 8 || value === 24) {
 						StorageUtil.setSnooze(value*60);
@@ -242,7 +243,7 @@ exports.showOverlay = function (msg, op1, op2, op3, op4, snoozeMode, lockdownMod
 					exports.removeDialog();
 					return;
 				} else if (lockdownMode) {
-					Toast.makeText("Lockdown mode enabled for " + selected).show();
+					Toast.makeText(localize("overlays.checkbox.toast2", selected)).show();
 					var value = parseInt(selected.substr(0, selected.indexOf(" ")));
 					if (value === 1 || value === 2) {
 						StorageUtil.setLockdown(value*60);

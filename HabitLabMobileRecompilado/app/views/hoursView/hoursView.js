@@ -4,6 +4,7 @@ var layout = require('ui/layouts/grid-layout');
 var frame = require('ui/frame');
 var PercentLength = require("ui/styling/style-properties").PercentLength;
 var toast = require('nativescript-toast');
+var observable = require("data/observable");
 
 var drawer;
 var page;
@@ -18,9 +19,12 @@ var dayChanged;
 var prevStart;
 var prevEnd;
 
+const localize = require("nativescript-localize");
+
 exports.pageLoaded = function(args) {
   events = [{category: "page_visits", index: "settings_hours"}];
   page = args.object;
+  page.bindingContext = new observable.Observable();
   drawer = page.getViewById('sideDrawer');
   fillTimeInfo();
 };
@@ -76,18 +80,18 @@ var updateActiveLabel = function(startHours, startMins, endHours, endMins) {
   }
 
   var activeLabel = page.getViewById('active-text');
-  activeLabel.text = "Active for " 
+  activeLabel.text = localize('views.hoursView.activeLabel.part1') + " ";
 
   if (hours > 0) {
-    activeLabel.text += hours + (hours === 1 ? " hour" : " hours");
+    activeLabel.text += hours + (hours === 1 ? " " + localize('views.hoursView.timeUnits.hour') : " " + localize('views.hoursView.timeUnits.hours'));
   }
 
   if (mins > 0) {
-    if (hours > 0) { activeLabel.text += " and "; }
-    activeLabel.text += mins + (mins === 1 ? " minute" : " minutes");
+    if (hours > 0) { activeLabel.text += (" " + " " + localize('views.hoursView.activeLabel.and') + " "); }
+    activeLabel.text += mins + (mins === 1 ? " " + localize('views.hoursView.timeUnits.min') : " " + localize('views.hoursView.timeUnits.mins'));
   }
 
-  activeLabel.text += " on selected days"; 
+  activeLabel.text += ("" + localize('views.hoursView.activeLabel.part2')); 
 }
 
 
@@ -143,7 +147,7 @@ exports.onSave = function() {
     events.push({category: "features", index: "active_hours_changed"});
   }
 
-  toast.makeText("Changes saved").show();
+  toast.makeText(localize('views.hoursView.message')).show();
   frame.topmost().goBack();
 };
 

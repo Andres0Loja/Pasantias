@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/home/wilson/Documentos/Pasantias/Git/Pasantias/HabitLabMobileRecompilado/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/home/wilson/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.1.aar/2443b6282c3f05431098d4792f0fff96/res/values-v21/values-v21.xml",
@@ -23,26 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/android/app/src/main/res/values-v21/styles.xml",
-                    "from": {
-                        "startLines": "4,19,10,15",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "87,745,365,585",
-                        "endLines": "7,21,12,17",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "299,885,519,739"
-                    },
-                    "to": {
-                        "startLines": "8,235,276,279",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "441,17528,20022,20181",
-                        "endLines": "11,237,278,281",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "653,17668,20176,20335"
-                    }
-                },
-                {
-                    "source": "/home/wilson/Documentos/Pasantias/HabitLabMobile/platforms/android/app/src/main/res/values-v21/colors.xml",
+                    "source": "/home/wilson/Documentos/Pasantias/Git/Pasantias/HabitLabMobileRecompilado/platforms/android/app/src/main/res/values-v21/colors.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "1,2",
@@ -113,6 +94,25 @@
                         "endLines": "286,289,293,297",
                         "endColumns": "12,12,12,12",
                         "endOffsets": "20745,20908,21202,21497"
+                    }
+                },
+                {
+                    "source": "/home/wilson/Documentos/Pasantias/Git/Pasantias/HabitLabMobileRecompilado/platforms/android/app/src/main/res/values-v21/styles.xml",
+                    "from": {
+                        "startLines": "4,19,10,15",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "87,745,365,585",
+                        "endLines": "7,21,12,17",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "299,885,519,739"
+                    },
+                    "to": {
+                        "startLines": "8,235,276,279",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "441,17528,20022,20181",
+                        "endLines": "11,237,278,281",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "653,17668,20176,20335"
                     }
                 }
             ]
