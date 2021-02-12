@@ -5,40 +5,40 @@
 	},
 	"interventions":{
 		"data":{
+			"levels":{
+				"easy":"leve",
+				"medium":"medio",
+				"hard":"fuerte"
+			},
 			"0":{
 				"name":"Agradable a la vista",
 				"functionality":"Notificación de vistazos",
 				"description":"Muestra una notificación diciendote cuantas veces has visto tu móvil hoy",
-				"summary":"Muestra una notificación con tu contador de vistas del día",
-				"level":"easy"
+				"summary":"Muestra una notificación con tu contador de vistas del día"
 			},
 			"1":{
 				"name":"Toc toc",
 				"functionality":"Aviso de desbloqueos",
 				"description":"Muestra un mensaje desvaneciente diciendote cuantas veces has desbloqueado tu móvil hoy",
-				"summary":"Muestra un mensaje con tu contador de desbloqueos del día",
-				"level":"easy"
+				"summary":"Muestra un mensaje con tu contador de desbloqueos del día"
 			},
 			"2":{
 				"name":"Hola, viejo amigo",
 				"functionality":"Notificación de desbloqueos",
 				"description":"Muestra una notificación diciendote cuantas veces has desbloqueado tu móvil hoy",
-				"summary":"Muestra una notificación con tu contador de desbloqueos del día",
-				"level":"easy"
+				"summary":"Muestra una notificación con tu contador de desbloqueos del día"
 			},
 			"3":{
 				"name":"Informe de progreso",
 				"functionality":"Aviso de uso de aplicación",
 				"description":"Muestra un mensaje desvaneciente diciendote cuanto tiempo has pasado en cierta aplicación hoy",
-				"summary":"Muestra un mensaje con el porcentaje de uso de la aplicación",
-				"level":"easy"
+				"summary":"Muestra un mensaje con el porcentaje de uso de la aplicación"
 			},
 			"4":{
 				"name":"Alerta roja!",
 				"functionality":"Notificación de uso de aplicación",
 				"description":"Muestra una notificación diciendote cuanto tiempo has pasado en cierta aplicación hoy",
-				"summary":"Muestra una notificación con el porcentaje de uso de la aplicación",
-				"level":"easy"
+				"summary":"Muestra una notificación con el porcentaje de uso de la aplicación"
 			},
 			"5":{
 				"name":"Cómo pasa el tiempo!",
@@ -47,8 +47,7 @@
 					"Muestra un mensaje desvaneciente cuando estas en una aplicación monitoreada ",
 					"diciendote el tiempo que has pasado"
 				],
-				"summary":"Muestra un mensaje con la duración de visita en la aplicación actual",
-				"level":"easy"
+				"summary":"Muestra un mensaje con la duración de visita en la aplicación actual"
 			},
 			"6":{
 				"name":"El relój hace tictoc",
@@ -57,36 +56,31 @@
 					"Muestra una notificación cuando estas en una aplicación monitoreada ",
 					"diciendote el tiempo que has pasado"
 				],
-				"summary":"Muestra una notificación con la duración de visita en la aplicación actual",
-				"level":"easy"
+				"summary":"Muestra una notificación con la duración de visita en la aplicación actual"
 			},
 			"7":{
 				"name":"Ahí de nuevo",
 				"functionality":"Aviso de visitas",
 				"description":"Muestra un mensaje desvaneciente diciendote cuantas veces has estado en cierta aplicación hoy",
-				"summary":"Muestra un mensaje con el contador de visitas de la aplicación",
-				"level":"easy"
+				"summary":"Muestra un mensaje con el contador de visitas de la aplicación"
 			},
 			"8":{
 				"name":"Reincidente",
 				"functionality":"Notificación de visitas",
 				"description":"Muestra una notificación diciendote cuantas veces has estado en cierta aplicación hoy",
-				"summary":"Muestra una notificación con el contador de visitas de la aplicación",
-				"level":"easy"
+				"summary":"Muestra una notificación con el contador de visitas de la aplicación"
 			},
 			"9":{
 				"name":"Nada de miradas!",
 				"functionality":"Capa a pantalla completa",
 				"description":"Cubre la pantalla de una aplicación monitoreada y te preguntas si deseas continuar o salir de ahí",
-				"summary":"Solicita confirmar antes de entrar a una aplicación monitoreada",
-				"level":"medium"
+				"summary":"Solicita confirmar antes de entrar a una aplicación monitoreada"
 			},
 			"10":{
 				"name":"Contamos contigo",
 				"functionality":"Capa con contador",
 				"description":"Pone un contador en la esquina inferior derecha y cuenta el tiempo que pasas en la aplicación",
-				"summary":"Pone un contador en las aplicaciones monitoreadas",
-				"level":"medium"
+				"summary":"Pone un contador en las aplicaciones monitoreadas"
 			},
 			"11":{
 				"name":"Cuenta regresiva final",
@@ -95,106 +89,91 @@
 					"Pone una cuenta regresiva en la esquina inferior derecha y ",
 					"cuenta el tiempo que falta para cerrar la aplicación"
 				],
-				"summary":"Pone una cuenta regresiva en las aplicaciones monitoreadas",
-				"level":"hard"
+				"summary":"Pone una cuenta regresiva en las aplicaciones monitoreadas"
 			},
 			"12":{
 				"name":"En guardia",
 				"functionality":"Diálogo de desbloqueos",
 				"description":"Muestra un diálogo diciendote cuantas veces has desbloqueado tu móvil hoy en total",
-				"summary":"Muestra un diálogo con el contador total de desbloqueos de hoy",
-				"level":"medium"
+				"summary":"Muestra un diálogo con el contador total de desbloqueos de hoy"
 			},
 			"13":{
 				"name":"Considerandolo todo",
 				"functionality":"Diálogo de uso de aplicación",
 				"description":"Muestra un diálogo diciendote el tiempo total que has pasado en cierta aplicación hoy",
-				"summary":"Muestra un diálogo con el tiempo total de hoy en la aplicación",
-				"level":"medium"
+				"summary":"Muestra un diálogo con el tiempo total de hoy en la aplicación"
 			},
 			"14":{
 				"name":"Una larga historia corta",
 				"functionality":"Diálogo de duración de visita",
 				"description":"Muestra un diálogo diciendote cuanto ha durado la visita en la aplicación actual",
-				"summary":"Muestra un diálogo con el tiempo de visita de la aplicación",
-				"level":"medium"
+				"summary":"Muestra un diálogo con el tiempo de visita de la aplicación"
 			},
 			"15":{
 				"name":"Hombre abordo!",
 				"functionality":"Diálogo de contador de visitas",
 				"description":"Muestra un diálogo diciendote el número de veces que has visitado cierta aplicación hoy",
-				"summary":"Muestra un diálogo con el contador de visitas de la aplicación",
-				"level":"medium"
+				"summary":"Muestra un diálogo con el contador de visitas de la aplicación"
 			},
 			"16":{
 				"name":"Mira el lado bueno",
 				"functionality":"Capa de regulador de brillo",
 				"description":"Reduce el brillo de la pantalla poco a poco hasta oscurecerla por completo",
-				"summary":"Regula el brillo de la pantalla a su debido tiempo",
-				"level":"hard"
+				"summary":"Regula el brillo de la pantalla a su debido tiempo"
 			},
 			"17":{
 				"name":"Tiempo sin verte",
 				"functionality":"Aviso de uso de móvil",
 				"description":"Muestra un mensaje desvaneciente diciendote cuanto tiempo has usado el móvil hoy",
-				"summary":"Muestra un mensaje con tu uso del móvil hoy",
-				"level":"easy"
+				"summary":"Muestra un mensaje con tu uso del móvil hoy"
 			},
 			"18":{
 				"name":"Terminemos por hoy",
 				"functionality":"Notificación de uso de móvil",
 				"description":"Muestra una notificación diciendote cuanto tiempo has usado el móvil hoy",
-				"summary":"Muestra una notificación con tu uso del móvil hoy",
-				"level":"easy"
+				"summary":"Muestra una notificación con tu uso del móvil hoy"
 			},
 			"19":{
 				"name":"Sostén el móvil",
 				"functionality":"Diálogo de uso de móvil",
 				"description":"Muestra un diálogo diciendote cuanto tiempo has usado el móvil hoy",
-				"summary":"Muestra un diálogo con tu uso del móvil hoy",
-				"level":"easy"
+				"summary":"Muestra un diálogo con tu uso del móvil hoy"
 			},
 			"20":{
 				"name":"Elige lo que quieras",
 				"functionality":"Deslizador de aplicación",
 				"description":"Te permite elegir cuanto tiempo deseas pasar en una aplicación",
-				"summary":"Elige el tiempo que deseas pasar en una aplicación",
-				"level":"hard"
+				"summary":"Elige el tiempo que deseas pasar en una aplicación"
 			},
 			"21":{
 				"name":"Espera!",
 				"functionality":"Pantalla intersticial",
 				"description":"Espera 10 segundos antes de poder entrar a la aplicación",
-				"summary":"Pausa el ingreso a la aplicación por 10 segundos",
-				"level":"hard"
+				"summary":"Pausa el ingreso a la aplicación por 10 segundos"
 			},
 			"22":{
 				"name":"Tu mejor mitad",
 				"functionality":"Aviso de aplicación positiva",
 				"description":"Muestra un mensaje desvaneciente sugiriendo una aplicación objetivo a la cual ir",
-				"summary":"Muestra un mensaje con la aplicación objetivo sugerida",
-				"level":"medium"
+				"summary":"Muestra un mensaje con la aplicación objetivo sugerida"
 			},
 			"23":{
 				"name":"De vuelta al objetivo",
 				"functionality":"Capa a pantalla completa",
 				"description":"Te sugiere visitar una aplicación objetivo",
-				"summary":"Te sugiere visitar una aplicación objetivo",
-				"level":"medium"
+				"summary":"Te sugiere visitar una aplicación objetivo"
 			},
 			"24":{
 				"name":"Recordando citas",
 				"functionality":"Intervención de citas (Experimental)",
 				"description":"Muestra una cita inpiradora después de pasar 'x' minutos en aplicaciones no deseadas",
-				"summary":"Muestra una cita despues de abrir una aplicación",
-				"level":"medium"
+				"summary":"Muestra una cita despues de abrir una aplicación"
 			},
 			"25":{
 				"name":"Recordatorio de tiempo",
 				"functionality":"Intervención de tiempo (Experimental)",
 				"description":"Muestra un diálogo diciendote cuanto tiempo has pasado en aplicaciones no deseadas",
-				"summary":"Muestra un diálogo con tu uso de aplicaciones de hoy",
-				"level":"medium"
+				"summary":"Muestra un diálogo con tu uso de aplicaciones de hoy"
 			}
 		},
 		"manager":{
@@ -221,8 +200,8 @@
 			},
 			"toasts":{
 				"visit":"Has visitado Facebook 8 veces hoy",
-				"unlock":"Has desbloqueado tu móvile 7 veces hoy",
-				"phoneUsage":"You've spent 3.6 hours on your phone today",
+				"unlock":"Has desbloqueado tu móvil 7 veces hoy",
+				"phoneUsage":"Has pasado 3.6 horas en tu móvil hoy ",
 				"appUsage":"Ya has usado Facebook por 23 minutos hoy!",
 				"duration":"Has estado en %s por %s minutos esta visita",
 				"videoBlock":"No hay demo disponible para esta intervención!",
@@ -7184,7 +7163,16 @@
 				"hour":"hora",
 				"hours":"horas"
 			},
-			"message":"Cambios guardados"
+			"message":"Cambios guardados",
+			"days":{
+				"0":"d",
+				"1":"l",
+				"2":"m",
+				"3":"x",
+				"4":"j",
+				"5":"v",
+				"6":"s"
+			}
 		},
 		"infoView":{
 			"about":"Acerca de HabitLab",

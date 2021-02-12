@@ -105,13 +105,13 @@ var fillTimeInfo = function() {
 
 var fillDaysGrid = function() {
   var grid = page.getViewById('days-grid');
-
+  var extra = days[0] === 's'? '-es' : ''
   days.forEach(function (item, index) {
     var image = new imageModule.Image();
     image.horizontalAlignment = 'center';
     image.verticalAlignmnet = 'center';
     image.className = 'day-label';
-    image.src = "~/images/" + item + "_square.png";
+    image.src = "~/images/" + localize("views.hoursView.days." + index) + extra + "_square.png";
     image.backgroundColor = selected[index] ? '#FFA730' : "#DCDCDC";
     image.on('tap', function (args) {
       dayChanged = true;

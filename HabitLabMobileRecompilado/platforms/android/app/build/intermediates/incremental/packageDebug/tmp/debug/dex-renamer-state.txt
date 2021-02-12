@@ -1,4 +1,4 @@
-#Thu Feb 11 19:54:02 ECT 2021
+#Fri Feb 12 11:08:10 ECT 2021
 base.0=/home/wilson/Documentos/Pasantias/Git/Pasantias/HabitLabMobileRecompilado/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

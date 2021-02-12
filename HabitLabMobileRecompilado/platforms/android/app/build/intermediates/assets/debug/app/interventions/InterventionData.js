@@ -9,7 +9,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.0.functionality"), 
   description: localize("interventions.data.0.description"), 
   target: 'phone', 
-  level: localize("interventions.data.0.level"),
+  level: 'easy',
   summary: localize("interventions.data.0.summary"),
   style: 'notification'
 }, {
@@ -20,7 +20,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.1.functionality"), 
   description: localize("interventions.data.1.description"), 
   target: 'phone', 
-  level: localize("interventions.data.1.level"),
+  level: 'easy',
   summary: localize("interventions.data.1.summary"),
   style: 'toast'
 }, {
@@ -31,7 +31,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.2.functionality"), 
   description: localize("interventions.data.2.description"), 
   target: 'phone', 
-  level: localize("interventions.data.2.level"),
+  level: 'easy',
   summary: localize("interventions.data.2.summary"),
   style: 'notification'
 }, {
@@ -42,7 +42,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.3.functionality"), 
   description: localize("interventions.data.3.description"), 
   target: 'app', 
-  level: localize("interventions.data.3.level"),
+  level: 'easy',
   summary: localize("interventions.data.3.summary"),
   style: 'toast'
 }, {
@@ -53,7 +53,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.4.functionality"), 
   description: localize("interventions.data.4.description"), 
   target: 'app', 
-  level: localize("interventions.data.4.level"),
+  level: 'easy',
   summary: localize("interventions.data.4.summary"),
   style: 'notification'
 }, {
@@ -64,7 +64,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.5.functionality"), 
   description: localize("interventions.data.5.description"), 
   target: 'duration', 
-  level: localize("interventions.data.5.level"),
+  level: 'easy',
   summary: localize("interventions.data.5.summary"),
   style: 'toast'
 }, {
@@ -75,7 +75,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.6.functionality"), 
   description: localize("interventions.data.6.description"), 
   target: 'duration',
-  level: localize("interventions.data.6.level"),
+  level: 'easy',
   summary: localize("interventions.data.6.summary"),
   style: 'notification'
 }, {
@@ -86,7 +86,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.7.functionality"), 
   description: localize("interventions.data.7.description"), 
   target: 'app', 
-  level: localize("interventions.data.7.level"),
+  level: 'easy',
   summary: localize("interventions.data.7.summary"),
   style: 'toast'
 }, {
@@ -97,7 +97,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.8.functionality"), 
   description: localize("interventions.data.8.description"), 
   target: 'app', 
-  level: localize("interventions.data.8.level"),
+  level: 'easy',
   summary: localize("interventions.data.8.summary"),
   style: 'notification'
 }, {
@@ -108,7 +108,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.9.functionality"), 
   description: localize("interventions.data.9.description"), 
   target: 'app', 
-  level: localize("interventions.data.9.level"),
+  level: 'medium',
   summary: localize("interventions.data.9.summary"),
   style: 'overlay'
 }, {
@@ -119,7 +119,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.10.functionality"), 
   description: localize("interventions.data.10.description"), 
   target: 'app', 
-  level: localize("interventions.data.10.level"),
+  level: 'medium',
   summary: localize("interventions.data.10.summary"),
   style: 'overlay'
 }, {
@@ -130,7 +130,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.11.functionality"), 
   description: localize("interventions.data.11.description"), 
   target: 'app', 
-  level: localize("interventions.data.11.level"),
+  level: 'hard',
   summary: localize("interventions.data.11.summary"),
   style: 'overlay'
 }, {
@@ -141,7 +141,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.12.functionality"), 
   description: localize("interventions.data.12.description"), 
   target: 'phone', 
-  level: localize("interventions.data.12.level"),
+  level: 'medium',
   summary: localize("interventions.data.12.summary"),
   style: 'dialog'
 }, {
@@ -152,7 +152,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.13.functionality"), 
   description: localize("interventions.data.13.description"), 
   target: 'app', 
-  level: localize("interventions.data.13.level"),
+  level: 'medium'),
   summary: localize("interventions.data.13.summary"),
   style: 'dialog'
 }, {
@@ -163,7 +163,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.14.functionality"), 
   description: localize("interventions.data.14.description"), 
   target: 'duration', 
-  level: localize("interventions.data.14.level"),
+  level: 'medium',
   summary: localize("interventions.data.14.summary"),
   style: 'dialog'
 }, {
@@ -174,7 +174,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.15.functionality"), 
   description: localize("interventions.data.15.description"), 
   target: 'app', 
-  level: localize("interventions.data.15.level"),
+  level: 'medium',
   summary: localize("interventions.data.15.summary"),
   style: 'dialog'
 }, {
@@ -185,7 +185,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.16.functionality"), 
   description: localize("interventions.data.16.description"), 
   target: 'app', 
-  level: localize("interventions.data.16.level"),
+  level: 'hard',
   summary: localize("interventions.data.16.summary"),
   style: 'overlay'
 }, {
@@ -196,7 +196,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.17.functionality"), 
   description: localize("interventions.data.17.description"), 
   target: 'phone', 
-  level: localize("interventions.data.17.level"),
+  level: 'easy',
   summary: localize("interventions.data.17.summary"),
   style: 'toast'
 }, {
@@ -207,7 +207,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.18.functionality"), 
   description: localize("interventions.data.18.description"), 
   target: 'phone', 
-  level: localize("interventions.data.18.level"),
+  level: 'easy',
   summary: localize("interventions.data.18.summary"),
   style: 'notification'
 }, {
@@ -218,7 +218,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.19.functionality"), 
   description: localize("interventions.data.19.description"), 
   target: 'phone', 
-  level: localize("interventions.data.19.level"),
+  level: 'easy',
   summary: localize("interventions.data.19.summary"),
   style: 'dialog'
 }, {
@@ -229,7 +229,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.20.functionality"), 
   description: localize("interventions.data.20.description"), 
   target: 'app', 
-  level: localize("interventions.data.20.level"),
+  level: 'hard',
   summary: localize("interventions.data.20.summary"),
   style: 'dialog'
 }, {
@@ -240,7 +240,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.21.functionality"), 
   description: localize("interventions.data.21.description"), 
   target: 'app', 
-  level: localize("interventions.data.21.level"),
+  level: 'hard',
   summary: localize("interventions.data.21.summary"),
   style: 'overlay'
 }, {
@@ -251,7 +251,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.22.functionality"), 
   description: localize("interventions.data.22.description"), 
   target: 'app', 
-  level: localize("interventions.data.22.level"),
+  level: 'medium',
   summary: localize("interventions.data.22.summary"),
   style: 'toast'
 }, {
@@ -262,7 +262,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.23.functionality"), 
   description: localize("interventions.data.23.description"), 
   target: 'app', 
-  level: localize("interventions.data.23.level"),
+  level: 'medium',
   summary: localize("interventions.data.23.summary"),
   style: 'overlay'
 }, {
@@ -273,7 +273,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.24.functionality"), 
   description: localize("interventions.data.24.description"), 
   target: 'phone', 
-  level: localize("interventions.data.24.level"),
+  level: 'medium',
   summary: localize("interventions.data.24.summary"),
   style: 'dialog'
 }, {
@@ -284,7 +284,7 @@ exports.interventionDetails = [
   functionality: localize("interventions.data.25.functionality"), 
   description: localize("interventions.data.25.description"), 
   target: 'phone', 
-  level: localize("interventions.data.25.level"),
+  level: 'medium',
   summary: localize("interventions.data.25.summary"),
   style: 'dialog'
 }

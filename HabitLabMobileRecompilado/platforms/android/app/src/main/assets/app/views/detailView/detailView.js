@@ -40,7 +40,9 @@ var initializeList = function() {
   pageData.set('name', info.name);
   pageData.set('description', info.description);
   pageData.set('target', info.target);
-  pageData.set('levelLabel', info.level.charAt(0).toUpperCase() + info.level.slice(1));
+  
+  var levelLabel = localize("interventions.data.levels."+ info.level)
+  pageData.set('levelLabel', levelLabel.charAt(0).toUpperCase() + levelLabel.slice(1));
   pageData.set('level', info.level);
 
   var isEnabled = StorageUtil.isEnabledForAll(id);
